@@ -1,0 +1,80 @@
+Property TokenRing-COL-500-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G (((((("OtherProcess"?) | ((("MainProcess"?) & ("OtherProcess"?))))) | ("MainProcess"?))) & (! (((("OtherProcess"?) & ("OtherProcess"?))) & ((("OtherProcess"?) & ("MainProcess"?))))))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G (((("OtherProcess"?) | (((! "OtherProcess"?) & ("OtherProcess"?))))) | ("MainProcess"?))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ((! "MainProcess"?) & (! (((("MainProcess"?) & ("MainProcess"?))) & ((("OtherProcess"?) | ("MainProcess"?))))))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ((! (("OtherProcess"?) | (! "OtherProcess"?))) | ("OtherProcess"?))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ((((! (("MainProcess"?) & ("MainProcess"?))) | (((! "OtherProcess"?) & ((("OtherProcess"?) | ("MainProcess"?))))))) | (! "OtherProcess"?))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "MainProcess"?
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (("OtherProcess"?) & (! "OtherProcess"?))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G "MainProcess"?
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G (((((("MainProcess"?) & ((("OtherProcess"?) & ("MainProcess"?))))) | ((("MainProcess"?) | (! "OtherProcess"?))))) & (((((! "OtherProcess"?) & ("MainProcess"?))) | (! (("OtherProcess"?) | ("MainProcess"?))))))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F "OtherProcess"?
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ! (((((("MainProcess"?) & ("OtherProcess"?))) & ((("MainProcess"?) | ("OtherProcess"?))))) | (((! "OtherProcess"?) | ("MainProcess"?))))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G "OtherProcess"?
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((((! "OtherProcess"?) & (! (("MainProcess"?) & ("MainProcess"?))))) & ((((((("OtherProcess"?) | ("OtherProcess"?))) | (! "MainProcess"?))) | (! ! "MainProcess"?))))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ((! ! "MainProcess"?) | ("OtherProcess"?))
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! "OtherProcess"?
+  end.
+Property TokenRing-COL-500-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ! ! (((("MainProcess"?) | ("MainProcess"?))) | ("MainProcess"?))
+  end.

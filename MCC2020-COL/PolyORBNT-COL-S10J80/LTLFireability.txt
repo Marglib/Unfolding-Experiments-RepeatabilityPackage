@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J80-00
+  "Automatically generated"
+  is:
+    A (G "trans_689"? | X F X ("fi1"? | F !G ("trans_489"? | G "fi1"?)))
+  end.
+Property PolyORBNT-COL-S10J80-01
+  "Automatically generated"
+  is:
+    A F (F "trans_459"? U X "trans_459"?)
+  end.
+Property PolyORBNT-COL-S10J80-02
+  "Automatically generated"
+  is:
+    A G ("trans_376"? | "trans_488"? | (X G "trans_488"? & F G "GoPerformWork"?))
+  end.
+Property PolyORBNT-COL-S10J80-03
+  "Automatically generated"
+  is:
+    A ("fo2"? U ("NoJob"? | X F !"NoJob"?))
+  end.
+Property PolyORBNT-COL-S10J80-04
+  "Automatically generated"
+  is:
+    A F !("NoJob"? | "fo3"? | G !(G !"fo3"? U G "MustCheck"?))
+  end.
+Property PolyORBNT-COL-S10J80-05
+  "Automatically generated"
+  is:
+    A (G "fo1"? U "GoCheckSource"?)
+  end.
+Property PolyORBNT-COL-S10J80-06
+  "Automatically generated"
+  is:
+    A G (F X "JobExist"? U !F ("fi2"? U "JobExist"?))
+  end.
+Property PolyORBNT-COL-S10J80-07
+  "Automatically generated"
+  is:
+    A F !("trans_478"? & (X G !"trans_478"? U "trans_478"?))
+  end.
+Property PolyORBNT-COL-S10J80-08
+  "Automatically generated"
+  is:
+    A F (("NotifyEventEndOfCheckSources"? | !"NotifyEventEndOfCheckSources"?) & G !(!"trans_486"? & G "trans_459"?))
+  end.
+Property PolyORBNT-COL-S10J80-09
+  "Automatically generated"
+  is:
+    A G (F "NotifyEventEndOfCheckSources"? | F "LeaveCSTCS"?)
+  end.
+Property PolyORBNT-COL-S10J80-10
+  "Automatically generated"
+  is:
+    A F !X X F ("trans_487"? & !X "JobExist"?)
+  end.
+Property PolyORBNT-COL-S10J80-11
+  "Automatically generated"
+  is:
+    A (G F (!"trans_508"? U X "trans_508"?) U ("Run"? | G "trans_457"?))
+  end.
+Property PolyORBNT-COL-S10J80-12
+  "Automatically generated"
+  is:
+    A (!X F X ("Run"? & X X ("Run"? U F "Run"?)) U "Run"?)
+  end.
+Property PolyORBNT-COL-S10J80-13
+  "Automatically generated"
+  is:
+    A !(F "trans_534"? U (!F "trans_534"? | F (X "trans_510"? U G "trans_534"?)))
+  end.
+Property PolyORBNT-COL-S10J80-14
+  "Automatically generated"
+  is:
+    A G X (X !X "trans_486"? & (!"trans_685"? | G "trans_685"?))
+  end.
+Property PolyORBNT-COL-S10J80-15
+  "Automatically generated"
+  is:
+    A !F X X (X "NotifyEventEndOfCheckSources"? | !("DummyOR1"? & G X "DummyOR1"?))
+  end.

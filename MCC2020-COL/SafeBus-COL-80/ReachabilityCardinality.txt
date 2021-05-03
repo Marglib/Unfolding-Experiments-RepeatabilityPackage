@@ -1,0 +1,80 @@
+Property SafeBus-COL-80-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("cable_used")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((#tokens("msgl")) <= (#tokens("FMC")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("R_tout")) <= (#tokens("FMCb")))) & (((#tokens("msgl")) <= (#tokens("FMCb")))))) & (((((3) <= (#tokens("msgl")))) | (((#tokens("cable_free")) <= (#tokens("listen")))))))) | (! ((((2) <= (#tokens("Cpt1")))) | (((#tokens("cable_used")) <= (#tokens("R_tout")))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("wait_msg")) <= (#tokens("Cpt2")))) & (((3) <= (#tokens("FMC")))))) | (((((#tokens("cable_free")) <= (#tokens("S_tout")))) & (((1) <= (#tokens("PMC")))))))) | (! ((#tokens("PMC")) <= (#tokens("ACK")))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("msgl")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((#tokens("S_tout")) <= (#tokens("T_out")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((#tokens("T_out")) <= (#tokens("Cpt2")))) & (((#tokens("ACK")) <= (#tokens("S_tout")))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("listen")) <= (#tokens("AMC")))) & (((#tokens("S_tout")) <= (#tokens("cable_free")))))) | (((((((#tokens("MSG")) <= (#tokens("FMCb")))) & (((1) <= (#tokens("ACK")))))) | (! ((#tokens("FMCb")) <= (#tokens("listen")))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("cable_used")) <= (#tokens("T_out")))) & (((((1) <= (#tokens("S_tout")))) | (((3) <= (#tokens("AMC")))))))) | (((((((2) <= (#tokens("msgl")))) | (((2) <= (#tokens("T_out")))))) | (((2) <= (#tokens("msgl")))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((#tokens("loop_em")) <= (#tokens("listen")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((! ((2) <= (#tokens("R_tout")))) & (((! ((#tokens("listen")) <= (#tokens("loop_em")))) & (((((#tokens("loop_em")) <= (#tokens("MSG")))) | (((#tokens("wait_msg")) <= (#tokens("PMC")))))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("PMC")))) | (((((((2) <= (#tokens("msgl")))) & (((#tokens("PMC")) <= (#tokens("wait_cable")))))) & (! ((2) <= (#tokens("cable_used")))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((#tokens("FMCb")) <= (#tokens("FMC")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((#tokens("Cpt2")) <= (#tokens("AMC")))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("wait_msg")) <= (#tokens("RMC")))) & (! ((((2) <= (#tokens("RMC")))) | (((#tokens("wait_ack")) <= (#tokens("wait_cable")))))))
+  end.
+Property SafeBus-COL-80-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("wait_ack")) <= (#tokens("R_tout")))) | (! ((1) <= (#tokens("msgl")))))) | (! ((((#tokens("Cpt2")) <= (#tokens("loop_em")))) & (((1) <= (#tokens("listen")))))))
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-002000-00
+  "Automatically generated"
+  is:
+    A X !(F "FF1a"? | X F G F (F "FF2b"? | G "End"?))
+  end.
+Property Philosophers-COL-002000-01
+  "Automatically generated"
+  is:
+    A G F X "FF2b"?
+  end.
+Property Philosophers-COL-002000-02
+  "Automatically generated"
+  is:
+    A X (F ("FF1a"? & X "FF1a"?) & F X !("FF1a"? | F "FF1a"?))
+  end.
+Property Philosophers-COL-002000-03
+  "Automatically generated"
+  is:
+    A ("FF2a"? | !(G "FF2a"? U "FF1b"?))
+  end.
+Property Philosophers-COL-002000-04
+  "Automatically generated"
+  is:
+    A !X (F ("FF2a"? | X !"FF2a"?) U !G "End"?)
+  end.
+Property Philosophers-COL-002000-05
+  "Automatically generated"
+  is:
+    A (G "FF1b"? U (F "FF1b"? U !F "FF2a"?))
+  end.
+Property Philosophers-COL-002000-06
+  "Automatically generated"
+  is:
+    A ("FF2a"? | F (X F "FF2a"? U F ("FF2a"? | !("FF1a"? | !"FF2a"?))))
+  end.
+Property Philosophers-COL-002000-07
+  "Automatically generated"
+  is:
+    A !G F G (G "FF1b"? U ("FF1b"? U "FF2b"?))
+  end.
+Property Philosophers-COL-002000-08
+  "Automatically generated"
+  is:
+    A ("FF2a"? & (!(G X "End"? | X X ("End"? U F "End"?)) U "End"?))
+  end.
+Property Philosophers-COL-002000-09
+  "Automatically generated"
+  is:
+    A (("FF2b"? | F "FF1a"?) & X X (("End"? | "FF1a"?) & G "End"?))
+  end.
+Property Philosophers-COL-002000-10
+  "Automatically generated"
+  is:
+    A (G "FF2b"? U ((F "FF2a"? & F ("FF2a"? | "FF2a"?)) U "FF2b"?))
+  end.
+Property Philosophers-COL-002000-11
+  "Automatically generated"
+  is:
+    A X G (G !X "FF2b"? | F "FF2a"?)
+  end.
+Property Philosophers-COL-002000-12
+  "Automatically generated"
+  is:
+    A X ((F ("FF1b"? U X "FF2a"?) | F "End"?) & F X F !"FF2a"?)
+  end.
+Property Philosophers-COL-002000-13
+  "Automatically generated"
+  is:
+    A G ("FF1a"? & "FF2b"?)
+  end.
+Property Philosophers-COL-002000-14
+  "Automatically generated"
+  is:
+    A G X ("FF2b"? & G F !F "FF1a"?)
+  end.
+Property Philosophers-COL-002000-15
+  "Automatically generated"
+  is:
+    A X G ("FF1b"? & X "End"?)
+  end.

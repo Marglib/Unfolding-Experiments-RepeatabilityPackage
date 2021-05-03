@@ -1,0 +1,80 @@
+Property NeoElection-COL-3-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("electionInit")
+  end.
+Property NeoElection-COL-3-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("masterState")
+  end.
+Property NeoElection-COL-3-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("polling")
+  end.
+Property NeoElection-COL-3-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("masterState")
+  end.
+Property NeoElection-COL-3-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("network")
+  end.
+Property NeoElection-COL-3-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("network")
+  end.
+Property NeoElection-COL-3-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("negotiation")
+  end.
+Property NeoElection-COL-3-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("network")
+  end.
+Property NeoElection-COL-3-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("crashed")
+  end.
+Property NeoElection-COL-3-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("dead")
+  end.
+Property NeoElection-COL-3-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("electionInit")
+  end.
+Property NeoElection-COL-3-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("sendAnnPs__broadcasting")
+  end.
+Property NeoElection-COL-3-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("startNeg__broadcasting")
+  end.
+Property NeoElection-COL-3-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("poll__networl")
+  end.
+Property NeoElection-COL-3-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("dead")
+  end.
+Property NeoElection-COL-3-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("dead")
+  end.

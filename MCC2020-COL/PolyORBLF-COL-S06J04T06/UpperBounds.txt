@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J04T06-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("NotifyEventJobQueuedE")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("NotifyEventJobQueuedE")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("Abort_Check_Sources_B")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("Check_Sources_B")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("cIdleTasks")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("DataOnSrc")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("QueueJobE")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("NotifyEventEndOfCheckSourcesE")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("P_1097")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("P_1159")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("PollingAbort")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("Abort_Check_Sources_E")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("AwakeTasks")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("MarkerWrite")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("cBlockedTasks")
+  end.
+Property PolyORBLF-COL-S06J04T06-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("DataOnSrc")
+  end.

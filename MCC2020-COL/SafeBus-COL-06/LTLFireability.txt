@@ -1,0 +1,80 @@
+Property SafeBus-COL-06-00
+  "Automatically generated"
+  is:
+    A (!"C_provide"? | X !(X "C_provide"? | ("I_reemit"? U "C_provide"?)))
+  end.
+Property SafeBus-COL-06-01
+  "Automatically generated"
+  is:
+    A G (G "I_reemit"? & F (!"I_ask2"? | X !F G !"I_reemit"?))
+  end.
+Property SafeBus-COL-06-02
+  "Automatically generated"
+  is:
+    A ("C_provide"? & ("C_provide"? U X (F "I_emit"? & F ("I_rec1"? & "I_rec1"?))))
+  end.
+Property SafeBus-COL-06-03
+  "Automatically generated"
+  is:
+    A (X "I_rec2"? & !G ("I_reemit"? | "C_provide"?))
+  end.
+Property SafeBus-COL-06-04
+  "Automatically generated"
+  is:
+    A F "Gto"?
+  end.
+Property SafeBus-COL-06-05
+  "Automatically generated"
+  is:
+    A G (X "I_refused"? U X ("I_refused"? & G F !"I_ask1"? & G !"I_reemit"?))
+  end.
+Property SafeBus-COL-06-06
+  "Automatically generated"
+  is:
+    A (X "I_rec2"? | ("I_reemit"? & ("C_refuse"? U !"C_refuse"?)) | G F !F "I_reemit"?)
+  end.
+Property SafeBus-COL-06-07
+  "Automatically generated"
+  is:
+    A (G ("C_refuse"? | !"loss_a"?) & (!("I_ask2"? | "loss_m"? | "loss_a"?) U G "I_ask2"?))
+  end.
+Property SafeBus-COL-06-08
+  "Automatically generated"
+  is:
+    A !F G "I_free"?
+  end.
+Property SafeBus-COL-06-09
+  "Automatically generated"
+  is:
+    A X F X G F G ("Gto"? | G "I_refused"?)
+  end.
+Property SafeBus-COL-06-10
+  "Automatically generated"
+  is:
+    A (G "I_emit"? | (!"I_rec1"? & "C_refuse"? & F "I_emit"?))
+  end.
+Property SafeBus-COL-06-11
+  "Automatically generated"
+  is:
+    A X (X "Gto"? | X !("C_free"? U G X !X "loss_m"?))
+  end.
+Property SafeBus-COL-06-12
+  "Automatically generated"
+  is:
+    A (F X "I_rec2"? & ("I_ask1"? | X ("I_rec2"? | G "I_ask1"?)))
+  end.
+Property SafeBus-COL-06-13
+  "Automatically generated"
+  is:
+    A G ((G "I_rec2"? & F ("I_rec1"? & G "Gto"?)) U F G "loss_m"?)
+  end.
+Property SafeBus-COL-06-14
+  "Automatically generated"
+  is:
+    A G F (F "loss_m"? & G ("I_free"? & ("C_refuse"? | G "loss_m"?)))
+  end.
+Property SafeBus-COL-06-15
+  "Automatically generated"
+  is:
+    A G X X !"C_free"?
+  end.

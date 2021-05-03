@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J40-00
+  "Automatically generated"
+  is:
+    A (("trans_489"? & (G X "fi1"? U X "trans_489"?)) | G "NotifyEventEndOfCheckSources"?)
+  end.
+Property PolyORBNT-COL-S10J40-01
+  "Automatically generated"
+  is:
+    A X F ("fo3"? U !G X !("trans_776"? & "trans_459"?))
+  end.
+Property PolyORBNT-COL-S10J40-02
+  "Automatically generated"
+  is:
+    A (("GoPerformWork"? & G "trans_776"?) U G ("trans_488"? | X "trans_488"?))
+  end.
+Property PolyORBNT-COL-S10J40-03
+  "Automatically generated"
+  is:
+    A X F !"trans_489"?
+  end.
+Property PolyORBNT-COL-S10J40-04
+  "Automatically generated"
+  is:
+    A !X G (G F ("MustCheck"? & !"fo3"?) U !"WillPerformWork"?)
+  end.
+Property PolyORBNT-COL-S10J40-05
+  "Automatically generated"
+  is:
+    A (X G X G !"fo2"? & G X !(F "fo2"? & G "fo1"?))
+  end.
+Property PolyORBNT-COL-S10J40-06
+  "Automatically generated"
+  is:
+    A G ("JobExist"? & G !X F X F "fi2"?)
+  end.
+Property PolyORBNT-COL-S10J40-07
+  "Automatically generated"
+  is:
+    A ("trans_478"? U ("GoCheckSource"? | F "trans_533"?))
+  end.
+Property PolyORBNT-COL-S10J40-08
+  "Automatically generated"
+  is:
+    A G (G "NotifyEventEndOfCheckSources"? U (G "trans_478"? | ("trans_376"? U "trans_486"?)))
+  end.
+Property PolyORBNT-COL-S10J40-09
+  "Automatically generated"
+  is:
+    A G ("LeaveCSTCS"? & F (F !("NoJob"? | !"NotifyEventEndOfCheckSources"?) U X "NoJob"?))
+  end.
+Property PolyORBNT-COL-S10J40-10
+  "Automatically generated"
+  is:
+    A (("trans_487"? & "trans_488"?) | F !F !("JobExist"? & G ("JobExist"? | G "trans_488"?)))
+  end.
+Property PolyORBNT-COL-S10J40-11
+  "Automatically generated"
+  is:
+    A (G F !("Run"? U "trans_508"?) & G (!"trans_508"? | F "GoCheckSource"?))
+  end.
+Property PolyORBNT-COL-S10J40-12
+  "Automatically generated"
+  is:
+    A (G ("trans_510"? | G !X !"NotifyEventEndOfCheckSources"?) | F X X "trans_511"?)
+  end.
+Property PolyORBNT-COL-S10J40-13
+  "Automatically generated"
+  is:
+    A !X (G "WillPerformWork"? & ((!"fi3"? U X "fi3"?) U G "trans_534"?))
+  end.
+Property PolyORBNT-COL-S10J40-14
+  "Automatically generated"
+  is:
+    A G X (!(X "trans_685"? U G "trans_509"?) & !("trans_376"? U "trans_509"?))
+  end.
+Property PolyORBNT-COL-S10J40-15
+  "Automatically generated"
+  is:
+    A G !F "trans_508"?
+  end.

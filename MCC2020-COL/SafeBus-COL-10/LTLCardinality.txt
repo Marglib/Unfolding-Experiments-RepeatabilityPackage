@@ -1,0 +1,80 @@
+Property SafeBus-COL-10-00
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("cable_free")))
+  end.
+Property SafeBus-COL-10-01
+  "Automatically generated"
+  is:
+    A F !F !(F G ((#tokens("RMC")) <= (#tokens("PMC"))) U F G (((#tokens("Cpt2")) <= (#tokens("wait_cable"))) & !((0) <= (#tokens("msgl")))))
+  end.
+Property SafeBus-COL-10-02
+  "Automatically generated"
+  is:
+    A !(X ((3) <= (#tokens("wait_msg"))) | F (((0) <= (#tokens("cable_free"))) & X F ((3) <= (#tokens("wait_msg")))))
+  end.
+Property SafeBus-COL-10-03
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("MSG"))) & (!((3) <= (#tokens("wait_ack"))) U (X ((#tokens("S_tout")) <= (#tokens("listen"))) | F (((3) <= (#tokens("wait_ack"))) | ((2) <= (#tokens("Cpt1")))))))
+  end.
+Property SafeBus-COL-10-04
+  "Automatically generated"
+  is:
+    A G F G ((#tokens("Cpt1")) <= (#tokens("RMC")))
+  end.
+Property SafeBus-COL-10-05
+  "Automatically generated"
+  is:
+    A ((F ((3) <= (#tokens("Cpt2"))) U G ((#tokens("AMC")) <= (#tokens("cable_used")))) & ((((2) <= (#tokens("MSG"))) U ((#tokens("S_tout")) <= (#tokens("wait_ack")))) U (!((#tokens("AMC")) <= (#tokens("cable_used"))) | G ((2) <= (#tokens("S_tout"))))))
+  end.
+Property SafeBus-COL-10-06
+  "Automatically generated"
+  is:
+    A F !F X !G !(G ((0) <= (#tokens("cable_used"))) | X (!((#tokens("Cpt2")) <= (#tokens("MSG"))) U ((#tokens("Cpt2")) <= (#tokens("MSG")))))
+  end.
+Property SafeBus-COL-10-07
+  "Automatically generated"
+  is:
+    A F (((1) <= (#tokens("AMC"))) & !X G (((3) <= (#tokens("PMC"))) | F X (((3) <= (#tokens("PMC"))) U G !((1) <= (#tokens("AMC"))))))
+  end.
+Property SafeBus-COL-10-08
+  "Automatically generated"
+  is:
+    A (X X (((2) <= (#tokens("listen"))) & G ((1) <= (#tokens("Cpt2")))) & (((1) <= (#tokens("Cpt2"))) U ((((2) <= (#tokens("listen"))) | ((#tokens("wait_ack")) <= (#tokens("AMC")))) U X ((#tokens("wait_ack")) <= (#tokens("AMC"))))))
+  end.
+Property SafeBus-COL-10-09
+  "Automatically generated"
+  is:
+    A F !((((2) <= (#tokens("cable_free"))) | X ((2) <= (#tokens("wait_msg")))) & (!((#tokens("wait_ack")) <= (#tokens("S_tout"))) | G ((2) <= (#tokens("cable_free")))))
+  end.
+Property SafeBus-COL-10-10
+  "Automatically generated"
+  is:
+    A (((#tokens("S_tout")) <= (#tokens("cable_free"))) & F ((#tokens("RMC")) <= (#tokens("cable_free"))))
+  end.
+Property SafeBus-COL-10-11
+  "Automatically generated"
+  is:
+    A G !F G !((2) <= (#tokens("T_out")))
+  end.
+Property SafeBus-COL-10-12
+  "Automatically generated"
+  is:
+    A (F G (((2) <= (#tokens("listen"))) & F ((#tokens("RMC")) <= (#tokens("cable_free")))) | F X X ((#tokens("msgl")) <= (#tokens("wait_ack"))))
+  end.
+Property SafeBus-COL-10-13
+  "Automatically generated"
+  is:
+    A !((((2) <= (#tokens("S_tout"))) & X ((2) <= (#tokens("S_tout")))) U X ((((0) <= (#tokens("wait_cable"))) | ((#tokens("listen")) <= (#tokens("R_tout")))) & G ((2) <= (#tokens("S_tout")))))
+  end.
+Property SafeBus-COL-10-14
+  "Automatically generated"
+  is:
+    A (((#tokens("ACK")) <= (#tokens("listen"))) | !(((#tokens("ACK")) <= (#tokens("listen"))) | G !X ((1) <= (#tokens("wait_msg")))) | (F ((#tokens("listen")) <= (#tokens("S_tout"))) & G ((#tokens("listen")) <= (#tokens("S_tout")))))
+  end.
+Property SafeBus-COL-10-15
+  "Automatically generated"
+  is:
+    A X X G ((#tokens("RMC")) <= (#tokens("T_out")))
+  end.

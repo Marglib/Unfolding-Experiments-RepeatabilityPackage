@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-4000-00
+  "Automatically generated"
+  is:
+    A X X G ("t4_1"? | X !(!"t4_2"? | G "t1_1"?))
+  end.
+Property AirplaneLD-COL-4000-01
+  "Automatically generated"
+  is:
+    A (F X !X "t5_1"? & F !"t5_1"?)
+  end.
+Property AirplaneLD-COL-4000-02
+  "Automatically generated"
+  is:
+    A X F G !X ((X "t1_2"? U "t5_2"?) | F G !"SpeedRW"?)
+  end.
+Property AirplaneLD-COL-4000-03
+  "Automatically generated"
+  is:
+    A ("SpeedRW"? & F "t4_2"? & !X "t4_2"?)
+  end.
+Property AirplaneLD-COL-4000-04
+  "Automatically generated"
+  is:
+    A G ("t2_1"? U G ("t1_1"? | F !"getAlt"?))
+  end.
+Property AirplaneLD-COL-4000-05
+  "Automatically generated"
+  is:
+    A X ("SpeedRW"? U (G (!F "SpeedLW"? U "SpeedLW"?) U G "t3_1"?))
+  end.
+Property AirplaneLD-COL-4000-06
+  "Automatically generated"
+  is:
+    A (G !("SpeedRW"? | F "t1_2"?) U !("t1_2"? U "SpeedLW"?))
+  end.
+Property AirplaneLD-COL-4000-07
+  "Automatically generated"
+  is:
+    A !("getAlt"? | !F "getAlt"? | X !G "getAlt"?)
+  end.
+Property AirplaneLD-COL-4000-08
+  "Automatically generated"
+  is:
+    A !((G "t5_1"? & X "t5_1"?) U ("getAlt"? & ("getAlt"? | !"t5_1"?)))
+  end.
+Property AirplaneLD-COL-4000-09
+  "Automatically generated"
+  is:
+    A !X (G ("t4_1"? | "t1_2"? | (!"t3_1"? & F "t4_1"?)) & X "t1_1"?)
+  end.
+Property AirplaneLD-COL-4000-10
+  "Automatically generated"
+  is:
+    A G (G !(G "t2_1"? | !X F "t2_1"?) | X "t1_2"?)
+  end.
+Property AirplaneLD-COL-4000-11
+  "Automatically generated"
+  is:
+    A (X X G !X X "t1_1"? | ("t2_1"? U "SampleLW"?))
+  end.
+Property AirplaneLD-COL-4000-12
+  "Automatically generated"
+  is:
+    A ("t5_1"? | "t1_1"? | X (("t5_1"? | "t1_1"?) & G "t1_1"?))
+  end.
+Property AirplaneLD-COL-4000-13
+  "Automatically generated"
+  is:
+    A (!("t4_2"? & "t3_2"?) & G !"t4_1"? & G "t3_2"?)
+  end.
+Property AirplaneLD-COL-4000-14
+  "Automatically generated"
+  is:
+    A X !G X (F G F G F "t2_1"? U "t2_1"?)
+  end.
+Property AirplaneLD-COL-4000-15
+  "Automatically generated"
+  is:
+    A F ("t3_2"? | "t4_2"?)
+  end.

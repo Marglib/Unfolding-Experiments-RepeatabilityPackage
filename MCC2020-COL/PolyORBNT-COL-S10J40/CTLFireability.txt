@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J40-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((((E G E F "fi2"?) & (A F E G "trans_461"?))) | ("LeaveCSTCS"?))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-01
+  "Automatically generated"
+  is:
+    A (((((((("trans_510"?) & ("fo3"?))) & ((("trans_776"?) & ("trans_534"?))))) & (E X "trans_478"?))) U (A G ! "LeaveCSTCS"?))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-02
+  "Automatically generated"
+  is:
+    E F (("trans_487"?) | ((((((("trans_776"?) | ("trans_489"?))) & ("MustCheck"?))) & ((((("trans_511"?) & ("GoCheckSource"?))) | (! "GoPerformWork"?))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-03
+  "Automatically generated"
+  is:
+    A F E G A X "trans_776"?
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! ! A F "trans_508"?
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-05
+  "Automatically generated"
+  is:
+    ! A (("JobExist"?) U (A F "trans_463"?))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((A G ! ! ! "fi1"?) & (A G ! (("fi3"?) | ((("GoPerformWork"?) | ("LeaveCSTCS"?))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-07
+  "Automatically generated"
+  is:
+    ((! ! ! E F "trans_461"?) & (((E F ! (("GoCheckSource"?) & ("EnterCSTCS"?))) | (((! A F "trans_509"?) & (! (("trans_511"?) | (! "trans_511"?))))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-08
+  "Automatically generated"
+  is:
+    A F (("IsEvt"?) & (A (("fi3"?) U ("trans_508"?))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! E G ((A X "trans_478"?) | (E F "trans_461"?))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! ! (("trans_489"?) | (E F (("WillPerformWork"?) & ("trans_376"?))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-11
+  "Automatically generated"
+  is:
+    A G A F E X "GoPerformWork"?
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! E F ((((! "trans_508"?) & ("trans_685"?))) & (! "trans_510"?))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-13
+  "Automatically generated"
+  is:
+    (((("MustCheck"?) & (((E (("trans_489"?) U ("DummyOR2"?))) | ("trans_487"?))))) | (E F E F (("trans_509"?) & ("fi3"?))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-14
+  "Automatically generated"
+  is:
+    A X A F E G "trans_511"?
+  end.
+Property PolyORBNT-COL-S10J40-CTLFireability-15
+  "Automatically generated"
+  is:
+    E F ((A F (("NoJob"?) | ("GoPerformWork"?))) & (! ((! "EnterCSTCS"?) | ((("NotifyEventEndOfCheckSources"?) | ("MustCheck"?))))))
+  end.

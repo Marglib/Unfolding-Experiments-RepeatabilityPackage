@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J06T10-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("P_1159")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("AwakeTasks")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("P_1727")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("NotifyEventJobCompletedE")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("nyo")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("NotifyEventEndOfCheckSourcesE")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("Insert_Source_B")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("P_1159")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("AvailableJobId")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("ScheduleTaskE_Work")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("cSources")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("Abort_Check_Sources_B")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("ProcessingEvt")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("NotifyEventJobQueuedB")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("FetchJobB")
+  end.
+Property PolyORBLF-COL-S02J06T10-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("P_2321")
+  end.

@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J04T04-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("NoSigAbort")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("cIdleTasks")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("P_2579")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("NotifyEventJobQueuedE")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("P_1160")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("P_2318")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("P_2318")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("Abort_Check_Sources_E")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("CreatedJobs")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("Try_Check_Sources_E")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("ORB_Lock")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("FetchJobE")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("cJobCnt")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("P_1724")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("JobCnt")
+  end.
+Property PolyORBLF-COL-S06J04T04-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("P_1712")
+  end.

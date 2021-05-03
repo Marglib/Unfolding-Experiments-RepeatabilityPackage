@@ -1,0 +1,80 @@
+Property SafeBus-COL-80-00
+  "Automatically generated"
+  is:
+    A (F G F !X "I_reemit"? U G (X "I_free"? | F "loss_m"?))
+  end.
+Property SafeBus-COL-80-01
+  "Automatically generated"
+  is:
+    A F X X G X X (F "I_ask1"? U G "I_ask1"?)
+  end.
+Property SafeBus-COL-80-02
+  "Automatically generated"
+  is:
+    A (G "I_ask2"? | F (!F "I_emit"? U F ("I_emit"? U "I_emit"?)))
+  end.
+Property SafeBus-COL-80-03
+  "Automatically generated"
+  is:
+    A X F ("loss_a"? | F "C_provide"?)
+  end.
+Property SafeBus-COL-80-04
+  "Automatically generated"
+  is:
+    A !F ((G X "loss_a"? U "I_reemit"?) U "I_reemit"?)
+  end.
+Property SafeBus-COL-80-05
+  "Automatically generated"
+  is:
+    A !(("I_rec2"? | G "I_emit"?) & G X "I_ask1"?)
+  end.
+Property SafeBus-COL-80-06
+  "Automatically generated"
+  is:
+    A X X !G !"I_ask2"?
+  end.
+Property SafeBus-COL-80-07
+  "Automatically generated"
+  is:
+    A (!X (!"I_free"? | F X "I_reemit"?) & G (!"I_free"? U X "loss_a"?))
+  end.
+Property SafeBus-COL-80-08
+  "Automatically generated"
+  is:
+    A (!(G X "C_free"? U "loss_m"?) | ("C_free"? U "C_refuse"?))
+  end.
+Property SafeBus-COL-80-09
+  "Automatically generated"
+  is:
+    A (F ("I_rec2"? | G X ("I_ask2"? & X "C_free"?)) & ("C_free"? U "C_free"?))
+  end.
+Property SafeBus-COL-80-10
+  "Automatically generated"
+  is:
+    A X G !(("I_emit"? U "I_ask1"?) U X "I_ask1"?)
+  end.
+Property SafeBus-COL-80-11
+  "Automatically generated"
+  is:
+    A !("I_reemit"? | !F !F !(("C_free"? & "loss_m"?) U "C_refuse"?))
+  end.
+Property SafeBus-COL-80-12
+  "Automatically generated"
+  is:
+    A (X F G "I_emit"? & ("C_refuse"? U "I_rec1"?))
+  end.
+Property SafeBus-COL-80-13
+  "Automatically generated"
+  is:
+    A G ("I_rec1"? & F (G F !"C_refuse"? U !X X !"I_rec1"?))
+  end.
+Property SafeBus-COL-80-14
+  "Automatically generated"
+  is:
+    A !("I_free"? | (G "I_ask2"? & X ("loss_a"? | X F "loss_a"?)))
+  end.
+Property SafeBus-COL-80-15
+  "Automatically generated"
+  is:
+    A !X F X ("loss_a"? & X G F G X G "loss_a"?)
+  end.

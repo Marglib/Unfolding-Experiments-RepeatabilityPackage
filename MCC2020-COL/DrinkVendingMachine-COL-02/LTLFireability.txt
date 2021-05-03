@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-02-00
+  "Automatically generated"
+  is:
+    A G !"elaborate2"?
+  end.
+Property DrinkVendingMachine-COL-02-01
+  "Automatically generated"
+  is:
+    A G X (X ("elaborate3"? | X "elaborate3"?) & G !X G X !"elaborate1"?)
+  end.
+Property DrinkVendingMachine-COL-02-02
+  "Automatically generated"
+  is:
+    A X !X (X "elaborate0"? & (X "elaborate3"? | F "elaborate3"?))
+  end.
+Property DrinkVendingMachine-COL-02-03
+  "Automatically generated"
+  is:
+    A G "serve"?
+  end.
+Property DrinkVendingMachine-COL-02-04
+  "Automatically generated"
+  is:
+    A ("addProduct"? & (!"elaborate1"? | "addProduct"?) & F "addProduct"? & G "elaborate3"?)
+  end.
+Property DrinkVendingMachine-COL-02-05
+  "Automatically generated"
+  is:
+    A X (X "elaborate0"? & F G X "elaborate0"?)
+  end.
+Property DrinkVendingMachine-COL-02-06
+  "Automatically generated"
+  is:
+    A !G X ("elaborate0"? & ("elaborate2"? | "elaborate0"?))
+  end.
+Property DrinkVendingMachine-COL-02-07
+  "Automatically generated"
+  is:
+    A F "elaborate0"?
+  end.
+Property DrinkVendingMachine-COL-02-08
+  "Automatically generated"
+  is:
+    A X X (F !X "elaborate0"? | F ("elaborate0"? U ("addProduct"? & "elaborate0"?)))
+  end.
+Property DrinkVendingMachine-COL-02-09
+  "Automatically generated"
+  is:
+    A G F G X (("serve"? | G "serve"?) U "serve"?)
+  end.
+Property DrinkVendingMachine-COL-02-10
+  "Automatically generated"
+  is:
+    A G !G F G "serve"?
+  end.
+Property DrinkVendingMachine-COL-02-11
+  "Automatically generated"
+  is:
+    A !G (F X ("elaborate2"? U "elaborate1"?) U X "elaborate1"?)
+  end.
+Property DrinkVendingMachine-COL-02-12
+  "Automatically generated"
+  is:
+    A (G F "serve"? & X G X F G ("serve"? U G "serve"?))
+  end.
+Property DrinkVendingMachine-COL-02-13
+  "Automatically generated"
+  is:
+    A X G ((X "elaborate2"? & F G "serve"?) | ("elaborate2"? U F "addOption"?))
+  end.
+Property DrinkVendingMachine-COL-02-14
+  "Automatically generated"
+  is:
+    A (X !F !"serve"? U !X "addProduct"?)
+  end.
+Property DrinkVendingMachine-COL-02-15
+  "Automatically generated"
+  is:
+    A X (F "elaborate0"? & G !("elaborate3"? & "elaborate0"? & "addProduct"? & !X "elaborate0"?))
+  end.

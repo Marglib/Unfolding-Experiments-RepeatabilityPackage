@@ -1,0 +1,80 @@
+Property Peterson-COL-3-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A G E X ! ((2) <= (#tokens("TestAlone")))
+  end.
+Property Peterson-COL-3-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A G E F ! ((2) <= (#tokens("CS")))
+  end.
+Property Peterson-COL-3-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F A G ((((2) <= (#tokens("WantSection")))) | (((#tokens("Idle")) <= (#tokens("AskForSection")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E F ((#tokens("WantSection")) <= (#tokens("CS")))
+  end.
+Property Peterson-COL-3-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((((A ((((#tokens("WantSection")) <= (#tokens("CS")))) U (((2) <= (#tokens("IsEndLoop")))))) | (! A G ((#tokens("Turn")) <= (#tokens("CS")))))) & (E X E F ((2) <= (#tokens("TestAlone")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A ((((((((2) <= (#tokens("TestAlone")))) & (((#tokens("Turn")) <= (#tokens("BeginLoop")))))) | (((((1) <= (#tokens("WantSection")))) | (((2) <= (#tokens("Turn")))))))) U (A G ((#tokens("CS")) <= (#tokens("BeginLoop")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E G A ((((#tokens("IsEndLoop")) <= (#tokens("TestAlone")))) U (((#tokens("TestIdentity")) <= (#tokens("TestAlone")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E F ((A G ((#tokens("WantSection")) <= (#tokens("EndTurn")))) & (A G ((#tokens("IsEndLoop")) <= (#tokens("WantSection")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("EndTurn")) <= (#tokens("TestAlone")))) & (! ((#tokens("Idle")) <= (#tokens("AskForSection")))))) & (((((2) <= (#tokens("IsEndLoop")))) | (((#tokens("WantSection")) <= (#tokens("Turn")))))))
+  end.
+Property Peterson-COL-3-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E F ! A F ((#tokens("BeginLoop")) <= (#tokens("Idle")))
+  end.
+Property Peterson-COL-3-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E ((((1) <= (#tokens("Turn")))) U (E G ((3) <= (#tokens("CS")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-11
+  "Automatically generated"
+  is:
+    E ((((((((#tokens("WantSection")) <= (#tokens("Turn")))) & (((2) <= (#tokens("Turn")))))) | (((((#tokens("IsEndLoop")) <= (#tokens("CS")))) | (((2) <= (#tokens("Idle")))))))) U (! ((#tokens("WantSection")) <= (#tokens("WantSection")))))
+  end.
+Property Peterson-COL-3-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ! ! E F ((3) <= (#tokens("TestAlone")))
+  end.
+Property Peterson-COL-3-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A G ((#tokens("CS")) <= (#tokens("IsEndLoop")))
+  end.
+Property Peterson-COL-3-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E G A F ((#tokens("TestTurn")) <= (#tokens("TestIdentity")))
+  end.
+Property Peterson-COL-3-CTLCardinality-15
+  "Automatically generated"
+  is:
+    A F ((1) <= (#tokens("TestIdentity")))
+  end.

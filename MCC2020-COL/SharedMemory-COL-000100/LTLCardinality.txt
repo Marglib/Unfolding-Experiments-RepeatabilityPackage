@@ -1,0 +1,80 @@
+Property SharedMemory-COL-000100-00
+  "Automatically generated"
+  is:
+    A !G ((2) <= (#tokens("OwnMemAcc")))
+  end.
+Property SharedMemory-COL-000100-01
+  "Automatically generated"
+  is:
+    A ((((3) <= (#tokens("Memory"))) & G (((3) <= (#tokens("Memory"))) & G ((2) <= (#tokens("Ext_Mem_Acc"))))) U (((0) <= (#tokens("OwnMemAcc"))) & F ((3) <= (#tokens("Memory")))))
+  end.
+Property SharedMemory-COL-000100-02
+  "Automatically generated"
+  is:
+    A F ((((2) <= (#tokens("Active"))) | !((#tokens("Active")) <= (#tokens("Ext_Mem_Acc")))) U !((#tokens("Active")) <= (#tokens("Ext_Mem_Acc"))))
+  end.
+Property SharedMemory-COL-000100-03
+  "Automatically generated"
+  is:
+    A F (X ((2) <= (#tokens("Active"))) | (((3) <= (#tokens("Queue"))) & F (((3) <= (#tokens("Queue"))) | G (X ((#tokens("Queue")) <= (#tokens("OwnMemAcc"))) | G ((2) <= (#tokens("Active")))))))
+  end.
+Property SharedMemory-COL-000100-04
+  "Automatically generated"
+  is:
+    A !F ((#tokens("Queue")) <= (#tokens("Active")))
+  end.
+Property SharedMemory-COL-000100-05
+  "Automatically generated"
+  is:
+    A !X X F (!X (((#tokens("Memory")) <= (#tokens("Active"))) U F ((#tokens("Memory")) <= (#tokens("Queue")))) & F ((0) <= (#tokens("Ext_Bus"))))
+  end.
+Property SharedMemory-COL-000100-06
+  "Automatically generated"
+  is:
+    A X (((#tokens("Queue")) <= (#tokens("Memory"))) | (F ((#tokens("OwnMemAcc")) <= (#tokens("Ext_Bus"))) U (X !G F G ((#tokens("OwnMemAcc")) <= (#tokens("Ext_Bus"))) | G ((#tokens("Queue")) <= (#tokens("Memory"))))))
+  end.
+Property SharedMemory-COL-000100-07
+  "Automatically generated"
+  is:
+    A !(G (X X !((#tokens("Memory")) <= (#tokens("Queue"))) U (((3) <= (#tokens("Ext_Bus"))) & G ((#tokens("Memory")) <= (#tokens("Ext_Bus"))))) U ((3) <= (#tokens("Ext_Bus"))))
+  end.
+Property SharedMemory-COL-000100-08
+  "Automatically generated"
+  is:
+    A ((((1) <= (#tokens("Ext_Mem_Acc"))) | (((#tokens("Active")) <= (#tokens("Ext_Bus"))) & G ((#tokens("Active")) <= (#tokens("Memory"))))) & X X X ((1) <= (#tokens("Ext_Mem_Acc"))))
+  end.
+Property SharedMemory-COL-000100-09
+  "Automatically generated"
+  is:
+    A F (((0) <= (#tokens("Active"))) & F (G ((#tokens("OwnMemAcc")) <= (#tokens("Memory"))) U G X X ((0) <= (#tokens("Active")))))
+  end.
+Property SharedMemory-COL-000100-10
+  "Automatically generated"
+  is:
+    A !G (G ((#tokens("Ext_Bus")) <= (#tokens("OwnMemAcc"))) U X (((#tokens("Queue")) <= (#tokens("Ext_Bus"))) & X (((2) <= (#tokens("OwnMemAcc"))) | (((#tokens("Queue")) <= (#tokens("Memory"))) & ((#tokens("Ext_Bus")) <= (#tokens("OwnMemAcc")))))))
+  end.
+Property SharedMemory-COL-000100-11
+  "Automatically generated"
+  is:
+    A (!(((3) <= (#tokens("Ext_Bus"))) | ((1) <= (#tokens("OwnMemAcc")))) & F (!G ((3) <= (#tokens("Ext_Bus"))) & X (G ((1) <= (#tokens("Ext_Mem_Acc"))) U ((0) <= (#tokens("Active"))))))
+  end.
+Property SharedMemory-COL-000100-12
+  "Automatically generated"
+  is:
+    A (!F !X ((0) <= (#tokens("OwnMemAcc"))) | !G !(G ((#tokens("Memory")) <= (#tokens("Active"))) U X X ((#tokens("Memory")) <= (#tokens("Active")))))
+  end.
+Property SharedMemory-COL-000100-13
+  "Automatically generated"
+  is:
+    A ((((3) <= (#tokens("Ext_Bus"))) & X !((3) <= (#tokens("Ext_Mem_Acc")))) | G !F G F ((#tokens("OwnMemAcc")) <= (#tokens("Active"))))
+  end.
+Property SharedMemory-COL-000100-14
+  "Automatically generated"
+  is:
+    A !F (F ((#tokens("Queue")) <= (#tokens("Active"))) & F (!((2) <= (#tokens("OwnMemAcc"))) & !X X X ((#tokens("Ext_Mem_Acc")) <= (#tokens("OwnMemAcc")))))
+  end.
+Property SharedMemory-COL-000100-15
+  "Automatically generated"
+  is:
+    A F X (((1) <= (#tokens("Memory"))) & G F ((#tokens("Memory")) <= (#tokens("Queue"))))
+  end.

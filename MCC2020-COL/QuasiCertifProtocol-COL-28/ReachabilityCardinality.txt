@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("n7")))) | (((#tokens("n1")) <= (#tokens("n9")))))) & (((((2) <= (#tokens("Astart")))) & (((#tokens("Cstart")) <= (#tokens("Cstart")))))))) & (((! ((#tokens("a3")) <= (#tokens("Cstart")))) | (((#tokens("n9")) <= (#tokens("a2")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("n5")))) & (! ! ((3) <= (#tokens("n9")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("AstopOK")) <= (#tokens("n5")))) & (((1) <= (#tokens("s6")))))) | (((((2) <= (#tokens("c1")))) & (((3) <= (#tokens("Cstart")))))))) & (! ((#tokens("n3")) <= (#tokens("SstopOK")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("malicious_reservoir")))) | (((#tokens("SstopOK")) <= (#tokens("a3")))))) | (! ((1) <= (#tokens("a4")))))) | (((((((#tokens("n2")) <= (#tokens("s6")))) & (((3) <= (#tokens("s4")))))) & (! ((#tokens("n9")) <= (#tokens("AstopAbort")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ! ((! ((1) <= (#tokens("CstopOK")))) & (((((#tokens("n9")) <= (#tokens("s2")))) & (((3) <= (#tokens("s3")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((#tokens("n5")) <= (#tokens("SstopOK")))) | (((#tokens("n9")) <= (#tokens("CstopOK")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((! ((#tokens("AstopAbort")) <= (#tokens("Sstart")))) & (((((((3) <= (#tokens("CstopOK")))) & (((#tokens("c1")) <= (#tokens("n5")))))) & (((#tokens("Sstart")) <= (#tokens("s2")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ! ((2) <= (#tokens("AstopAbort")))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((#tokens("a1")) <= (#tokens("n1")))) & (! ((#tokens("s5")) <= (#tokens("n8")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((#tokens("malicious_reservoir")) <= (#tokens("s5")))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((((! ((3) <= (#tokens("c1")))) | (((((#tokens("a1")) <= (#tokens("n2")))) & (((#tokens("n2")) <= (#tokens("Sstart")))))))) & (((#tokens("malicious_reservoir")) <= (#tokens("n2")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("AstopOK")))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ! ((((3) <= (#tokens("n1")))) | (((((#tokens("s6")) <= (#tokens("a1")))) | (((1) <= (#tokens("n6")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("s4")) <= (#tokens("CstopOK")))) & (((2) <= (#tokens("malicious_reservoir")))))) & (((#tokens("SstopOK")) <= (#tokens("SstopAbort")))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("AstopOK")))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((#tokens("n6")) <= (#tokens("AstopOK")))
+  end.

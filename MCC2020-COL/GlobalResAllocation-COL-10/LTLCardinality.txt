@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-10-00
+  "Automatically generated"
+  is:
+    A (X G ((#tokens("in_critical_s")) <= (#tokens("Resources"))) U F X X F (((0) <= (#tokens("Resources"))) | (X ((#tokens("in_critical_s")) <= (#tokens("Resources"))) & G ((#tokens("pr_in")) <= (#tokens("Processes"))))))
+  end.
+Property GlobalResAllocation-COL-10-01
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("pr_released"))) | G !((0) <= (#tokens("in_critical_s"))) | F !(G X ((3) <= (#tokens("pr_released"))) U ((3) <= (#tokens("pr_released")))))
+  end.
+Property GlobalResAllocation-COL-10-02
+  "Automatically generated"
+  is:
+    A ((G ((#tokens("pr_released")) <= (#tokens("in_critical_s"))) | !(X ((3) <= (#tokens("pr_released"))) | !X X ((3) <= (#tokens("pr_released"))))) & X !((#tokens("Processes")) <= (#tokens("pr_released"))))
+  end.
+Property GlobalResAllocation-COL-10-03
+  "Automatically generated"
+  is:
+    A (F (!(((#tokens("Processes")) <= (#tokens("in_critical_s"))) | ((#tokens("pr_in")) <= (#tokens("in_critical_s")))) & G ((#tokens("pr_in")) <= (#tokens("in_critical_s")))) U F ((#tokens("Processes")) <= (#tokens("pr_released"))))
+  end.
+Property GlobalResAllocation-COL-10-04
+  "Automatically generated"
+  is:
+    A (!(((#tokens("pr_released")) <= (#tokens("in_critical_s"))) U ((#tokens("in_critical_s")) <= (#tokens("Processes")))) U F (F X !((0) <= (#tokens("pr_released"))) U (((#tokens("in_critical_s")) <= (#tokens("Processes"))) | X ((#tokens("in_critical_s")) <= (#tokens("Processes"))))))
+  end.
+Property GlobalResAllocation-COL-10-05
+  "Automatically generated"
+  is:
+    A (F (!((#tokens("Resources")) <= (#tokens("pr_released"))) & G ((#tokens("pr_released")) <= (#tokens("Resources")))) | !(X ((#tokens("pr_released")) <= (#tokens("Resources"))) | !G !((#tokens("in_critical_s")) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-10-06
+  "Automatically generated"
+  is:
+    A (G ((1) <= (#tokens("Processes"))) & ((((#tokens("pr_released")) <= (#tokens("in_critical_s"))) & ((1) <= (#tokens("Processes")))) U F ((#tokens("Processes")) <= (#tokens("in_critical_s")))))
+  end.
+Property GlobalResAllocation-COL-10-07
+  "Automatically generated"
+  is:
+    A G !F !G ((#tokens("in_critical_s")) <= (#tokens("pr_in")))
+  end.
+Property GlobalResAllocation-COL-10-08
+  "Automatically generated"
+  is:
+    A (G ((#tokens("Resources")) <= (#tokens("pr_released"))) & F ((#tokens("pr_released")) <= (#tokens("Resources"))) & G X F X G ((#tokens("Resources")) <= (#tokens("pr_released"))))
+  end.
+Property GlobalResAllocation-COL-10-09
+  "Automatically generated"
+  is:
+    A G !(X ((#tokens("Processes")) <= (#tokens("pr_in"))) | (X ((#tokens("Processes")) <= (#tokens("pr_in"))) & X !(((2) <= (#tokens("pr_in"))) & ((2) <= (#tokens("Processes"))))))
+  end.
+Property GlobalResAllocation-COL-10-10
+  "Automatically generated"
+  is:
+    A (((0) <= (#tokens("Processes"))) & X F !((0) <= (#tokens("pr_released"))))
+  end.
+Property GlobalResAllocation-COL-10-11
+  "Automatically generated"
+  is:
+    A G X F ((#tokens("in_critical_s")) <= (#tokens("pr_released")))
+  end.
+Property GlobalResAllocation-COL-10-12
+  "Automatically generated"
+  is:
+    A F X (((1) <= (#tokens("pr_in"))) U !F ((3) <= (#tokens("pr_in"))))
+  end.
+Property GlobalResAllocation-COL-10-13
+  "Automatically generated"
+  is:
+    A F ((((1) <= (#tokens("Resources"))) & ((#tokens("Processes")) <= (#tokens("Resources")))) | X F G (((#tokens("in_critical_s")) <= (#tokens("Processes"))) | !((#tokens("Processes")) <= (#tokens("Resources"))) | F ((2) <= (#tokens("Resources")))))
+  end.
+Property GlobalResAllocation-COL-10-14
+  "Automatically generated"
+  is:
+    A G X G X (((#tokens("in_critical_s")) <= (#tokens("Resources"))) U !(!((#tokens("pr_in")) <= (#tokens("Processes"))) U !((1) <= (#tokens("in_critical_s")))))
+  end.
+Property GlobalResAllocation-COL-10-15
+  "Automatically generated"
+  is:
+    A (!(X ((2) <= (#tokens("pr_in"))) & X ((#tokens("Resources")) <= (#tokens("Processes")))) | G !G ((2) <= (#tokens("pr_released"))))
+  end.

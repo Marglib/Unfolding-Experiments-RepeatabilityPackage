@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-22-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F A X A X "malS2"?
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-01
+  "Automatically generated"
+  is:
+    A ((! (((("malA3"?) & ("SgetTS"?))) | ("SsendTS"?))) U (A F (("ScertCS"?) | ("AreqCS"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-02
+  "Automatically generated"
+  is:
+    A F A F (((("malS3"?) | ("SsendTS"?))) | ((("malC1"?) & ("AendCS"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-03
+  "Automatically generated"
+  is:
+    A ((A F "malS1"?) U (A (("malS4"?) U ("CsendTS1"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-04
+  "Automatically generated"
+  is:
+    E G ! A G "malS1"?
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-05
+  "Automatically generated"
+  is:
+    A F A F ! (("AreqTS"?) | ("AreqCS"?))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-06
+  "Automatically generated"
+  is:
+    A G (("ScertCS"?) | (((E F "AgetTS"?) | ("malA4"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-07
+  "Automatically generated"
+  is:
+    E X E G ! (("malA4"?) & ("malS1"?))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! E ((A X "CsendTS1"?) U (E F "AendCS"?))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-09
+  "Automatically generated"
+  is:
+    A G ((((A F "AreqCS"?) | ((("malA4"?) & ((("malS3"?) | ("malA5"?))))))) | (((! ! "malS3"?) & (A G "malS6"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-10
+  "Automatically generated"
+  is:
+    E ((A (("malS1"?) U ("malS4"?))) U ("malA5"?))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-11
+  "Automatically generated"
+  is:
+    A G ((E X (("AstartCS"?) & ("SsendTS"?))) | (A F (("AgetTS"?) | ("CgenCertif"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((E F ! ((! "malC1"?) & ((("malA2"?) | ("malS1"?))))) & (((! (("CgenCertif"?) & (E F "CsendTS1"?))) & (((! E X "AendCS"?) | (! ! "AgetTS"?))))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F ! ! A F "malS6"?
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-14
+  "Automatically generated"
+  is:
+    (((("malS1"?) | (! ((((! "AreqTS"?) & ((("malA1"?) | ("Sperform"?))))) & ((("SgetTS"?) & ("malA4"?))))))) & (! E G ! (("AreqTS"?) & ("malC1"?))))
+  end.
+Property QuasiCertifProtocol-COL-22-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! ! E F ((! "malA1"?) & ((("malS5"?) & ("malS3"?))))
+  end.

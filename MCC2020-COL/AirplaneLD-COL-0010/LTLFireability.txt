@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0010-00
+  "Automatically generated"
+  is:
+    A G F ("t1_1"? & G F "t4_1"?)
+  end.
+Property AirplaneLD-COL-0010-01
+  "Automatically generated"
+  is:
+    A (X !X "SampleLW"? & X F "t3_2"?)
+  end.
+Property AirplaneLD-COL-0010-02
+  "Automatically generated"
+  is:
+    A F G ((!"t5_2"? U "getAlt"?) | !X G F G "t4_2"?)
+  end.
+Property AirplaneLD-COL-0010-03
+  "Automatically generated"
+  is:
+    A F X X X X X "t2_1"?
+  end.
+Property AirplaneLD-COL-0010-04
+  "Automatically generated"
+  is:
+    A F G ((F "t1_1"? & G ("t1_1"? & X "t1_1"?)) U X "t4_1"?)
+  end.
+Property AirplaneLD-COL-0010-05
+  "Automatically generated"
+  is:
+    A X (("SpeedRW"? | "SpeedLW"?) U (F "t3_1"? & G "SpeedLW"?))
+  end.
+Property AirplaneLD-COL-0010-06
+  "Automatically generated"
+  is:
+    A !(G !"SpeedLW"? & ("t2_1"? | F "t5_1"?) & F ("t2_1"? & "SpeedRW"?))
+  end.
+Property AirplaneLD-COL-0010-07
+  "Automatically generated"
+  is:
+    A !F X F "SpeedRW"?
+  end.
+Property AirplaneLD-COL-0010-08
+  "Automatically generated"
+  is:
+    A (G (G !"getAlt"? U !F "getAlt"?) & !G X "t2_2"?)
+  end.
+Property AirplaneLD-COL-0010-09
+  "Automatically generated"
+  is:
+    A ("t1_2"? U X ("t4_1"? & G "t1_1"?))
+  end.
+Property AirplaneLD-COL-0010-10
+  "Automatically generated"
+  is:
+    A !(((("t2_1"? | "getAlt"?) & G "t1_2"?) U !"t1_2"?) U G "SpeedRW"?)
+  end.
+Property AirplaneLD-COL-0010-11
+  "Automatically generated"
+  is:
+    A !((G X "t2_1"? U !"SampleLW"?) U ("SampleLW"? | X "SampleLW"? | G "SampleLW"?))
+  end.
+Property AirplaneLD-COL-0010-12
+  "Automatically generated"
+  is:
+    A ("getAlt"? | G X ("SpeedRW"? | "getAlt"? | X "getAlt"?))
+  end.
+Property AirplaneLD-COL-0010-13
+  "Automatically generated"
+  is:
+    A (G "t3_2"? | G ("t5_1"? & !F ("t5_1"? & G "t5_1"?)))
+  end.
+Property AirplaneLD-COL-0010-14
+  "Automatically generated"
+  is:
+    A G F G (!"t2_1"? | (G F "t1_2"? U !F "t2_1"?))
+  end.
+Property AirplaneLD-COL-0010-15
+  "Automatically generated"
+  is:
+    A ((G ("t2_2"? U "t4_2"?) U (G F "t3_2"? U F X "t2_2"?)) & X "t4_2"?)
+  end.

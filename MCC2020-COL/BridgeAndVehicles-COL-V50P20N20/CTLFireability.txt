@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((E X E (("enregistrement_B"?) U ("altern_cpt"?))) | ((("enregistrement_B"?) & (A G ! ! "enregistrement_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-01
+  "Automatically generated"
+  is:
+    E X A F "autorisation_A"?
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-02
+  "Automatically generated"
+  is:
+    E G A X A F "decision"?
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-03
+  "Automatically generated"
+  is:
+    ! A F (((((("enregistrement_A"?) & ("liberation_B"?))) | ((("timeout_A"?) | ("autorisation_A"?))))) | (A G "decision"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F ((((E G "autorisation_A"?) & (! (("altern_cpt"?) | ("basculement"?))))) | ("autorisation_A"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-05
+  "Automatically generated"
+  is:
+    A F ((A F (("basculement"?) & ("timeout_B"?))) & ("autorisation_B"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-06
+  "Automatically generated"
+  is:
+    A G A (("enregistrement_A"?) U ((("decision"?) & ("liberation_A"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! ! ((! ! (("autorisation_A"?) | ("timeout_B"?))) | (A F "autorisation_A"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-08
+  "Automatically generated"
+  is:
+    A G A F (((("basculement"?) | ("enregistrement_B"?))) | ("altern_cpt"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-09
+  "Automatically generated"
+  is:
+    E ((! ! (("decision"?) | ("autorisation_B"?))) U (E (("autorisation_B"?) U ("autorisation_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-10
+  "Automatically generated"
+  is:
+    E F ((A X (("timeout_A"?) | ("autorisation_B"?))) & (E X (("timeout_A"?) & ("autorisation_A"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-11
+  "Automatically generated"
+  is:
+    A F ((((E G "enregistrement_A"?) | (A X "timeout_A"?))) & (E (("altern_cpt"?) U ("timeout_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-12
+  "Automatically generated"
+  is:
+    E G ! "timeout_A"?
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-13
+  "Automatically generated"
+  is:
+    A G ! A (("basculement"?) U ("altern_cpt"?))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((E X E G ! "altern_cpt"?) | (E ((((! "autorisation_A"?) & ((("basculement"?) | ("decision"?))))) U ("altern_cpt"?))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N20-CTLFireability-15
+  "Automatically generated"
+  is:
+    E ((((! (("timeout_B"?) | ("liberation_B"?))) & (! (("liberation_A"?) & ("timeout_A"?))))) U ("timeout_B"?))
+  end.

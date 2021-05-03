@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-2000-00
+  "Automatically generated"
+  is:
+    A ("t1_1"? & G (X X F X "SampleRW"? | G F ("t1_1"? | "t4_2"?)))
+  end.
+Property AirplaneLD-COL-2000-01
+  "Automatically generated"
+  is:
+    A X X ((G "t2_2"? | X X ("t2_2"? | F "t5_1"?)) U "t2_2"?)
+  end.
+Property AirplaneLD-COL-2000-02
+  "Automatically generated"
+  is:
+    A !F G X (X ("t1_2"? | F "SpeedRW"?) U ("t1_2"? U "t5_2"?))
+  end.
+Property AirplaneLD-COL-2000-03
+  "Automatically generated"
+  is:
+    A F ("t4_2"? U X (F "SpeedRW"? | X "t2_1"?))
+  end.
+Property AirplaneLD-COL-2000-04
+  "Automatically generated"
+  is:
+    A X F G (F "t2_1"? & !X ("t2_1"? U ("t4_1"? & "getAlt"?)))
+  end.
+Property AirplaneLD-COL-2000-05
+  "Automatically generated"
+  is:
+    A !G X (("SpeedRW"? | "SampleLW"?) U F X "t3_1"?)
+  end.
+Property AirplaneLD-COL-2000-06
+  "Automatically generated"
+  is:
+    A !X (X !F "t5_1"? U ("t2_1"? & "SpeedLW"?))
+  end.
+Property AirplaneLD-COL-2000-07
+  "Automatically generated"
+  is:
+    A G X "t4_2"?
+  end.
+Property AirplaneLD-COL-2000-08
+  "Automatically generated"
+  is:
+    A X X (G "t2_2"? & F ("getAlt"? U "getAlt"?))
+  end.
+Property AirplaneLD-COL-2000-09
+  "Automatically generated"
+  is:
+    A ((!"t1_2"? U "t1_1"?) & X (F "t4_1"? & ("t4_1"? U G !X "t1_2"?)))
+  end.
+Property AirplaneLD-COL-2000-10
+  "Automatically generated"
+  is:
+    A X X G (F X ("getAlt"? U "t2_1"?) U "t2_1"?)
+  end.
+Property AirplaneLD-COL-2000-11
+  "Automatically generated"
+  is:
+    A !(F "t2_1"? & (X "t2_1"? | G ("t1_1"? | "SampleLW"?)))
+  end.
+Property AirplaneLD-COL-2000-12
+  "Automatically generated"
+  is:
+    A G !"SampleRW"?
+  end.
+Property AirplaneLD-COL-2000-13
+  "Automatically generated"
+  is:
+    A !F X F "SampleRW"?
+  end.
+Property AirplaneLD-COL-2000-14
+  "Automatically generated"
+  is:
+    A !F G !F G X (X "t2_1"? | G "SpeedLW"?)
+  end.
+Property AirplaneLD-COL-2000-15
+  "Automatically generated"
+  is:
+    A (X ("t2_2"? | "t3_2"?) U !"t3_2"?)
+  end.

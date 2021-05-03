@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A F ! ! ((((3) <= (#tokens("ScheduleTaskE_Idle")))) & (((3) <= (#tokens("Insert_Source_B")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((! A F ! ((#tokens("NotifyEventJobCompletedE")) <= (#tokens("P_1158")))) | (! A ((((#tokens("AwakeTasks")) <= (#tokens("ORB_Lock")))) U (((1) <= (#tokens("QueueJobB")))))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F ((A G ((3) <= (#tokens("NotifyEventSourceAddedB")))) & (E X ((1) <= (#tokens("P_1727")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E X ((A G ((#tokens("Insert_Source_B")) <= (#tokens("NotifyEventSourceAddedE")))) & (((((#tokens("DisablePollingB")) <= (#tokens("CanInjectEvent")))) | (! ((#tokens("EnablePollingE")) <= (#tokens("P_1727")))))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! A G ((#tokens("Insert_Source_E")) <= (#tokens("cIdleTasks")))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E F A ((((#tokens("ModifiedSrc")) <= (#tokens("P_1097")))) U (((3) <= (#tokens("FetchJobE")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ! E G E F ((2) <= (#tokens("DisablePollingE")))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-07
+  "Automatically generated"
+  is:
+    A G A ((((#tokens("P_1099")) <= (#tokens("Try_Check_Sources_E")))) U (((3) <= (#tokens("Idle")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A ((! ((((3) <= (#tokens("SigAbort")))) & (((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("AbourtToModifySrc")))))) U (((((((1) <= (#tokens("Idle")))) | (((3) <= (#tokens("QueueJobE")))))) & (((((1) <= (#tokens("Abort_Check_Sources_B")))) & (((2) <= (#tokens("NoSigAbort")))))))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! A G A F ((1) <= (#tokens("TryAllocateOneTaskE")))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E X ((E F ((2) <= (#tokens("NotifyEventJobCompletedB")))) & (((! ((#tokens("P_1726")) <= (#tokens("Try_Check_Sources_E")))) | (((#tokens("P_2321")) <= (#tokens("P_1093")))))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ! E G E X ((#tokens("QueueJobB")) <= (#tokens("ProcessingEvt")))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E G ((E F ((1) <= (#tokens("IdleTasks")))) | (A F ((#tokens("MarkerRead")) <= (#tokens("ScheduleTaskE_Check")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E G E F ((((3) <= (#tokens("PollingAbort")))) | (((#tokens("NotifyEventJobCompletedE")) <= (#tokens("ScheduleTaskE_Idle")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E F A G ((((1) <= (#tokens("P_1717")))) | (((#tokens("P_1093")) <= (#tokens("DataOnSrc")))))
+  end.
+Property PolyORBLF-COL-S02J04T08-CTLCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("IdleTasks")))) | (((2) <= (#tokens("P_1093")))))) | (((((#tokens("P_1159")) <= (#tokens("QueueJobE")))) & (((#tokens("nyo")) <= (#tokens("P_2318")))))))) | (! ((((1) <= (#tokens("P_1717")))) & (((1) <= (#tokens("DisablePollingE")))))))
+  end.

@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN14-00
+  "Automatically generated"
+  is:
+    A (F X !G F G ("select"? | "select"?) | F G "select"?)
+  end.
+Property Sudoku-COL-AN14-01
+  "Automatically generated"
+  is:
+    A ((("select"? | "select"?) U "select"?) & G X X X ("select"? & X X "select"?))
+  end.
+Property Sudoku-COL-AN14-02
+  "Automatically generated"
+  is:
+    A (X "select"? | ("select"? U !(G ("select"? U !("select"? U "select"?)) U "select"?)))
+  end.
+Property Sudoku-COL-AN14-03
+  "Automatically generated"
+  is:
+    A X !G F X G !G "select"?
+  end.
+Property Sudoku-COL-AN14-04
+  "Automatically generated"
+  is:
+    A !(X G (G "select"? & G "select"?) U !"select"?)
+  end.
+Property Sudoku-COL-AN14-05
+  "Automatically generated"
+  is:
+    A (G X !"select"? & (G "select"? | ("select"? & F "select"?)))
+  end.
+Property Sudoku-COL-AN14-06
+  "Automatically generated"
+  is:
+    A (X G !"select"? & X F X !G "select"?)
+  end.
+Property Sudoku-COL-AN14-07
+  "Automatically generated"
+  is:
+    A F ((F !"select"? | X !"select"?) & G X "select"?)
+  end.
+Property Sudoku-COL-AN14-08
+  "Automatically generated"
+  is:
+    A (!X F (("select"? U "select"?) & G "select"?) U "select"?)
+  end.
+Property Sudoku-COL-AN14-09
+  "Automatically generated"
+  is:
+    A G F ((!(G "select"? U "select"?) & F "select"?) U G "select"?)
+  end.
+Property Sudoku-COL-AN14-10
+  "Automatically generated"
+  is:
+    A X !("select"? U ("select"? U ("select"? | F "select"?)))
+  end.
+Property Sudoku-COL-AN14-11
+  "Automatically generated"
+  is:
+    A (("select"? & "select"?) | G !X "select"? | !F X "select"?)
+  end.
+Property Sudoku-COL-AN14-12
+  "Automatically generated"
+  is:
+    A (X (X "select"? | ("select"? U "select"?)) | F "select"?)
+  end.
+Property Sudoku-COL-AN14-13
+  "Automatically generated"
+  is:
+    A !("select"? | ("select"? & ("select"? | "select"? | !F "select"?)))
+  end.
+Property Sudoku-COL-AN14-14
+  "Automatically generated"
+  is:
+    A F X F X ("select"? | "select"?)
+  end.
+Property Sudoku-COL-AN14-15
+  "Automatically generated"
+  is:
+    A G !("select"? & !X !(G "select"? & X ("select"? | !"select"?)))
+  end.

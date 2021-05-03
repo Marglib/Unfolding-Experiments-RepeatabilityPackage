@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-16-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((2) <= (#tokens("productSlots")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ! ((((((#tokens("theProducts")) <= (#tokens("optionSlots")))) | (((((1) <= (#tokens("theProducts")))) | (! ((2) <= (#tokens("ready")))))))) | (A X ! ((1) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((((E X ((((#tokens("productSlots")) <= (#tokens("theProducts")))) | (((#tokens("theProducts")) <= (#tokens("ready")))))) & (((#tokens("ready")) <= (#tokens("productSlots")))))) | (((((E F ((#tokens("wait")) <= (#tokens("wait")))) | (((((((3) <= (#tokens("productSlots")))) | (((3) <= (#tokens("theOptions")))))) & (((((1) <= (#tokens("theProducts")))) & (((#tokens("ready")) <= (#tokens("productSlots")))))))))) & (((1) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((3) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! ! ! ((2) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A X ((((((#tokens("productSlots")) <= (#tokens("ready")))) & (((((#tokens("productSlots")) <= (#tokens("theProducts")))) & (((#tokens("optionSlots")) <= (#tokens("productSlots")))))))) & (((! ((#tokens("wait")) <= (#tokens("ready")))) & (! ((#tokens("theProducts")) <= (#tokens("ready")))))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((#tokens("theOptions")) <= (#tokens("productSlots")))) | (((3) <= (#tokens("productSlots")))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((2) <= (#tokens("ready")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((A ((! ((3) <= (#tokens("wait")))) U (((((#tokens("optionSlots")) <= (#tokens("theOptions")))) | (((#tokens("wait")) <= (#tokens("ready")))))))) | (((#tokens("wait")) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E F ((A X ((#tokens("theOptions")) <= (#tokens("theProducts")))) | (((2) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E X ((E X ((3) <= (#tokens("theProducts")))) & (((! ((#tokens("optionSlots")) <= (#tokens("theOptions")))) | (((((1) <= (#tokens("wait")))) | (((1) <= (#tokens("productSlots")))))))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ! ((((1) <= (#tokens("productSlots")))) | (((((! ((#tokens("ready")) <= (#tokens("wait")))) & (((((#tokens("ready")) <= (#tokens("optionSlots")))) & (((1) <= (#tokens("productSlots")))))))) & (! ((((3) <= (#tokens("theProducts")))) | (((3) <= (#tokens("ready")))))))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((2) <= (#tokens("productSlots")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((#tokens("theOptions")) <= (#tokens("optionSlots")))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((E ((((#tokens("theOptions")) <= (#tokens("productSlots")))) U (((((3) <= (#tokens("theOptions")))) | (((1) <= (#tokens("theProducts")))))))) | (((1) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-16-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((! ((2) <= (#tokens("wait")))) & (! ((1) <= (#tokens("productSlots")))))
+  end.

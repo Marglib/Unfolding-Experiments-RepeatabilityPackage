@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-10-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((((((((! ((#tokens("Acknowledge")) <= (#tokens("Mutex")))) | (((((2) <= (#tokens("updating")))) | (((2) <= (#tokens("Active")))))))) & (! ! ((3) <= (#tokens("updating")))))) | (((#tokens("all_active")) <= (#tokens("all_passive")))))) & (A X E X ((#tokens("Active")) <= (#tokens("RecBuff")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E G E F ((((2) <= (#tokens("Active")))) | (((1) <= (#tokens("updating")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ! A ((((3) <= (#tokens("all_active")))) U (! ((#tokens("Active")) <= (#tokens("all_active")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E ((((#tokens("RecBuff")) <= (#tokens("updating")))) U (A G ((3) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! A G ((((((#tokens("updating")) <= (#tokens("Mutex")))) | (((2) <= (#tokens("MesBuffReply")))))) | (! ((2) <= (#tokens("all_passive")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Mutex")) <= (#tokens("Acknowledge")))) & (((1) <= (#tokens("Message")))))) & (((((#tokens("Acknowledge")) <= (#tokens("all_passive")))) | (((#tokens("Mutex")) <= (#tokens("WaitMutex")))))))) | (((((3) <= (#tokens("updating")))) & (! ((3) <= (#tokens("Active")))))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((! ((#tokens("WaitMutex")) <= (#tokens("MesBuffReply")))) | (E X A X ((3) <= (#tokens("updating")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E G E G ((3) <= (#tokens("Mutex")))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A G ((#tokens("all_passive")) <= (#tokens("all_passive")))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E F ((! ((((3) <= (#tokens("all_active")))) & (((#tokens("Message")) <= (#tokens("Acknowledge")))))) | (E F ((1) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E ((E X ((#tokens("MesBuffReply")) <= (#tokens("Message")))) U (! ((1) <= (#tokens("all_passive")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("Acknowledge")))) & (((((((1) <= (#tokens("Mutex")))) & (((#tokens("Active")) <= (#tokens("Message")))))) & (((((3) <= (#tokens("Message")))) | (((#tokens("WaitMutex")) <= (#tokens("Acknowledge")))))))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((((#tokens("Message")) <= (#tokens("all_passive")))) & (((((((#tokens("RecBuff")) <= (#tokens("WaitMutex")))) & (E F ((#tokens("all_passive")) <= (#tokens("updating")))))) & (A G ((((#tokens("RecBuff")) <= (#tokens("Modify")))) | (((2) <= (#tokens("WaitMutex")))))))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((E ((((((#tokens("all_passive")) <= (#tokens("Modify")))) | (((#tokens("Active")) <= (#tokens("Message")))))) U (((3) <= (#tokens("updating")))))) & (A G ((#tokens("RecBuff")) <= (#tokens("Active")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A ((((((((#tokens("Acknowledge")) <= (#tokens("WaitMutex")))) & (((#tokens("Modify")) <= (#tokens("MesBuffReply")))))) | (((((#tokens("Message")) <= (#tokens("WaitMutex")))) | (((#tokens("Active")) <= (#tokens("WaitMutex")))))))) U (E G ((3) <= (#tokens("Modify")))))
+  end.
+Property DatabaseWithMutex-COL-10-CTLCardinality-15
+  "Automatically generated"
+  is:
+    A G E X ! ((3) <= (#tokens("RecBuff")))
+  end.

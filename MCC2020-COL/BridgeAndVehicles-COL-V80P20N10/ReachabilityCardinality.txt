@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("VIDANGE")) <= (#tokens("SUR_PONT_A")))) | (((((#tokens("ROUTE_B")) <= (#tokens("NB_ATTENTE_B")))) | (((3) <= (#tokens("VIDANGE")))))))) | (((#tokens("SUR_PONT_A")) <= (#tokens("ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("CONTROLEUR")))) & (((1) <= (#tokens("VIDANGE")))))) | (! ((#tokens("CAPACITE")) <= (#tokens("CAPACITE")))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("CONTROLEUR")) <= (#tokens("CHOIX")))) & (((#tokens("ROUTE_A")) <= (#tokens("CONTROLEUR")))))) | (((2) <= (#tokens("NB_ATTENTE_B")))))) & (((! ((#tokens("SUR_PONT_B")) <= (#tokens("COMPTEUR")))) & (((((#tokens("COMPTEUR")) <= (#tokens("ROUTE_A")))) & (((2) <= (#tokens("COMPTEUR")))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ((2) <= (#tokens("CAPACITE")))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("CONTROLEUR")))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ATTENTE_B")) <= (#tokens("COMPTEUR")))) & (((1) <= (#tokens("VIDANGE")))))) & (((#tokens("COMPTEUR")) <= (#tokens("CHOIX")))))) & (((((#tokens("ROUTE_A")) <= (#tokens("SORTI_B")))) & (((((#tokens("COMPTEUR")) <= (#tokens("ATTENTE_B")))) & (((1) <= (#tokens("NB_ATTENTE_B")))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((! ((1) <= (#tokens("CONTROLEUR")))) | (((! ((3) <= (#tokens("NB_ATTENTE_B")))) | (((((1) <= (#tokens("CAPACITE")))) & (((1) <= (#tokens("NB_ATTENTE_B")))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((2) <= (#tokens("ROUTE_A")))) | (((((#tokens("CHOIX")) <= (#tokens("VIDANGE")))) | (! ((2) <= (#tokens("COMPTEUR")))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((! ((((3) <= (#tokens("COMPTEUR")))) & (((#tokens("COMPTEUR")) <= (#tokens("NB_ATTENTE_B")))))) & (((#tokens("ROUTE_A")) <= (#tokens("ATTENTE_B")))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((! ((#tokens("ATTENTE_B")) <= (#tokens("ATTENTE_B")))) & (((((((#tokens("ROUTE_A")) <= (#tokens("ROUTE_B")))) & (((2) <= (#tokens("NB_ATTENTE_A")))))) & (((((1) <= (#tokens("ROUTE_B")))) & (((#tokens("CAPACITE")) <= (#tokens("COMPTEUR")))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((! ! ((3) <= (#tokens("ROUTE_A")))) & (((((#tokens("ATTENTE_B")) <= (#tokens("CAPACITE")))) & (((((#tokens("COMPTEUR")) <= (#tokens("COMPTEUR")))) & (((2) <= (#tokens("ROUTE_B")))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((#tokens("ROUTE_A")) <= (#tokens("VIDANGE")))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("CHOIX")) <= (#tokens("COMPTEUR")))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("CHOIX")))) & (((3) <= (#tokens("NB_ATTENTE_B")))))) | (((((((2) <= (#tokens("ATTENTE_B")))) | (((#tokens("SORTI_A")) <= (#tokens("COMPTEUR")))))) & (! ((#tokens("SORTI_B")) <= (#tokens("SUR_PONT_A")))))))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("ROUTE_A")) <= (#tokens("CONTROLEUR")))
+  end.
+Property BridgeAndVehicles-COL-V80P20N10-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("ROUTE_B")))) & (((3) <= (#tokens("SORTI_B")))))) | (((((#tokens("COMPTEUR")) <= (#tokens("NB_ATTENTE_A")))) & (((#tokens("ATTENTE_A")) <= (#tokens("CAPACITE")))))))) | (((((((2) <= (#tokens("CONTROLEUR")))) & (((#tokens("SORTI_A")) <= (#tokens("NB_ATTENTE_A")))))) | (((((2) <= (#tokens("NB_ATTENTE_B")))) | (((1) <= (#tokens("CHOIX")))))))))
+  end.

@@ -1,0 +1,80 @@
+Property NeoElection-COL-8-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E ((((#tokens("stage")) <= (#tokens("stage")))) U (E G ((#tokens("electedSecondary")) <= (#tokens("stage")))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((((((1) <= (#tokens("negotiation")))) & (A ((((#tokens("polling")) <= (#tokens("electedSecondary")))) U (((3) <= (#tokens("poll__handlingMessage")))))))) & (E G ((#tokens("polling")) <= (#tokens("network")))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E F E G ((2) <= (#tokens("dead")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((A F ! ! ((#tokens("negotiation")) <= (#tokens("electionFailed")))) | (((((2) <= (#tokens("startNeg__broadcasting")))) & (! ((2) <= (#tokens("poll__pollEnd")))))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! E ((((1) <= (#tokens("electionInit")))) U (((((#tokens("startNeg__broadcasting")) <= (#tokens("sendAnnPs__broadcasting")))) & (((#tokens("stage")) <= (#tokens("electedPrimary")))))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ! A F ! ((#tokens("polling")) <= (#tokens("poll__waitingMessage")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F E G ! ((2) <= (#tokens("dead")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-07
+  "Automatically generated"
+  is:
+    A ((((#tokens("poll__networl")) <= (#tokens("poll__handlingMessage")))) U (((((3) <= (#tokens("crashed")))) | (((((2) <= (#tokens("network")))) & (((1) <= (#tokens("electionFailed")))))))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("electedSecondary")) <= (#tokens("crashed")))) & (((3) <= (#tokens("electionFailed")))))) & (((((2) <= (#tokens("poll__waitingMessage")))) & (((#tokens("polling")) <= (#tokens("masterList")))))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! ((! ((((((2) <= (#tokens("polling")))) | (((#tokens("poll__networl")) <= (#tokens("network")))))) | (((((2) <= (#tokens("electedPrimary")))) | (((3) <= (#tokens("masterState")))))))) | (A F ((1) <= (#tokens("poll__waitingMessage")))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E F A X ! ((3) <= (#tokens("negotiation")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ! E G ! ! ((#tokens("sendAnnPs__broadcasting")) <= (#tokens("masterState")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-12
+  "Automatically generated"
+  is:
+    A F A F ! ((#tokens("electionFailed")) <= (#tokens("electedSecondary")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A G A ((((#tokens("sendAnnPs__broadcasting")) <= (#tokens("stage")))) U (((#tokens("poll__networl")) <= (#tokens("electionInit")))))
+  end.
+Property NeoElection-COL-8-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E X ! E G ((#tokens("polling")) <= (#tokens("network")))
+  end.
+Property NeoElection-COL-8-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ! A X E G ((#tokens("poll__pollEnd")) <= (#tokens("network")))
+  end.

@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("COMPTEUR")) <= (#tokens("NB_ATTENTE_B")))) | (((#tokens("CHOIX")) <= (#tokens("SORTI_A")))))) & (((((2) <= (#tokens("CHOIX")))) & (((#tokens("ROUTE_A")) <= (#tokens("CAPACITE")))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("VIDANGE")) <= (#tokens("SORTI_A")))) & (((2) <= (#tokens("SORTI_A")))))) | (((2) <= (#tokens("NB_ATTENTE_B")))))) & (((((1) <= (#tokens("SORTI_A")))) & (((((3) <= (#tokens("NB_ATTENTE_B")))) & (((3) <= (#tokens("VIDANGE")))))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ! ((((2) <= (#tokens("SUR_PONT_B")))) & (((((#tokens("ATTENTE_B")) <= (#tokens("CONTROLEUR")))) & (((3) <= (#tokens("NB_ATTENTE_B")))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("CONTROLEUR")))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("NB_ATTENTE_A")))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("SORTI_A")))) & (((#tokens("NB_ATTENTE_B")) <= (#tokens("SUR_PONT_A")))))) | (((! ((#tokens("NB_ATTENTE_B")) <= (#tokens("SUR_PONT_B")))) | (((((#tokens("COMPTEUR")) <= (#tokens("SUR_PONT_B")))) | (((1) <= (#tokens("NB_ATTENTE_A")))))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("NB_ATTENTE_B")) <= (#tokens("NB_ATTENTE_A")))) | (((! ((#tokens("ROUTE_B")) <= (#tokens("ATTENTE_B")))) | (((((2) <= (#tokens("ROUTE_B")))) | (((1) <= (#tokens("SORTI_B")))))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("VIDANGE")))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("NB_ATTENTE_B")) <= (#tokens("COMPTEUR")))) | (((#tokens("ROUTE_B")) <= (#tokens("ROUTE_B")))))) & (((3) <= (#tokens("SORTI_A")))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("SORTI_B")))) & (((#tokens("NB_ATTENTE_B")) <= (#tokens("SUR_PONT_B")))))) | (! ((3) <= (#tokens("COMPTEUR")))))) | (((((((2) <= (#tokens("SORTI_B")))) & (((3) <= (#tokens("NB_ATTENTE_A")))))) & (((((#tokens("SUR_PONT_B")) <= (#tokens("SORTI_B")))) & (((#tokens("COMPTEUR")) <= (#tokens("CHOIX")))))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("SUR_PONT_B")) <= (#tokens("ROUTE_A")))) & (((((3) <= (#tokens("SORTI_B")))) | (((#tokens("CAPACITE")) <= (#tokens("CHOIX")))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((#tokens("CHOIX")) <= (#tokens("ATTENTE_B")))) | (! ((((#tokens("NB_ATTENTE_B")) <= (#tokens("CAPACITE")))) & (((#tokens("ROUTE_B")) <= (#tokens("SUR_PONT_B")))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("VIDANGE")) <= (#tokens("VIDANGE")))) & (((((3) <= (#tokens("NB_ATTENTE_A")))) & (((#tokens("ROUTE_A")) <= (#tokens("NB_ATTENTE_B")))))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("VIDANGE")))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("NB_ATTENTE_B")))) & (((1) <= (#tokens("ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("ATTENTE_B")) <= (#tokens("SORTI_A")))) | (((#tokens("NB_ATTENTE_A")) <= (#tokens("COMPTEUR")))))
+  end.

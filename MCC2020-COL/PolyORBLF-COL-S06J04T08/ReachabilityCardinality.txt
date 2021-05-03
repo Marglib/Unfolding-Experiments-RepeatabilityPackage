@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("P_1725")) <= (#tokens("BlockedTasks")))) & (((3) <= (#tokens("Check_Sources_E")))))) & (! ((#tokens("ScheduleTaskE_Work")) <= (#tokens("Abort_Check_Sources_E")))))) | (((! ((#tokens("P_2579")) <= (#tokens("Idle")))) | (! ((#tokens("Try_Check_Sources_E")) <= (#tokens("Try_Check_Sources_E")))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("P_1712")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) & (((#tokens("CreatedJobs")) <= (#tokens("CreatedJobs")))))) & (((((#tokens("QueueJobE")) <= (#tokens("Abort_Check_Sources_B")))) & (((2) <= (#tokens("NotifyEventJobQueuedE")))))))) | (((((1) <= (#tokens("P_1113")))) & (((((1) <= (#tokens("IsMonitoring")))) | (((#tokens("P_1093")) <= (#tokens("Try_Check_Sources_B")))))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("FetchJobE")) <= (#tokens("P_2318")))) & (((#tokens("Try_Check_Sources_E")) <= (#tokens("P_1712")))))) | (((((3) <= (#tokens("IdleTasks")))) & (((#tokens("ModifiedSrc")) <= (#tokens("NotifyEventJobQueuedE")))))))) & (((3) <= (#tokens("Try_Check_Sources_E")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("PlaceSources")) <= (#tokens("QueueJobB")))) & (((((2) <= (#tokens("P_1113")))) & (((3) <= (#tokens("P_1617")))))))) & (((((((2) <= (#tokens("P_2579")))) & (((2) <= (#tokens("Insert_Source_E")))))) | (! ((#tokens("Check_Sources_E")) <= (#tokens("cBlockedTasks")))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("P_1158")) <= (#tokens("ScheduleTaskE_Work")))) & (((#tokens("cPollingAbort")) <= (#tokens("PollingAbort")))))) | (((((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("P_1095")))) & (((1) <= (#tokens("P_1712")))))))) & (! ((3) <= (#tokens("P_1113")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobCompletedB")))) & (((1) <= (#tokens("Try_Check_Sources_B")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((#tokens("Abort_Check_Sources_E")) <= (#tokens("ModifiedSrc")))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("JobCnt")) <= (#tokens("ScheduleTaskE_Idle")))) | (((3) <= (#tokens("Abort_Check_Sources_B")))))) & (((((#tokens("P_2579")) <= (#tokens("P_1159")))) & (((1) <= (#tokens("P_1726")))))))) & (! ! ((#tokens("Perform_Work_E")) <= (#tokens("DisablePollingB")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("Idle")))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((#tokens("ScheduleTaskE_Idle")) <= (#tokens("P_2321")))) | (((! ((#tokens("SigAbort")) <= (#tokens("Check_Sources_E")))) | (((((2) <= (#tokens("AwakeTasks")))) | (((2) <= (#tokens("Insert_Source_E")))))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((! ((((1) <= (#tokens("cPollingAbort")))) & (((3) <= (#tokens("ScheduleTaskB")))))) & (! ((#tokens("DisablePollingB")) <= (#tokens("EnablePollingE")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("P_1159")) <= (#tokens("PlaceSources")))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("NotifyEventJobQueuedE")) <= (#tokens("P_1158")))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("NotifyEventJobCompletedE")))) | (((#tokens("RunE")) <= (#tokens("cPollingAbort")))))) | (((2) <= (#tokens("P_1716")))))) | (! ((((#tokens("DataOnSrc")) <= (#tokens("nyo")))) | (((2) <= (#tokens("IsMonitoring")))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("ScheduleTaskE_Work")) <= (#tokens("P_1155")))) & (((2) <= (#tokens("Perform_Work_E")))))) & (((((((#tokens("PollingAbort")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) | (((#tokens("P_2318")) <= (#tokens("QueueJobB")))))) & (((((3) <= (#tokens("DataOnSrc")))) & (((2) <= (#tokens("P_2321")))))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Insert_Source_B")))
+  end.

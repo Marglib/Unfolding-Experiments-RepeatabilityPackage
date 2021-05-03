@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>out7</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-01</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>out6</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-02</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>aux7</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-03</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c11</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-04</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c8</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-05</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>in4</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c14</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-07</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c16</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-08</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>aux12</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-09</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>aux16</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-10</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>in3</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-11</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c9</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-12</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>aux14</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-13</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c13</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-14</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>aux10</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>PermAdmissibility-COL-20-UpperBounds-15</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>c12</place>
+      </place-bound>
+    </formula>
+  </property>
+</property-set>

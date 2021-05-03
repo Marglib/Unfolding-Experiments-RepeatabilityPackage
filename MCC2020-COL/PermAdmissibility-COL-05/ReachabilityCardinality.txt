@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-05-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("c18")) <= (#tokens("aux16")))) | (((#tokens("c20")) <= (#tokens("out1")))))) | (((((3) <= (#tokens("out4")))) & (((2) <= (#tokens("c19")))))))) | (! ((((3) <= (#tokens("out1")))) | (((#tokens("out3")) <= (#tokens("in4")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((#tokens("c15")) <= (#tokens("aux12")))) | (((((((3) <= (#tokens("c19")))) | (((#tokens("c12")) <= (#tokens("c11")))))) & (! ((#tokens("out1")) <= (#tokens("out2")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((! ((3) <= (#tokens("out8")))) & (! ((#tokens("in1")) <= (#tokens("c13")))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("c16")) <= (#tokens("out1")))) | (((2) <= (#tokens("aux8")))))) | (((((((1) <= (#tokens("out7")))) | (((#tokens("aux11")) <= (#tokens("aux9")))))) & (((3) <= (#tokens("in3")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("c8")) <= (#tokens("c110")))) | (((1) <= (#tokens("c12")))))) & (((#tokens("out8")) <= (#tokens("c9")))))) | (((((((#tokens("c110")) <= (#tokens("c19")))) | (((#tokens("aux16")) <= (#tokens("c14")))))) | (((1) <= (#tokens("aux7")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("c13")) <= (#tokens("c6")))) | (((2) <= (#tokens("out3")))))) | (((((1) <= (#tokens("aux12")))) & (((3) <= (#tokens("aux9")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ! ! ((((#tokens("aux15")) <= (#tokens("aux10")))) | (((1) <= (#tokens("c9")))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("out2")))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("aux14")) <= (#tokens("aux13")))) | (((1) <= (#tokens("out5")))))) & (((((#tokens("c5")) <= (#tokens("c16")))) & (((2) <= (#tokens("aux11")))))))) | (((((#tokens("c9")) <= (#tokens("aux10")))) & (((((2) <= (#tokens("aux13")))) & (((1) <= (#tokens("c20")))))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("c7")) <= (#tokens("in2")))) | (((#tokens("c11")) <= (#tokens("aux15")))))) & (((((1) <= (#tokens("aux9")))) & (((1) <= (#tokens("out2")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((#tokens("in3")) <= (#tokens("c13")))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("aux12")))) | (((3) <= (#tokens("out4")))))) | (((2) <= (#tokens("aux15")))))) & (((#tokens("aux10")) <= (#tokens("aux5")))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((((((2) <= (#tokens("aux15")))) | (((2) <= (#tokens("in3")))))) & (((((3) <= (#tokens("aux10")))) & (((1) <= (#tokens("in4")))))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("c5")) <= (#tokens("out4")))) | (((#tokens("out3")) <= (#tokens("aux9")))))) | (((#tokens("aux15")) <= (#tokens("aux16")))))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ! ! ! ((#tokens("in1")) <= (#tokens("c12")))
+  end.
+Property PermAdmissibility-COL-05-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("aux16")))) | (((1) <= (#tokens("c19")))))) & (! ! ((#tokens("c7")) <= (#tokens("in4")))))
+  end.

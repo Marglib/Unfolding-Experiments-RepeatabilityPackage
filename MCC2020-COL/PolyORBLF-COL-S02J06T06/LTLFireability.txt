@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J06T06-00
+  "Automatically generated"
+  is:
+    A F "IsAbort"?
+  end.
+Property PolyORBLF-COL-S02J06T06-01
+  "Automatically generated"
+  is:
+    A F (G "T_1722"? & G X !G !F (X "EnterCSPW"? & F "T_1148"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-02
+  "Automatically generated"
+  is:
+    A F ("NotifyEventSourceAdded"? | G "DummyOR1"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-03
+  "Automatically generated"
+  is:
+    A X (F (G "DummyOR2"? U !"NotifyEventSourceAdded"?) | X !("EnterCSTCS"? U "DummyOR2"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-04
+  "Automatically generated"
+  is:
+    A X (G "T_1713"? & (X G "NoCheck"? | X X "WillPerformWork"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-05
+  "Automatically generated"
+  is:
+    A F ("LeaveCSTCS"? U F (F !("T_1114"? U "LeaveIdle"?) U X (!"LeaveCSTCS"? & "T_1114"?)))
+  end.
+Property PolyORBLF-COL-S02J06T06-06
+  "Automatically generated"
+  is:
+    A G F !("NotifyEventSourceAdded"? & F (("T_1100"? | "T_1147"?) U "T_1100"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-07
+  "Automatically generated"
+  is:
+    A X (!X X "T_2315"? U F "GoPerformWork"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-08
+  "Automatically generated"
+  is:
+    A G ("T_2283"? U "LeaveCSIS"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-09
+  "Automatically generated"
+  is:
+    A X G (X G "WaitforBlockedTasks"? | G (X "T_1145"? U (!"GoIdle"? U "T_1444"?)))
+  end.
+Property PolyORBLF-COL-S02J06T06-10
+  "Automatically generated"
+  is:
+    A F X F ("WaitCompleted"? | F "WaitCompleted"? | G "NOPEP"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-11
+  "Automatically generated"
+  is:
+    A X (F "T_1444"? & X !("NotifyEventSourceAdded"? U "T_1444"?) & !F "T_1125"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-12
+  "Automatically generated"
+  is:
+    A X (("T_1722"? & G ("LeaveCSIS"? | "T_1713"? | X X "LeaveCSIS"?)) | ("LeaveCSIS"? U "T_1711"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-13
+  "Automatically generated"
+  is:
+    A X X !X !X G ("T_1126"? & "NOPDP"?)
+  end.
+Property PolyORBLF-COL-S02J06T06-14
+  "Automatically generated"
+  is:
+    A G X ("T_2541"? & "NOPEP"? & G "T_1730"? & F ("T_1730"? U "T_2541"?))
+  end.
+Property PolyORBLF-COL-S02J06T06-15
+  "Automatically generated"
+  is:
+    A (F !"T_1125"? & !X F G F X "T_1722"?)
+  end.

@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-11-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((! (((("enter1"?) | ("enter3"?))) & ((("exit"?) & ("exit"?))))) & ((((((("exit"?) | ("enter1"?))) & (! "release1"?))) & ("exit"?))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ! ! ! (("enter3"?) & ("release2"?))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "enter2"?
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ! ! ((! "enter2"?) & ("release1"?))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F ((! "release1"?) & ("enter3"?))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ! (((("enter1"?) & ((("enter3"?) | ("release2"?))))) & ("release1"?))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ! ((! (("exit"?) | ("exit"?))) & (! (("release2"?) & ("enter4"?))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G (((("exit"?) | ((((("release1"?) | ("release1"?))) | ((("release2"?) | ("release1"?))))))) | (! (("enter2"?) & (! "release1"?))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ! "exit"?
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G "enter3"?
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ! ((((! "enter1"?) | ("enter3"?))) & (((! "enter3"?) & ((("exit"?) & ("enter1"?))))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F "enter4"?
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! ((! (("exit"?) | ("release1"?))) & (((! "release2"?) & ((("enter1"?) & ("exit"?))))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ! (((((("enter1"?) | ("release2"?))) & ("enter3"?))) | ("enter2"?))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ((! "enter4"?) | ((((("enter4"?) | ("enter1"?))) & (! ! "enter4"?))))
+  end.
+Property GlobalResAllocation-COL-11-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ((((((! "enter3"?) & ("enter3"?))) | ((((("enter1"?) & ("enter1"?))) | (! "enter1"?))))) & ((((((("enter3"?) & ("enter3"?))) & (! "enter2"?))) | (((! "release2"?) & ((("enter3"?) | ("release1"?))))))))
+  end.

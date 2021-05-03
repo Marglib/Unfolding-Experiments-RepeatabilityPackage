@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-05-00
+  "Automatically generated"
+  is:
+    A !(F !F !(G "Send_Answer"? U "Read_Request"?) | F (G "Lose_Request"? U "Lose_Request"?))
+  end.
+Property CSRepetitions-COL-05-01
+  "Automatically generated"
+  is:
+    A G X X (X !G "Send_Answer"? U (F "Lose_Request"? U "Lose_Request"?))
+  end.
+Property CSRepetitions-COL-05-02
+  "Automatically generated"
+  is:
+    A F (F "Send_Request"? | X (X !"Read_Request"? & F G !"Send_Request"?))
+  end.
+Property CSRepetitions-COL-05-03
+  "Automatically generated"
+  is:
+    A (!F !("Read_Request"? | "Read_Request"?) | X X X ("Prepare_Request"? | F "Prepare_Request"?))
+  end.
+Property CSRepetitions-COL-05-04
+  "Automatically generated"
+  is:
+    A (X G ("Send_Request"? U G F G "Send_Request"?) U G X !"Send_Request"?)
+  end.
+Property CSRepetitions-COL-05-05
+  "Automatically generated"
+  is:
+    A G (X !"Read_Request"? & F (G !"Read_Request"? & !F "Read_Request"?))
+  end.
+Property CSRepetitions-COL-05-06
+  "Automatically generated"
+  is:
+    A F !G ("Prepare_Request"? & !X (!"Prepare_Request"? U "Read_Request"?))
+  end.
+Property CSRepetitions-COL-05-07
+  "Automatically generated"
+  is:
+    A !("Prepare_Request"? U ((G "Lose_Request"? | X "Prepare_Request"?) U F G (G "Prepare_Request"? U "Send_Request"?)))
+  end.
+Property CSRepetitions-COL-05-08
+  "Automatically generated"
+  is:
+    A (("Send_Answer"? & G "Send_Answer"?) | ("Send_Answer"? & !G ("Send_Answer"? | "Send_Answer"?)))
+  end.
+Property CSRepetitions-COL-05-09
+  "Automatically generated"
+  is:
+    A (!F "Read_Request"? & X F (G "Send_Request"? U ("Send_Answer"? & "Lose_Request"?)))
+  end.
+Property CSRepetitions-COL-05-10
+  "Automatically generated"
+  is:
+    A ("Prepare_Request"? & ("Prepare_Request"? | F "Lose_Request"?) & F (G X "Prepare_Request"? U X F "Lose_Request"?))
+  end.
+Property CSRepetitions-COL-05-11
+  "Automatically generated"
+  is:
+    A ("Lose_Request"? | G ("Lose_Request"? U X F X "Lose_Request"?))
+  end.
+Property CSRepetitions-COL-05-12
+  "Automatically generated"
+  is:
+    A F "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-05-13
+  "Automatically generated"
+  is:
+    A ("Send_Request"? | "Read_Request"? | X G !("Send_Answer"? & "Lose_Request"?))
+  end.
+Property CSRepetitions-COL-05-14
+  "Automatically generated"
+  is:
+    A F G X !F X "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-05-15
+  "Automatically generated"
+  is:
+    A !F (F ("Send_Answer"? | "Send_Request"?) U (X "Read_Request"? | F (X "Read_Request"? U "Read_Request"?)))
+  end.

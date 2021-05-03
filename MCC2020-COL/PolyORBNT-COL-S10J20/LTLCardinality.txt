@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J20-00
+  "Automatically generated"
+  is:
+    A (G ((#tokens("mi3")) <= (#tokens("Check_Sources_B"))) & X ((3) <= (#tokens("place_782"))))
+  end.
+Property PolyORBNT-COL-S10J20-01
+  "Automatically generated"
+  is:
+    A G ((G ((0) <= (#tokens("Perform_Work_E"))) & X !G !F ((#tokens("DataOnSrc")) <= (#tokens("place_520")))) U ((2) <= (#tokens("Schedule_Task_E"))))
+  end.
+Property PolyORBNT-COL-S10J20-02
+  "Automatically generated"
+  is:
+    A F G (G (!((#tokens("NotifyEventJobQueuedE")) <= (#tokens("JobCnt"))) | X !((#tokens("QueueJobB")) <= (#tokens("place_456")))) & X (((#tokens("cJobCnt")) <= (#tokens("f2"))) | G ((0) <= (#tokens("QueueJobE")))))
+  end.
+Property PolyORBNT-COL-S10J20-03
+  "Automatically generated"
+  is:
+    A G !((((#tokens("NotifyEventJobQueuedB")) <= (#tokens("Perform_Work_B"))) | G X (((#tokens("FetchJobB")) <= (#tokens("cSources"))) | X ((3) <= (#tokens("Try_Check_Sources_E"))))) & F (((1) <= (#tokens("place_521"))) U ((#tokens("NotifyEventJobQueuedB")) <= (#tokens("Perform_Work_B")))))
+  end.
+Property PolyORBNT-COL-S10J20-04
+  "Automatically generated"
+  is:
+    A X G !X ((F ((#tokens("f2")) <= (#tokens("place_482"))) U G !X (((3) <= (#tokens("block"))) & ((3) <= (#tokens("Schedule_Task_E"))))) U ((#tokens("place_787")) <= (#tokens("place_521"))))
+  end.
+Property PolyORBNT-COL-S10J20-05
+  "Automatically generated"
+  is:
+    A F (((#tokens("place_458")) <= (#tokens("NotifyEventEndOfCheckSourcesB"))) U (G X ((#tokens("place_458")) <= (#tokens("NotifyEventEndOfCheckSourcesB"))) U F ((#tokens("place_520")) <= (#tokens("place_522")))))
+  end.
+Property PolyORBNT-COL-S10J20-06
+  "Automatically generated"
+  is:
+    A X (X ((#tokens("mi2")) <= (#tokens("cJobCnt"))) & ((((#tokens("ModifiedSrc")) <= (#tokens("Check_Sources_B"))) & X ((#tokens("Perform_Work_E")) <= (#tokens("Check_Sources_B")))) U ((2) <= (#tokens("Perform_Work_B")))))
+  end.
+Property PolyORBNT-COL-S10J20-07
+  "Automatically generated"
+  is:
+    A F (!((0) <= (#tokens("NotifyEventJobQueuedB"))) U (!((1) <= (#tokens("mo3"))) & ((0) <= (#tokens("NotifyEventJobQueuedB")))))
+  end.
+Property PolyORBNT-COL-S10J20-08
+  "Automatically generated"
+  is:
+    A (!(((1) <= (#tokens("f2"))) | F ((#tokens("FetchJobB")) <= (#tokens("Check_Sources_E")))) & !(((3) <= (#tokens("NotifyEventJobQueuedE"))) | F G (F ((2) <= (#tokens("f2"))) U ((1) <= (#tokens("f2"))))))
+  end.
+Property PolyORBNT-COL-S10J20-09
+  "Automatically generated"
+  is:
+    A F X F G (((0) <= (#tokens("NotifyEventJobQueuedE"))) U (X X (((#tokens("place_520")) <= (#tokens("mo1"))) | ((#tokens("mi3")) <= (#tokens("place_460")))) U ((0) <= (#tokens("NotifyEventJobQueuedE")))))
+  end.
+Property PolyORBNT-COL-S10J20-10
+  "Automatically generated"
+  is:
+    A (((#tokens("Try_Check_Sources_E")) <= (#tokens("ModifiedSrc"))) U X (F (((#tokens("Check_Sources_E")) <= (#tokens("TheSour"))) | G ((#tokens("Try_Check_Sources_B")) <= (#tokens("place_520")))) U ((#tokens("Try_Check_Sources_B")) <= (#tokens("place_520")))))
+  end.
+Property PolyORBNT-COL-S10J20-11
+  "Automatically generated"
+  is:
+    A G F (X G ((2) <= (#tokens("mo3"))) | ((((2) <= (#tokens("mo3"))) & ((0) <= (#tokens("place_522")))) U !F ((3) <= (#tokens("cSources")))))
+  end.
+Property PolyORBNT-COL-S10J20-12
+  "Automatically generated"
+  is:
+    A (G ((#tokens("mi2")) <= (#tokens("JobCnt"))) | (F (((#tokens("mo3")) <= (#tokens("AvailableJobId"))) | ((#tokens("mi2")) <= (#tokens("JobCnt")))) U F ((#tokens("mo2")) <= (#tokens("QueueJobE")))))
+  end.
+Property PolyORBNT-COL-S10J20-13
+  "Automatically generated"
+  is:
+    A (G ((1) <= (#tokens("place_518"))) U (((0) <= (#tokens("mi2"))) | (X X X !X ((1) <= (#tokens("place_518"))) & X !((0) <= (#tokens("mi2"))))))
+  end.
+Property PolyORBNT-COL-S10J20-14
+  "Automatically generated"
+  is:
+    A (X G (((#tokens("place_500")) <= (#tokens("CanInjectEvent"))) | !F ((#tokens("place_521")) <= (#tokens("f3")))) | F (((#tokens("place_521")) <= (#tokens("f3"))) & (!((1) <= (#tokens("place_523"))) | ((2) <= (#tokens("DataOnSrc"))))))
+  end.
+Property PolyORBNT-COL-S10J20-15
+  "Automatically generated"
+  is:
+    A !F X G !F ((#tokens("NotifyEventJobQueuedB")) <= (#tokens("Check_Sources_E")))
+  end.

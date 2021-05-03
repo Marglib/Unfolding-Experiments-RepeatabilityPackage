@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((((1) <= (#tokens("FetchJobE")))) | (((#tokens("Check_Sources_B")) <= (#tokens("Check_Sources_B")))))) | (! ((#tokens("RunB")) <= (#tokens("NotifyEventSourceAddedB")))))) | (A G ((#tokens("cBlockedTasks")) <= (#tokens("Try_Check_Sources_E")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E F A G ((((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) & (((#tokens("DisablePollingE")) <= (#tokens("P_1725")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A ((((! ((#tokens("P_1725")) <= (#tokens("P_1726")))) | (((((2) <= (#tokens("RunE")))) | (((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("P_1726")))))))) U (! ((((#tokens("P_1095")) <= (#tokens("MarkerRead")))) | (((#tokens("PlaceSources")) <= (#tokens("TryAllocateOneTaskE")))))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F E ((((2) <= (#tokens("P_1727")))) U (((1) <= (#tokens("TryAllocateOneTaskB")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E ((((((((3) <= (#tokens("nyo")))) | (((#tokens("P_1160")) <= (#tokens("P_1724")))))) | (((((#tokens("DataOnSrc")) <= (#tokens("Abort_Check_Sources_B")))) & (((#tokens("NotifyEventSourceAddedE")) <= (#tokens("MarkerWrite")))))))) U (((! ((#tokens("NotifyEventJobQueuedE")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) & (((((1) <= (#tokens("P_1617")))) | (((#tokens("TryAllocateOneTaskE")) <= (#tokens("Insert_Source_E")))))))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ! A G ((((((#tokens("P_2318")) <= (#tokens("CanInjectEvent")))) | (((1) <= (#tokens("NotifyEventSourceAddedB")))))) | (((((3) <= (#tokens("NotifyEventJobCompletedE")))) & (((#tokens("P_1724")) <= (#tokens("Idle")))))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F ! E F ((3) <= (#tokens("PlaceSources")))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-07
+  "Automatically generated"
+  is:
+    A F E F ((((#tokens("Idle")) <= (#tokens("FetchJobB")))) & (((1) <= (#tokens("ScheduleTaskE_Work")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ! A F ((#tokens("IdleTasks")) <= (#tokens("Abort_Check_Sources_E")))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E X A F ((2) <= (#tokens("MarkerWrite")))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E X A F ((((2) <= (#tokens("FetchJobE")))) & (((#tokens("AwakeTasks")) <= (#tokens("P_1160")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ! A F ((((3) <= (#tokens("P_1716")))) & (((((#tokens("Check_Sources_E")) <= (#tokens("P_1155")))) & (((2) <= (#tokens("cJobCnt")))))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((E G ((((#tokens("NotifyEventJobQueuedB")) <= (#tokens("P_2321")))) | (((#tokens("CanInjectEvent")) <= (#tokens("Perform_Work_E")))))) & (! E F ((((2) <= (#tokens("QueueJobB")))) | (((1) <= (#tokens("Abort_Check_Sources_E")))))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A F ((((#tokens("cIdleTasks")) <= (#tokens("P_1099")))) | (((1) <= (#tokens("Insert_Source_E")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E G A ((((1) <= (#tokens("RunE")))) U (((#tokens("QueueJobE")) <= (#tokens("IsMonitoring")))))
+  end.
+Property PolyORBLF-COL-S06J06T08-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((! ((A G ((1) <= (#tokens("EnablePollingE")))) & (E X ((#tokens("P_1099")) <= (#tokens("EnablePollingB")))))) & (! A F ((3) <= (#tokens("P_1113")))))
+  end.

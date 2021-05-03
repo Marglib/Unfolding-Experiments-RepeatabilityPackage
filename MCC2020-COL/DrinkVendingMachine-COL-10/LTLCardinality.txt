@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-10-00
+  "Automatically generated"
+  is:
+    A !G (((0) <= (#tokens("optionSlots"))) | G ((2) <= (#tokens("optionSlots"))))
+  end.
+Property DrinkVendingMachine-COL-10-01
+  "Automatically generated"
+  is:
+    A ((G !X !((0) <= (#tokens("optionSlots"))) & !G ((#tokens("optionSlots")) <= (#tokens("productSlots")))) U (((0) <= (#tokens("optionSlots"))) & X !((2) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-10-02
+  "Automatically generated"
+  is:
+    A F (F (G !(G ((#tokens("theOptions")) <= (#tokens("optionSlots"))) U ((#tokens("theOptions")) <= (#tokens("optionSlots")))) U X !((#tokens("theProducts")) <= (#tokens("wait")))) | F ((#tokens("ready")) <= (#tokens("theOptions"))))
+  end.
+Property DrinkVendingMachine-COL-10-03
+  "Automatically generated"
+  is:
+    A X (X ((2) <= (#tokens("theProducts"))) & X ((#tokens("theOptions")) <= (#tokens("optionSlots"))) & !X !X F (((2) <= (#tokens("theProducts"))) U ((#tokens("theOptions")) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-10-04
+  "Automatically generated"
+  is:
+    A !X F (((#tokens("theProducts")) <= (#tokens("ready"))) & !X ((0) <= (#tokens("theProducts"))))
+  end.
+Property DrinkVendingMachine-COL-10-05
+  "Automatically generated"
+  is:
+    A G !(!F G (((#tokens("productSlots")) <= (#tokens("theOptions"))) & G ((2) <= (#tokens("optionSlots")))) U G ((2) <= (#tokens("ready"))))
+  end.
+Property DrinkVendingMachine-COL-10-06
+  "Automatically generated"
+  is:
+    A G (((0) <= (#tokens("theProducts"))) & (X ((0) <= (#tokens("theProducts"))) U !((((#tokens("theOptions")) <= (#tokens("productSlots"))) U F ((1) <= (#tokens("theProducts")))) U X ((#tokens("theOptions")) <= (#tokens("productSlots"))))))
+  end.
+Property DrinkVendingMachine-COL-10-07
+  "Automatically generated"
+  is:
+    A (!F G ((1) <= (#tokens("theProducts"))) U X X !F (X ((#tokens("productSlots")) <= (#tokens("ready"))) & G F ((3) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-10-08
+  "Automatically generated"
+  is:
+    A !X F (((#tokens("theProducts")) <= (#tokens("productSlots"))) & !(((#tokens("theProducts")) <= (#tokens("ready"))) | X G X X ((#tokens("theProducts")) <= (#tokens("productSlots")))))
+  end.
+Property DrinkVendingMachine-COL-10-09
+  "Automatically generated"
+  is:
+    A G X (!((0) <= (#tokens("theProducts"))) U G (((#tokens("optionSlots")) <= (#tokens("productSlots"))) & F X F G !X ((0) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-10-10
+  "Automatically generated"
+  is:
+    A (X ((#tokens("theOptions")) <= (#tokens("productSlots"))) & F (F ((2) <= (#tokens("optionSlots"))) | G (!((2) <= (#tokens("optionSlots"))) & X ((#tokens("wait")) <= (#tokens("productSlots"))))))
+  end.
+Property DrinkVendingMachine-COL-10-11
+  "Automatically generated"
+  is:
+    A (G ((#tokens("ready")) <= (#tokens("optionSlots"))) | !G X ((1) <= (#tokens("optionSlots"))))
+  end.
+Property DrinkVendingMachine-COL-10-12
+  "Automatically generated"
+  is:
+    A !X (G ((0) <= (#tokens("optionSlots"))) | (!((0) <= (#tokens("optionSlots"))) & (((#tokens("productSlots")) <= (#tokens("theProducts"))) U F ((#tokens("productSlots")) <= (#tokens("theProducts"))))))
+  end.
+Property DrinkVendingMachine-COL-10-13
+  "Automatically generated"
+  is:
+    A (X ((#tokens("theOptions")) <= (#tokens("productSlots"))) | X X (G X ((3) <= (#tokens("ready"))) U F G ((3) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-10-14
+  "Automatically generated"
+  is:
+    A G ((#tokens("wait")) <= (#tokens("optionSlots")))
+  end.
+Property DrinkVendingMachine-COL-10-15
+  "Automatically generated"
+  is:
+    A (F ((#tokens("productSlots")) <= (#tokens("optionSlots"))) | G (X F ((1) <= (#tokens("productSlots"))) & G X X G F ((#tokens("theProducts")) <= (#tokens("ready")))))
+  end.

@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("place_787")) <= (#tokens("mi1")))) | (((1) <= (#tokens("block")))))) & (((#tokens("place_460")) <= (#tokens("Perform_Work_E")))))) & (((((((#tokens("NotifyEventJobQueuedE")) <= (#tokens("DataOnSrc")))) & (((1) <= (#tokens("mo2")))))) & (! ((3) <= (#tokens("mi2")))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ! ! ((((#tokens("Try_Check_Sources_E")) <= (#tokens("FetchJobE")))) & (((#tokens("cJobCnt")) <= (#tokens("place_522")))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ! ((((#tokens("mo2")) <= (#tokens("mo2")))) & (((((3) <= (#tokens("place_456")))) & (((#tokens("mo1")) <= (#tokens("cSources")))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("place_456")))) | (((! ((1) <= (#tokens("QueueJobE")))) | (! ((2) <= (#tokens("place_500")))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((! ((2) <= (#tokens("NotifyEventJobQueuedB")))) | (((#tokens("Schedule_Task_E")) <= (#tokens("Schedule_Task_E")))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("CanInjectEvent")))) | (((! ((3) <= (#tokens("Try_Check_Sources_E")))) | (((((1) <= (#tokens("place_500")))) | (((#tokens("f2")) <= (#tokens("FetchJobE")))))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("place_523")))) | (((1) <= (#tokens("NotifyEventJobQueuedE")))))) | (! ((#tokens("JobCnt")) <= (#tokens("Try_Check_Sources_B")))))) & (((((((#tokens("place_462")) <= (#tokens("NotifyEventJobQueuedE")))) & (((#tokens("place_521")) <= (#tokens("place_460")))))) & (((((#tokens("place_458")) <= (#tokens("f2")))) | (((1) <= (#tokens("place_782")))))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((#tokens("f1")) <= (#tokens("JobCnt")))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("Check_Sources_E")) <= (#tokens("Perform_Work_B")))) | (((#tokens("place_482")) <= (#tokens("TheSour")))))) & (! ((#tokens("JobCnt")) <= (#tokens("mi1")))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("CreatedJobs")) <= (#tokens("JobCnt")))) & (((((2) <= (#tokens("cJobCnt")))) | (((3) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Schedule_Task_E")))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((#tokens("f1")) <= (#tokens("QueueJobB")))) | (((! ((#tokens("FetchJobE")) <= (#tokens("f1")))) & (((((3) <= (#tokens("place_462")))) & (((#tokens("cSources")) <= (#tokens("DataOnSrc")))))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("Try_Check_Sources_E")))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("cJobCnt")) <= (#tokens("place_500")))) & (((2) <= (#tokens("Perform_Work_B")))))) & (((1) <= (#tokens("f2")))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ! ((1) <= (#tokens("NotifyEventEndOfCheckSourcesB")))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("place_460")) <= (#tokens("CanInjectEvent")))) | (((((#tokens("mo1")) <= (#tokens("place_523")))) | (((3) <= (#tokens("mi2")))))))) & (((3) <= (#tokens("QueueJobE")))))
+  end.

@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-02-00
+  "Automatically generated"
+  is:
+    A X F ((((#tokens("Active")) <= (#tokens("WaitMutex"))) | G ((1) <= (#tokens("WaitMutex")))) U F (((1) <= (#tokens("WaitMutex"))) & (((#tokens("Active")) <= (#tokens("WaitMutex"))) | ((1) <= (#tokens("WaitMutex"))))))
+  end.
+Property DatabaseWithMutex-COL-02-01
+  "Automatically generated"
+  is:
+    A !(G X (((#tokens("Mutex")) <= (#tokens("Active"))) & ((#tokens("all_active")) <= (#tokens("RecBuff")))) & F X (!((0) <= (#tokens("MesBuffReply"))) & ((#tokens("WaitMutex")) <= (#tokens("Mutex")))))
+  end.
+Property DatabaseWithMutex-COL-02-02
+  "Automatically generated"
+  is:
+    A !X X X !F X X ((2) <= (#tokens("Message")))
+  end.
+Property DatabaseWithMutex-COL-02-03
+  "Automatically generated"
+  is:
+    A F (((0) <= (#tokens("RecBuff"))) & ((2) <= (#tokens("Acknowledge"))))
+  end.
+Property DatabaseWithMutex-COL-02-04
+  "Automatically generated"
+  is:
+    A G X ((0) <= (#tokens("Acknowledge")))
+  end.
+Property DatabaseWithMutex-COL-02-05
+  "Automatically generated"
+  is:
+    A F X (F !((#tokens("MesBuffReply")) <= (#tokens("WaitMutex"))) & !(F !((0) <= (#tokens("RecBuff"))) U !F ((0) <= (#tokens("Active")))))
+  end.
+Property DatabaseWithMutex-COL-02-06
+  "Automatically generated"
+  is:
+    A G F G (((1) <= (#tokens("Modify"))) & !G ((0) <= (#tokens("Active"))) & (((0) <= (#tokens("Active"))) | G F X ((#tokens("WaitMutex")) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-02-07
+  "Automatically generated"
+  is:
+    A G F G !(G F G ((#tokens("WaitMutex")) <= (#tokens("Modify"))) U (((#tokens("Acknowledge")) <= (#tokens("updating"))) | F G ((#tokens("MesBuffReply")) <= (#tokens("all_active")))))
+  end.
+Property DatabaseWithMutex-COL-02-08
+  "Automatically generated"
+  is:
+    A G X X X (((3) <= (#tokens("Mutex"))) | !((#tokens("RecBuff")) <= (#tokens("Acknowledge"))) | X (!((1) <= (#tokens("Message"))) | G ((1) <= (#tokens("Message")))))
+  end.
+Property DatabaseWithMutex-COL-02-09
+  "Automatically generated"
+  is:
+    A F G !(((#tokens("Modify")) <= (#tokens("Message"))) U G F G F X ((3) <= (#tokens("Message"))))
+  end.
+Property DatabaseWithMutex-COL-02-10
+  "Automatically generated"
+  is:
+    A (F (((#tokens("Mutex")) <= (#tokens("Active"))) U G ((1) <= (#tokens("Active")))) & G (!((2) <= (#tokens("all_passive"))) | !(F ((#tokens("Active")) <= (#tokens("Acknowledge"))) U ((1) <= (#tokens("Active"))))))
+  end.
+Property DatabaseWithMutex-COL-02-11
+  "Automatically generated"
+  is:
+    A X X ((F ((#tokens("Acknowledge")) <= (#tokens("MesBuffReply"))) & (!X ((#tokens("updating")) <= (#tokens("Acknowledge"))) U ((#tokens("updating")) <= (#tokens("Acknowledge"))))) U (G ((#tokens("Acknowledge")) <= (#tokens("MesBuffReply"))) U ((#tokens("all_active")) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-02-12
+  "Automatically generated"
+  is:
+    A ((((#tokens("Mutex")) <= (#tokens("updating"))) | G ((0) <= (#tokens("updating"))) | !X (((#tokens("Message")) <= (#tokens("all_passive"))) | G ((0) <= (#tokens("Message"))))) U (((#tokens("RecBuff")) <= (#tokens("all_active"))) U ((#tokens("Message")) <= (#tokens("all_passive")))))
+  end.
+Property DatabaseWithMutex-COL-02-13
+  "Automatically generated"
+  is:
+    A G F G !((#tokens("Message")) <= (#tokens("updating")))
+  end.
+Property DatabaseWithMutex-COL-02-14
+  "Automatically generated"
+  is:
+    A X G X (((#tokens("RecBuff")) <= (#tokens("updating"))) | (((#tokens("Modify")) <= (#tokens("Acknowledge"))) U G ((#tokens("Modify")) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-02-15
+  "Automatically generated"
+  is:
+    A X F ((((#tokens("WaitMutex")) <= (#tokens("all_passive"))) | ((3) <= (#tokens("MesBuffReply"))) | (((#tokens("Mutex")) <= (#tokens("RecBuff"))) & ((#tokens("updating")) <= (#tokens("Acknowledge"))))) & G F X !((#tokens("Mutex")) <= (#tokens("RecBuff"))))
+  end.

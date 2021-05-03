@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-8-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ! ! "setbi_11"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F ((! (("sety0_23"?) & ((("setbi_11"?) | ("yeqi_15"?))))) & ((((("xeqi_10"?) & ((("sety_9"?) & ("xnei_10"?))))) & ("xeqi_10"?))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "setbi_24"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "yeqi_15"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F ((((((! "setx_3"?) | (! "yeq0_4"?))) & (((! "yeq0_4"?) & ((("setbi_5"?) & ("yeqi_15"?))))))) & (((! (("ynei_15"?) & ("sety_9"?))) & ((("sety_9"?) | (! "fordo_12"?))))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F (((((((("yeqi_15"?) & ("setbi_24"?))) & ((("xeqi_10"?) & ("yeqi_15"?))))) & ((((("setbi_5"?) | ("yeq0_4"?))) | ("awaity"?))))) & ((("setbi_5"?) & ((((("await_13"?) | ("setbi_5"?))) | ((("xeqi_10"?) & ("xnei_10"?))))))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (((((("setbi_24"?) | ((("yeqi_15"?) & ("setbi_2"?))))) & ("xeqi_10"?))) & ((("sety_9"?) | ("xnei_10"?))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ! ((((! "setx_3"?) & ((("forod_13"?) & ("sety0_23"?))))) & ((("sety0_23"?) & (! "ynei_15"?))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F "yeqi_15"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (("setbi_24"?) & (! ((! "xeqi_10"?) | ((("ynei_15"?) & ("forod_13"?))))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ((((! (("yeq0_4"?) & ("xnei_10"?))) | (((! "forod_13"?) | (! "setbi_5"?))))) | ((((((("yeq0_4"?) | ("setbi_24"?))) | ((("yeq0_4"?) | ("setx_3"?))))) & (! ! "fordo_12"?))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (("setbi_11"?) & ((((("fordo_12"?) & ("yeq0_4"?))) & (((! "sety_9"?) & ((("setx_3"?) | ("yeq0_4"?))))))))
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F "yeqi_15"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F ! ! "awaity"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! ! ! "await_13"?
+  end.
+Property LamportFastMutEx-COL-8-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G (((((((("setbi_5"?) | ("setx_3"?))) & ((("setx_3"?) | ("setx_3"?))))) & ((((("yne0_4"?) & ("sety_9"?))) & ((("xeqi_10"?) & ("xeqi_10"?))))))) | (! ((! "sety_9"?) & ((("setbi_5"?) & ("sety0_23"?))))))
+  end.

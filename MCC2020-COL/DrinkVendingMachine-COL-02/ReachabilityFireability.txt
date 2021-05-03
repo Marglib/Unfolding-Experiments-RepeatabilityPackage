@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((! "serve"?) & (((! (("addOption"?) | ("serve"?))) & ((((("elaborate3"?) & ("elaborate0"?))) | ((("addOption"?) | ("elaborate3"?))))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F ((! "serve"?) & ((((("elaborate2"?) | ("elaborate0"?))) & ((("elaborate0"?) | ((("addOption"?) & ("elaborate1"?))))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (((((((("serve"?) | ("elaborate3"?))) & (! "elaborate1"?))) & (! "elaborate0"?))) | ((("elaborate1"?) & (! ! "addProduct"?))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G "addOption"?
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F (((((((("elaborate1"?) & ("addOption"?))) & ("serve"?))) | ((("elaborate3"?) & ("elaborate3"?))))) & ((("elaborate0"?) | (((! "elaborate0"?) & ("elaborate3"?))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G (((((("elaborate0"?) & ((("elaborate1"?) & ("elaborate2"?))))) & ((("addOption"?) | ((("elaborate0"?) & ("elaborate2"?))))))) | (((! (("serve"?) | ("addOption"?))) & (! (("serve"?) & ("addOption"?))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((! (((("elaborate2"?) | ("addOption"?))) & ((("addOption"?) & ("addOption"?))))) | ("elaborate0"?))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ! ((! (("elaborate1"?) & ("elaborate0"?))) | (((! "serve"?) | (! "elaborate3"?))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ! (((((("serve"?) & ("elaborate0"?))) | ("addProduct"?))) & ("elaborate3"?))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ! (("elaborate2"?) | ("elaborate3"?))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G "elaborate3"?
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F "elaborate1"?
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! "addOption"?
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G "elaborate0"?
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ! ! ! (("serve"?) | ("serve"?))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ! "elaborate1"?
+  end.

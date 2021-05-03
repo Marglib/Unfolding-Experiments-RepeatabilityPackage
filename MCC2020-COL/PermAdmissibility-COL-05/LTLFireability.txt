@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-05-00
+  "Automatically generated"
+  is:
+    A (("switch3"? | X G "switch3"?) & X F !X "switch10"?)
+  end.
+Property PermAdmissibility-COL-05-01
+  "Automatically generated"
+  is:
+    A (!G F X (G "switch4"? & !G "switch9"?) & X F !"switch5"?)
+  end.
+Property PermAdmissibility-COL-05-02
+  "Automatically generated"
+  is:
+    A G (G "switch6"? & X X (("switch3"? & F "display4"?) U G ("switch6"? | "switch2"?)))
+  end.
+Property PermAdmissibility-COL-05-03
+  "Automatically generated"
+  is:
+    A ((!("switch11"? & ("switch2"? U "switch11"?)) U ("switch11"? & "display1"?)) & F "switch11"?)
+  end.
+Property PermAdmissibility-COL-05-04
+  "Automatically generated"
+  is:
+    A F G "switch7"?
+  end.
+Property PermAdmissibility-COL-05-05
+  "Automatically generated"
+  is:
+    A F (G ("switch11"? | X "display1"?) U G F !G !"switch7"?)
+  end.
+Property PermAdmissibility-COL-05-06
+  "Automatically generated"
+  is:
+    A G !"switch10"?
+  end.
+Property PermAdmissibility-COL-05-07
+  "Automatically generated"
+  is:
+    A X ("display2"? U F "display2"?)
+  end.
+Property PermAdmissibility-COL-05-08
+  "Automatically generated"
+  is:
+    A ((("switch7"? U "switch6"?) | F !"switch7"?) & F ("display4"? & X ("switch6"? & "display4"?)))
+  end.
+Property PermAdmissibility-COL-05-09
+  "Automatically generated"
+  is:
+    A ("display1"? | !X ("display1"? U !"switch12"?))
+  end.
+Property PermAdmissibility-COL-05-10
+  "Automatically generated"
+  is:
+    A G !F G (X "switch7"? U X "switch8"?)
+  end.
+Property PermAdmissibility-COL-05-11
+  "Automatically generated"
+  is:
+    A F ("switch4"? | X !(!X "switch2"? U !("switch6"? U F G "switch2"?)))
+  end.
+Property PermAdmissibility-COL-05-12
+  "Automatically generated"
+  is:
+    A G (("switch11"? & !X !("switch11"? & ("switch7"? | "display2"?))) U F "switch11"?)
+  end.
+Property PermAdmissibility-COL-05-13
+  "Automatically generated"
+  is:
+    A (!"display4"? U !F X "display1"?)
+  end.
+Property PermAdmissibility-COL-05-14
+  "Automatically generated"
+  is:
+    A (F "switch12"? & X G "switch10"?)
+  end.
+Property PermAdmissibility-COL-05-15
+  "Automatically generated"
+  is:
+    A !(G "display1"? & ("switch2"? | X F "display4"?))
+  end.

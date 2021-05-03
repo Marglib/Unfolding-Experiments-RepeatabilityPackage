@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("cPollingAbort")) <= (#tokens("P_1093")))) & (((#tokens("CanInjectEvent")) <= (#tokens("MarkerRead")))))) & (((((#tokens("P_1097")) <= (#tokens("Idle")))) & (! ((#tokens("ScheduleTaskE_Check")) <= (#tokens("Try_Check_Sources_B")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("P_1160")) <= (#tokens("MarkerWrite")))) | (! ((((#tokens("BlockedTasks")) <= (#tokens("RunE")))) | (((1) <= (#tokens("FetchJobB")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((#tokens("TryAllocateOneTaskB")) <= (#tokens("BlockedTasks")))) | (((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobQueuedE")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ! ((((3) <= (#tokens("FetchJobE")))) & (((#tokens("P_1119")) <= (#tokens("ProcessingEvt")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ! ((((((3) <= (#tokens("PollingAbort")))) & (((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("cIsMonitoring")))))) & (((((3) <= (#tokens("P_1113")))) | (((#tokens("ORB_Lock")) <= (#tokens("cIsMonitoring")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("DisablePollingB")) <= (#tokens("P_1093")))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ModifiedSrc")) <= (#tokens("P_1097")))) | (((#tokens("IdleTasks")) <= (#tokens("NotifyEventSourceAddedE")))))) & (((((3) <= (#tokens("ScheduleTaskE_Idle")))) & (((3) <= (#tokens("PlaceSources")))))))) | (! ! ((#tokens("Idle")) <= (#tokens("P_1095")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("DisablePollingB")))) & (((#tokens("DataOnSrc")) <= (#tokens("ScheduleTaskE_Idle")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ! ((! ((#tokens("AwakeTasks")) <= (#tokens("NotifyEventJobCompletedB")))) | (! ((3) <= (#tokens("ScheduleTaskE_Check")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("FetchJobE")) <= (#tokens("NoSigAbort")))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((#tokens("Insert_Source_E")) <= (#tokens("Check_Sources_E")))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("P_1726")) <= (#tokens("DataOnSrc")))) | (((((#tokens("Try_Check_Sources_E")) <= (#tokens("AbourtToModifySrc")))) | (((#tokens("cIsMonitoring")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))))) & (((3) <= (#tokens("CanInjectEvent")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Try_Check_Sources_E")))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("RunB")))) & (((! ((2) <= (#tokens("DisablePollingB")))) & (((((#tokens("DataOnSrc")) <= (#tokens("P_1717")))) & (((#tokens("DataOnSrc")) <= (#tokens("Check_Sources_B")))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("RunE")) <= (#tokens("ScheduleTaskE_Idle")))) & (((2) <= (#tokens("P_1160")))))) & (((((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("cIdleTasks")))) & (((3) <= (#tokens("Check_Sources_E")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((! ((((3) <= (#tokens("AbourtToModifySrc")))) & (((1) <= (#tokens("Check_Sources_E")))))) | (((! ((#tokens("NotifyEventJobCompletedE")) <= (#tokens("P_1095")))) | (((#tokens("NotifyEventSourceAddedB")) <= (#tokens("Abort_Check_Sources_B")))))))
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-001000-00
+  "Automatically generated"
+  is:
+    A !("End"? & !G F !G ("End"? U "FF1b"?))
+  end.
+Property Philosophers-COL-001000-01
+  "Automatically generated"
+  is:
+    A F G !G ("FF2b"? & "FF2b"?)
+  end.
+Property Philosophers-COL-001000-02
+  "Automatically generated"
+  is:
+    A X X F !(G F ("FF1a"? U "FF1a"?) U "FF1a"?)
+  end.
+Property Philosophers-COL-001000-03
+  "Automatically generated"
+  is:
+    A ((G (F "FF2a"? & !G "FF2a"?) U F X "FF2a"?) & G "FF2a"?)
+  end.
+Property Philosophers-COL-001000-04
+  "Automatically generated"
+  is:
+    A ("FF1a"? | ("FF1a"? & G "End"?))
+  end.
+Property Philosophers-COL-001000-05
+  "Automatically generated"
+  is:
+    A F (!"FF2a"? & F X F G X "FF1b"?)
+  end.
+Property Philosophers-COL-001000-06
+  "Automatically generated"
+  is:
+    A ("FF2a"? | X F "FF1a"? | !G "FF2a"?)
+  end.
+Property Philosophers-COL-001000-07
+  "Automatically generated"
+  is:
+    A G !G ("FF1a"? & F "FF2a"? & G (G "FF2a"? U "FF1a"?))
+  end.
+Property Philosophers-COL-001000-08
+  "Automatically generated"
+  is:
+    A (!F "End"? | G "End"? | F "FF2a"?)
+  end.
+Property Philosophers-COL-001000-09
+  "Automatically generated"
+  is:
+    A (F "End"? | X G X G (!F "FF2b"? | ("End"? & X "FF2b"?)))
+  end.
+Property Philosophers-COL-001000-10
+  "Automatically generated"
+  is:
+    A !G "FF2a"?
+  end.
+Property Philosophers-COL-001000-11
+  "Automatically generated"
+  is:
+    A F G (G F "FF2b"? | X F "FF2a"?)
+  end.
+Property Philosophers-COL-001000-12
+  "Automatically generated"
+  is:
+    A ((X "FF1b"? U "FF1b"?) U ("End"? | !"FF2a"?))
+  end.
+Property Philosophers-COL-001000-13
+  "Automatically generated"
+  is:
+    A ("FF1b"? & "FF2b"? & G X "FF2b"?)
+  end.
+Property Philosophers-COL-001000-14
+  "Automatically generated"
+  is:
+    A ("FF1a"? | F G ("FF2a"? | !("FF2a"? | X "End"?)))
+  end.
+Property Philosophers-COL-001000-15
+  "Automatically generated"
+  is:
+    A !(F "End"? | X ("FF1b"? U G X ("End"? & X "FF1b"?)))
+  end.

@@ -1,0 +1,80 @@
+Property NeoElection-COL-7-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("electedSecondary")
+  end.
+Property NeoElection-COL-7-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("electedPrimary")
+  end.
+Property NeoElection-COL-7-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("startNeg__broadcasting")
+  end.
+Property NeoElection-COL-7-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("network")
+  end.
+Property NeoElection-COL-7-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("electedPrimary")
+  end.
+Property NeoElection-COL-7-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("masterList")
+  end.
+Property NeoElection-COL-7-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("sendAnnPs__broadcasting")
+  end.
+Property NeoElection-COL-7-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("poll__waitingMessage")
+  end.
+Property NeoElection-COL-7-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("electionInit")
+  end.
+Property NeoElection-COL-7-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("electedSecondary")
+  end.
+Property NeoElection-COL-7-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("electionInit")
+  end.
+Property NeoElection-COL-7-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("poll__networl")
+  end.
+Property NeoElection-COL-7-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("electionInit")
+  end.
+Property NeoElection-COL-7-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("poll__handlingMessage")
+  end.
+Property NeoElection-COL-7-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("poll__waitingMessage")
+  end.
+Property NeoElection-COL-7-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("startNeg__broadcasting")
+  end.

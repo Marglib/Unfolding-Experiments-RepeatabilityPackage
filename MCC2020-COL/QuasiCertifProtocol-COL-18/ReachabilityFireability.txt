@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (("malA5"?) & (((! ! "AreqCS"?) | ("AstartCS"?))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (("malC1"?) & (((! "malS1"?) | ((("malS6"?) | ((("CgenCertif"?) | ("AreqCS"?))))))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F (((("Sperform"?) | (((! "malS5"?) & ((("CgenCertif"?) | ("AstartCS"?))))))) & ("ScertCS"?))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "malA5"?
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ! ! ! (("malS3"?) & ("malA3"?))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "malS5"?
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F "malS5"?
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((! (((("malA2"?) | ("malS5"?))) & ((("AendCS"?) & ("malS6"?))))) | ((((((("CsendTS1"?) | ("malS4"?))) & ("SsendTS"?))) & ("malA4"?))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G (("malA2"?) | (! "malA5"?))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G (("malS5"?) | (! (((("malC1"?) & ("CsendTS1"?))) & ("malS1"?))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "malA3"?
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (((((((("malS2"?) | ("SreqTS"?))) | (! "CsendTS1"?))) | (! "SgetTS"?))) & ((((((("SsendTS"?) & ("SackCS"?))) & ("SsendTS"?))) | ("malS3"?))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((((((! "malA1"?) & (! "AstartCS"?))) | ((("malC1"?) | ((("AreqCS"?) | ("malS4"?))))))) | ((((("SackCS"?) & ((("SreqTS"?) | ("malA5"?))))) | (! (("malA3"?) & ("AstartCS"?))))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ((! "malS3"?) | (! ! (("SsendTS"?) | ("SreqTS"?))))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ((((((! "AreqTS"?) & ((("CsendTS1"?) | ("AendCS"?))))) | (! "malA3"?))) & (! ! ! "malS1"?))
+  end.
+Property QuasiCertifProtocol-COL-18-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F "malA3"?
+  end.

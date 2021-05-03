@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-04-00
+  "Automatically generated"
+  is:
+    A (!F X ("end_update"? & "Change"?) | ("end_update"? U ("end_update"? | (F "end_update"? U "Change"?))))
+  end.
+Property DatabaseWithMutex-COL-04-01
+  "Automatically generated"
+  is:
+    A G (X (X "SendMsg"? U "SendMsg"?) U (!("Update"? | "end_update"?) & G !"end_update"?))
+  end.
+Property DatabaseWithMutex-COL-04-02
+  "Automatically generated"
+  is:
+    A G ("Change"? | !"SendMsg"?)
+  end.
+Property DatabaseWithMutex-COL-04-03
+  "Automatically generated"
+  is:
+    A X !(!"Change"? | F ("SendReply"? & (!F "SendReply"? U ("Acquire"? & "end_update"?))))
+  end.
+Property DatabaseWithMutex-COL-04-04
+  "Automatically generated"
+  is:
+    A F (X G "SendMsg"? U G "Release"?)
+  end.
+Property DatabaseWithMutex-COL-04-05
+  "Automatically generated"
+  is:
+    A ("Change"? | G !G F "Release"?)
+  end.
+Property DatabaseWithMutex-COL-04-06
+  "Automatically generated"
+  is:
+    A ((F !F "Update"? U "Start"?) U F "Update"?)
+  end.
+Property DatabaseWithMutex-COL-04-07
+  "Automatically generated"
+  is:
+    A F (F (("Acquire"? | "Change"?) U G "SendMsg"?) U F "Acquire"?)
+  end.
+Property DatabaseWithMutex-COL-04-08
+  "Automatically generated"
+  is:
+    A X (F X "SendReply"? U "Change"?)
+  end.
+Property DatabaseWithMutex-COL-04-09
+  "Automatically generated"
+  is:
+    A !((("Change"? | "end_update"?) & X G "end_update"?) U F !("Change"? | G "Update"?))
+  end.
+Property DatabaseWithMutex-COL-04-10
+  "Automatically generated"
+  is:
+    A ((G "Release"? U ("Change"? U X "end_update"?)) U G ("Release"? U !"Change"?))
+  end.
+Property DatabaseWithMutex-COL-04-11
+  "Automatically generated"
+  is:
+    A G ("Change"? U "Release"?)
+  end.
+Property DatabaseWithMutex-COL-04-12
+  "Automatically generated"
+  is:
+    A !(!F (F "SendReply"? U "Acquire"?) & F G "Acquire"?)
+  end.
+Property DatabaseWithMutex-COL-04-13
+  "Automatically generated"
+  is:
+    A ("Acquire"? U G (("SendReply"? | "Acquire"?) & G X ("SendReply"? | G "Start"?)))
+  end.
+Property DatabaseWithMutex-COL-04-14
+  "Automatically generated"
+  is:
+    A X (G "Start"? & X F "Change"?)
+  end.
+Property DatabaseWithMutex-COL-04-15
+  "Automatically generated"
+  is:
+    A !(G (X "Update"? | G "Start"?) U ("Update"? & ("Update"? | "Start"?)))
+  end.

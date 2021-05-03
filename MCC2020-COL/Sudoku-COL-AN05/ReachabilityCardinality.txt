@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN05-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("Cells")))) | (! ((((3) <= (#tokens("Rows")))) | (((#tokens("Board")) <= (#tokens("Rows")))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ! ((1) <= (#tokens("Columns")))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Columns")))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("Rows")) <= (#tokens("Rows")))) | (((#tokens("Board")) <= (#tokens("Board")))))) & (! ((1) <= (#tokens("Columns")))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((#tokens("Columns")) <= (#tokens("Cells")))) & (((((((3) <= (#tokens("Rows")))) & (((1) <= (#tokens("Rows")))))) & (((((3) <= (#tokens("Columns")))) & (((#tokens("Columns")) <= (#tokens("Board")))))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("Board")) <= (#tokens("Rows")))) & (((1) <= (#tokens("Rows")))))) & (((((3) <= (#tokens("Cells")))) | (((((3) <= (#tokens("Cells")))) & (((2) <= (#tokens("Cells")))))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ! ((! ((2) <= (#tokens("Columns")))) | (! ((#tokens("Columns")) <= (#tokens("Board")))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("Board")))) | (((#tokens("Cells")) <= (#tokens("Columns")))))) & (((#tokens("Columns")) <= (#tokens("Rows")))))) | (((((((1) <= (#tokens("Board")))) | (((#tokens("Columns")) <= (#tokens("Cells")))))) | (! ((2) <= (#tokens("Board")))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((! ((3) <= (#tokens("Rows")))) & (((((((#tokens("Cells")) <= (#tokens("Rows")))) & (((1) <= (#tokens("Rows")))))) & (((((3) <= (#tokens("Columns")))) | (((#tokens("Rows")) <= (#tokens("Columns")))))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Board")))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("Rows")))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((! ((((3) <= (#tokens("Columns")))) | (((#tokens("Columns")) <= (#tokens("Rows")))))) & (((3) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("Columns")) <= (#tokens("Rows")))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("Cells")))) | (((#tokens("Rows")) <= (#tokens("Rows")))))) & (((1) <= (#tokens("Board")))))) & (((((((#tokens("Rows")) <= (#tokens("Rows")))) & (((1) <= (#tokens("Columns")))))) & (((#tokens("Board")) <= (#tokens("Columns")))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("Cells")) <= (#tokens("Cells")))) | (((((1) <= (#tokens("Cells")))) & (((1) <= (#tokens("Cells")))))))) & (((! ((3) <= (#tokens("Columns")))) | (((((#tokens("Rows")) <= (#tokens("Cells")))) | (((#tokens("Rows")) <= (#tokens("Rows")))))))))
+  end.
+Property Sudoku-COL-AN05-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((#tokens("Cells")) <= (#tokens("Board")))
+  end.

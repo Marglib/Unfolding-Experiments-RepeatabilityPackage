@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J04T10-00
+  "Automatically generated"
+  is:
+    A (G ((#tokens("CanInjectEvent")) <= (#tokens("Abort_Check_Sources_E"))) & G X ((#tokens("P_1724")) <= (#tokens("SigAbort"))) & X (((#tokens("P_2318")) <= (#tokens("Insert_Source_E"))) & F ((#tokens("P_2579")) <= (#tokens("P_1119")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-01
+  "Automatically generated"
+  is:
+    A F X F ((((#tokens("P_1724")) <= (#tokens("QueueJobE"))) | ((2) <= (#tokens("AbourtToModifySrc")))) & F (F ((2) <= (#tokens("cIsMonitoring"))) U F X X ((#tokens("P_1724")) <= (#tokens("QueueJobE")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-02
+  "Automatically generated"
+  is:
+    A X G ((!((1) <= (#tokens("P_1726"))) & F !((0) <= (#tokens("TryAllocateOneTaskB")))) U (((#tokens("P_1725")) <= (#tokens("P_1119"))) & G ((#tokens("P_1717")) <= (#tokens("ScheduleTaskB")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-03
+  "Automatically generated"
+  is:
+    A X (((#tokens("P_1095")) <= (#tokens("EnablePollingE"))) U G ((0) <= (#tokens("Perform_Work_E"))))
+  end.
+Property PolyORBLF-COL-S04J04T10-04
+  "Automatically generated"
+  is:
+    A (G ((0) <= (#tokens("P_2321"))) U ((#tokens("NotifyEventJobQueuedE")) <= (#tokens("PlaceSources"))))
+  end.
+Property PolyORBLF-COL-S04J04T10-05
+  "Automatically generated"
+  is:
+    A X G (((#tokens("DisablePollingE")) <= (#tokens("MarkerRead"))) & X (((#tokens("Try_Check_Sources_B")) <= (#tokens("P_1093"))) & ((#tokens("JobCnt")) <= (#tokens("P_1712")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-06
+  "Automatically generated"
+  is:
+    A F (G X ((#tokens("Perform_Work_E")) <= (#tokens("Try_Check_Sources_B"))) U (!(((#tokens("Perform_Work_E")) <= (#tokens("Try_Check_Sources_B"))) | ((#tokens("NoSigAbort")) <= (#tokens("cPollingAbort")))) U ((3) <= (#tokens("JobCnt")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-07
+  "Automatically generated"
+  is:
+    A F !((2) <= (#tokens("Check_Sources_B")))
+  end.
+Property PolyORBLF-COL-S04J04T10-08
+  "Automatically generated"
+  is:
+    A F (((#tokens("P_2321")) <= (#tokens("P_1724"))) | F X X G (X ((#tokens("ScheduleTaskE_Work")) <= (#tokens("SigAbort"))) | (F ((#tokens("ScheduleTaskB")) <= (#tokens("NotifyEventEndOfCheckSourcesE"))) & F ((1) <= (#tokens("DisablePollingE"))))))
+  end.
+Property PolyORBLF-COL-S04J04T10-09
+  "Automatically generated"
+  is:
+    A X (X (((#tokens("P_1712")) <= (#tokens("P_2318"))) & F G (((#tokens("P_2318")) <= (#tokens("TryAllocateOneTaskE"))) U F ((1) <= (#tokens("P_1159"))))) | (F ((#tokens("P_2318")) <= (#tokens("TryAllocateOneTaskE"))) U ((1) <= (#tokens("P_1159")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-10
+  "Automatically generated"
+  is:
+    A ((((#tokens("EnablePollingE")) <= (#tokens("Check_Sources_E"))) | !((#tokens("EnablePollingE")) <= (#tokens("Check_Sources_E")))) & (((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobQueuedB"))) | ((#tokens("EnablePollingE")) <= (#tokens("Check_Sources_E"))) | F G ((#tokens("P_1727")) <= (#tokens("ScheduleTaskB")))))
+  end.
+Property PolyORBLF-COL-S04J04T10-11
+  "Automatically generated"
+  is:
+    A F G F ((#tokens("QueueJobE")) <= (#tokens("P_1617")))
+  end.
+Property PolyORBLF-COL-S04J04T10-12
+  "Automatically generated"
+  is:
+    A (X ((1) <= (#tokens("P_1113"))) & G X (((2) <= (#tokens("P_1724"))) & ((0) <= (#tokens("ScheduleTaskB")))) & F X X ((1) <= (#tokens("P_1113"))))
+  end.
+Property PolyORBLF-COL-S04J04T10-13
+  "Automatically generated"
+  is:
+    A (F ((#tokens("P_1113")) <= (#tokens("Insert_Source_E"))) & (F X G ((3) <= (#tokens("QueueJobE"))) U (((2) <= (#tokens("MarkerRead"))) U ((3) <= (#tokens("QueueJobE"))))))
+  end.
+Property PolyORBLF-COL-S04J04T10-14
+  "Automatically generated"
+  is:
+    A !F X (X ((0) <= (#tokens("Perform_Work_E"))) U F ((#tokens("cIsMonitoring")) <= (#tokens("BlockedTasks"))))
+  end.
+Property PolyORBLF-COL-S04J04T10-15
+  "Automatically generated"
+  is:
+    A (((#tokens("DataOnSrc")) <= (#tokens("Perform_Work_E"))) U G ((#tokens("DataOnSrc")) <= (#tokens("Perform_Work_E"))))
+  end.

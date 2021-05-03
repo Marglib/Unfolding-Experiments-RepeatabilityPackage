@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-40-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("all_active")))) & (! ((((#tokens("RecBuff")) <= (#tokens("all_active")))) & (((#tokens("RecBuff")) <= (#tokens("Modify")))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E F A ((((2) <= (#tokens("all_passive")))) U (((#tokens("all_passive")) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((E G E X ((#tokens("updating")) <= (#tokens("Mutex")))) & (E X ((((((#tokens("Active")) <= (#tokens("Acknowledge")))) & (((#tokens("Modify")) <= (#tokens("all_passive")))))) | (((1) <= (#tokens("WaitMutex")))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F A G ! ((#tokens("Active")) <= (#tokens("MesBuffReply")))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("Modify")))) | (! ((#tokens("WaitMutex")) <= (#tokens("all_passive")))))) & (((((((#tokens("MesBuffReply")) <= (#tokens("Active")))) | (((2) <= (#tokens("Acknowledge")))))) & (((3) <= (#tokens("Acknowledge")))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ((! ((E F ((1) <= (#tokens("Modify")))) & (E F ((2) <= (#tokens("Message")))))) & (((((#tokens("RecBuff")) <= (#tokens("all_active")))) | (! ((1) <= (#tokens("updating")))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((! ((3) <= (#tokens("Acknowledge")))) | (((((#tokens("Mutex")) <= (#tokens("WaitMutex")))) & (((#tokens("Active")) <= (#tokens("updating")))))))) & (E X ((2) <= (#tokens("RecBuff")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((E ((((#tokens("MesBuffReply")) <= (#tokens("RecBuff")))) U (! ((3) <= (#tokens("RecBuff")))))) & (((A ((((3) <= (#tokens("all_passive")))) U (((3) <= (#tokens("Acknowledge")))))) | (((((((((#tokens("all_passive")) <= (#tokens("WaitMutex")))) | (((#tokens("Mutex")) <= (#tokens("RecBuff")))))) & (((1) <= (#tokens("Message")))))) | (! ((#tokens("Active")) <= (#tokens("Message")))))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((A G E G ((#tokens("Active")) <= (#tokens("updating")))) & (E G ! ((((1) <= (#tokens("Message")))) & (((3) <= (#tokens("Active")))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ((! A G ((((3) <= (#tokens("Mutex")))) & (((#tokens("all_active")) <= (#tokens("updating")))))) & (((! A G ((3) <= (#tokens("all_passive")))) & (((((#tokens("MesBuffReply")) <= (#tokens("RecBuff")))) | (((((((#tokens("WaitMutex")) <= (#tokens("MesBuffReply")))) & (((#tokens("Active")) <= (#tokens("Mutex")))))) & (((1) <= (#tokens("Mutex")))))))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-10
+  "Automatically generated"
+  is:
+    A ((A F ((#tokens("all_passive")) <= (#tokens("RecBuff")))) U (A G ((3) <= (#tokens("Acknowledge")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A ((((3) <= (#tokens("all_active")))) U (! ((#tokens("Acknowledge")) <= (#tokens("MesBuffReply")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E G ((#tokens("RecBuff")) <= (#tokens("RecBuff")))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((E X A X ((#tokens("Mutex")) <= (#tokens("Acknowledge")))) | (! ((#tokens("Modify")) <= (#tokens("Active")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A X E G ((((#tokens("MesBuffReply")) <= (#tokens("all_active")))) & (((#tokens("WaitMutex")) <= (#tokens("Mutex")))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((1) <= (#tokens("RecBuff")))) | (((A F ! ((#tokens("all_active")) <= (#tokens("Message")))) & (((((((1) <= (#tokens("Active")))) | (((((1) <= (#tokens("MesBuffReply")))) | (((#tokens("WaitMutex")) <= (#tokens("MesBuffReply")))))))) & (E F ((2) <= (#tokens("MesBuffReply")))))))))
+  end.

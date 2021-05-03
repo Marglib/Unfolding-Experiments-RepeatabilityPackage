@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-03-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("Client_Waiting")) <= (#tokens("Client_Waiting")))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering")))) & (! ((3) <= (#tokens("Client_Waiting")))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("RequestBufferSlots")) <= (#tokens("RequestBufferSlots")))) & (((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting")))))) | (((((3) <= (#tokens("Client_Waiting")))) & (((#tokens("RequestBuffer")) <= (#tokens("Server_Anwering")))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((#tokens("RequestBuffer")) <= (#tokens("Server_Waiting")))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((((((3) <= (#tokens("Client_Waiting")))) | (((#tokens("Client_Sending")) <= (#tokens("RequestBuffer")))))) & (((((#tokens("Client_Sending")) <= (#tokens("RequestBufferSlots")))) | (((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting")))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((! ((#tokens("RequestBuffer")) <= (#tokens("Server_Waiting")))) & (((((((#tokens("Server_Anwering")) <= (#tokens("Server_Anwering")))) | (((#tokens("Client_Sending")) <= (#tokens("Client_Sending")))))) | (((((3) <= (#tokens("Client_Waiting")))) & (((2) <= (#tokens("Server_Waiting")))))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("Client_Waiting")))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting")))) | (((((((1) <= (#tokens("RequestBuffer")))) | (((#tokens("Client_Waiting")) <= (#tokens("RequestBuffer")))))) & (! ((#tokens("RequestBuffer")) <= (#tokens("Server_Waiting")))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering")))) & (((#tokens("RequestBufferSlots")) <= (#tokens("RequestBufferSlots")))))) | (((#tokens("Client_Waiting")) <= (#tokens("RequestBuffer")))))) | (((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting")))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((((2) <= (#tokens("Client_Waiting")))) | (((#tokens("RequestBufferSlots")) <= (#tokens("Client_Sending")))))) | (! ((#tokens("Client_Sending")) <= (#tokens("RequestBufferSlots")))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((! ((2) <= (#tokens("Client_Sending")))) | (((! ((3) <= (#tokens("Client_Sending")))) | (((((#tokens("Server_Waiting")) <= (#tokens("Client_Sending")))) | (((#tokens("Server_Anwering")) <= (#tokens("Server_Waiting")))))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((! ((((2) <= (#tokens("Client_Sending")))) & (((3) <= (#tokens("Server_Anwering")))))) & (((((((#tokens("RequestBufferSlots")) <= (#tokens("Server_Waiting")))) & (((#tokens("Server_Waiting")) <= (#tokens("RequestBuffer")))))) & (((((2) <= (#tokens("Client_Waiting")))) & (((2) <= (#tokens("Server_Anwering")))))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("Server_Anwering")) <= (#tokens("Server_Anwering")))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots")))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((((1) <= (#tokens("Server_Waiting")))) & (((3) <= (#tokens("RequestBuffer")))))) | (! ((2) <= (#tokens("RequestBufferSlots")))))) & (((((3) <= (#tokens("Server_Anwering")))) & (((#tokens("Client_Waiting")) <= (#tokens("RequestBufferSlots")))))))
+  end.
+Property CSRepetitions-COL-03-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Client_Sending")) <= (#tokens("Client_Waiting")))) | (((2) <= (#tokens("Client_Waiting")))))) & (((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering")))))) & (((! ((#tokens("Client_Sending")) <= (#tokens("RequestBuffer")))) | (((2) <= (#tokens("Server_Waiting")))))))
+  end.

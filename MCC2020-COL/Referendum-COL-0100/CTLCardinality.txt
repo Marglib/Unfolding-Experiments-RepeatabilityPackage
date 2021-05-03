@@ -1,0 +1,80 @@
+Property Referendum-COL-0100-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((((((((! ((3) <= (#tokens("voted_no")))) | (((#tokens("voted_yes")) <= (#tokens("ready")))))) | (E F ((#tokens("voted_yes")) <= (#tokens("voted_yes")))))) & (((#tokens("voting")) <= (#tokens("voted_no")))))) & (E F E G ((#tokens("voted_yes")) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A F ! A X ((#tokens("voted_yes")) <= (#tokens("voted_yes")))
+  end.
+Property Referendum-COL-0100-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ! E F A G ((3) <= (#tokens("voted_no")))
+  end.
+Property Referendum-COL-0100-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ! E G ((! ((3) <= (#tokens("voted_yes")))) & (((((#tokens("voted_no")) <= (#tokens("voted_no")))) | (((3) <= (#tokens("voted_yes")))))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! A G ((((1) <= (#tokens("voting")))) | (! ((3) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ((! E G ((((#tokens("voting")) <= (#tokens("voting")))) | (((1) <= (#tokens("ready")))))) & (((((A G ((#tokens("ready")) <= (#tokens("voting")))) | (! ((((#tokens("voting")) <= (#tokens("ready")))) & (((#tokens("ready")) <= (#tokens("voted_yes")))))))) | (((#tokens("voting")) <= (#tokens("voted_no")))))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ! E ((((((#tokens("ready")) <= (#tokens("voting")))) | (((1) <= (#tokens("ready")))))) U (! ((#tokens("voting")) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((E G ! ((1) <= (#tokens("voted_yes")))) | (E G A G ((1) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-08
+  "Automatically generated"
+  is:
+    E F E X ((#tokens("voting")) <= (#tokens("voted_yes")))
+  end.
+Property Referendum-COL-0100-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E F A ((((1) <= (#tokens("voting")))) U (((3) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((! E G ((((1) <= (#tokens("voted_no")))) | (((#tokens("voted_no")) <= (#tokens("ready")))))) | (((E G ! ((#tokens("voting")) <= (#tokens("voted_no")))) & (E F ((2) <= (#tokens("voted_yes")))))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A F ((((! ((2) <= (#tokens("voting")))) & (! ((#tokens("voted_no")) <= (#tokens("voting")))))) & (A X ((2) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E G A G ((((#tokens("voted_no")) <= (#tokens("voting")))) | (((2) <= (#tokens("voted_yes")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ! E ((! ((3) <= (#tokens("voted_yes")))) U (((3) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A F A F ((((#tokens("voted_no")) <= (#tokens("voted_no")))) & (((3) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0100-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((#tokens("voted_yes")) <= (#tokens("ready")))) & (E G ((#tokens("voted_no")) <= (#tokens("voting")))))
+  end.

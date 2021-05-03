@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (((((((("enregistrement_B"?) & ("autorisation_B"?))) & ((("altern_cpt"?) & ("enregistrement_B"?))))) | ("liberation_B"?))) & (! ((! "autorisation_A"?) | ((("timeout_A"?) | ("timeout_A"?))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ! ((! ! "liberation_B"?) & ((((("timeout_B"?) & ("autorisation_A"?))) | (! "liberation_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ((! (((("autorisation_A"?) & ("liberation_A"?))) | ((("timeout_A"?) & ("enregistrement_B"?))))) | (! ! (("enregistrement_A"?) | ("enregistrement_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F (((((((("timeout_A"?) & ("autorisation_B"?))) & ((("liberation_A"?) & ("decision"?))))) & ("enregistrement_A"?))) & (((! "autorisation_B"?) | (! (("altern_cpt"?) | ("timeout_B"?))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F (((((((("autorisation_B"?) & ("autorisation_A"?))) & (! "timeout_A"?))) & ((((("basculement"?) & ("basculement"?))) & ((("decision"?) | ("altern_cpt"?))))))) & ("timeout_A"?))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F (("autorisation_A"?) & ((("altern_cpt"?) & ("liberation_A"?))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (("altern_cpt"?) & (((! "autorisation_A"?) & ((((("altern_cpt"?) & ("decision"?))) | (! "liberation_B"?))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F ! ! (("altern_cpt"?) & (! "autorisation_B"?))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G (((("enregistrement_A"?) | ("liberation_A"?))) | ((((("enregistrement_A"?) | ((("autorisation_B"?) | ("decision"?))))) | (! "liberation_A"?))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ((((! "timeout_A"?) | ((((("enregistrement_A"?) & ("decision"?))) & ((("liberation_A"?) & ("enregistrement_B"?))))))) & ((((((("autorisation_B"?) & ("autorisation_A"?))) & ((("enregistrement_A"?) | ("altern_cpt"?))))) & ((((("liberation_B"?) | ("altern_cpt"?))) & ((("liberation_B"?) | ("timeout_B"?))))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ((! ! "enregistrement_B"?) | (((((! "decision"?) | (! "liberation_B"?))) | (! "enregistrement_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ! ((! (("autorisation_A"?) | ("basculement"?))) & (! ! "basculement"?))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ! (((("enregistrement_B"?) | ("decision"?))) | ("enregistrement_B"?))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F (((((("timeout_A"?) & (! "decision"?))) & ((((("altern_cpt"?) | ("enregistrement_B"?))) & ((("timeout_B"?) | ("autorisation_B"?))))))) & ((((((("autorisation_A"?) | ("liberation_B"?))) & ((("autorisation_A"?) | ("altern_cpt"?))))) & ((((("liberation_B"?) | ("basculement"?))) & ("decision"?))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ! ((! "decision"?) | ((((("enregistrement_A"?) | ("autorisation_A"?))) | ((("basculement"?) & ("timeout_A"?))))))
+  end.
+Property BridgeAndVehicles-COL-V80P50N10-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G ((! (((("autorisation_B"?) & ("autorisation_B"?))) & ((("autorisation_B"?) | ("liberation_B"?))))) | ((((("enregistrement_B"?) | (! "enregistrement_A"?))) | ((("basculement"?) & ((("timeout_B"?) & ("timeout_A"?))))))))
+  end.

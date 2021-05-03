@@ -1,0 +1,80 @@
+Property Referendum-COL-0500-00
+  "Automatically generated"
+  is:
+    A G !(!"yes"? | !"no"? | ("yes"? & G ("no"? | G "no"?)))
+  end.
+Property Referendum-COL-0500-01
+  "Automatically generated"
+  is:
+    A ("yes"? & "no"? & "no"? & F X (G "yes"? | !F "yes"?))
+  end.
+Property Referendum-COL-0500-02
+  "Automatically generated"
+  is:
+    A (X G ("yes"? | "yes"? | "no"?) U ("no"? | X "start"?))
+  end.
+Property Referendum-COL-0500-03
+  "Automatically generated"
+  is:
+    A X !(G !"start"? U "start"?)
+  end.
+Property Referendum-COL-0500-04
+  "Automatically generated"
+  is:
+    A !F (G ("yes"? U "yes"?) | !("no"? U ("yes"? U "no"?)))
+  end.
+Property Referendum-COL-0500-05
+  "Automatically generated"
+  is:
+    A G !(G (!"yes"? & X "yes"?) U G "yes"?)
+  end.
+Property Referendum-COL-0500-06
+  "Automatically generated"
+  is:
+    A X (F G "no"? U ("yes"? U "start"?))
+  end.
+Property Referendum-COL-0500-07
+  "Automatically generated"
+  is:
+    A X !F G ("yes"? & F "yes"?)
+  end.
+Property Referendum-COL-0500-08
+  "Automatically generated"
+  is:
+    A X X (!("start"? U ("start"? & !"yes"?)) | X !"start"?)
+  end.
+Property Referendum-COL-0500-09
+  "Automatically generated"
+  is:
+    A G X X ("start"? | (X (G !"start"? U "start"?) & ("start"? U "start"?)))
+  end.
+Property Referendum-COL-0500-10
+  "Automatically generated"
+  is:
+    A (("no"? & F "start"?) U F "no"?)
+  end.
+Property Referendum-COL-0500-11
+  "Automatically generated"
+  is:
+    A (X !F !X "start"? & X (("no"? | "start"?) U X "no"?))
+  end.
+Property Referendum-COL-0500-12
+  "Automatically generated"
+  is:
+    A X X X !X (F "start"? | ("no"? & "no"? & G F "start"?))
+  end.
+Property Referendum-COL-0500-13
+  "Automatically generated"
+  is:
+    A ("no"? & F X F ("start"? & "yes"?))
+  end.
+Property Referendum-COL-0500-14
+  "Automatically generated"
+  is:
+    A X F X F (X "no"? & G "start"? & (X "start"? U X "yes"?))
+  end.
+Property Referendum-COL-0500-15
+  "Automatically generated"
+  is:
+    A ("yes"? & F !X "no"? & ("no"? U !"no"?))
+  end.

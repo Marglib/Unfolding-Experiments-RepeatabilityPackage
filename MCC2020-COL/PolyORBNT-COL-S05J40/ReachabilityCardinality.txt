@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((! ((1) <= (#tokens("Check_Sources_B")))) | (((1) <= (#tokens("Schedule_Task_E")))))) | (! ((((1) <= (#tokens("place_460")))) & (((1) <= (#tokens("place_462")))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("place_460")) <= (#tokens("place_460")))) | (((((((#tokens("place_462")) <= (#tokens("FetchJobB")))) & (((2) <= (#tokens("CreatedJobs")))))) | (! ((2) <= (#tokens("place_458")))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((2) <= (#tokens("place_522")))) | (((2) <= (#tokens("Perform_Work_E")))))) & (((1) <= (#tokens("f1")))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((#tokens("place_523")) <= (#tokens("block")))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("place_523")))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("QueueJobB")) <= (#tokens("QueueJobE")))) & (((#tokens("Schedule_Task_B")) <= (#tokens("f3")))))) & (((#tokens("cJobCnt")) <= (#tokens("mi1")))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("place_456")) <= (#tokens("NotifyEventJobQueuedE")))) & (((#tokens("Schedule_Task_E")) <= (#tokens("place_500")))))) | (((((2) <= (#tokens("mi1")))) & (((#tokens("place_522")) <= (#tokens("place_482")))))))) & (((! ((1) <= (#tokens("cJobCnt")))) & (((((#tokens("NotifyEventJobQueuedE")) <= (#tokens("QueueJobE")))) & (((2) <= (#tokens("CreatedJobs")))))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("place_500")) <= (#tokens("cJobCnt")))) & (((#tokens("Perform_Work_B")) <= (#tokens("FetchJobB")))))) | (((3) <= (#tokens("mi1")))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("f2")))) & (((((2) <= (#tokens("AvailableJobId")))) | (! ((2) <= (#tokens("TheSour")))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("JobCnt")))) & (((2) <= (#tokens("CanInjectEvent")))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ! ! ((3) <= (#tokens("place_456")))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ModifiedSrc")) <= (#tokens("Schedule_Task_E")))) & (((3) <= (#tokens("place_787")))))) & (((((#tokens("mi3")) <= (#tokens("Check_Sources_B")))) | (((3) <= (#tokens("place_521")))))))) & (! ((3) <= (#tokens("Schedule_Task_E")))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("mo1")))) & (((! ((2) <= (#tokens("place_787")))) & (((((1) <= (#tokens("place_460")))) | (((2) <= (#tokens("place_782")))))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("place_500")))) & (((#tokens("mi2")) <= (#tokens("JobCnt")))))) & (((((((#tokens("place_522")) <= (#tokens("cJobCnt")))) & (((1) <= (#tokens("place_521")))))) & (((#tokens("CreatedJobs")) <= (#tokens("place_518")))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((#tokens("NotifyEventJobQueuedE")) <= (#tokens("ModifiedSrc")))) & (! ((((#tokens("CanInjectEvent")) <= (#tokens("place_520")))) | (((#tokens("place_522")) <= (#tokens("cSources")))))))
+  end.
+Property PolyORBNT-COL-S05J40-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("place_523")))
+  end.

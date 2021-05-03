@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-76-00
+  "Automatically generated"
+  is:
+    A F (G X G F G (X F G ((#tokens("productSlots")) <= (#tokens("ready"))) U ((2) <= (#tokens("productSlots")))) U ((#tokens("theOptions")) <= (#tokens("optionSlots"))))
+  end.
+Property DrinkVendingMachine-COL-76-01
+  "Automatically generated"
+  is:
+    A !F !G F (!((#tokens("theProducts")) <= (#tokens("wait"))) U ((3) <= (#tokens("ready"))))
+  end.
+Property DrinkVendingMachine-COL-76-02
+  "Automatically generated"
+  is:
+    A (F !((1) <= (#tokens("optionSlots"))) & (F !F !((#tokens("optionSlots")) <= (#tokens("ready"))) U ((3) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-76-03
+  "Automatically generated"
+  is:
+    A F (((#tokens("theOptions")) <= (#tokens("theProducts"))) | ((2) <= (#tokens("optionSlots"))) | (!((#tokens("theOptions")) <= (#tokens("theProducts"))) & ((2) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-76-04
+  "Automatically generated"
+  is:
+    A X X F ((1) <= (#tokens("wait")))
+  end.
+Property DrinkVendingMachine-COL-76-05
+  "Automatically generated"
+  is:
+    A (G (((0) <= (#tokens("theOptions"))) U ((2) <= (#tokens("wait")))) | !(((#tokens("optionSlots")) <= (#tokens("wait"))) | G !X G ((0) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-76-06
+  "Automatically generated"
+  is:
+    A G X (((#tokens("optionSlots")) <= (#tokens("productSlots"))) | !F ((0) <= (#tokens("optionSlots"))) | (((0) <= (#tokens("optionSlots"))) U (((2) <= (#tokens("theProducts"))) | ((3) <= (#tokens("productSlots"))))))
+  end.
+Property DrinkVendingMachine-COL-76-07
+  "Automatically generated"
+  is:
+    A (F !((#tokens("wait")) <= (#tokens("theProducts"))) U X (((#tokens("wait")) <= (#tokens("theProducts"))) | G !((#tokens("theOptions")) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-76-08
+  "Automatically generated"
+  is:
+    A F G F !(((#tokens("theProducts")) <= (#tokens("productSlots"))) & (((#tokens("optionSlots")) <= (#tokens("ready"))) U (((3) <= (#tokens("wait"))) | (((3) <= (#tokens("wait"))) & ((1) <= (#tokens("theOptions")))))))
+  end.
+Property DrinkVendingMachine-COL-76-09
+  "Automatically generated"
+  is:
+    A (F ((F ((#tokens("optionSlots")) <= (#tokens("theProducts"))) | (G ((#tokens("optionSlots")) <= (#tokens("theProducts"))) U ((2) <= (#tokens("theOptions"))))) U ((#tokens("ready")) <= (#tokens("theProducts")))) U G ((#tokens("optionSlots")) <= (#tokens("theProducts"))))
+  end.
+Property DrinkVendingMachine-COL-76-10
+  "Automatically generated"
+  is:
+    A (!F (((#tokens("wait")) <= (#tokens("ready"))) & F ((3) <= (#tokens("theOptions")))) & F ((#tokens("theProducts")) <= (#tokens("ready"))))
+  end.
+Property DrinkVendingMachine-COL-76-11
+  "Automatically generated"
+  is:
+    A (G X !(((1) <= (#tokens("theProducts"))) U (((2) <= (#tokens("ready"))) U X ((3) <= (#tokens("theOptions"))))) & G ((2) <= (#tokens("ready"))) & X ((#tokens("productSlots")) <= (#tokens("optionSlots"))))
+  end.
+Property DrinkVendingMachine-COL-76-12
+  "Automatically generated"
+  is:
+    A !X (!(!((3) <= (#tokens("ready"))) & X (((#tokens("theProducts")) <= (#tokens("ready"))) | G X ((3) <= (#tokens("ready"))))) U F ((3) <= (#tokens("ready"))))
+  end.
+Property DrinkVendingMachine-COL-76-13
+  "Automatically generated"
+  is:
+    A (F ((#tokens("theProducts")) <= (#tokens("ready"))) | G (((3) <= (#tokens("optionSlots"))) & X G ((#tokens("theProducts")) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-76-14
+  "Automatically generated"
+  is:
+    A !(((#tokens("optionSlots")) <= (#tokens("ready"))) | ((0) <= (#tokens("optionSlots"))) | F !((#tokens("ready")) <= (#tokens("theOptions"))) | X G ((0) <= (#tokens("optionSlots"))))
+  end.
+Property DrinkVendingMachine-COL-76-15
+  "Automatically generated"
+  is:
+    A G !(((1) <= (#tokens("optionSlots"))) & (X !((1) <= (#tokens("ready"))) U (((1) <= (#tokens("optionSlots"))) U !G ((#tokens("optionSlots")) <= (#tokens("productSlots"))))))
+  end.

@@ -1,0 +1,80 @@
+Property Sudoku-COL-BN04-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ! ! A F ! ((#tokens("Regions")) <= (#tokens("Cells")))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((((#tokens("Columns")) <= (#tokens("Board")))) & (((((A G ((#tokens("Columns")) <= (#tokens("Cells")))) & (((#tokens("Regions")) <= (#tokens("Board")))))) & (((E G ((#tokens("Columns")) <= (#tokens("Rows")))) & (! ! ((#tokens("Regions")) <= (#tokens("Columns")))))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F A X ((((#tokens("Regions")) <= (#tokens("Regions")))) & (((2) <= (#tokens("Rows")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ! ! E G ((((#tokens("Board")) <= (#tokens("Regions")))) & (((#tokens("Columns")) <= (#tokens("Rows")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E G E F ((#tokens("Columns")) <= (#tokens("Regions")))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E X A F ((((2) <= (#tokens("Columns")))) & (((1) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((A ((((((#tokens("Columns")) <= (#tokens("Rows")))) & (((#tokens("Columns")) <= (#tokens("Regions")))))) U (((1) <= (#tokens("Columns")))))) | (E G ((#tokens("Rows")) <= (#tokens("Rows")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((((((A X ((3) <= (#tokens("Cells")))) | (A X ((#tokens("Cells")) <= (#tokens("Rows")))))) & (! ((((1) <= (#tokens("Board")))) & (((#tokens("Cells")) <= (#tokens("Rows")))))))) & (E F A F ((3) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((! A G ! ((1) <= (#tokens("Rows")))) & (E X ! ((((2) <= (#tokens("Regions")))) & (((#tokens("Rows")) <= (#tokens("Cells")))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A F ((((((#tokens("Regions")) <= (#tokens("Regions")))) & (((((1) <= (#tokens("Rows")))) | (((3) <= (#tokens("Regions")))))))) & (((((((#tokens("Cells")) <= (#tokens("Cells")))) & (((#tokens("Rows")) <= (#tokens("Cells")))))) & (((((1) <= (#tokens("Regions")))) | (((#tokens("Columns")) <= (#tokens("Board")))))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((A ((((((1) <= (#tokens("Regions")))) | (((#tokens("Columns")) <= (#tokens("Rows")))))) U (((2) <= (#tokens("Board")))))) | (((A X ((#tokens("Rows")) <= (#tokens("Columns")))) & (((1) <= (#tokens("Rows")))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((E F ! ((((#tokens("Rows")) <= (#tokens("Board")))) | (((3) <= (#tokens("Rows")))))) & (((((((! ((#tokens("Regions")) <= (#tokens("Regions")))) & (((((#tokens("Columns")) <= (#tokens("Rows")))) | (((#tokens("Board")) <= (#tokens("Rows")))))))) | (((#tokens("Columns")) <= (#tokens("Cells")))))) | (! ((! ((#tokens("Board")) <= (#tokens("Cells")))) | (((((#tokens("Regions")) <= (#tokens("Cells")))) | (((#tokens("Regions")) <= (#tokens("Cells")))))))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E G E F ((((#tokens("Board")) <= (#tokens("Columns")))) & (((#tokens("Board")) <= (#tokens("Columns")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A ((((((#tokens("Board")) <= (#tokens("Board")))) | (((((3) <= (#tokens("Columns")))) & (((1) <= (#tokens("Board")))))))) U (((! ((1) <= (#tokens("Columns")))) & (! ((#tokens("Columns")) <= (#tokens("Columns")))))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E G ((E F ((1) <= (#tokens("Board")))) | (A G ((3) <= (#tokens("Board")))))
+  end.
+Property Sudoku-COL-BN04-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E G ! ! ! ((3) <= (#tokens("Columns")))
+  end.

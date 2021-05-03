@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN15-00
+  "Automatically generated"
+  is:
+    A X G F X (G "select"? & X "select"? & X G "select"?)
+  end.
+Property Sudoku-COL-AN15-01
+  "Automatically generated"
+  is:
+    A (F "select"? | G "select"?)
+  end.
+Property Sudoku-COL-AN15-02
+  "Automatically generated"
+  is:
+    A !("select"? & X G F (("select"? U "select"?) | G X X "select"?))
+  end.
+Property Sudoku-COL-AN15-03
+  "Automatically generated"
+  is:
+    A X ("select"? & !G (G X X G "select"? & (X "select"? U "select"?)))
+  end.
+Property Sudoku-COL-AN15-04
+  "Automatically generated"
+  is:
+    A F ((G "select"? U X !"select"?) & X F ("select"? & "select"?))
+  end.
+Property Sudoku-COL-AN15-05
+  "Automatically generated"
+  is:
+    A (!X F ("select"? | "select"?) | (F "select"? & X "select"?))
+  end.
+Property Sudoku-COL-AN15-06
+  "Automatically generated"
+  is:
+    A !X (X G "select"? | (!"select"? U X X "select"?))
+  end.
+Property Sudoku-COL-AN15-07
+  "Automatically generated"
+  is:
+    A (G "select"? U G !"select"?)
+  end.
+Property Sudoku-COL-AN15-08
+  "Automatically generated"
+  is:
+    A (G ("select"? U "select"?) & !X (!"select"? | "select"?))
+  end.
+Property Sudoku-COL-AN15-09
+  "Automatically generated"
+  is:
+    A F X F !F "select"?
+  end.
+Property Sudoku-COL-AN15-10
+  "Automatically generated"
+  is:
+    A !F (!("select"? U F "select"?) U "select"?)
+  end.
+Property Sudoku-COL-AN15-11
+  "Automatically generated"
+  is:
+    A G X !X X X (F "select"? & ("select"? | X "select"?))
+  end.
+Property Sudoku-COL-AN15-12
+  "Automatically generated"
+  is:
+    A ("select"? | F "select"?)
+  end.
+Property Sudoku-COL-AN15-13
+  "Automatically generated"
+  is:
+    A ("select"? & F !X "select"?)
+  end.
+Property Sudoku-COL-AN15-14
+  "Automatically generated"
+  is:
+    A X F (!"select"? | X !G ("select"? | !"select"?))
+  end.
+Property Sudoku-COL-AN15-15
+  "Automatically generated"
+  is:
+    A !(F "select"? U !(("select"? | ("select"? & "select"?)) & F "select"?))
+  end.

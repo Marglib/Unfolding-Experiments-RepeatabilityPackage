@@ -1,0 +1,80 @@
+Property Peterson-COL-5-00
+  "Automatically generated"
+  is:
+    A !F "NoIdentity"?
+  end.
+Property Peterson-COL-5-01
+  "Automatically generated"
+  is:
+    A X !X F !(G "EndLoop"? & X "Loop"?)
+  end.
+Property Peterson-COL-5-02
+  "Automatically generated"
+  is:
+    A ("ProgressTurn"? | F X "ContinueLoop"? | F G "ContinueLoop"? | !G ("ContinueLoop"? | "AccessCS"?))
+  end.
+Property Peterson-COL-5-03
+  "Automatically generated"
+  is:
+    A X F ("Identity"? | "AccessCS"?)
+  end.
+Property Peterson-COL-5-04
+  "Automatically generated"
+  is:
+    A F X ("AccessCS"? | F X "NotAlone"?)
+  end.
+Property Peterson-COL-5-05
+  "Automatically generated"
+  is:
+    A (X !("UpdateTurn"? & X "Identity"?) U G (!"ProgressTurn"? | F "ProgressTurn"?))
+  end.
+Property Peterson-COL-5-06
+  "Automatically generated"
+  is:
+    A !G F "TurnEqual"?
+  end.
+Property Peterson-COL-5-07
+  "Automatically generated"
+  is:
+    A !X (X G "EndLoop"? & ("EndLoop"? | F "TurnEqual"?))
+  end.
+Property Peterson-COL-5-08
+  "Automatically generated"
+  is:
+    A X X X (!("BecomeIdle"? | "Alone1"?) U G F ("BecomeIdle"? & "TurnEqual"?))
+  end.
+Property Peterson-COL-5-09
+  "Automatically generated"
+  is:
+    A F G (G "Identity"? & X X F X "Identity"?)
+  end.
+Property Peterson-COL-5-10
+  "Automatically generated"
+  is:
+    A (X (X X F "ContinueLoop"? U "TurnEqual"?) & ("ContinueLoop"? | !F X X "ContinueLoop"?))
+  end.
+Property Peterson-COL-5-11
+  "Automatically generated"
+  is:
+    A X !X X ("TurnDiff"? | "TurnDiff"? | ("Loop"? U G "ProgressTurn"?) | G "NotAlone"?)
+  end.
+Property Peterson-COL-5-12
+  "Automatically generated"
+  is:
+    A ("ContinueLoop"? | G "NoIdentity"? | F "ContinueLoop"?)
+  end.
+Property Peterson-COL-5-13
+  "Automatically generated"
+  is:
+    A X ((F "Alone1"? | F "NotAlone"?) & (("Loop"? | G "Loop"?) U G "NotAlone"?))
+  end.
+Property Peterson-COL-5-14
+  "Automatically generated"
+  is:
+    A F G (X "UpdateTurn"? & F ("BecomeIdle"? | X ("BecomeIdle"? | ("UpdateTurn"? & !"TurnEqual"?))))
+  end.
+Property Peterson-COL-5-15
+  "Automatically generated"
+  is:
+    A G X !(!("BecomeIdle"? & "NotAlone"?) & F X "TurnDiff"?)
+  end.

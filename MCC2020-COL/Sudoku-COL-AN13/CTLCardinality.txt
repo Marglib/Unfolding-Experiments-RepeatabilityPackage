@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN13-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E F ((A G ((#tokens("Columns")) <= (#tokens("Board")))) & (! ((2) <= (#tokens("Board")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ! ((((((3) <= (#tokens("Board")))) & (((1) <= (#tokens("Columns")))))) | (E X ! ((#tokens("Rows")) <= (#tokens("Board")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E X ((3) <= (#tokens("Cells")))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A X ((A G ((#tokens("Cells")) <= (#tokens("Columns")))) | (! ((((#tokens("Columns")) <= (#tokens("Columns")))) | (((#tokens("Columns")) <= (#tokens("Rows")))))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("Board")) <= (#tokens("Cells")))) & (E X ((1) <= (#tokens("Rows")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ! ! ! E F ((2) <= (#tokens("Board")))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("Cells")))) | (E F ((3) <= (#tokens("Board")))))) | (E ((((#tokens("Board")) <= (#tokens("Columns")))) U (((2) <= (#tokens("Cells")))))))) | (((A X ((((#tokens("Columns")) <= (#tokens("Board")))) | (((3) <= (#tokens("Cells")))))) | (E F ((3) <= (#tokens("Rows")))))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-07
+  "Automatically generated"
+  is:
+    A G A F ((((2) <= (#tokens("Board")))) & (((#tokens("Cells")) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-08
+  "Automatically generated"
+  is:
+    E X E X ((((#tokens("Cells")) <= (#tokens("Columns")))) | (((1) <= (#tokens("Columns")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A ((((((#tokens("Cells")) <= (#tokens("Columns")))) | (((#tokens("Columns")) <= (#tokens("Cells")))))) U (((2) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ! ! ! E F ((1) <= (#tokens("Columns")))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A F E G ((((3) <= (#tokens("Board")))) | (((#tokens("Rows")) <= (#tokens("Cells")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((((2) <= (#tokens("Rows")))) | (((((E X ((2) <= (#tokens("Rows")))) | (E F ((1) <= (#tokens("Rows")))))) | (A X ((((#tokens("Rows")) <= (#tokens("Cells")))) & (((1) <= (#tokens("Rows")))))))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((A F ((! ((1) <= (#tokens("Cells")))) & (((3) <= (#tokens("Board")))))) | (A X ! ! ((3) <= (#tokens("Board")))))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E F A X ((#tokens("Rows")) <= (#tokens("Board")))
+  end.
+Property Sudoku-COL-AN13-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("Rows")))) | (A X ((#tokens("Board")) <= (#tokens("Columns")))))) & (((((#tokens("Rows")) <= (#tokens("Rows")))) | (((((#tokens("Rows")) <= (#tokens("Board")))) | (((2) <= (#tokens("Columns")))))))))) | (((((! ((#tokens("Rows")) <= (#tokens("Rows")))) | (((1) <= (#tokens("Board")))))) | (((1) <= (#tokens("Cells")))))))
+  end.

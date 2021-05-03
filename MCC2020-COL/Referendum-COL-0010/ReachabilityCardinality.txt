@@ -1,0 +1,80 @@
+Property Referendum-COL-0010-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("voted_yes")) <= (#tokens("voting")))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("voted_no")) <= (#tokens("voting")))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ! ((! ((3) <= (#tokens("voting")))) & (! ((#tokens("ready")) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((#tokens("voted_yes")) <= (#tokens("voted_yes")))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("ready")) <= (#tokens("voted_yes")))) | (((3) <= (#tokens("voting")))))) | (! ((3) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("voted_no")) <= (#tokens("ready")))) & (((#tokens("voted_no")) <= (#tokens("voted_no")))))) | (((#tokens("voting")) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("voted_no")))) & (((1) <= (#tokens("voted_no")))))) | (((((1) <= (#tokens("voted_no")))) & (((#tokens("voted_no")) <= (#tokens("ready")))))))) | (((#tokens("voted_no")) <= (#tokens("voted_no")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((! ! ((1) <= (#tokens("ready")))) | (((((((#tokens("voted_no")) <= (#tokens("voted_yes")))) | (((#tokens("ready")) <= (#tokens("voting")))))) | (((((#tokens("voted_yes")) <= (#tokens("voting")))) | (((#tokens("ready")) <= (#tokens("ready")))))))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("voted_no")) <= (#tokens("voting")))) | (((#tokens("ready")) <= (#tokens("voting")))))) & (((! ((#tokens("ready")) <= (#tokens("voted_yes")))) & (((((2) <= (#tokens("voted_yes")))) & (((2) <= (#tokens("voting")))))))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ! ((((((2) <= (#tokens("voting")))) | (((2) <= (#tokens("voted_yes")))))) & (! ((#tokens("voted_no")) <= (#tokens("voted_no")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ! ((! ((3) <= (#tokens("voting")))) & (((((#tokens("voted_no")) <= (#tokens("voted_yes")))) & (((2) <= (#tokens("ready")))))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("ready")))) & (! ((((2) <= (#tokens("voted_no")))) | (((1) <= (#tokens("voted_no")))))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ! ((((((3) <= (#tokens("voting")))) | (((#tokens("voting")) <= (#tokens("ready")))))) | (((2) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("voted_no")) <= (#tokens("voted_yes")))) | (((#tokens("voting")) <= (#tokens("voted_no")))))) | (((#tokens("voted_no")) <= (#tokens("voted_no")))))) | (((((1) <= (#tokens("ready")))) | (! ((1) <= (#tokens("ready")))))))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("ready")) <= (#tokens("ready")))
+  end.
+Property Referendum-COL-0010-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("voted_yes")))) & (((((((2) <= (#tokens("voted_yes")))) & (((#tokens("voted_no")) <= (#tokens("voted_no")))))) & (! ((#tokens("ready")) <= (#tokens("voted_no")))))))
+  end.

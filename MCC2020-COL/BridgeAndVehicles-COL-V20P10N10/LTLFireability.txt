@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V20P10N10-00
+  "Automatically generated"
+  is:
+    A X !G X !(!G "autorisation_B"? U !"decision"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-01
+  "Automatically generated"
+  is:
+    A !(G "liberation_A"? | (G X !F X "altern_cpt"? U X !X "liberation_A"?))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-02
+  "Automatically generated"
+  is:
+    A F X X X X !G ("enregistrement_A"? | G "timeout_A"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-03
+  "Automatically generated"
+  is:
+    A F ("decision"? U (X "decision"? & F "altern_cpt"?))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-04
+  "Automatically generated"
+  is:
+    A !X (F ("liberation_A"? & !"enregistrement_B"?) & (X "enregistrement_B"? U (!"liberation_B"? | "timeout_B"?)))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-05
+  "Automatically generated"
+  is:
+    A G X F X (F X ("autorisation_A"? & "basculement"?) U "decision"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-06
+  "Automatically generated"
+  is:
+    A !(F G X X G "autorisation_B"? U G (X "decision"? | G F "enregistrement_A"?))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-07
+  "Automatically generated"
+  is:
+    A X ("basculement"? U !G ("decision"? | F ("enregistrement_A"? | (X "basculement"? U G "basculement"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-08
+  "Automatically generated"
+  is:
+    A G !"enregistrement_A"?
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-09
+  "Automatically generated"
+  is:
+    A (F X F !G X "timeout_A"? U X X X G X "timeout_B"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-10
+  "Automatically generated"
+  is:
+    A F X !F X (F G F "autorisation_A"? U G F !"autorisation_B"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-11
+  "Automatically generated"
+  is:
+    A (G (!F "altern_cpt"? & !X ("timeout_B"? & "autorisation_A"?)) U ("liberation_A"? & F "liberation_A"?))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-12
+  "Automatically generated"
+  is:
+    A (G "liberation_B"? | ((X "enregistrement_A"? U "timeout_A"?) U X ("enregistrement_A"? & !"liberation_B"?)))
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-13
+  "Automatically generated"
+  is:
+    A ((X "autorisation_B"? & F !G F ("liberation_B"? & X "autorisation_B"?)) U X !"timeout_B"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-14
+  "Automatically generated"
+  is:
+    A X G ("enregistrement_A"? | "autorisation_A"?)
+  end.
+Property BridgeAndVehicles-COL-V20P10N10-15
+  "Automatically generated"
+  is:
+    A G F !"timeout_B"?
+  end.

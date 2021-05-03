@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-80-00
+  "Automatically generated"
+  is:
+    A (X !(!"Join"? U "Join"?) | G "SearchForks"?)
+  end.
+Property PhilosophersDyn-COL-80-01
+  "Automatically generated"
+  is:
+    A G F !F ("Initialize"? U "Eat"?)
+  end.
+Property PhilosophersDyn-COL-80-02
+  "Automatically generated"
+  is:
+    A !X X (!"TakeRight"? | G !"TakeLeft"? | F (F "TakeLeft"? U "Initialize"?))
+  end.
+Property PhilosophersDyn-COL-80-03
+  "Automatically generated"
+  is:
+    A X F X G ("SearchForks"? | G "Join"?)
+  end.
+Property PhilosophersDyn-COL-80-04
+  "Automatically generated"
+  is:
+    A (G "SearchForks"? & G F ("Leave"? | F "Join"?))
+  end.
+Property PhilosophersDyn-COL-80-05
+  "Automatically generated"
+  is:
+    A F !("TakeRight"? | X G "SearchForks"?)
+  end.
+Property PhilosophersDyn-COL-80-06
+  "Automatically generated"
+  is:
+    A (X "Initialize"? & (F (("TakeLeft"? U "Initialize"?) & !F "Join"?) U !G "Join"?))
+  end.
+Property PhilosophersDyn-COL-80-07
+  "Automatically generated"
+  is:
+    A X (X F "SearchForks"? & G "Initialize"?)
+  end.
+Property PhilosophersDyn-COL-80-08
+  "Automatically generated"
+  is:
+    A X G X (X G X G F "Initialize"? & (F "TakeLeft"? | F "Eat"?))
+  end.
+Property PhilosophersDyn-COL-80-09
+  "Automatically generated"
+  is:
+    A F ("TakeLeft"? | X "Initialize"?)
+  end.
+Property PhilosophersDyn-COL-80-10
+  "Automatically generated"
+  is:
+    A (!("SearchForks"? & "SearchForks"?) U !(G X X ("SearchForks"? | X "Initialize"?) U "SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-80-11
+  "Automatically generated"
+  is:
+    A G X ((!"Join"? | "TakeLeft"?) & X G ("Join"? | !"Join"?))
+  end.
+Property PhilosophersDyn-COL-80-12
+  "Automatically generated"
+  is:
+    A (X G X ("Eat"? & "Initialize"?) | (!"Initialize"? U !X ("Initialize"? U "TakeLeft"?)))
+  end.
+Property PhilosophersDyn-COL-80-13
+  "Automatically generated"
+  is:
+    A X (("SearchForks"? | "Eat"?) & G (G "SearchForks"? & X "SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-80-14
+  "Automatically generated"
+  is:
+    A X (F X G F G "TakeLeft"? & G (X "TakeLeft"? | F "Eat"?))
+  end.
+Property PhilosophersDyn-COL-80-15
+  "Automatically generated"
+  is:
+    A !X G (G "Eat"? U F G ("Eat"? | G !G "TakeLeft"?))
+  end.

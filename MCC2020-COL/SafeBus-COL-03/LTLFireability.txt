@@ -1,0 +1,80 @@
+Property SafeBus-COL-03-00
+  "Automatically generated"
+  is:
+    A G "I_reemit"?
+  end.
+Property SafeBus-COL-03-01
+  "Automatically generated"
+  is:
+    A !F ("loss_m"? | G ("I_reemit"? & !X ("I_reemit"? | !"I_reemit"?)))
+  end.
+Property SafeBus-COL-03-02
+  "Automatically generated"
+  is:
+    A ("I_rec1"? | ("I_rec1"? & "I_emit"?) | ("I_emit"? & F X !X G "C_provide"?))
+  end.
+Property SafeBus-COL-03-03
+  "Automatically generated"
+  is:
+    A ("C_provide"? & X ("C_provide"? & F !"C_provide"?))
+  end.
+Property SafeBus-COL-03-04
+  "Automatically generated"
+  is:
+    A (F "C_provide"? | X ("Gto"? | ("C_provide"? & "loss_m"?) | X "C_provide"?))
+  end.
+Property SafeBus-COL-03-05
+  "Automatically generated"
+  is:
+    A (F !"I_refused"? U (G !("I_rec1"? U F "I_rec1"?) & G ("I_refused"? U "I_ask1"?)))
+  end.
+Property SafeBus-COL-03-06
+  "Automatically generated"
+  is:
+    A (!"C_refuse"? U F (X G "C_refuse"? & G (X "C_refuse"? & G X "I_rec2"?)))
+  end.
+Property SafeBus-COL-03-07
+  "Automatically generated"
+  is:
+    A !(F ("loss_m"? & F "I_ask2"?) & G "I_ask2"?)
+  end.
+Property SafeBus-COL-03-08
+  "Automatically generated"
+  is:
+    A (G X F "C_refuse"? U X !X ("I_free"? | "C_refuse"? | G !"I_rec2"?))
+  end.
+Property SafeBus-COL-03-09
+  "Automatically generated"
+  is:
+    A !F !G X !G (F !"I_ask1"? & F !"I_refused"?)
+  end.
+Property SafeBus-COL-03-10
+  "Automatically generated"
+  is:
+    A (("I_rec2"? & G !"C_refuse"?) U "I_rec1"?)
+  end.
+Property SafeBus-COL-03-11
+  "Automatically generated"
+  is:
+    A ("C_free"? & G (X G "Gto"? | F !"loss_m"?))
+  end.
+Property SafeBus-COL-03-12
+  "Automatically generated"
+  is:
+    A (X G (!"I_rec2"? & G !"I_ask1"?) | (G "I_emit"? U "I_rec2"?))
+  end.
+Property SafeBus-COL-03-13
+  "Automatically generated"
+  is:
+    A !X G ((("I_rec2"? & F "loss_m"?) U "I_rec2"?) | G "I_rec2"?)
+  end.
+Property SafeBus-COL-03-14
+  "Automatically generated"
+  is:
+    A F G ("I_free"? & X "I_reemit"? & F ("C_refuse"? | G F "loss_m"?))
+  end.
+Property SafeBus-COL-03-15
+  "Automatically generated"
+  is:
+    A G X !"Gto"?
+  end.

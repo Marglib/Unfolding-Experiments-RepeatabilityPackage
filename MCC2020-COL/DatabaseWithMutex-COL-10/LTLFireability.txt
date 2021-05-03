@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-10-00
+  "Automatically generated"
+  is:
+    A ("Update"? | (F "Update"? & X X G !("end_update"? & X "SendMsg"?)))
+  end.
+Property DatabaseWithMutex-COL-10-01
+  "Automatically generated"
+  is:
+    A X !G X !G (G F "SendMsg"? U ("end_update"? | F !"Acquire"?))
+  end.
+Property DatabaseWithMutex-COL-10-02
+  "Automatically generated"
+  is:
+    A G "Acquire"?
+  end.
+Property DatabaseWithMutex-COL-10-03
+  "Automatically generated"
+  is:
+    A X G X !X (!"Acquire"? U (X "Change"? U "Acquire"?))
+  end.
+Property DatabaseWithMutex-COL-10-04
+  "Automatically generated"
+  is:
+    A (((F "Release"? U G "SendMsg"?) U "SendMsg"?) | (("end_update"? & G "Start"?) U !"end_update"?))
+  end.
+Property DatabaseWithMutex-COL-10-05
+  "Automatically generated"
+  is:
+    A X X G F G "Update"?
+  end.
+Property DatabaseWithMutex-COL-10-06
+  "Automatically generated"
+  is:
+    A F (G "Update"? U "Update"?)
+  end.
+Property DatabaseWithMutex-COL-10-07
+  "Automatically generated"
+  is:
+    A F (("Acquire"? U X "Change"?) | X (!"Acquire"? U F "SendMsg"?))
+  end.
+Property DatabaseWithMutex-COL-10-08
+  "Automatically generated"
+  is:
+    A ("SendReply"? | ((G "SendReply"? & X F "Release"?) U X X F "SendReply"?))
+  end.
+Property DatabaseWithMutex-COL-10-09
+  "Automatically generated"
+  is:
+    A X G X !F "Update"?
+  end.
+Property DatabaseWithMutex-COL-10-10
+  "Automatically generated"
+  is:
+    A !G X F (G "end_update"? & G F ("Start"? & !X "Change"?))
+  end.
+Property DatabaseWithMutex-COL-10-11
+  "Automatically generated"
+  is:
+    A G (F (!"Release"? | X !G F X "Start"?) U "Release"?)
+  end.
+Property DatabaseWithMutex-COL-10-12
+  "Automatically generated"
+  is:
+    A !(X "SendReply"? U ("Acquire"? | (X "Acquire"? & G X "SendReply"?)))
+  end.
+Property DatabaseWithMutex-COL-10-13
+  "Automatically generated"
+  is:
+    A ("SendReply"? | G !F G F ("SendMsg"? & X !"Acquire"?) | X "Start"?)
+  end.
+Property DatabaseWithMutex-COL-10-14
+  "Automatically generated"
+  is:
+    A (("Change"? | G "Release"?) U "Change"?)
+  end.
+Property DatabaseWithMutex-COL-10-15
+  "Automatically generated"
+  is:
+    A ("SendMsg"? & G "Update"? & (!"Start"? U "Start"?))
+  end.

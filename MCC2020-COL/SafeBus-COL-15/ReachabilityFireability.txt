@@ -1,0 +1,80 @@
+Property SafeBus-COL-15-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (("I_ask2"?) & (((! ! "C_provide"?) | ((((("C_provide"?) & ("I_reemit"?))) & (! "I_ask2"?))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (("I_rec1"?) & (! "I_ask1"?))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ((! ! "I_ask1"?) | (((! "I_ask2"?) | (((! "C_free"?) & ("I_emit"?))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ((((! ! "C_free"?) | ("C_provide"?))) & ((((((("loss_m"?) | ("I_reemit"?))) | (! "I_rec1"?))) & ((((("I_ask1"?) & ("I_emit"?))) & ("I_free"?))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "I_free"?
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F (("I_rec1"?) & ((((((("C_provide"?) | ("I_ask1"?))) & ("I_free"?))) | ((((("I_rec2"?) & ("C_refuse"?))) | ((("I_reemit"?) & ("I_emit"?))))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F "I_refused"?
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((! ((! "I_free"?) | (! "Gto"?))) | (((! "I_rec1"?) | (((! "I_rec2"?) | ((("I_refused"?) & ("C_provide"?))))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ! (((((("I_free"?) | ("loss_a"?))) & (! "I_rec2"?))) & ((("I_ask2"?) & ((("I_rec1"?) & ("C_refuse"?))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (("I_ask2"?) | ((("C_free"?) & ((((("Gto"?) | ("C_free"?))) | ((("I_reemit"?) & ("C_free"?))))))))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "loss_a"?
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ! "I_free"?
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ! (("C_refuse"?) | ("I_ask1"?))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ! ((((! "I_reemit"?) & ((("I_rec2"?) & ("C_refuse"?))))) & (! ! "I_ask1"?))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (((((("Gto"?) & ((("I_rec2"?) & ("I_ask1"?))))) & ("I_emit"?))) & (! "I_rec1"?))
+  end.
+Property SafeBus-COL-15-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F (("Gto"?) | ((("Gto"?) & ((((("loss_m"?) | ("loss_a"?))) & ((("C_free"?) | ("I_emit"?))))))))
+  end.

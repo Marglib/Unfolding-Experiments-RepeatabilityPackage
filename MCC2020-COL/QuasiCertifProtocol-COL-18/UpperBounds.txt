@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-18-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("malicious_reservoir")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("AstopAbort")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("malicious_reservoir")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("n3")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("n8")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("CstopAbort")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("n9")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("CstopAbort")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("n9")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("n3")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("SstopOK")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("n6")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("Cstart")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("malicious_reservoir")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("c1")
+  end.
+Property QuasiCertifProtocol-COL-18-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("n4")
+  end.

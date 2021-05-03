@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0500-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (((((((("t2_1"?) | ("SpeedLW"?))) & ((("SampleLW"?) & ("SpeedRW"?))))) | ((("getAlt"?) & ("SampleRW"?))))) & (((! ! "t3_2"?) & (! "t5_1"?))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (((((("SampleLW"?) & ((("SampleRW"?) | ("getAlt"?))))) | ((((("SpeedLW"?) | ("SampleLW"?))) | ("SpeedLW"?))))) & (! ((! "SpeedLW"?) | (! "t5_2"?))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F ! ! "t3_2"?
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ((((! ! "t4_1"?) & ("t4_2"?))) | ((((((("SampleLW"?) | ("SampleLW"?))) | ((("SpeedLW"?) & ("t3_1"?))))) & ((((("SampleRW"?) | ("getAlt"?))) | ((("t2_2"?) & ("t4_2"?))))))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ! "t2_2"?
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ((((! (("t3_2"?) & ("t3_1"?))) | ("getAlt"?))) | ("t2_1"?))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ! (((((("t2_2"?) & ("getAlt"?))) & ("getAlt"?))) | (! "t5_2"?))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ! "t4_1"?
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ((((! "t1_2"?) & ((((("t4_2"?) & ("t5_2"?))) | (! "SpeedRW"?))))) & ("t2_1"?))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G (("t4_1"?) | ((("t5_2"?) | (! "t3_1"?))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "t3_1"?
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ! ((((! "SampleRW"?) | ("t3_1"?))) | ((((("SampleRW"?) & ("SpeedRW"?))) | (! "t5_2"?))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((((! "SampleRW"?) & (((! "t2_2"?) & ("getAlt"?))))) | (! (((("t3_2"?) | ("SpeedLW"?))) & ((("t3_1"?) & ("t1_1"?))))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ((((! ! "SpeedLW"?) & ((((("t4_1"?) | ("SpeedLW"?))) | (! "SpeedRW"?))))) | (((! (("t4_2"?) & ("t5_1"?))) & (((! "t1_1"?) | (! "t5_1"?))))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ((! "SpeedLW"?) | (((! "t4_2"?) | (! ! "SampleRW"?))))
+  end.
+Property AirplaneLD-COL-0500-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F (((((("t2_1"?) | (! "t5_1"?))) | ("t3_2"?))) & (((((! "t4_1"?) | ("getAlt"?))) & ("t5_1"?))))
+  end.

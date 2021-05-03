@@ -1,0 +1,80 @@
+Property Referendum-COL-0200-00
+  "Automatically generated"
+  is:
+    A !(!(G "start"? | X "no"?) | ("no"? U ("start"? U "start"?)))
+  end.
+Property Referendum-COL-0200-01
+  "Automatically generated"
+  is:
+    A F !(G ("start"? & ("yes"? U ("start"? | X "start"?))) U "yes"?)
+  end.
+Property Referendum-COL-0200-02
+  "Automatically generated"
+  is:
+    A (G "start"? U ("start"? | X G ("start"? & !"start"?)))
+  end.
+Property Referendum-COL-0200-03
+  "Automatically generated"
+  is:
+    A ("yes"? | G "yes"? | F ("yes"? | G "yes"?))
+  end.
+Property Referendum-COL-0200-04
+  "Automatically generated"
+  is:
+    A X (F X F "start"? U G X (F "no"? & G "no"?))
+  end.
+Property Referendum-COL-0200-05
+  "Automatically generated"
+  is:
+    A X G ((!("no"? & "start"?) U "start"?) | (X "start"? U "start"?))
+  end.
+Property Referendum-COL-0200-06
+  "Automatically generated"
+  is:
+    A (F G X "start"? U G !F "start"?)
+  end.
+Property Referendum-COL-0200-07
+  "Automatically generated"
+  is:
+    A X F G (G "yes"? | ("start"? U ("start"? | X G X "start"?)))
+  end.
+Property Referendum-COL-0200-08
+  "Automatically generated"
+  is:
+    A ("start"? & G "yes"? & G ("yes"? | "start"? | !X F G "start"?))
+  end.
+Property Referendum-COL-0200-09
+  "Automatically generated"
+  is:
+    A (F ("yes"? & X F !"yes"?) | ("yes"? U X G F !"yes"?))
+  end.
+Property Referendum-COL-0200-10
+  "Automatically generated"
+  is:
+    A X (!"yes"? U !X !"no"?)
+  end.
+Property Referendum-COL-0200-11
+  "Automatically generated"
+  is:
+    A (!(G !X "no"? & F "yes"?) U X ("no"? | "start"?))
+  end.
+Property Referendum-COL-0200-12
+  "Automatically generated"
+  is:
+    A !X X ("yes"? | F "no"?)
+  end.
+Property Referendum-COL-0200-13
+  "Automatically generated"
+  is:
+    A X (X ("start"? & "no"?) U X F "start"?)
+  end.
+Property Referendum-COL-0200-14
+  "Automatically generated"
+  is:
+    A (F (X "start"? & G ("no"? | "start"?)) & ("no"? U "start"?))
+  end.
+Property Referendum-COL-0200-15
+  "Automatically generated"
+  is:
+    A (!"start"? U (!"no"? | ("start"? U "start"?)))
+  end.

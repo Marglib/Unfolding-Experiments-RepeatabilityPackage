@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-07-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((#tokens("RequestBufferSlots")) <= (#tokens("RequestBuffer")))) | (((! ((#tokens("Server_Anwering")) <= (#tokens("Server_Waiting")))) & (! ((3) <= (#tokens("RequestBufferSlots")))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E ((((((((1) <= (#tokens("Server_Anwering")))) | (((3) <= (#tokens("Client_Waiting")))))) & (((3) <= (#tokens("Client_Sending")))))) U (A G ((#tokens("RequestBufferSlots")) <= (#tokens("RequestBufferSlots")))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A X E F ! ((3) <= (#tokens("RequestBufferSlots")))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((2) <= (#tokens("RequestBufferSlots")))) | (((! ((3) <= (#tokens("Server_Waiting")))) | (((((1) <= (#tokens("RequestBufferSlots")))) | (((2) <= (#tokens("Client_Sending")))))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-04
+  "Automatically generated"
+  is:
+    A G ((E X ((3) <= (#tokens("Server_Waiting")))) & (! ((((#tokens("Client_Waiting")) <= (#tokens("RequestBufferSlots")))) & (((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting")))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E X A G ((((1) <= (#tokens("Client_Sending")))) | (((#tokens("Client_Sending")) <= (#tokens("Server_Waiting")))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-06
+  "Automatically generated"
+  is:
+    A X E F ((3) <= (#tokens("Server_Anwering")))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ! E G ((((((#tokens("RequestBufferSlots")) <= (#tokens("Client_Sending")))) | (((3) <= (#tokens("Client_Waiting")))))) & (((2) <= (#tokens("Server_Waiting")))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A X A F ((((#tokens("RequestBufferSlots")) <= (#tokens("RequestBufferSlots")))) & (((3) <= (#tokens("RequestBuffer")))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ((E G ((((3) <= (#tokens("Server_Waiting")))) & (! ((#tokens("Client_Waiting")) <= (#tokens("RequestBufferSlots")))))) & (((A G ((2) <= (#tokens("RequestBufferSlots")))) | (! ((! ((#tokens("Server_Anwering")) <= (#tokens("Server_Anwering")))) | (! ((#tokens("Client_Sending")) <= (#tokens("Client_Sending")))))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E G ((A G ((2) <= (#tokens("RequestBuffer")))) | (((#tokens("RequestBuffer")) <= (#tokens("Server_Anwering")))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("RequestBufferSlots")))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E X E F ((1) <= (#tokens("Server_Anwering")))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E ((E F ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Sending")))) U (((! ((#tokens("Client_Waiting")) <= (#tokens("Client_Waiting")))) & (((((3) <= (#tokens("Client_Waiting")))) | (((#tokens("Server_Anwering")) <= (#tokens("Server_Waiting")))))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ! ((E G ((((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering")))) | (((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting")))))) | (((((((((3) <= (#tokens("Client_Waiting")))) & (((3) <= (#tokens("RequestBufferSlots")))))) & (! ((2) <= (#tokens("Client_Waiting")))))) | (A X ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Sending")))))))
+  end.
+Property CSRepetitions-COL-07-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E G ((((#tokens("Client_Waiting")) <= (#tokens("Client_Waiting")))) | (A X ((2) <= (#tokens("RequestBufferSlots")))))
+  end.

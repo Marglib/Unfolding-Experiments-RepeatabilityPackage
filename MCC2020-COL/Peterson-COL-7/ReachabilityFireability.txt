@@ -1,0 +1,80 @@
+Property Peterson-COL-7-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ! ((! (("Ask"?) & ("Alone1"?))) & ((((("ContinueLoop"?) & ("NoIdentity"?))) & ((("Identity"?) | ("Loop"?))))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (("ContinueLoop"?) & ("BecomeIdle"?))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "EndLoop"?
+  end.
+Property Peterson-COL-7-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "EndLoop"?
+  end.
+Property Peterson-COL-7-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F ((((((! "Loop"?) & ("AccessCS"?))) & (! (("UpdateTurn"?) & ("TurnEqual"?))))) & (! ((! "AccessCS"?) & (! "ProgressTurn"?))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "BecomeIdle"?
+  end.
+Property Peterson-COL-7-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((((! (("NotAlone"?) | ("Ask"?))) | (! (("NotAlone"?) & ("EndLoop"?))))) & ((("Loop"?) & ((("BecomeIdle"?) | ((("ContinueLoop"?) & ("TurnDiff"?))))))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F "EndLoop"?
+  end.
+Property Peterson-COL-7-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (((("EndLoop"?) & ("NoIdentity"?))) | ((("TurnEqual"?) & ((((("Identity"?) & ("AccessCS"?))) | ((("Ask"?) & ("Alone1"?))))))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (((((("NotAlone"?) | (! "Ask"?))) & ((((("TurnEqual"?) & ("Ask"?))) | ((("ContinueLoop"?) & ("Alone1"?))))))) & (! (("ContinueLoop"?) | ((("BecomeIdle"?) | ("Identity"?))))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ((! "Ask"?) & ((((("EndLoop"?) | ("ProgressTurn"?))) | (! (("Identity"?) & ("ProgressTurn"?))))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ! ((! (("TurnDiff"?) | ("Ask"?))) | ("AccessCS"?))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ((! ! "AccessCS"?) & (! ! (("ProgressTurn"?) | ("ContinueLoop"?))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F "BecomeIdle"?
+  end.
+Property Peterson-COL-7-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (((((((("NoIdentity"?) & ("Identity"?))) & (! "EndLoop"?))) & (((! "ProgressTurn"?) & ((("AccessCS"?) & ("NoIdentity"?))))))) & (! (((("BecomeIdle"?) & ("UpdateTurn"?))) & (! "Alone1"?))))
+  end.
+Property Peterson-COL-7-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F (((((("TurnEqual"?) & ((("NoIdentity"?) & ("NoIdentity"?))))) & ("Identity"?))) & (! "EndLoop"?))
+  end.

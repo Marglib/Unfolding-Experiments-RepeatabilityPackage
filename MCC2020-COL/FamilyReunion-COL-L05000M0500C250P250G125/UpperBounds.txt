@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("ml0")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("l3")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("l36")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("l23")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("p9")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("l12")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l1")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("lm2")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("l12")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("m10")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("ml1")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("cl1")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("cl2")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("c5")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("l10")
+  end.
+Property FamilyReunion-COL-L05000M0500C250P250G125-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("m10")
+  end.

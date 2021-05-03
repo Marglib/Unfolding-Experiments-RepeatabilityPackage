@@ -1,0 +1,80 @@
+Property TokenRing-COL-005-00
+  "Automatically generated"
+  is:
+    A G (F ((#tokens("State")) <= (#tokens("State"))) U G X (((#tokens("State")) <= (#tokens("State"))) & F ((#tokens("State")) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-005-01
+  "Automatically generated"
+  is:
+    A (((0) <= (#tokens("State"))) & F !(((0) <= (#tokens("State"))) U !F ((0) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-005-02
+  "Automatically generated"
+  is:
+    A ((F G F ((1) <= (#tokens("State"))) U G ((3) <= (#tokens("State")))) & !(X ((1) <= (#tokens("State"))) | F ((#tokens("State")) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-005-03
+  "Automatically generated"
+  is:
+    A X (((1) <= (#tokens("State"))) | (X ((1) <= (#tokens("State"))) U (X ((#tokens("State")) <= (#tokens("State"))) & G ((#tokens("State")) <= (#tokens("State"))))))
+  end.
+Property TokenRing-COL-005-04
+  "Automatically generated"
+  is:
+    A X (G ((#tokens("State")) <= (#tokens("State"))) U (((2) <= (#tokens("State"))) & !(G ((#tokens("State")) <= (#tokens("State"))) U (((#tokens("State")) <= (#tokens("State"))) | ((#tokens("State")) <= (#tokens("State")))))))
+  end.
+Property TokenRing-COL-005-05
+  "Automatically generated"
+  is:
+    A G (G !(((2) <= (#tokens("State"))) | (((2) <= (#tokens("State"))) & (((2) <= (#tokens("State"))) U ((#tokens("State")) <= (#tokens("State")))))) | !X ((2) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-06
+  "Automatically generated"
+  is:
+    A X (X F ((#tokens("State")) <= (#tokens("State"))) | G X !X X !(((1) <= (#tokens("State"))) | X ((1) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-005-07
+  "Automatically generated"
+  is:
+    A F (G X F !((#tokens("State")) <= (#tokens("State"))) U X X X G ((#tokens("State")) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-08
+  "Automatically generated"
+  is:
+    A G (((#tokens("State")) <= (#tokens("State"))) & (F X ((#tokens("State")) <= (#tokens("State"))) U X ((2) <= (#tokens("State")))) & G !G X ((#tokens("State")) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-09
+  "Automatically generated"
+  is:
+    A G X X G F G ((#tokens("State")) <= (#tokens("State")))
+  end.
+Property TokenRing-COL-005-10
+  "Automatically generated"
+  is:
+    A G !X !((#tokens("State")) <= (#tokens("State")))
+  end.
+Property TokenRing-COL-005-11
+  "Automatically generated"
+  is:
+    A G (((#tokens("State")) <= (#tokens("State"))) & ((3) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-12
+  "Automatically generated"
+  is:
+    A (((#tokens("State")) <= (#tokens("State"))) U F !X ((#tokens("State")) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-13
+  "Automatically generated"
+  is:
+    A (F ((#tokens("State")) <= (#tokens("State"))) & X ((#tokens("State")) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-14
+  "Automatically generated"
+  is:
+    A X (!(((1) <= (#tokens("State"))) | ((2) <= (#tokens("State")))) | F X ((2) <= (#tokens("State"))))
+  end.
+Property TokenRing-COL-005-15
+  "Automatically generated"
+  is:
+    A !F X !((((0) <= (#tokens("State"))) U G F ((0) <= (#tokens("State")))) U F ((0) <= (#tokens("State"))))
+  end.

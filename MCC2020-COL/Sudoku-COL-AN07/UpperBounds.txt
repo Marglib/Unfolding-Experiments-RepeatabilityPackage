@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN07-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("Columns")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("Rows")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("Board")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("Columns")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("Board")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("Columns")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("Board")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.
+Property Sudoku-COL-AN07-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("Cells")
+  end.

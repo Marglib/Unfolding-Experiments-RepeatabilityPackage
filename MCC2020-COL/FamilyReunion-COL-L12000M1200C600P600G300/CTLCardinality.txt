@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A X ((((! ((3) <= (#tokens("l31")))) | (! ((#tokens("l2")) <= (#tokens("l2")))))) & (A G ((#tokens("l11")) <= (#tokens("pl0")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((((A G ((((#tokens("lc1")) <= (#tokens("l20")))) | (((2) <= (#tokens("l15")))))) | (E X ((((#tokens("lm3")) <= (#tokens("cg0")))) | (((#tokens("c1")) <= (#tokens("l27")))))))) & (A X ! ((1) <= (#tokens("cg0")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((#tokens("lp1")) <= (#tokens("l5")))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((#tokens("m2")) <= (#tokens("l5")))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! ! ((E G ((#tokens("l6")) <= (#tokens("l19")))) & (((((((#tokens("l9")) <= (#tokens("c2")))) | (((#tokens("lm1")) <= (#tokens("l33")))))) | (! ((3) <= (#tokens("lp1")))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E X A F ((((#tokens("l31")) <= (#tokens("cl2")))) & (((1) <= (#tokens("m6")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((((A G ((2) <= (#tokens("m1")))) & (! ((((2) <= (#tokens("lc1")))) & (((3) <= (#tokens("p3")))))))) & (A ((((#tokens("c6")) <= (#tokens("m11")))) U (((1) <= (#tokens("l11")))))))) | (((2) <= (#tokens("l17")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((#tokens("p10")) <= (#tokens("m4")))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ! ((((#tokens("cg0")) <= (#tokens("c4")))) | (((((((((#tokens("g2")) <= (#tokens("l26")))) | (((#tokens("gl1")) <= (#tokens("g3")))))) & (((((#tokens("l0")) <= (#tokens("c4")))) & (((1) <= (#tokens("l10")))))))) | (((#tokens("g2")) <= (#tokens("l12")))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! ((((E F ((2) <= (#tokens("l15")))) & (E G ((#tokens("l31")) <= (#tokens("cg0")))))) & (((((((((#tokens("p9")) <= (#tokens("cg0")))) & (((#tokens("ml3")) <= (#tokens("m3")))))) & (((2) <= (#tokens("cg0")))))) & (((! ((#tokens("l20")) <= (#tokens("cg0")))) & (! ((#tokens("l26")) <= (#tokens("l39")))))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-10
+  "Automatically generated"
+  is:
+    A X E ((((#tokens("lc0")) <= (#tokens("p3")))) U (((3) <= (#tokens("cl0")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("lc0")))) | (((2) <= (#tokens("p4")))))) & (((E X ((#tokens("cl2")) <= (#tokens("lm4")))) & (((#tokens("m9")) <= (#tokens("p2")))))))) | (A ((! ((3) <= (#tokens("c6")))) U (((#tokens("m10")) <= (#tokens("l21")))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((2) <= (#tokens("cl2")))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((#tokens("g0")) <= (#tokens("m8")))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((E X ! ! ((#tokens("c7")) <= (#tokens("p2")))) & (E F ((#tokens("lm0")) <= (#tokens("p2")))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((((A X ((#tokens("l36")) <= (#tokens("cg0")))) & (E X ((#tokens("p0")) <= (#tokens("l16")))))) & (! ((((((#tokens("g0")) <= (#tokens("l13")))) & (((#tokens("m8")) <= (#tokens("p9")))))) | (! ((#tokens("lg0")) <= (#tokens("l12")))))))) | (((! ((#tokens("l4")) <= (#tokens("g2")))) & (A F ((((1) <= (#tokens("m9")))) & (((#tokens("m7")) <= (#tokens("m4")))))))))
+  end.

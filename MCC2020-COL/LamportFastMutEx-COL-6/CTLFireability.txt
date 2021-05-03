@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-6-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((E G A F ! "setx_3"?) | ("xeqi_10"?))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-01
+  "Automatically generated"
+  is:
+    A F E (((("forod_13"?) | ("sety_9"?))) U ("sety_9"?))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-02
+  "Automatically generated"
+  is:
+    E G ((((E F "sety0_23"?) | (E G "awaity"?))) | (E G (("awaity"?) & ("xnei_10"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-03
+  "Automatically generated"
+  is:
+    A F E (((("forod_13"?) & ("forod_13"?))) U ((("xeqi_10"?) & ("setbi_2"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-04
+  "Automatically generated"
+  is:
+    ((A X A F "ynei_15"?) & (E ((E X "setx_3"?) U (E X "forod_13"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((E G ((A F "setbi_11"?) & ("yeqi_15"?))) | (E F "yeqi_15"?))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-06
+  "Automatically generated"
+  is:
+    A X E F E G "await_13"?
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-07
+  "Automatically generated"
+  is:
+    E F E G E G "setbi_11"?
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((! A F ((! "await_13"?) & ("setbi_5"?))) & (A G A G ! "awaity"?))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((E G A F ! "ynei_15"?) | (A (((((("sety_9"?) & ("xeqi_10"?))) & ("ynei_15"?))) U ("sety0_23"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! A F E (("yne0_4"?) U ("sety0_23"?))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((! E (((("yeq0_4"?) & ("awaity"?))) U (! "awaity"?))) | (E G ((E F "fordo_12"?) | (! ! "yeq0_4"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-12
+  "Automatically generated"
+  is:
+    E ((E F ! "fordo_12"?) U (A (("xnei_10"?) U ("await_13"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-13
+  "Automatically generated"
+  is:
+    E X ! ! A F "sety0_23"?
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-14
+  "Automatically generated"
+  is:
+    (("awaity"?) | (! ((A F (("setbi_5"?) | ("xnei_10"?))) & (A X ! "fordo_12"?))))
+  end.
+Property LamportFastMutEx-COL-6-CTLFireability-15
+  "Automatically generated"
+  is:
+    E X E F A X "xnei_10"?
+  end.

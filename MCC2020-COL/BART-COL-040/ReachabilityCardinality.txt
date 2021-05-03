@@ -1,0 +1,80 @@
+Property BART-COL-040-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("TrainState")) <= (#tokens("NewDistTable")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("NewDistTable")) <= (#tokens("TrainState")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("DistStation")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((1) <= (#tokens("DistStation")))) | (((#tokens("TrainState")) <= (#tokens("NewDistTable")))))) | (! ((#tokens("StopTable")) <= (#tokens("DistStation")))))) | (! ((((#tokens("DistStation")) <= (#tokens("DistStation")))) | (((2) <= (#tokens("DistStation")))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("TrainState")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("NewDistTable")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((((2) <= (#tokens("NewDistTable")))) | (((((#tokens("NewDistTable")) <= (#tokens("NewDistTable")))) & (((#tokens("DistStation")) <= (#tokens("DistStation")))))))) | (((((2) <= (#tokens("NewDistTable")))) | (((((1) <= (#tokens("StopTable")))) & (((#tokens("StopTable")) <= (#tokens("StopTable")))))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("TrainState")))) & (((2) <= (#tokens("TrainState")))))) | (! ((2) <= (#tokens("TrainState")))))) & (! ((((3) <= (#tokens("DistStation")))) | (((#tokens("DistStation")) <= (#tokens("DistStation")))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ! ((#tokens("StopTable")) <= (#tokens("TrainState")))
+  end.
+Property BART-COL-040-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("NewDistTable")) <= (#tokens("StopTable")))) | (((3) <= (#tokens("TrainState")))))) & (((((2) <= (#tokens("DistStation")))) & (((#tokens("TrainState")) <= (#tokens("NewDistTable")))))))) & (((3) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((! ((1) <= (#tokens("DistStation")))) | (((#tokens("DistStation")) <= (#tokens("NewDistTable")))))) & (((3) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ! ! ((((#tokens("NewDistTable")) <= (#tokens("DistStation")))) | (((#tokens("TrainState")) <= (#tokens("NewDistTable")))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("StopTable")))) | (((1) <= (#tokens("NewDistTable")))))) | (! ((3) <= (#tokens("StopTable")))))) & (((((#tokens("NewDistTable")) <= (#tokens("StopTable")))) | (((((2) <= (#tokens("StopTable")))) & (((#tokens("DistStation")) <= (#tokens("NewDistTable")))))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("StopTable")) <= (#tokens("DistStation")))) & (! ((#tokens("StopTable")) <= (#tokens("NewDistTable")))))) & (((((((1) <= (#tokens("TrainState")))) & (((2) <= (#tokens("StopTable")))))) | (! ((#tokens("NewDistTable")) <= (#tokens("TrainState")))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((#tokens("StopTable")) <= (#tokens("NewDistTable")))) | (((! ((#tokens("DistStation")) <= (#tokens("TrainState")))) & (((((1) <= (#tokens("StopTable")))) | (((#tokens("StopTable")) <= (#tokens("DistStation")))))))))
+  end.
+Property BART-COL-040-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((#tokens("TrainState")) <= (#tokens("StopTable")))) & (((1) <= (#tokens("DistStation")))))
+  end.

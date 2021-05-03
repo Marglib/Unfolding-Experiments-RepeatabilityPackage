@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("productSlots")) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("wait")) <= (#tokens("theOptions")))) & (((3) <= (#tokens("productSlots")))))) & (((((#tokens("theProducts")) <= (#tokens("optionSlots")))) | (((3) <= (#tokens("wait")))))))) & (! ((((#tokens("ready")) <= (#tokens("productSlots")))) | (((3) <= (#tokens("theOptions")))))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((#tokens("optionSlots")) <= (#tokens("theOptions")))) & (((2) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((! ((((2) <= (#tokens("optionSlots")))) & (((3) <= (#tokens("wait")))))) & (((((((3) <= (#tokens("wait")))) | (((2) <= (#tokens("optionSlots")))))) & (! ((1) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("theOptions")) <= (#tokens("optionSlots")))) | (((1) <= (#tokens("optionSlots")))))) | (((((#tokens("wait")) <= (#tokens("optionSlots")))) | (((#tokens("productSlots")) <= (#tokens("theProducts")))))))) | (((#tokens("optionSlots")) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((#tokens("ready")) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((#tokens("theProducts")) <= (#tokens("optionSlots")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("ready")) <= (#tokens("wait")))) & (((#tokens("ready")) <= (#tokens("wait")))))) | (! ((((#tokens("optionSlots")) <= (#tokens("theProducts")))) | (((#tokens("wait")) <= (#tokens("theProducts")))))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("theOptions")) <= (#tokens("theOptions")))) | (((2) <= (#tokens("theProducts")))))) | (((((3) <= (#tokens("theProducts")))) | (((1) <= (#tokens("theOptions")))))))) & (((((((#tokens("productSlots")) <= (#tokens("productSlots")))) & (((#tokens("ready")) <= (#tokens("productSlots")))))) | (((((#tokens("wait")) <= (#tokens("theProducts")))) | (((#tokens("theProducts")) <= (#tokens("optionSlots")))))))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((#tokens("theOptions")) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("theOptions")) <= (#tokens("productSlots")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("ready")) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("optionSlots")))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((#tokens("theProducts")) <= (#tokens("wait")))) & (((((((2) <= (#tokens("theProducts")))) & (((#tokens("theOptions")) <= (#tokens("productSlots")))))) | (((3) <= (#tokens("optionSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((! ((#tokens("wait")) <= (#tokens("productSlots")))) & (((((((#tokens("theOptions")) <= (#tokens("productSlots")))) & (((2) <= (#tokens("theOptions")))))) | (! ((3) <= (#tokens("productSlots")))))))
+  end.

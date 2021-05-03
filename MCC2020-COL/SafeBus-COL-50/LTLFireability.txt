@@ -1,0 +1,80 @@
+Property SafeBus-COL-50-00
+  "Automatically generated"
+  is:
+    A X G (("I_free"? | F G ("I_reemit"? | G "I_reemit"?)) U ("I_reemit"? & X "I_reemit"?))
+  end.
+Property SafeBus-COL-50-01
+  "Automatically generated"
+  is:
+    A F X (G "C_free"? & (F !"I_ask1"? | X ("I_ask1"? | "I_ask1"? | "I_free"?)))
+  end.
+Property SafeBus-COL-50-02
+  "Automatically generated"
+  is:
+    A (G ("I_emit"? | "I_emit"?) & F ("I_emit"? & "I_refused"? & X "I_emit"?))
+  end.
+Property SafeBus-COL-50-03
+  "Automatically generated"
+  is:
+    A F X ("C_provide"? | F !X !X "I_ask2"?)
+  end.
+Property SafeBus-COL-50-04
+  "Automatically generated"
+  is:
+    A X X ("loss_m"? & G "loss_m"?)
+  end.
+Property SafeBus-COL-50-05
+  "Automatically generated"
+  is:
+    A F X "C_refuse"?
+  end.
+Property SafeBus-COL-50-06
+  "Automatically generated"
+  is:
+    A (!("I_emit"? | !"Gto"?) U !"I_ask2"?)
+  end.
+Property SafeBus-COL-50-07
+  "Automatically generated"
+  is:
+    A !F !("I_reemit"? U G (X G !"I_reemit"? | F !"I_reemit"?))
+  end.
+Property SafeBus-COL-50-08
+  "Automatically generated"
+  is:
+    A (G "Gto"? U (!"C_refuse"? & (!"Gto"? | !F !"Gto"?)))
+  end.
+Property SafeBus-COL-50-09
+  "Automatically generated"
+  is:
+    A G X G F (!F "C_refuse"? | G X "I_rec2"?)
+  end.
+Property SafeBus-COL-50-10
+  "Automatically generated"
+  is:
+    A (("Gto"? | "I_emit"?) & !F X "Gto"?)
+  end.
+Property SafeBus-COL-50-11
+  "Automatically generated"
+  is:
+    A G (("C_refuse"? U "I_reemit"?) & G F G X ("loss_m"? | "I_reemit"?))
+  end.
+Property SafeBus-COL-50-12
+  "Automatically generated"
+  is:
+    A X F ("I_emit"? U X G "I_emit"?)
+  end.
+Property SafeBus-COL-50-13
+  "Automatically generated"
+  is:
+    A G "I_rec2"?
+  end.
+Property SafeBus-COL-50-14
+  "Automatically generated"
+  is:
+    A !("I_emit"? & (!"I_ask2"? U ("loss_a"? & G "I_ask2"?)))
+  end.
+Property SafeBus-COL-50-15
+  "Automatically generated"
+  is:
+    A !F (!"I_rec1"? & X X G X X "I_rec1"?)
+  end.

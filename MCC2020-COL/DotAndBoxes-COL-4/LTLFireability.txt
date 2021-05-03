@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-4-00
+  "Automatically generated"
+  is:
+    A X !(G X X ("Win1"? U "Lose2"?) | X F "Lose1"?)
+  end.
+Property DotAndBoxes-COL-4-01
+  "Automatically generated"
+  is:
+    A ((("Lose2"? | X "NoWin"?) U (!"NoWin"? & "Lose2"?)) & G "Lose2"?)
+  end.
+Property DotAndBoxes-COL-4-02
+  "Automatically generated"
+  is:
+    A (!F "Lose2"? & !F ((!"Lose2"? & "Win2H"?) | F "AWin"?))
+  end.
+Property DotAndBoxes-COL-4-03
+  "Automatically generated"
+  is:
+    A X (X "Win2H"? & X (X "Win1"? & F "NoWin"?))
+  end.
+Property DotAndBoxes-COL-4-04
+  "Automatically generated"
+  is:
+    A ((X !"Lose1"? | F ("Win2V"? | F ("Lose1"? U "Win2V"?))) U "AWin"?)
+  end.
+Property DotAndBoxes-COL-4-05
+  "Automatically generated"
+  is:
+    A (!((G !"Win2V"? U "Lose1"?) U X "Win2H"?) & F X "Lose1"?)
+  end.
+Property DotAndBoxes-COL-4-06
+  "Automatically generated"
+  is:
+    A ("Win2H"? | (G "Win2H"? U X "Lose2"?) | G ("Lose2"? & X "Win2H"?))
+  end.
+Property DotAndBoxes-COL-4-07
+  "Automatically generated"
+  is:
+    A X F G (G F !X (!"NoWin"? | "Win1"?) U "Win2H"?)
+  end.
+Property DotAndBoxes-COL-4-08
+  "Automatically generated"
+  is:
+    A (G "Win1"? U "Lose2"?)
+  end.
+Property DotAndBoxes-COL-4-09
+  "Automatically generated"
+  is:
+    A G X G "NoWin"?
+  end.
+Property DotAndBoxes-COL-4-10
+  "Automatically generated"
+  is:
+    A (X G ("Win1"? | ("AWin"? U !F G "AWin"?)) U F "AWin"?)
+  end.
+Property DotAndBoxes-COL-4-11
+  "Automatically generated"
+  is:
+    A X ("Lose1"? | F (("Win2H"? | "Lose1"?) U !F "Win2H"?))
+  end.
+Property DotAndBoxes-COL-4-12
+  "Automatically generated"
+  is:
+    A F G F (F "Win1"? U !("AWin"? U "Win1"?))
+  end.
+Property DotAndBoxes-COL-4-13
+  "Automatically generated"
+  is:
+    A (("Lose1"? | F !F "Lose2"?) & G ("Lose2"? & !G "Lose1"?))
+  end.
+Property DotAndBoxes-COL-4-14
+  "Automatically generated"
+  is:
+    A (F G F "Lose2"? | (!F "Win1"? U G !G "NoWin"?))
+  end.
+Property DotAndBoxes-COL-4-15
+  "Automatically generated"
+  is:
+    A F (X ("Win2V"? | G (!"Win2V"? | X !"Play"?)) U G "AWin"?)
+  end.

@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-02-00
+  "Automatically generated"
+  is:
+    A G ((G ((0) <= (#tokens("Server_Waiting"))) | G (((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) & X F ((0) <= (#tokens("Client_Waiting"))))) U X !F ((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))))
+  end.
+Property CSRepetitions-COL-02-01
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("Client_Sending"))) U X ((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering")))) | F !((0) <= (#tokens("Client_Waiting"))))
+  end.
+Property CSRepetitions-COL-02-02
+  "Automatically generated"
+  is:
+    A (F ((#tokens("Server_Waiting")) <= (#tokens("Client_Waiting"))) | !X ((G ((0) <= (#tokens("RequestBufferSlots"))) U ((0) <= (#tokens("RequestBufferSlots")))) U F ((3) <= (#tokens("RequestBufferSlots")))))
+  end.
+Property CSRepetitions-COL-02-03
+  "Automatically generated"
+  is:
+    A G F !G (((((#tokens("Client_Waiting")) <= (#tokens("Server_Waiting"))) U ((2) <= (#tokens("RequestBufferSlots")))) U F !((1) <= (#tokens("Server_Waiting")))) | (((2) <= (#tokens("RequestBufferSlots"))) U ((#tokens("Client_Sending")) <= (#tokens("Client_Waiting")))))
+  end.
+Property CSRepetitions-COL-02-04
+  "Automatically generated"
+  is:
+    A X (!((3) <= (#tokens("Server_Anwering"))) U G !((((#tokens("Client_Waiting")) <= (#tokens("Client_Sending"))) | ((1) <= (#tokens("RequestBufferSlots")))) & G ((1) <= (#tokens("RequestBufferSlots")))))
+  end.
+Property CSRepetitions-COL-02-05
+  "Automatically generated"
+  is:
+    A !(((1) <= (#tokens("Server_Anwering"))) | G ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))) | G !F ((1) <= (#tokens("Server_Anwering"))) | X !G ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))))
+  end.
+Property CSRepetitions-COL-02-06
+  "Automatically generated"
+  is:
+    A (F ((((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots"))) & (((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) | G ((2) <= (#tokens("Client_Sending"))))) U ((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots")))) U !F ((2) <= (#tokens("Client_Sending"))))
+  end.
+Property CSRepetitions-COL-02-07
+  "Automatically generated"
+  is:
+    A !(F ((2) <= (#tokens("Client_Sending"))) & (G ((2) <= (#tokens("Client_Sending"))) | G (G ((#tokens("Server_Anwering")) <= (#tokens("Client_Sending"))) & G !((0) <= (#tokens("Server_Waiting"))))))
+  end.
+Property CSRepetitions-COL-02-08
+  "Automatically generated"
+  is:
+    A ((!((#tokens("Client_Waiting")) <= (#tokens("Server_Waiting"))) & G ((#tokens("Client_Waiting")) <= (#tokens("Server_Waiting")))) U X (!((2) <= (#tokens("Server_Anwering"))) | X G ((#tokens("Client_Waiting")) <= (#tokens("Server_Waiting")))))
+  end.
+Property CSRepetitions-COL-02-09
+  "Automatically generated"
+  is:
+    A !(((#tokens("Client_Waiting")) <= (#tokens("RequestBufferSlots"))) | ((#tokens("Server_Waiting")) <= (#tokens("Client_Sending"))) | F (((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))) & (F ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))) U X ((#tokens("Client_Waiting")) <= (#tokens("RequestBufferSlots"))))))
+  end.
+Property CSRepetitions-COL-02-10
+  "Automatically generated"
+  is:
+    A X (((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting"))) U (((0) <= (#tokens("Client_Waiting"))) | ((2) <= (#tokens("Server_Anwering")))))
+  end.
+Property CSRepetitions-COL-02-11
+  "Automatically generated"
+  is:
+    A X F (((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering"))) & ((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))))
+  end.
+Property CSRepetitions-COL-02-12
+  "Automatically generated"
+  is:
+    A F X !(X !((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) & X X X ((2) <= (#tokens("Server_Anwering"))))
+  end.
+Property CSRepetitions-COL-02-13
+  "Automatically generated"
+  is:
+    A !X G (((#tokens("RequestBufferSlots")) <= (#tokens("Server_Waiting"))) U F !X (((3) <= (#tokens("Client_Waiting"))) | X !(((#tokens("Server_Waiting")) <= (#tokens("RequestBufferSlots"))) | ((1) <= (#tokens("Client_Sending"))))))
+  end.
+Property CSRepetitions-COL-02-14
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("Server_Waiting"))) & G (!X ((1) <= (#tokens("Server_Anwering"))) U X ((#tokens("Client_Sending")) <= (#tokens("Server_Anwering")))) & G ((#tokens("Client_Sending")) <= (#tokens("Server_Anwering"))))
+  end.
+Property CSRepetitions-COL-02-15
+  "Automatically generated"
+  is:
+    A F (F ((2) <= (#tokens("Client_Waiting"))) | !((((0) <= (#tokens("Client_Sending"))) U G ((0) <= (#tokens("Server_Waiting")))) U X ((#tokens("Server_Waiting")) <= (#tokens("Server_Anwering")))))
+  end.

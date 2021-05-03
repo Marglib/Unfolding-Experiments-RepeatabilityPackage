@@ -1,0 +1,80 @@
+Property Peterson-COL-7-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F ((A (("NotAlone"?) U ("Identity"?))) | ((((((("Ask"?) & ("NoIdentity"?))) | ("NotAlone"?))) | ((("AccessCS"?) & ((("Identity"?) & ("Alone1"?))))))))
+  end.
+Property Peterson-COL-7-CTLFireability-01
+  "Automatically generated"
+  is:
+    E G ((A X ! "Identity"?) & (((E F "Ask"?) & ((("UpdateTurn"?) | (! "ContinueLoop"?))))))
+  end.
+Property Peterson-COL-7-CTLFireability-02
+  "Automatically generated"
+  is:
+    ! ! ((((E G "AccessCS"?) | (A F "Identity"?))) | ("BecomeIdle"?))
+  end.
+Property Peterson-COL-7-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((! ! ((A F "ProgressTurn"?) & (A F "NotAlone"?))) | (A G ! E X "BecomeIdle"?))
+  end.
+Property Peterson-COL-7-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! ((A F A G "ProgressTurn"?) | (! A F "Identity"?))
+  end.
+Property Peterson-COL-7-CTLFireability-05
+  "Automatically generated"
+  is:
+    E G E F ((! "ContinueLoop"?) | ((("ProgressTurn"?) & ("UpdateTurn"?))))
+  end.
+Property Peterson-COL-7-CTLFireability-06
+  "Automatically generated"
+  is:
+    E G A F (("NoIdentity"?) | ("EndLoop"?))
+  end.
+Property Peterson-COL-7-CTLFireability-07
+  "Automatically generated"
+  is:
+    E G A (("ContinueLoop"?) U (! "NoIdentity"?))
+  end.
+Property Peterson-COL-7-CTLFireability-08
+  "Automatically generated"
+  is:
+    E G (("Ask"?) | (A G "Alone1"?))
+  end.
+Property Peterson-COL-7-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((((! ! A F "EndLoop"?) & ((("AccessCS"?) | (A X ! "Identity"?))))) | (A G "NoIdentity"?))
+  end.
+Property Peterson-COL-7-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((A X (((((("UpdateTurn"?) | ("ContinueLoop"?))) & ((("Alone1"?) | ("AccessCS"?))))) & (E X "BecomeIdle"?))) | (E X E G "UpdateTurn"?))
+  end.
+Property Peterson-COL-7-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! E G A F ! "TurnDiff"?
+  end.
+Property Peterson-COL-7-CTLFireability-12
+  "Automatically generated"
+  is:
+    E X E X E F "AccessCS"?
+  end.
+Property Peterson-COL-7-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F ((! (((("NoIdentity"?) | ("Ask"?))) | ("NotAlone"?))) | ("ContinueLoop"?))
+  end.
+Property Peterson-COL-7-CTLFireability-14
+  "Automatically generated"
+  is:
+    E G ((! ! "Loop"?) | (A F ! "TurnDiff"?))
+  end.
+Property Peterson-COL-7-CTLFireability-15
+  "Automatically generated"
+  is:
+    A F (((((((("ProgressTurn"?) & ("Ask"?))) & ((("Identity"?) & ("AccessCS"?))))) & (((! "TurnDiff"?) | ((("Loop"?) | ("AccessCS"?))))))) & ((("Identity"?) | (E F "Ask"?))))
+  end.

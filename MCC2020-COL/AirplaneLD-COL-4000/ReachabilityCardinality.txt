@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-4000-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Plane_On_Ground_Signal_no")))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((#tokens("SpeedPossibleVal")) <= (#tokens("P3")))) & (((((2) <= (#tokens("stp4")))) | (((1) <= (#tokens("stp5")))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((! ((3) <= (#tokens("SpeedPossibleVal")))) & (! ((2) <= (#tokens("WeightPossibleVal")))))) | (((((1) <= (#tokens("P1")))) & (! ((2) <= (#tokens("AltitudePossibleVal")))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((! ((2) <= (#tokens("TheAltitude")))) | (((((#tokens("WeightPossibleVal")) <= (#tokens("P6")))) & (((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("WeightPossibleVal")))))))) | (((1) <= (#tokens("Speed_Left_Wheel")))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("P3")))) | (((2) <= (#tokens("stp3")))))) | (! ((((3) <= (#tokens("P2")))) & (((#tokens("P2")) <= (#tokens("P6")))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("AltitudePossibleVal")))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((! ! ((3) <= (#tokens("stp1")))) & (((#tokens("Speed_Left_Wheel")) <= (#tokens("WeightPossibleVal")))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("stp3")) <= (#tokens("stp4")))) & (((3) <= (#tokens("P2")))))) & (((#tokens("stp4")) <= (#tokens("WeightPossibleVal")))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Speed_Left_Wheel")) <= (#tokens("stp4")))) & (((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("stp4")))))) & (! ((#tokens("stp5")) <= (#tokens("WeightPossibleVal")))))) & (((((((2) <= (#tokens("Weight_Left_Wheel")))) | (((#tokens("P6")) <= (#tokens("SpeedPossibleVal")))))) | (! ((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("P4")))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("P4")))) & (((2) <= (#tokens("stp1")))))) & (! ((#tokens("stp1")) <= (#tokens("P2")))))) | (((((#tokens("SpeedPossibleVal")) <= (#tokens("P1")))) & (((((#tokens("Weight_Left_Wheel")) <= (#tokens("P6")))) | (((2) <= (#tokens("P2")))))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ! ! ((((3) <= (#tokens("AltitudePossibleVal")))) & (((1) <= (#tokens("SpeedPossibleVal")))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("SpeedPossibleVal")))) | (((((((1) <= (#tokens("Weight_Left_Wheel")))) | (((#tokens("WeightPossibleVal")) <= (#tokens("WeightPossibleVal")))))) & (((((#tokens("WeightPossibleVal")) <= (#tokens("stp5")))) & (((2) <= (#tokens("stp2")))))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ! ((((((2) <= (#tokens("Plane_On_Ground_Signal_no")))) | (((2) <= (#tokens("P3")))))) | (((((1) <= (#tokens("SpeedPossibleVal")))) | (((3) <= (#tokens("TheAltitude")))))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("stp1")))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("P5")) <= (#tokens("stp5")))) | (((#tokens("Speed_Right_Wheel")) <= (#tokens("P3")))))) & (! ! ((1) <= (#tokens("stp5")))))
+  end.
+Property AirplaneLD-COL-4000-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ! ((1) <= (#tokens("Weight_Right_Wheel")))
+  end.

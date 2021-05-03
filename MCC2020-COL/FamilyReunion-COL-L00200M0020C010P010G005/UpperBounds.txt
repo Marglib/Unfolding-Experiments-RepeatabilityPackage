@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("l3")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("lm3")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("m7")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("p9")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("l0")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("gl0")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("m4")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("l28")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("l13")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("c3")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("l24")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("cg0")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("ml4")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("gl0")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("g4")
+  end.
+Property FamilyReunion-COL-L00200M0020C010P010G005-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("pl0")
+  end.

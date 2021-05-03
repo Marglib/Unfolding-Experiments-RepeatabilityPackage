@@ -1,0 +1,80 @@
+Property SharedMemory-COL-000200-00
+  "Automatically generated"
+  is:
+    A !G !G (G !G X "Begin_Ext_Acc"? U ("Begin_Ext_Acc"? & !"Req_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-000200-01
+  "Automatically generated"
+  is:
+    A G X !(G "Begin_Ext_Acc"? | G "End_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-02
+  "Automatically generated"
+  is:
+    A X F X F G "Begin_Own_Acc"?
+  end.
+Property SharedMemory-COL-000200-03
+  "Automatically generated"
+  is:
+    A (("Req_Ext_Acc"? & X (G X "End_Ext_Acc"? | G X G !"End_Ext_Acc"?)) U "Req_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-04
+  "Automatically generated"
+  is:
+    A !(!("Begin_Ext_Acc"? | !F "End_Ext_Acc"?) | ("Begin_Own_Acc"? & X X !"Begin_Own_Acc"?))
+  end.
+Property SharedMemory-COL-000200-05
+  "Automatically generated"
+  is:
+    A !X F (G F X (X "Req_Ext_Acc"? & F "Req_Ext_Acc"?) U G F "End_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-06
+  "Automatically generated"
+  is:
+    A F X !G "End_Ext_Acc"?
+  end.
+Property SharedMemory-COL-000200-07
+  "Automatically generated"
+  is:
+    A F !F (G "End_Ext_Acc"? | X "End_Own_Acc"?)
+  end.
+Property SharedMemory-COL-000200-08
+  "Automatically generated"
+  is:
+    A ("End_Ext_Acc"? | !X X ("End_Ext_Acc"? & F "End_Ext_Acc"?) | ("Begin_Ext_Acc"? U "Begin_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-000200-09
+  "Automatically generated"
+  is:
+    A (F ("Begin_Ext_Acc"? | "End_Own_Acc"?) & (!F "Begin_Ext_Acc"? | !G "End_Own_Acc"?))
+  end.
+Property SharedMemory-COL-000200-10
+  "Automatically generated"
+  is:
+    A X (!("End_Ext_Acc"? & "End_Own_Acc"?) | F "End_Ext_Acc"? | G F G "End_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-11
+  "Automatically generated"
+  is:
+    A G X F G (!F G "Req_Ext_Acc"? U F "End_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-12
+  "Automatically generated"
+  is:
+    A !G !(G ("End_Ext_Acc"? | "Req_Ext_Acc"?) U "Begin_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-13
+  "Automatically generated"
+  is:
+    A !F !"End_Own_Acc"?
+  end.
+Property SharedMemory-COL-000200-14
+  "Automatically generated"
+  is:
+    A F !X ("End_Ext_Acc"? | F (F ("Begin_Ext_Acc"? U "End_Own_Acc"?) U "End_Ext_Acc"?) | F "Begin_Ext_Acc"?)
+  end.
+Property SharedMemory-COL-000200-15
+  "Automatically generated"
+  is:
+    A G !X "Begin_Ext_Acc"?
+  end.

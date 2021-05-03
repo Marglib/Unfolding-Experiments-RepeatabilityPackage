@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-3-CTLFireability-00
+  "Automatically generated"
+  is:
+    ! ! "NoWin"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-01
+  "Automatically generated"
+  is:
+    "AWin"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-02
+  "Automatically generated"
+  is:
+    "Play"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-03
+  "Automatically generated"
+  is:
+    E F ((! E G "Lose2"?) & ((("NoWin"?) | (A G "Play"?))))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-04
+  "Automatically generated"
+  is:
+    A X "Win2H"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((! (("Lose1"?) | (E X "Win2H"?))) | ((((((((((("Lose2"?) | ("Win2V"?))) | ("NoWin"?))) & ((((("Lose1"?) | ("Lose2"?))) & (! "Win2H"?))))) | (((! "Win2H"?) & ((((("Lose1"?) | ("Lose1"?))) & ((("Win2H"?) & ("AWin"?))))))))) | (E X (((("Win2V"?) | ("NoWin"?))) & ("Win2H"?))))))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-06
+  "Automatically generated"
+  is:
+    E ((((! (("Play"?) | ("Win2V"?))) & (E F "Win1"?))) U (((E F "Win1"?) | (A X "Win2V"?))))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-07
+  "Automatically generated"
+  is:
+    (("Lose2"?) | ("Win2H"?))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-08
+  "Automatically generated"
+  is:
+    A G "Win1"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! "Win2V"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-10
+  "Automatically generated"
+  is:
+    "Lose2"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-11
+  "Automatically generated"
+  is:
+    A ((! ! (("Win2H"?) & ("Lose2"?))) U ("Win2V"?))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-12
+  "Automatically generated"
+  is:
+    A X ((A X "Play"?) & (((A G "Play"?) | ((("Play"?) & ((("Win1"?) & ("Lose1"?))))))))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-13
+  "Automatically generated"
+  is:
+    ! ! A G ((! "AWin"?) | (! "AWin"?))
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-14
+  "Automatically generated"
+  is:
+    A X "NoWin"?
+  end.
+Property DotAndBoxes-COL-3-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((((((E (("AWin"?) U ("Win1"?))) | (((A G "NoWin"?) | ((((("Win1"?) | ("Win2V"?))) & ("Win2H"?))))))) | (! A G (("Win2H"?) | ("Win1"?))))) | ((("Win2H"?) | (! "Lose2"?))))
+  end.

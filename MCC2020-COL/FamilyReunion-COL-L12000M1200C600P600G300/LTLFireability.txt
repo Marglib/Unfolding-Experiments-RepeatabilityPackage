@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L12000M1200C600P600G300-00
+  "Automatically generated"
+  is:
+    A X F ("GiveAppoint"? & G "GiveAppoint"? & ("ReqAppointCINFORMI"? | X "Gate1XORSplit"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-01
+  "Automatically generated"
+  is:
+    A !G F X !("ExplainHowToObtainMissingDocs"? & "ReceiveQuestion"?)
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-02
+  "Automatically generated"
+  is:
+    A (F G "ReceiveAppoint"? & G F (("ClearanceReqReceived"? U ("ReserveAppCINFORMI"? | "ReserveAppoint"?)) U !"Gate2ANDSplit"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-03
+  "Automatically generated"
+  is:
+    A X F G F ("ReceiveInstructions"? U F ("CheckHousingSuitReq"? & ("CheckHousingSuitReq"? U "ReceiveInstructions"?)))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-04
+  "Automatically generated"
+  is:
+    A (("PrepFamReuClearReq"? U "Summoned"?) | !("Summoned"? | X "Gate1XORSplit"? | F X "Gate1ANDSplit"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-05
+  "Automatically generated"
+  is:
+    A X (F "CheckRequiredDoc"? | G !("ReceiveNeedChoice"? & !X "ReceiveNeedChoice"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-06
+  "Automatically generated"
+  is:
+    A G X F ("TickDocsObtained"? & X G F X G "SetUpAppoint"?)
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-07
+  "Automatically generated"
+  is:
+    A G X "AppointReceived"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-08
+  "Automatically generated"
+  is:
+    A ("AskCINFORMI"? U X X (!"DisplayLangChoice"? | !"Gate1XORSplit"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-09
+  "Automatically generated"
+  is:
+    A (G "ReceiveAppointReq"? | (("ReceiveNeedReq"? & !G F G "BringReqtoCINFORMI"?) U G X "BringReqtoCINFORMI"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-10
+  "Automatically generated"
+  is:
+    A F (G !("EvaluateReq"? & G !(X "ArchiveReq"? | X "EvaluateReq"?)) U "EvaluateReq"?)
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-11
+  "Automatically generated"
+  is:
+    A ((X "ReceiveNeedReq"? | !F "Gate3XORSplit"?) U ("ObtainRelativeFinStatement"? & !G "ReceiveNeedReq"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-12
+  "Automatically generated"
+  is:
+    A (F "ReceiveAppoint"? U F !(X F "CheckRequiredDoc"? U G "ReceiveAppoint"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-13
+  "Automatically generated"
+  is:
+    A F !F X X "ReceiveNeedChoice"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-14
+  "Automatically generated"
+  is:
+    A !X !X !X G "ReceiveInstructions"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-15
+  "Automatically generated"
+  is:
+    A !("ReceiveLangChoice"? | (("ObtainRelativeFinStatement"? U F "ArchiveReq"?) U ("ReceiveLangChoice"? | X "ObtainRelativeFinStatement"?)))
+  end.

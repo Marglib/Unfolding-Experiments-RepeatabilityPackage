@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-20-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E F ! E F ((#tokens("Outside")) <= (#tokens("HasLeft")))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((A F ((((((#tokens("HasLeft")) <= (#tokens("Think")))) | (((1) <= (#tokens("HasLeft")))))) | (((2) <= (#tokens("Outside")))))) & (((A ((((#tokens("WaitRight")) <= (#tokens("WaitRight")))) U (((3) <= (#tokens("HasRight")))))) | (((3) <= (#tokens("HasLeft")))))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E F A X ((((2) <= (#tokens("WaitRight")))) & (((3) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F ((((! ((#tokens("Outside")) <= (#tokens("Forks")))) | (! ((1) <= (#tokens("WaitRight")))))) & (((((#tokens("HasRight")) <= (#tokens("HasRight")))) & (! ((#tokens("HasRight")) <= (#tokens("WaitLeft")))))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E G ! A G ((3) <= (#tokens("Outside")))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E ((((((#tokens("HasLeft")) <= (#tokens("Think")))) & (((2) <= (#tokens("WaitLeft")))))) U (E G ((#tokens("WaitRight")) <= (#tokens("WaitRight")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F A F ! ((#tokens("WaitRight")) <= (#tokens("WaitRight")))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E F ((#tokens("Outside")) <= (#tokens("HasLeft")))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ! A ((! ((3) <= (#tokens("HasLeft")))) U (! ((#tokens("WaitRight")) <= (#tokens("HasLeft")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A ((((((((#tokens("Neighbourhood")) <= (#tokens("HasLeft")))) | (((#tokens("WaitRight")) <= (#tokens("Forks")))))) | (((((#tokens("Forks")) <= (#tokens("HasLeft")))) & (((1) <= (#tokens("WaitLeft")))))))) U (A X ((1) <= (#tokens("HasRight")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-10
+  "Automatically generated"
+  is:
+    A G E ((((2) <= (#tokens("WaitLeft")))) U (((#tokens("WaitLeft")) <= (#tokens("Outside")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((((A G ! ((#tokens("WaitRight")) <= (#tokens("Think")))) | (((((! ((#tokens("WaitRight")) <= (#tokens("WaitRight")))) & (((((#tokens("Outside")) <= (#tokens("Neighbourhood")))) | (((#tokens("Think")) <= (#tokens("Forks")))))))) | (((! ((#tokens("WaitLeft")) <= (#tokens("HasRight")))) & (((((1) <= (#tokens("Neighbourhood")))) | (((#tokens("Neighbourhood")) <= (#tokens("Neighbourhood")))))))))))) | (A F A G ((#tokens("WaitLeft")) <= (#tokens("Neighbourhood")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ! A ((((((#tokens("HasLeft")) <= (#tokens("Think")))) | (((#tokens("Think")) <= (#tokens("WaitRight")))))) U (((2) <= (#tokens("HasLeft")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E ((! ((((1) <= (#tokens("Forks")))) | (((#tokens("Neighbourhood")) <= (#tokens("Neighbourhood")))))) U (A G ((#tokens("HasLeft")) <= (#tokens("Forks")))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("Think")))) | (((3) <= (#tokens("Forks")))))) & (((((! ((#tokens("Neighbourhood")) <= (#tokens("Forks")))) | (! ((#tokens("Neighbourhood")) <= (#tokens("HasRight")))))) & (((#tokens("WaitRight")) <= (#tokens("Neighbourhood")))))))) | (A G ((((3) <= (#tokens("Outside")))) & (((#tokens("HasRight")) <= (#tokens("Forks")))))))
+  end.
+Property PhilosophersDyn-COL-20-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E X ((((1) <= (#tokens("Outside")))) & (E G ((#tokens("HasLeft")) <= (#tokens("WaitRight")))))
+  end.

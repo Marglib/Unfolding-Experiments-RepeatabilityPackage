@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-20-00
+  "Automatically generated"
+  is:
+    A G X (("TakeLeft"? & "Eat"?) | G !("Eat"? U "Join"?))
+  end.
+Property PhilosophersDyn-COL-20-01
+  "Automatically generated"
+  is:
+    A !F (!"TakeRight"? U !("Join"? | X G F "SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-20-02
+  "Automatically generated"
+  is:
+    A G (!F "TakeLeft"? | X X ("SearchForks"? & "SearchForks"? & !"Leave"?))
+  end.
+Property PhilosophersDyn-COL-20-03
+  "Automatically generated"
+  is:
+    A X G ("Eat"? | X "TakeLeft"?)
+  end.
+Property PhilosophersDyn-COL-20-04
+  "Automatically generated"
+  is:
+    A (G "TakeRight"? U (X "Join"? & X (!"TakeRight"? | "SearchForks"?)))
+  end.
+Property PhilosophersDyn-COL-20-05
+  "Automatically generated"
+  is:
+    A X (F G X "SearchForks"? & ("SearchForks"? U X "SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-20-06
+  "Automatically generated"
+  is:
+    A ((("Leave"? & "Leave"?) | ("Eat"? U "Leave"?)) U ("Leave"? | F !"Leave"?))
+  end.
+Property PhilosophersDyn-COL-20-07
+  "Automatically generated"
+  is:
+    A !X X G "Initialize"?
+  end.
+Property PhilosophersDyn-COL-20-08
+  "Automatically generated"
+  is:
+    A (("Leave"? | "SearchForks"?) & X X X (!X "Join"? U X "Join"?))
+  end.
+Property PhilosophersDyn-COL-20-09
+  "Automatically generated"
+  is:
+    A G X G F (F "TakeLeft"? | G "Initialize"?)
+  end.
+Property PhilosophersDyn-COL-20-10
+  "Automatically generated"
+  is:
+    A F G (!("TakeLeft"? | "Join"?) | G F !("TakeLeft"? & "Initialize"?))
+  end.
+Property PhilosophersDyn-COL-20-11
+  "Automatically generated"
+  is:
+    A F !X (F X "TakeRight"? | G ("TakeRight"? & X "TakeRight"?))
+  end.
+Property PhilosophersDyn-COL-20-12
+  "Automatically generated"
+  is:
+    A (("TakeLeft"? & "TakeLeft"? & G X "TakeLeft"?) | !G X F "TakeLeft"?)
+  end.
+Property PhilosophersDyn-COL-20-13
+  "Automatically generated"
+  is:
+    A ("SearchForks"? | F (G "Eat"? | X (G !"TakeLeft"? U G ("Eat"? U "TakeLeft"?))))
+  end.
+Property PhilosophersDyn-COL-20-14
+  "Automatically generated"
+  is:
+    A (F "Join"? & !F X ("TakeRight"? | X "SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-20-15
+  "Automatically generated"
+  is:
+    A !(("SearchForks"? U ("SearchForks"? & "Join"?)) & (F "TakeRight"? | G !"Eat"?))
+  end.

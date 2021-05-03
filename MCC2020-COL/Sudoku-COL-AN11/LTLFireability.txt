@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN11-00
+  "Automatically generated"
+  is:
+    A ("select"? | F !F (G "select"? & X X "select"? & X "select"?))
+  end.
+Property Sudoku-COL-AN11-01
+  "Automatically generated"
+  is:
+    A !("select"? & F "select"? & G "select"? & ("select"? U "select"?))
+  end.
+Property Sudoku-COL-AN11-02
+  "Automatically generated"
+  is:
+    A (F G "select"? | G F "select"?)
+  end.
+Property Sudoku-COL-AN11-03
+  "Automatically generated"
+  is:
+    A !(X (!"select"? & "select"?) U G F !G X !F "select"?)
+  end.
+Property Sudoku-COL-AN11-04
+  "Automatically generated"
+  is:
+    A (("select"? | !"select"? | ("select"? U G "select"?)) U ("select"? | "select"?))
+  end.
+Property Sudoku-COL-AN11-05
+  "Automatically generated"
+  is:
+    A G (X X G !"select"? | G !(X !"select"? U X "select"?))
+  end.
+Property Sudoku-COL-AN11-06
+  "Automatically generated"
+  is:
+    A (!"select"? | X (!G "select"? | G X "select"?))
+  end.
+Property Sudoku-COL-AN11-07
+  "Automatically generated"
+  is:
+    A (("select"? & "select"?) | !G X F "select"? | X X "select"?)
+  end.
+Property Sudoku-COL-AN11-08
+  "Automatically generated"
+  is:
+    A !F G !F !("select"? U X G "select"?)
+  end.
+Property Sudoku-COL-AN11-09
+  "Automatically generated"
+  is:
+    A (X ("select"? U "select"?) U G X !F "select"?)
+  end.
+Property Sudoku-COL-AN11-10
+  "Automatically generated"
+  is:
+    A G (!"select"? & ("select"? | "select"?))
+  end.
+Property Sudoku-COL-AN11-11
+  "Automatically generated"
+  is:
+    A (!F "select"? U G !X "select"?)
+  end.
+Property Sudoku-COL-AN11-12
+  "Automatically generated"
+  is:
+    A X ((X X X "select"? & X F G "select"?) | F "select"?)
+  end.
+Property Sudoku-COL-AN11-13
+  "Automatically generated"
+  is:
+    A X X (F "select"? & (X "select"? | !(!"select"? & !F "select"?)))
+  end.
+Property Sudoku-COL-AN11-14
+  "Automatically generated"
+  is:
+    A F "select"?
+  end.
+Property Sudoku-COL-AN11-15
+  "Automatically generated"
+  is:
+    A X (G F !G "select"? U !("select"? U "select"?))
+  end.

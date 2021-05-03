@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J60-00
+  "Automatically generated"
+  is:
+    A X (((3) <= (#tokens("place_782"))) | X ((#tokens("place_520")) <= (#tokens("place_782"))) | G X X ((3) <= (#tokens("place_782"))))
+  end.
+Property PolyORBNT-COL-S05J60-01
+  "Automatically generated"
+  is:
+    A X F !(((0) <= (#tokens("Perform_Work_E"))) & (!((1) <= (#tokens("NotifyEventJobQueuedB"))) | ((0) <= (#tokens("place_458")))) & !G F !((2) <= (#tokens("Schedule_Task_E"))))
+  end.
+Property PolyORBNT-COL-S05J60-02
+  "Automatically generated"
+  is:
+    A X F !(G (((#tokens("cJobCnt")) <= (#tokens("f2"))) | ((2) <= (#tokens("mi1")))) U (((0) <= (#tokens("QueueJobE"))) & ((#tokens("QueueJobB")) <= (#tokens("place_456")))))
+  end.
+Property PolyORBNT-COL-S05J60-03
+  "Automatically generated"
+  is:
+    A G X (((3) <= (#tokens("Try_Check_Sources_E"))) & X !((#tokens("FetchJobB")) <= (#tokens("cSources"))))
+  end.
+Property PolyORBNT-COL-S05J60-04
+  "Automatically generated"
+  is:
+    A G X (G ((3) <= (#tokens("Schedule_Task_E"))) & G ((1) <= (#tokens("place_462"))))
+  end.
+Property PolyORBNT-COL-S05J60-05
+  "Automatically generated"
+  is:
+    A !X G !(((1) <= (#tokens("Schedule_Task_E"))) | !X ((#tokens("place_458")) <= (#tokens("NotifyEventEndOfCheckSourcesB"))))
+  end.
+Property PolyORBNT-COL-S05J60-06
+  "Automatically generated"
+  is:
+    A F X F X ((#tokens("Perform_Work_E")) <= (#tokens("Check_Sources_B")))
+  end.
+Property PolyORBNT-COL-S05J60-07
+  "Automatically generated"
+  is:
+    A (F (((1) <= (#tokens("mo3"))) & (((3) <= (#tokens("mi3"))) | ((0) <= (#tokens("NotifyEventJobQueuedB")))) & (((3) <= (#tokens("mi3"))) | ((0) <= (#tokens("FetchJobE"))))) U (((3) <= (#tokens("mi3"))) & F ((3) <= (#tokens("mi3")))))
+  end.
+Property PolyORBNT-COL-S05J60-08
+  "Automatically generated"
+  is:
+    A F G !(X ((3) <= (#tokens("NotifyEventJobQueuedE"))) U ((((1) <= (#tokens("f2"))) U X (((1) <= (#tokens("f2"))) | ((#tokens("FetchJobB")) <= (#tokens("Check_Sources_E"))))) | G ((2) <= (#tokens("f2")))))
+  end.
+Property PolyORBNT-COL-S05J60-09
+  "Automatically generated"
+  is:
+    A (G F ((#tokens("mi3")) <= (#tokens("place_460"))) & !F G ((((#tokens("place_520")) <= (#tokens("mo1"))) U (((1) <= (#tokens("place_522"))) | ((#tokens("place_520")) <= (#tokens("mo1"))))) U ((1) <= (#tokens("place_522")))))
+  end.
+Property PolyORBNT-COL-S05J60-10
+  "Automatically generated"
+  is:
+    A F (X (F ((#tokens("Check_Sources_E")) <= (#tokens("TheSour"))) | G ((#tokens("JobCnt")) <= (#tokens("place_458")))) | G F ((#tokens("Check_Sources_E")) <= (#tokens("TheSour"))))
+  end.
+Property PolyORBNT-COL-S05J60-11
+  "Automatically generated"
+  is:
+    A (X X F X G !((3) <= (#tokens("cSources"))) | ((((#tokens("block")) <= (#tokens("place_520"))) & !G ((#tokens("block")) <= (#tokens("place_520")))) U ((0) <= (#tokens("place_522")))))
+  end.
+Property PolyORBNT-COL-S05J60-12
+  "Automatically generated"
+  is:
+    A X (!(((#tokens("mo2")) <= (#tokens("QueueJobE"))) U F ((#tokens("mo3")) <= (#tokens("AvailableJobId")))) U ((!X X ((2) <= (#tokens("place_462"))) U ((#tokens("mo2")) <= (#tokens("QueueJobE")))) U ((#tokens("mi2")) <= (#tokens("JobCnt")))))
+  end.
+Property PolyORBNT-COL-S05J60-13
+  "Automatically generated"
+  is:
+    A ((G ((1) <= (#tokens("place_518"))) | G ((#tokens("Try_Check_Sources_B")) <= (#tokens("place_456")))) & (((1) <= (#tokens("place_518"))) U (((0) <= (#tokens("mi2"))) & ((3) <= (#tokens("place_460"))))))
+  end.
+Property PolyORBNT-COL-S05J60-14
+  "Automatically generated"
+  is:
+    A (G ((2) <= (#tokens("DataOnSrc"))) U (((#tokens("place_500")) <= (#tokens("CanInjectEvent"))) & (((0) <= (#tokens("f3"))) U ((#tokens("place_521")) <= (#tokens("f3"))))))
+  end.
+Property PolyORBNT-COL-S05J60-15
+  "Automatically generated"
+  is:
+    A G (X ((#tokens("CreatedJobs")) <= (#tokens("mi2"))) U ((#tokens("place_521")) <= (#tokens("FetchJobE"))))
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-010000-00
+  "Automatically generated"
+  is:
+    A F !F (G "End"? | G F X F ("End"? U F "End"?))
+  end.
+Property Philosophers-COL-010000-01
+  "Automatically generated"
+  is:
+    A X G F "FF2a"?
+  end.
+Property Philosophers-COL-010000-02
+  "Automatically generated"
+  is:
+    A F !(!G ("FF1b"? U G "FF1a"?) | ("FF1a"? & ("FF1a"? | X "FF1b"?)))
+  end.
+Property Philosophers-COL-010000-03
+  "Automatically generated"
+  is:
+    A !("FF2a"? | (G X G X !("FF1b"? U "FF1b"?) U ("FF2a"? | "FF1b"?)))
+  end.
+Property Philosophers-COL-010000-04
+  "Automatically generated"
+  is:
+    A G "FF2a"?
+  end.
+Property Philosophers-COL-010000-05
+  "Automatically generated"
+  is:
+    A ((F G "FF1b"? U X "FF1b"?) U (!"FF1b"? & "FF2b"?))
+  end.
+Property Philosophers-COL-010000-06
+  "Automatically generated"
+  is:
+    A (("FF1a"? & !F "FF1a"?) | (!"FF2a"? & F ("FF2a"? U "FF1a"?)))
+  end.
+Property Philosophers-COL-010000-07
+  "Automatically generated"
+  is:
+    A F G (X X "FF1a"? | (G F ("FF2a"? | "FF2a"?) U "FF2a"?))
+  end.
+Property Philosophers-COL-010000-08
+  "Automatically generated"
+  is:
+    A ("End"? & "FF2a"? & G X !"End"? & F "FF2a"?)
+  end.
+Property Philosophers-COL-010000-09
+  "Automatically generated"
+  is:
+    A ((F "FF1a"? U !G X "End"?) | X X G X "FF1a"?)
+  end.
+Property Philosophers-COL-010000-10
+  "Automatically generated"
+  is:
+    A !G "FF2a"?
+  end.
+Property Philosophers-COL-010000-11
+  "Automatically generated"
+  is:
+    A G !G X (X !(!"End"? | F "FF1b"?) | G !"FF2a"?)
+  end.
+Property Philosophers-COL-010000-12
+  "Automatically generated"
+  is:
+    A !G ("FF1b"? & "FF1a"? & X "FF1b"?)
+  end.
+Property Philosophers-COL-010000-13
+  "Automatically generated"
+  is:
+    A G ("FF1a"? | "FF2b"?)
+  end.
+Property Philosophers-COL-010000-14
+  "Automatically generated"
+  is:
+    A F ("FF2b"? & (G (!"FF2a"? & (!"FF2a"? | ("End"? & "FF2b"?))) U "FF1a"?))
+  end.
+Property Philosophers-COL-010000-15
+  "Automatically generated"
+  is:
+    A (("FF2a"? | ("FF2b"? & G "End"?)) & ("FF2a"? | X "End"?))
+  end.

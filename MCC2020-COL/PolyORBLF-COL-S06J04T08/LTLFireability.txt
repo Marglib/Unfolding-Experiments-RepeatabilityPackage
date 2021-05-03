@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J04T08-00
+  "Automatically generated"
+  is:
+    A F ("DummyOR1"? | F !X G !("T_1722"? | "IsAbort"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-01
+  "Automatically generated"
+  is:
+    A (G (G "T_1722"? | G F !"T_1148"?) U G ("T_1722"? | "T_1148"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-02
+  "Automatically generated"
+  is:
+    A X F (!"DummyOR1"? | !("NoCheck"? U "NotifyEventSourceAdded"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-03
+  "Automatically generated"
+  is:
+    A (X G X X "DummyOR2"? U !"LeaveIdle"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-04
+  "Automatically generated"
+  is:
+    A (X G !(X "WillPerformWork"? U F "NoCheck"?) U ("NoCheck"? & G "WillPerformWork"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-05
+  "Automatically generated"
+  is:
+    A (!G "LeaveCSTCS"? & F !"LeaveCSTCS"? & ("LeaveCSTCS"? | G "LeaveCSTCS"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-06
+  "Automatically generated"
+  is:
+    A F G (X "T_1100"? | F "NotifyEventSourceAdded"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-07
+  "Automatically generated"
+  is:
+    A (G X !F "IsEvt"? U ("IsEvt"? | "GoIdle"? | F "IsEvt"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-08
+  "Automatically generated"
+  is:
+    A ((G ("T_2283"? & F ("T_1730"? | F "LeaveCSIS"?)) U "T_1730"?) | G ("T_1170"? U "T_2283"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-09
+  "Automatically generated"
+  is:
+    A X X (("T_1711"? | "T_1145"?) & G !G "GoIdle"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-10
+  "Automatically generated"
+  is:
+    A (("NOPEP"? & "WaitCompleted"?) | !(("T_1721"? U "WaitCompleted"?) & !F G "NOPEP"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-11
+  "Automatically generated"
+  is:
+    A (!X !("T_1125"? & !G ("T_1125"? | "NotifyEventSourceAdded"?)) U G X !"T_1444"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-12
+  "Automatically generated"
+  is:
+    A (X "T_1713"? | F "T_1713"? | G !"T_1444"? | ("T_1713"? & F G "T_1713"?))
+  end.
+Property PolyORBLF-COL-S06J04T08-13
+  "Automatically generated"
+  is:
+    A X G ("T_2294"? | "T_1126"? | X "T_1126"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-14
+  "Automatically generated"
+  is:
+    A ((G !"T_1125"? & F "T_1125"?) | G "NOPEP"?)
+  end.
+Property PolyORBLF-COL-S06J04T08-15
+  "Automatically generated"
+  is:
+    A X X !(!G !"T_1722"? & !F G ("IsEvt"? | "T_1722"?))
+  end.

@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-50-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((! ((((3) <= (#tokens("aux14")))) | (((2) <= (#tokens("c14")))))) | (((((1) <= (#tokens("c12")))) & (! ((#tokens("c12")) <= (#tokens("c7")))))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("c19")) <= (#tokens("aux8")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("c6")) <= (#tokens("aux7")))) & (! ((2) <= (#tokens("in4")))))) | (((2) <= (#tokens("aux15")))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((#tokens("aux12")) <= (#tokens("c18")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((((((1) <= (#tokens("out4")))) | (((2) <= (#tokens("c11")))))) | (((((#tokens("c17")) <= (#tokens("aux14")))) | (((#tokens("c110")) <= (#tokens("c6")))))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((#tokens("c13")) <= (#tokens("out5")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("aux16")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("c20")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((#tokens("aux10")) <= (#tokens("c12")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((! ((((2) <= (#tokens("out1")))) & (((1) <= (#tokens("out7")))))) | (((#tokens("c7")) <= (#tokens("in1")))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((! ((((2) <= (#tokens("out6")))) & (((1) <= (#tokens("c110")))))) & (((#tokens("out5")) <= (#tokens("c20")))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("c8")) <= (#tokens("c7")))) & (! ((#tokens("out4")) <= (#tokens("aux5")))))) | (((#tokens("out2")) <= (#tokens("aux10")))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((#tokens("in3")) <= (#tokens("out6")))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("aux10")))) & (((! ((1) <= (#tokens("aux5")))) & (((((1) <= (#tokens("aux8")))) | (((#tokens("c16")) <= (#tokens("c12")))))))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("aux15")) <= (#tokens("in2")))) & (((((((3) <= (#tokens("in4")))) | (((#tokens("in3")) <= (#tokens("out3")))))) | (((1) <= (#tokens("aux8")))))))
+  end.
+Property PermAdmissibility-COL-50-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("c15")))
+  end.

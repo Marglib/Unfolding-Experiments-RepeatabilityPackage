@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F "T_1098"?
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (("T_1094"?) & (! ! (("T_2315"?) & ("NotifyEventSourceAdded"?))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (((((((("EnterCSIS"?) | ("NoCheck"?))) & (! "GoIdle"?))) | (! (("NoMonitoring"?) | ("T_1713"?))))) | ((((((("T_1100"?) & ("T_1147"?))) & ((("T_2285"?) | ("T_2283"?))))) | ("Run"?))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ((! "WaitCompleted"?) & ((("WaitforBlockedTasks"?) | ((((("T_1145"?) & ("T_1126"?))) | ((("NotifyEventSourceAdded"?) | ("T_2315"?))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G (((((("GoPerformWork"?) | ((("T_1713"?) | ("GoIdle"?))))) | (((! "T_2578"?) | ((("EnterCSIS"?) & ("T_2577"?))))))) | (! (((("EnterCSPW"?) | ("DummyOR2"?))) & ("T_1444"?))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ((((! ! "T_1124"?) & (((! "T_1171"?) | ("T_1147"?))))) & (! ! (("GoCheckSource"?) & ("T_2317"?))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G ! ((((! "NeedMonitoring"?) & ("LeaveCSIS"?))) | ("LeaveCSPW"?))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F (((((((("T_2294"?) & ("EnterCSPW"?))) & ((("T_1094"?) & ("IsEvt"?))))) | ((((("IsAbort"?) & ("T_1722"?))) | ((("NoMonitoring"?) | ("WillPerformWork"?))))))) | (((((! "T_1444"?) & ((("T_0376"?) & ("GoCheckSource"?))))) & ("T_1722"?))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (("T_1123"?) & ("T_1098"?))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G ! "T_1145"?
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ! ! "T_1722"?
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ! ((! (("T_2317"?) & ("T_1146"?))) | (! "T_1100"?))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((! (((("T_1146"?) | ("T_1170"?))) & (! "T_1126"?))) | ((("T_1126"?) | (((! "T_1094"?) & ("GoIdle"?))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G (((((((("NotifyEventSourceAdded"?) | ("T_1114"?))) & ("T_2311"?))) | ((((("T_1094"?) & ("GoPerformWork"?))) | (! "NoCheck"?))))) | (! (((("DummyOR2"?) & ("T_2294"?))) & ((("LeaveCSTCS"?) | ("T_0376"?))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ! ! (((("T_2285"?) | ("EnterCSTCS"?))) & ("NoMonitoring"?))
+  end.
+Property PolyORBLF-COL-S04J04T08-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G ((! (((("T_2317"?) & ("T_1096"?))) & ("T_2541"?))) | (! ! (("EnterCSTCS"?) | ("T_2315"?))))
+  end.

@@ -1,0 +1,80 @@
+Property BART-COL-050-00
+  "Automatically generated"
+  is:
+    A X !("TrainDecc"? U !F (G "TrainStop"? & F "TrainStop"?))
+  end.
+Property BART-COL-050-01
+  "Automatically generated"
+  is:
+    A G X (G "TrainStop"? U G X "TrainStable"?)
+  end.
+Property BART-COL-050-02
+  "Automatically generated"
+  is:
+    A F G F G (("TrainStable"? | !G "AtStation"?) U "TrainAcc"?)
+  end.
+Property BART-COL-050-03
+  "Automatically generated"
+  is:
+    A (X F X "TrainStop"? & (X "TrainAcc"? | G F "TrainAcc"?))
+  end.
+Property BART-COL-050-04
+  "Automatically generated"
+  is:
+    A ("TrainStable"? & G X "TrainDecc"? & (!"AtStation"? | F "TrainStable"?))
+  end.
+Property BART-COL-050-05
+  "Automatically generated"
+  is:
+    A (X G X G "TrainStop"? U "TrainStop"?)
+  end.
+Property BART-COL-050-06
+  "Automatically generated"
+  is:
+    A G "TrainAcc"?
+  end.
+Property BART-COL-050-07
+  "Automatically generated"
+  is:
+    A !X F (X F ("TrainAcc"? | F "TrainAcc"?) U ("TrainStop"? | "TrainStable"?))
+  end.
+Property BART-COL-050-08
+  "Automatically generated"
+  is:
+    A ((G "TrainAcc"? U G !"TrainDecc"?) | (!"AtStation"? & X "AtStation"?))
+  end.
+Property BART-COL-050-09
+  "Automatically generated"
+  is:
+    A (("TrainAcc"? | "TrainAcc"? | G "TrainAcc"?) U X X G F !X X "AtStation"?)
+  end.
+Property BART-COL-050-10
+  "Automatically generated"
+  is:
+    A !G "TrainDecc"?
+  end.
+Property BART-COL-050-11
+  "Automatically generated"
+  is:
+    A !F (!"TrainDecc"? | X F "TrainAcc"? | ("TrainAcc"? U "TrainStable"?))
+  end.
+Property BART-COL-050-12
+  "Automatically generated"
+  is:
+    A X (F "AtStation"? U ("TrainStop"? | ("TrainStable"? & "TrainStop"?)))
+  end.
+Property BART-COL-050-13
+  "Automatically generated"
+  is:
+    A F !"TrainDecc"?
+  end.
+Property BART-COL-050-14
+  "Automatically generated"
+  is:
+    A (G (!"TrainDecc"? | "TrainDecc"?) U !F ("TrainAcc"? & "TrainAcc"?))
+  end.
+Property BART-COL-050-15
+  "Automatically generated"
+  is:
+    A (F !G X G "TrainDecc"? | G (!"TrainDecc"? & G "TrainDecc"?))
+  end.

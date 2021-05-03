@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-7-00
+  "Automatically generated"
+  is:
+    A (F (!((3) <= (#tokens("ifxi_10"))) | ((0) <= (#tokens("await_13")))) U (G !X X ((2) <= (#tokens("setx_3"))) U ((2) <= (#tokens("setx_3")))))
+  end.
+Property LamportFastMutEx-COL-7-01
+  "Automatically generated"
+  is:
+    A !G !(((1) <= (#tokens("await_13"))) | (!((#tokens("awaity")) <= (#tokens("sety_9"))) & F (((3) <= (#tokens("x"))) U ((#tokens("await_13")) <= (#tokens("sety_9"))))))
+  end.
+Property LamportFastMutEx-COL-7-02
+  "Automatically generated"
+  is:
+    A F (X G ((#tokens("ifyi_15")) <= (#tokens("ify0_4"))) | F X (((0) <= (#tokens("awaity"))) U F (((#tokens("ify0_4")) <= (#tokens("ifyi_15"))) & F X ((0) <= (#tokens("awaity"))))))
+  end.
+Property LamportFastMutEx-COL-7-03
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("awaity"))) U !G ((2) <= (#tokens("setbi_11"))))
+  end.
+Property LamportFastMutEx-COL-7-04
+  "Automatically generated"
+  is:
+    A (F G X G F G (((#tokens("awaity")) <= (#tokens("setbi_11"))) | ((#tokens("y")) <= (#tokens("CS_21")))) & (!((#tokens("y")) <= (#tokens("CS_21"))) U G ((#tokens("CS_21")) <= (#tokens("sety_9")))))
+  end.
+Property LamportFastMutEx-COL-7-05
+  "Automatically generated"
+  is:
+    A (G ((1) <= (#tokens("CS_21"))) U ((((#tokens("setbi_24")) <= (#tokens("sety_9"))) | ((3) <= (#tokens("wait")))) U X ((3) <= (#tokens("wait")))))
+  end.
+Property LamportFastMutEx-COL-7-06
+  "Automatically generated"
+  is:
+    A X (G ((3) <= (#tokens("start_1"))) | !F !G !(((1) <= (#tokens("CS_21"))) | (((1) <= (#tokens("CS_21"))) & X ((1) <= (#tokens("CS_21"))))))
+  end.
+Property LamportFastMutEx-COL-7-07
+  "Automatically generated"
+  is:
+    A X (F ((#tokens("ify0_4")) <= (#tokens("awaity"))) & F X ((#tokens("CS_21")) <= (#tokens("done"))))
+  end.
+Property LamportFastMutEx-COL-7-08
+  "Automatically generated"
+  is:
+    A G (G ((1) <= (#tokens("setbi_11"))) & (X X ((1) <= (#tokens("setbi_11"))) U !X (((#tokens("ifxi_10")) <= (#tokens("x"))) U ((2) <= (#tokens("awaity"))))))
+  end.
+Property LamportFastMutEx-COL-7-09
+  "Automatically generated"
+  is:
+    A ((((#tokens("b")) <= (#tokens("setbi_11"))) U X ((((0) <= (#tokens("start_1"))) U ((2) <= (#tokens("ify0_4")))) U G F (((0) <= (#tokens("fordo_12"))) | ((0) <= (#tokens("start_1")))))) & F ((2) <= (#tokens("ify0_4"))))
+  end.
+Property LamportFastMutEx-COL-7-10
+  "Automatically generated"
+  is:
+    A F (((3) <= (#tokens("done"))) & X F ((F ((#tokens("wait")) <= (#tokens("await_13"))) U ((2) <= (#tokens("await_13")))) & F X G ((3) <= (#tokens("setx_3")))))
+  end.
+Property LamportFastMutEx-COL-7-11
+  "Automatically generated"
+  is:
+    A G F X !(((#tokens("x")) <= (#tokens("ifxi_10"))) | (((1) <= (#tokens("awaity"))) U ((#tokens("x")) <= (#tokens("ifxi_10")))))
+  end.
+Property LamportFastMutEx-COL-7-12
+  "Automatically generated"
+  is:
+    A (X G ((2) <= (#tokens("b"))) | !G X (G ((#tokens("ifxi_10")) <= (#tokens("setbi_5"))) & X X ((#tokens("ifxi_10")) <= (#tokens("setbi_5")))))
+  end.
+Property LamportFastMutEx-COL-7-13
+  "Automatically generated"
+  is:
+    A G (((#tokens("ifxi_10")) <= (#tokens("ify0_4"))) & !(((#tokens("ifxi_10")) <= (#tokens("x"))) & G ((#tokens("awaity")) <= (#tokens("setbi_24")))))
+  end.
+Property LamportFastMutEx-COL-7-14
+  "Automatically generated"
+  is:
+    A (G X ((1) <= (#tokens("ifxi_10"))) & X X G (((#tokens("setbi_11")) <= (#tokens("setbi_24"))) & ((#tokens("ifxi_10")) <= (#tokens("done")))))
+  end.
+Property LamportFastMutEx-COL-7-15
+  "Automatically generated"
+  is:
+    A !((((3) <= (#tokens("y"))) | X ((2) <= (#tokens("CS_21")))) U ((3) <= (#tokens("y"))))
+  end.

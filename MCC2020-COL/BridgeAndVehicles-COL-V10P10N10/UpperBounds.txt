@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("VIDANGE")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("ATTENTE_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("NB_ATTENTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("ROUTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("ROUTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("CAPACITE")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("ATTENTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("ROUTE_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("ROUTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("SORTI_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("CAPACITE")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("ATTENTE_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("ATTENTE_A")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("ATTENTE_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("NB_ATTENTE_B")
+  end.
+Property BridgeAndVehicles-COL-V10P10N10-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("ATTENTE_B")
+  end.

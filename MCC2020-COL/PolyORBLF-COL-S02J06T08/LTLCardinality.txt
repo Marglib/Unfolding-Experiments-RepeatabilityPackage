@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J06T08-00
+  "Automatically generated"
+  is:
+    A (G !((#tokens("P_1724")) <= (#tokens("SigAbort"))) U ((#tokens("CanInjectEvent")) <= (#tokens("Abort_Check_Sources_E"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-01
+  "Automatically generated"
+  is:
+    A F !G (((#tokens("P_1724")) <= (#tokens("QueueJobE"))) & G X (G X ((#tokens("P_1724")) <= (#tokens("QueueJobE"))) | !F !((2) <= (#tokens("cIsMonitoring")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-02
+  "Automatically generated"
+  is:
+    A F !(F X !F ((#tokens("P_1717")) <= (#tokens("ScheduleTaskB"))) & (((1) <= (#tokens("CreatedJobs"))) U !F G X ((1) <= (#tokens("CreatedJobs")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-03
+  "Automatically generated"
+  is:
+    A X F G !((0) <= (#tokens("Perform_Work_E")))
+  end.
+Property PolyORBLF-COL-S02J06T08-04
+  "Automatically generated"
+  is:
+    A ((X (((#tokens("MarkerWrite")) <= (#tokens("P_1726"))) | G ((#tokens("MarkerWrite")) <= (#tokens("P_1726")))) U (((#tokens("MarkerWrite")) <= (#tokens("P_1726"))) U !F ((#tokens("MarkerWrite")) <= (#tokens("P_1726"))))) | !X ((#tokens("MarkerWrite")) <= (#tokens("P_1726"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-05
+  "Automatically generated"
+  is:
+    A G (X !((#tokens("JobCnt")) <= (#tokens("P_1712"))) | G ((2) <= (#tokens("NotifyEventJobQueuedB"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-06
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("JobCnt"))) & X ((#tokens("NoSigAbort")) <= (#tokens("cPollingAbort"))) & (X X (((3) <= (#tokens("JobCnt"))) U F ((1) <= (#tokens("P_1099")))) U (((1) <= (#tokens("P_1099"))) | ((#tokens("NoSigAbort")) <= (#tokens("cPollingAbort"))))))
+  end.
+Property PolyORBLF-COL-S02J06T08-07
+  "Automatically generated"
+  is:
+    A X F (((2) <= (#tokens("Check_Sources_B"))) & ((0) <= (#tokens("P_1113"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-08
+  "Automatically generated"
+  is:
+    A G F X G (((#tokens("ScheduleTaskB")) <= (#tokens("NotifyEventEndOfCheckSourcesE"))) | (F (((2) <= (#tokens("QueueJobE"))) & X ((1) <= (#tokens("DisablePollingE")))) U F ((1) <= (#tokens("DisablePollingE")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-09
+  "Automatically generated"
+  is:
+    A !X !X X ((((#tokens("P_2318")) <= (#tokens("TryAllocateOneTaskE"))) & !((#tokens("P_2318")) <= (#tokens("TryAllocateOneTaskE")))) | X !F G ((1) <= (#tokens("P_1159"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-10
+  "Automatically generated"
+  is:
+    A X F G !(((1) <= (#tokens("P_1716"))) & !G (((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobQueuedB"))) & ((#tokens("EnablePollingE")) <= (#tokens("Check_Sources_E")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-11
+  "Automatically generated"
+  is:
+    A G (G F !((#tokens("Abort_Check_Sources_B")) <= (#tokens("P_1160"))) & X F !((#tokens("P_1725")) <= (#tokens("Insert_Source_B"))))
+  end.
+Property PolyORBLF-COL-S02J06T08-12
+  "Automatically generated"
+  is:
+    A (F X X ((3) <= (#tokens("Try_Check_Sources_B"))) | (G X ((2) <= (#tokens("P_1724"))) U ((0) <= (#tokens("ScheduleTaskB")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-13
+  "Automatically generated"
+  is:
+    A G F !F (F (((#tokens("P_1113")) <= (#tokens("Insert_Source_E"))) & !((#tokens("cPollingAbort")) <= (#tokens("P_1097")))) & !(((3) <= (#tokens("QueueJobE"))) | G ((#tokens("cPollingAbort")) <= (#tokens("P_1097")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-14
+  "Automatically generated"
+  is:
+    A (!((#tokens("FetchJobE")) <= (#tokens("Perform_Work_E"))) | (X ((#tokens("FetchJobE")) <= (#tokens("Perform_Work_E"))) & G X X ((#tokens("cIsMonitoring")) <= (#tokens("BlockedTasks")))))
+  end.
+Property PolyORBLF-COL-S02J06T08-15
+  "Automatically generated"
+  is:
+    A (((#tokens("P_2318")) <= (#tokens("ScheduleTaskE_Work"))) | !(F ((2) <= (#tokens("P_2321"))) | F X (X ((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("ScheduleTaskE_Idle"))) & (((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("ScheduleTaskE_Idle"))) U F ((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("ScheduleTaskE_Idle")))))))
+  end.

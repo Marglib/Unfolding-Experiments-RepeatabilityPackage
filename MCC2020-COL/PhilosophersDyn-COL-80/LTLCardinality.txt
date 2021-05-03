@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-80-00
+  "Automatically generated"
+  is:
+    A F G (G ((#tokens("HasLeft")) <= (#tokens("Think"))) U (((#tokens("HasLeft")) <= (#tokens("Think"))) | G ((2) <= (#tokens("Neighbourhood")))))
+  end.
+Property PhilosophersDyn-COL-80-01
+  "Automatically generated"
+  is:
+    A (G (((#tokens("Forks")) <= (#tokens("WaitRight"))) | X !X F X ((2) <= (#tokens("WaitLeft")))) | (!G ((#tokens("Forks")) <= (#tokens("WaitRight"))) U ((#tokens("Forks")) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-80-02
+  "Automatically generated"
+  is:
+    A !(!(((1) <= (#tokens("Forks"))) | G ((#tokens("WaitLeft")) <= (#tokens("HasLeft")))) U F !((3) <= (#tokens("Outside"))))
+  end.
+Property PhilosophersDyn-COL-80-03
+  "Automatically generated"
+  is:
+    A (((((#tokens("WaitRight")) <= (#tokens("WaitLeft"))) | !((#tokens("WaitRight")) <= (#tokens("WaitLeft")))) U (!((#tokens("WaitRight")) <= (#tokens("WaitLeft"))) & (!((#tokens("WaitLeft")) <= (#tokens("HasRight"))) | ((1) <= (#tokens("WaitRight")))))) U X ((#tokens("HasLeft")) <= (#tokens("WaitLeft"))))
+  end.
+Property PhilosophersDyn-COL-80-04
+  "Automatically generated"
+  is:
+    A !G X X ((2) <= (#tokens("Outside")))
+  end.
+Property PhilosophersDyn-COL-80-05
+  "Automatically generated"
+  is:
+    A ((((3) <= (#tokens("WaitLeft"))) & (F ((0) <= (#tokens("HasLeft"))) U !((#tokens("HasRight")) <= (#tokens("WaitLeft"))))) | X G (((0) <= (#tokens("HasLeft"))) & (((#tokens("HasRight")) <= (#tokens("WaitLeft"))) | ((0) <= (#tokens("HasLeft"))))))
+  end.
+Property PhilosophersDyn-COL-80-06
+  "Automatically generated"
+  is:
+    A X (((#tokens("HasRight")) <= (#tokens("Forks"))) | !X (((1) <= (#tokens("Forks"))) U F ((1) <= (#tokens("Forks")))) | X !((2) <= (#tokens("Outside"))))
+  end.
+Property PhilosophersDyn-COL-80-07
+  "Automatically generated"
+  is:
+    A (((#tokens("HasLeft")) <= (#tokens("HasRight"))) U X G F (!F ((3) <= (#tokens("HasRight"))) | (((1) <= (#tokens("WaitRight"))) & (((#tokens("HasLeft")) <= (#tokens("HasRight"))) | F ((#tokens("HasLeft")) <= (#tokens("HasRight")))))))
+  end.
+Property PhilosophersDyn-COL-80-08
+  "Automatically generated"
+  is:
+    A !X (F ((#tokens("HasRight")) <= (#tokens("Outside"))) & G ((2) <= (#tokens("HasRight"))))
+  end.
+Property PhilosophersDyn-COL-80-09
+  "Automatically generated"
+  is:
+    A !F !G !F ((F ((3) <= (#tokens("Neighbourhood"))) & X ((3) <= (#tokens("Neighbourhood")))) U X ((1) <= (#tokens("Think"))))
+  end.
+Property PhilosophersDyn-COL-80-10
+  "Automatically generated"
+  is:
+    A ((((0) <= (#tokens("Outside"))) | F ((0) <= (#tokens("Outside")))) U X ((!F ((#tokens("HasLeft")) <= (#tokens("Neighbourhood"))) U ((#tokens("Think")) <= (#tokens("WaitLeft")))) U (((#tokens("Think")) <= (#tokens("WaitLeft"))) & ((#tokens("HasLeft")) <= (#tokens("Neighbourhood"))))))
+  end.
+Property PhilosophersDyn-COL-80-11
+  "Automatically generated"
+  is:
+    A (F !((#tokens("HasRight")) <= (#tokens("Neighbourhood"))) U !(F ((#tokens("WaitLeft")) <= (#tokens("Think"))) U F ((1) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-80-12
+  "Automatically generated"
+  is:
+    A F X (!((#tokens("Forks")) <= (#tokens("WaitRight"))) & G (F ((1) <= (#tokens("Outside"))) U ((#tokens("WaitRight")) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-80-13
+  "Automatically generated"
+  is:
+    A G (((#tokens("Forks")) <= (#tokens("HasRight"))) | (X X ((1) <= (#tokens("WaitLeft"))) & !X X G (((#tokens("WaitLeft")) <= (#tokens("WaitRight"))) & G ((#tokens("WaitLeft")) <= (#tokens("WaitRight"))))))
+  end.
+Property PhilosophersDyn-COL-80-14
+  "Automatically generated"
+  is:
+    A (G X ((3) <= (#tokens("HasLeft"))) U !F (G ((3) <= (#tokens("HasLeft"))) | X G !((#tokens("Forks")) <= (#tokens("Think")))))
+  end.
+Property PhilosophersDyn-COL-80-15
+  "Automatically generated"
+  is:
+    A (!((#tokens("WaitLeft")) <= (#tokens("HasLeft"))) & X ((F ((#tokens("WaitLeft")) <= (#tokens("HasLeft"))) & F X ((#tokens("Think")) <= (#tokens("WaitRight")))) U X G ((#tokens("WaitLeft")) <= (#tokens("HasLeft")))))
+  end.

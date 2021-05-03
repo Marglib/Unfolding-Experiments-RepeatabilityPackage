@@ -1,0 +1,80 @@
+Property SafeBus-COL-10-00
+  "Automatically generated"
+  is:
+    A !X !X X G "I_reemit"?
+  end.
+Property SafeBus-COL-10-01
+  "Automatically generated"
+  is:
+    A ("loss_m"? & "C_free"? & (!F X "I_reemit"? | G "C_free"?))
+  end.
+Property SafeBus-COL-10-02
+  "Automatically generated"
+  is:
+    A F !G !("I_emit"? | !"loss_a"? | X "C_provide"? | F "I_rec1"?)
+  end.
+Property SafeBus-COL-10-03
+  "Automatically generated"
+  is:
+    A !(G !F ("I_rec2"? | X X "I_rec2"?) & G "C_provide"?)
+  end.
+Property SafeBus-COL-10-04
+  "Automatically generated"
+  is:
+    A (F !"loss_m"? U F ("loss_m"? | G X "loss_m"? | F X "Gto"?))
+  end.
+Property SafeBus-COL-10-05
+  "Automatically generated"
+  is:
+    A X F G X !F G (X "I_rec1"? & X F "I_reemit"?)
+  end.
+Property SafeBus-COL-10-06
+  "Automatically generated"
+  is:
+    A X ("C_refuse"? | F X !X F "C_refuse"?)
+  end.
+Property SafeBus-COL-10-07
+  "Automatically generated"
+  is:
+    A (G X X "I_ask2"? U "loss_a"?)
+  end.
+Property SafeBus-COL-10-08
+  "Automatically generated"
+  is:
+    A G (("I_free"? | "I_rec2"?) & F X "I_emit"?)
+  end.
+Property SafeBus-COL-10-09
+  "Automatically generated"
+  is:
+    A X ((G ("I_refused"? & !"I_refused"?) U F "Gto"?) U X G "I_refused"?)
+  end.
+Property SafeBus-COL-10-10
+  "Automatically generated"
+  is:
+    A ("I_rec2"? & "I_rec1"? & "I_emit"? & X ("I_emit"? | G "I_emit"? | F "I_rec1"?))
+  end.
+Property SafeBus-COL-10-11
+  "Automatically generated"
+  is:
+    A !(!X "loss_m"? U X F X !F ("I_rec1"? | X "I_rec1"?))
+  end.
+Property SafeBus-COL-10-12
+  "Automatically generated"
+  is:
+    A (G "I_ask1"? | F (F "I_rec2"? & ("loss_m"? U "I_ask1"?)))
+  end.
+Property SafeBus-COL-10-13
+  "Automatically generated"
+  is:
+    A F (X "I_rec2"? & (!"I_rec2"? | F G ("Gto"? & "I_rec2"?)))
+  end.
+Property SafeBus-COL-10-14
+  "Automatically generated"
+  is:
+    A X F G X G !("I_reemit"? & !(F "I_free"? & !G "loss_m"?))
+  end.
+Property SafeBus-COL-10-15
+  "Automatically generated"
+  is:
+    A G ("C_free"? & X "C_free"? & G X (X "C_free"? & X X "C_refuse"?))
+  end.

@@ -1,0 +1,80 @@
+Property SafeBus-COL-15-00
+  "Automatically generated"
+  is:
+    A (X X F "I_ask1"? & X G ("I_reemit"? & "I_ask1"?))
+  end.
+Property SafeBus-COL-15-01
+  "Automatically generated"
+  is:
+    A !(!"I_ask2"? & F "I_reemit"? & X ("I_reemit"? | "I_reemit"? | F X "I_reemit"?))
+  end.
+Property SafeBus-COL-15-02
+  "Automatically generated"
+  is:
+    A !("I_rec1"? & !((!"I_rec1"? & "C_provide"?) U "loss_a"?))
+  end.
+Property SafeBus-COL-15-03
+  "Automatically generated"
+  is:
+    A F X !X !X F "C_provide"?
+  end.
+Property SafeBus-COL-15-04
+  "Automatically generated"
+  is:
+    A X F (X "C_provide"? U !"C_provide"?)
+  end.
+Property SafeBus-COL-15-05
+  "Automatically generated"
+  is:
+    A G (G !G ("I_rec1"? U "I_rec1"?) U (F "I_ask1"? U "I_reemit"?))
+  end.
+Property SafeBus-COL-15-06
+  "Automatically generated"
+  is:
+    A X (F "C_refuse"? & (F "I_rec2"? U G !F "I_reemit"?))
+  end.
+Property SafeBus-COL-15-07
+  "Automatically generated"
+  is:
+    A (F "loss_a"? U !(F "loss_m"? & !X X "loss_m"?))
+  end.
+Property SafeBus-COL-15-08
+  "Automatically generated"
+  is:
+    A G X ("I_free"? | "I_emit"? | X F "C_refuse"?)
+  end.
+Property SafeBus-COL-15-09
+  "Automatically generated"
+  is:
+    A X ("I_refused"? | F (G ("Gto"? | ("Gto"? & !"I_refused"?)) & !X "I_refused"?))
+  end.
+Property SafeBus-COL-15-10
+  "Automatically generated"
+  is:
+    A (G !"C_refuse"? | !G X "I_emit"?)
+  end.
+Property SafeBus-COL-15-11
+  "Automatically generated"
+  is:
+    A (G "I_rec1"? | X (G F "Gto"? | X ("Gto"? | "C_free"?)))
+  end.
+Property SafeBus-COL-15-12
+  "Automatically generated"
+  is:
+    A X (G "I_reemit"? & X ("I_emit"? U ("loss_m"? U !"loss_m"?)))
+  end.
+Property SafeBus-COL-15-13
+  "Automatically generated"
+  is:
+    A ("Gto"? | F G (!"Gto"? & "I_rec1"?))
+  end.
+Property SafeBus-COL-15-14
+  "Automatically generated"
+  is:
+    A (!"C_refuse"? & G !G X ("C_refuse"? & !F G !F "I_reemit"?))
+  end.
+Property SafeBus-COL-15-15
+  "Automatically generated"
+  is:
+    A X !((X "C_free"? | (X X "C_free"? U "C_free"?)) U !"I_ask2"?)
+  end.

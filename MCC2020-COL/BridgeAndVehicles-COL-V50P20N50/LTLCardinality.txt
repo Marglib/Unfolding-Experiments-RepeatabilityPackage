@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V50P20N50-00
+  "Automatically generated"
+  is:
+    A (X (!((#tokens("VIDANGE")) <= (#tokens("ROUTE_B"))) & F ((3) <= (#tokens("SORTI_A")))) & G (F X ((3) <= (#tokens("SORTI_A"))) U ((1) <= (#tokens("CONTROLEUR")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-01
+  "Automatically generated"
+  is:
+    A (!((0) <= (#tokens("ROUTE_A"))) U ((1) <= (#tokens("CAPACITE"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-02
+  "Automatically generated"
+  is:
+    A F G X X G (((1) <= (#tokens("CHOIX"))) & F ((#tokens("SORTI_A")) <= (#tokens("SUR_PONT_B"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-03
+  "Automatically generated"
+  is:
+    A !X (!(((2) <= (#tokens("ROUTE_A"))) | !((#tokens("CHOIX")) <= (#tokens("NB_ATTENTE_A")))) & G (((2) <= (#tokens("SUR_PONT_A"))) & ((2) <= (#tokens("CHOIX")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-04
+  "Automatically generated"
+  is:
+    A X G (((#tokens("CHOIX")) <= (#tokens("VIDANGE"))) | (F G X (((1) <= (#tokens("ROUTE_B"))) | ((0) <= (#tokens("NB_ATTENTE_A")))) U X ((1) <= (#tokens("NB_ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-05
+  "Automatically generated"
+  is:
+    A (((#tokens("ATTENTE_A")) <= (#tokens("CHOIX"))) & (G ((#tokens("CHOIX")) <= (#tokens("VIDANGE"))) | F (((#tokens("CAPACITE")) <= (#tokens("SORTI_A"))) & !(((#tokens("CHOIX")) <= (#tokens("VIDANGE"))) | F ((#tokens("NB_ATTENTE_A")) <= (#tokens("COMPTEUR")))))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-06
+  "Automatically generated"
+  is:
+    A X !(G ((#tokens("COMPTEUR")) <= (#tokens("ROUTE_A"))) U X !((#tokens("NB_ATTENTE_B")) <= (#tokens("SORTI_A"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-07
+  "Automatically generated"
+  is:
+    A (((#tokens("NB_ATTENTE_A")) <= (#tokens("NB_ATTENTE_B"))) & G ((2) <= (#tokens("CONTROLEUR"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-08
+  "Automatically generated"
+  is:
+    A !(((0) <= (#tokens("CAPACITE"))) | (((1) <= (#tokens("CHOIX"))) & (((0) <= (#tokens("CAPACITE"))) U !(!((0) <= (#tokens("CAPACITE"))) U G ((0) <= (#tokens("CAPACITE")))))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-09
+  "Automatically generated"
+  is:
+    A (!(((#tokens("VIDANGE")) <= (#tokens("ROUTE_B"))) & X (((#tokens("VIDANGE")) <= (#tokens("ROUTE_B"))) | X ((3) <= (#tokens("SORTI_B"))))) U !X F ((#tokens("ATTENTE_B")) <= (#tokens("ROUTE_A"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-10
+  "Automatically generated"
+  is:
+    A (G F ((#tokens("SORTI_A")) <= (#tokens("ROUTE_A"))) | !(X X (((0) <= (#tokens("VIDANGE"))) | ((0) <= (#tokens("SORTI_B")))) U F ((2) <= (#tokens("SORTI_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-11
+  "Automatically generated"
+  is:
+    A !(G (((3) <= (#tokens("SUR_PONT_A"))) & (((0) <= (#tokens("ROUTE_A"))) | ((0) <= (#tokens("CAPACITE"))))) U (((0) <= (#tokens("ROUTE_A"))) | ((#tokens("SORTI_A")) <= (#tokens("ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-12
+  "Automatically generated"
+  is:
+    A !X (((2) <= (#tokens("ROUTE_A"))) & X F (((2) <= (#tokens("ATTENTE_B"))) | X F G X ((2) <= (#tokens("ATTENTE_B")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-13
+  "Automatically generated"
+  is:
+    A (X X (((#tokens("ROUTE_B")) <= (#tokens("SORTI_A"))) U (((#tokens("ROUTE_A")) <= (#tokens("VIDANGE"))) | F ((#tokens("ROUTE_A")) <= (#tokens("VIDANGE"))))) U !F (G ((#tokens("NB_ATTENTE_B")) <= (#tokens("SORTI_A"))) U ((#tokens("ROUTE_A")) <= (#tokens("VIDANGE")))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-14
+  "Automatically generated"
+  is:
+    A ((((#tokens("CHOIX")) <= (#tokens("NB_ATTENTE_B"))) U F ((#tokens("NB_ATTENTE_A")) <= (#tokens("VIDANGE")))) & !G F X ((#tokens("CHOIX")) <= (#tokens("NB_ATTENTE_B"))))
+  end.
+Property BridgeAndVehicles-COL-V50P20N50-15
+  "Automatically generated"
+  is:
+    A F X X X (F (((#tokens("COMPTEUR")) <= (#tokens("SORTI_A"))) & F X !((#tokens("CONTROLEUR")) <= (#tokens("COMPTEUR")))) | (((1) <= (#tokens("NB_ATTENTE_B"))) U ((#tokens("COMPTEUR")) <= (#tokens("SORTI_A")))))
+  end.

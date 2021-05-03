@@ -1,0 +1,80 @@
+Property NeoElection-COL-3-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("poll__networl")))) | (((((1) <= (#tokens("electionFailed")))) & (((#tokens("masterState")) <= (#tokens("poll__networl")))))))) & (((((3) <= (#tokens("electionFailed")))) & (! ((1) <= (#tokens("electionInit")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("startNeg__broadcasting")))) & (((2) <= (#tokens("poll__networl")))))) | (((((#tokens("dead")) <= (#tokens("network")))) | (((#tokens("polling")) <= (#tokens("poll__networl")))))))) | (((((((#tokens("poll__networl")) <= (#tokens("startNeg__broadcasting")))) & (((1) <= (#tokens("startNeg__broadcasting")))))) & (((((#tokens("electionFailed")) <= (#tokens("network")))) | (((2) <= (#tokens("stage")))))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("sendAnnPs__broadcasting")) <= (#tokens("masterList")))) | (((#tokens("electedSecondary")) <= (#tokens("poll__handlingMessage")))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ! ((((#tokens("masterState")) <= (#tokens("dead")))) & (((((#tokens("crashed")) <= (#tokens("electedPrimary")))) & (((#tokens("sendAnnPs__broadcasting")) <= (#tokens("startNeg__broadcasting")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("sendAnnPs__broadcasting")))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ! ((((((1) <= (#tokens("dead")))) | (((2) <= (#tokens("crashed")))))) & (((((1) <= (#tokens("electionInit")))) | (((3) <= (#tokens("negotiation")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("electionFailed")) <= (#tokens("poll__networl")))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("startNeg__broadcasting")) <= (#tokens("poll__handlingMessage")))) | (((#tokens("poll__networl")) <= (#tokens("electionInit")))))) | (((((1) <= (#tokens("stage")))) & (((#tokens("startNeg__broadcasting")) <= (#tokens("poll__networl")))))))) | (! ! ((#tokens("poll__networl")) <= (#tokens("stage")))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("crashed")) <= (#tokens("electedPrimary")))) & (((((3) <= (#tokens("sendAnnPs__broadcasting")))) | (((#tokens("startNeg__broadcasting")) <= (#tokens("dead")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((((((1) <= (#tokens("electedPrimary")))) | (((#tokens("polling")) <= (#tokens("poll__handlingMessage")))))) | (((3) <= (#tokens("polling")))))) | (((1) <= (#tokens("masterState")))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ! ((((((3) <= (#tokens("electedSecondary")))) | (((#tokens("poll__networl")) <= (#tokens("poll__handlingMessage")))))) | (((((1) <= (#tokens("masterState")))) & (((3) <= (#tokens("polling")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ! ((((((3) <= (#tokens("electionFailed")))) & (((2) <= (#tokens("electedSecondary")))))) & (((((#tokens("crashed")) <= (#tokens("polling")))) & (((1) <= (#tokens("polling")))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("poll__networl")))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ! ((2) <= (#tokens("electedPrimary")))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("network")) <= (#tokens("poll__handlingMessage")))) | (((#tokens("electedSecondary")) <= (#tokens("poll__pollEnd")))))) & (((! ((#tokens("crashed")) <= (#tokens("network")))) & (((((3) <= (#tokens("poll__pollEnd")))) & (((1) <= (#tokens("poll__networl")))))))))
+  end.
+Property NeoElection-COL-3-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((#tokens("electedSecondary")) <= (#tokens("electionFailed")))
+  end.

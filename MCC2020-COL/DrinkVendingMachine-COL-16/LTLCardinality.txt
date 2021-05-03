@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-16-00
+  "Automatically generated"
+  is:
+    A X F (X (((#tokens("theOptions")) <= (#tokens("optionSlots"))) & X (((2) <= (#tokens("wait"))) | ((2) <= (#tokens("productSlots"))))) U (F ((2) <= (#tokens("wait"))) | F ((3) <= (#tokens("productSlots")))))
+  end.
+Property DrinkVendingMachine-COL-16-01
+  "Automatically generated"
+  is:
+    A G (!(((3) <= (#tokens("ready"))) & ((#tokens("theProducts")) <= (#tokens("wait")))) & (((#tokens("theProducts")) <= (#tokens("wait"))) U ((#tokens("theProducts")) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-16-02
+  "Automatically generated"
+  is:
+    A !(X X G ((#tokens("productSlots")) <= (#tokens("ready"))) U G (((#tokens("optionSlots")) <= (#tokens("ready"))) U F X ((0) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-16-03
+  "Automatically generated"
+  is:
+    A ((!X G ((1) <= (#tokens("wait"))) U G ((#tokens("theProducts")) <= (#tokens("optionSlots")))) U (F ((2) <= (#tokens("optionSlots"))) | F ((#tokens("theProducts")) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-16-04
+  "Automatically generated"
+  is:
+    A X !G ((#tokens("theOptions")) <= (#tokens("ready")))
+  end.
+Property DrinkVendingMachine-COL-16-05
+  "Automatically generated"
+  is:
+    A F G (X ((#tokens("optionSlots")) <= (#tokens("wait"))) & G F X (((2) <= (#tokens("wait"))) & X ((2) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-16-06
+  "Automatically generated"
+  is:
+    A G F (!F G ((0) <= (#tokens("optionSlots"))) | (X X ((3) <= (#tokens("productSlots"))) & F ((0) <= (#tokens("optionSlots")))))
+  end.
+Property DrinkVendingMachine-COL-16-07
+  "Automatically generated"
+  is:
+    A (X (((#tokens("wait")) <= (#tokens("theProducts"))) U (((3) <= (#tokens("theProducts"))) | G X ((3) <= (#tokens("theProducts"))))) U X G ((#tokens("optionSlots")) <= (#tokens("wait"))))
+  end.
+Property DrinkVendingMachine-COL-16-08
+  "Automatically generated"
+  is:
+    A F G (((3) <= (#tokens("wait"))) U X ((#tokens("optionSlots")) <= (#tokens("ready"))))
+  end.
+Property DrinkVendingMachine-COL-16-09
+  "Automatically generated"
+  is:
+    A !((!((1) <= (#tokens("productSlots"))) U G F !((1) <= (#tokens("productSlots")))) & X G !(((2) <= (#tokens("theOptions"))) U ((#tokens("theProducts")) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-16-10
+  "Automatically generated"
+  is:
+    A ((!((3) <= (#tokens("theOptions"))) U (((2) <= (#tokens("ready"))) U !((3) <= (#tokens("theOptions"))))) & !F (((2) <= (#tokens("ready"))) & ((#tokens("ready")) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-16-11
+  "Automatically generated"
+  is:
+    A X G (((1) <= (#tokens("theProducts"))) & X X ((1) <= (#tokens("theProducts"))))
+  end.
+Property DrinkVendingMachine-COL-16-12
+  "Automatically generated"
+  is:
+    A (!((#tokens("theProducts")) <= (#tokens("theOptions"))) | X X ((#tokens("theProducts")) <= (#tokens("ready"))) | G (((#tokens("theProducts")) <= (#tokens("theOptions"))) & ((3) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-16-13
+  "Automatically generated"
+  is:
+    A (X !((#tokens("theProducts")) <= (#tokens("ready"))) & ((((0) <= (#tokens("wait"))) & ((3) <= (#tokens("optionSlots")))) U !(G ((#tokens("theProducts")) <= (#tokens("wait"))) & X F ((0) <= (#tokens("wait"))))))
+  end.
+Property DrinkVendingMachine-COL-16-14
+  "Automatically generated"
+  is:
+    A X ((F ((0) <= (#tokens("optionSlots"))) | F !((#tokens("theProducts")) <= (#tokens("wait")))) & !(((#tokens("theProducts")) <= (#tokens("wait"))) U ((#tokens("ready")) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-16-15
+  "Automatically generated"
+  is:
+    A (!((#tokens("optionSlots")) <= (#tokens("theProducts"))) | X ((#tokens("wait")) <= (#tokens("productSlots"))) | ((!((#tokens("optionSlots")) <= (#tokens("theProducts"))) | !((1) <= (#tokens("optionSlots")))) & G !((1) <= (#tokens("optionSlots")))))
+  end.

@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0100-CTLFireability-00
+  "Automatically generated"
+  is:
+    E ((! (((("SampleLW"?) & ("t4_1"?))) & ("t4_1"?))) U ("t4_2"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-01
+  "Automatically generated"
+  is:
+    ! E F E F (("t5_1"?) | ("t2_1"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((! ! E G ! "t3_2"?) | ("t1_2"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((E F E X (("t3_2"?) & ("SpeedRW"?))) & (A F ! ((! "SampleRW"?) | ((("SampleRW"?) | ("getAlt"?))))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! ((E F "t3_1"?) & (! ! (((("SpeedRW"?) & ("t5_1"?))) | ((("SampleRW"?) & ("SpeedRW"?))))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-05
+  "Automatically generated"
+  is:
+    E X ! (("SampleRW"?) | (A F "SampleRW"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-06
+  "Automatically generated"
+  is:
+    E G (("t1_2"?) | ("SampleRW"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-07
+  "Automatically generated"
+  is:
+    E G (("SpeedRW"?) | ((((("getAlt"?) | (! "SampleLW"?))) | (((! "t2_1"?) & (! "t3_1"?))))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-08
+  "Automatically generated"
+  is:
+    E G "SampleRW"?
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-09
+  "Automatically generated"
+  is:
+    E G ((A X (("SampleRW"?) | ("t1_2"?))) | (E X ! "t3_1"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((((((! A F "t5_1"?) & (E (("t3_1"?) U ("t1_2"?))))) | ((("SpeedRW"?) & (! (((("t3_1"?) & ("t1_1"?))) & ((("SampleRW"?) | ("t2_1"?))))))))) & (((A (((("SpeedRW"?) | ("SampleRW"?))) U (! "t4_2"?))) & (A F ! ! "t1_2"?))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-11
+  "Automatically generated"
+  is:
+    A F ! ((E G "t4_1"?) | (E F "t5_1"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-12
+  "Automatically generated"
+  is:
+    E ((((E F "t3_1"?) & ((((("t4_2"?) | ("getAlt"?))) & (! "t3_2"?))))) U (E F (("SampleLW"?) & ("t3_2"?))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F ((E F ! "t4_2"?) & ((("SampleLW"?) & (E X "t2_1"?))))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((E X E G (("SpeedRW"?) | ("t1_2"?))) | (E X "t2_1"?))
+  end.
+Property AirplaneLD-COL-0100-CTLFireability-15
+  "Automatically generated"
+  is:
+    (("SpeedRW"?) & (E ((((! "t2_2"?) | ((("t3_1"?) | ("SpeedLW"?))))) U ("t4_1"?))))
+  end.

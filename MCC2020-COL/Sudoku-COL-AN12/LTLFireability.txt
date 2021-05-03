@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN12-00
+  "Automatically generated"
+  is:
+    A (F "select"? & F X G X F ("select"? & G "select"?))
+  end.
+Property Sudoku-COL-AN12-01
+  "Automatically generated"
+  is:
+    A (F "select"? | X X ("select"? | "select"? | G "select"?))
+  end.
+Property Sudoku-COL-AN12-02
+  "Automatically generated"
+  is:
+    A F !F G X F !("select"? U (X "select"? U "select"?))
+  end.
+Property Sudoku-COL-AN12-03
+  "Automatically generated"
+  is:
+    A !G !X (X (G "select"? & F "select"?) & F X "select"?)
+  end.
+Property Sudoku-COL-AN12-04
+  "Automatically generated"
+  is:
+    A X (G "select"? U "select"?)
+  end.
+Property Sudoku-COL-AN12-05
+  "Automatically generated"
+  is:
+    A G X "select"?
+  end.
+Property Sudoku-COL-AN12-06
+  "Automatically generated"
+  is:
+    A (X !G !"select"? U ("select"? | X (X G "select"? U "select"?)))
+  end.
+Property Sudoku-COL-AN12-07
+  "Automatically generated"
+  is:
+    A (!"select"? | (F "select"? U G !("select"? | "select"?)) | G "select"?)
+  end.
+Property Sudoku-COL-AN12-08
+  "Automatically generated"
+  is:
+    A G X F ("select"? | !X (X "select"? | ("select"? & !F "select"?)))
+  end.
+Property Sudoku-COL-AN12-09
+  "Automatically generated"
+  is:
+    A (!("select"? & X "select"? & F "select"?) U (!"select"? U G !"select"?))
+  end.
+Property Sudoku-COL-AN12-10
+  "Automatically generated"
+  is:
+    A (X ("select"? | G "select"?) & X ("select"? & ("select"? | "select"?)))
+  end.
+Property Sudoku-COL-AN12-11
+  "Automatically generated"
+  is:
+    A !("select"? U "select"?)
+  end.
+Property Sudoku-COL-AN12-12
+  "Automatically generated"
+  is:
+    A (!"select"? | ("select"? U "select"?))
+  end.
+Property Sudoku-COL-AN12-13
+  "Automatically generated"
+  is:
+    A !("select"? & G "select"? & X X X X "select"?)
+  end.
+Property Sudoku-COL-AN12-14
+  "Automatically generated"
+  is:
+    A (F X ("select"? U ("select"? & "select"?)) U ("select"? & F X F X "select"?))
+  end.
+Property Sudoku-COL-AN12-15
+  "Automatically generated"
+  is:
+    A ("select"? | G X F X X F !"select"?)
+  end.

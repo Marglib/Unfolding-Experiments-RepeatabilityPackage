@@ -1,0 +1,80 @@
+Property Peterson-COL-4-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("CS")) <= (#tokens("BeginLoop")))) | (((2) <= (#tokens("TestAlone")))))) | (! ((1) <= (#tokens("CS")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("IsEndLoop")) <= (#tokens("WantSection")))) & (((((2) <= (#tokens("CS")))) & (((#tokens("Turn")) <= (#tokens("IsEndLoop")))))))) & (((1) <= (#tokens("TestTurn")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("WantSection")))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("Idle")) <= (#tokens("Idle")))) & (((((1) <= (#tokens("Idle")))) | (((#tokens("IsEndLoop")) <= (#tokens("TestIdentity")))))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("TestTurn")) <= (#tokens("Turn")))) | (! ((#tokens("EndTurn")) <= (#tokens("TestAlone")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("IsEndLoop")))) | (((1) <= (#tokens("CS")))))) & (! ((2) <= (#tokens("TestTurn")))))) | (((((((2) <= (#tokens("Turn")))) & (((#tokens("Turn")) <= (#tokens("Turn")))))) | (((#tokens("WantSection")) <= (#tokens("TestIdentity")))))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("Turn")) <= (#tokens("TestAlone")))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("AskForSection")) <= (#tokens("WantSection")))) & (((((((3) <= (#tokens("TestIdentity")))) & (((#tokens("Turn")) <= (#tokens("IsEndLoop")))))) | (((((3) <= (#tokens("TestAlone")))) & (((3) <= (#tokens("Turn")))))))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("Turn")) <= (#tokens("TestIdentity")))) & (((2) <= (#tokens("Idle")))))) | (((#tokens("Idle")) <= (#tokens("IsEndLoop")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("TestTurn")) <= (#tokens("WantSection")))) | (((#tokens("Turn")) <= (#tokens("BeginLoop")))))) | (! ((3) <= (#tokens("Turn")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("IsEndLoop")))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("Turn")) <= (#tokens("Turn")))) | (((3) <= (#tokens("TestAlone")))))) & (! ! ((#tokens("Turn")) <= (#tokens("TestAlone")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((! ((((2) <= (#tokens("BeginLoop")))) & (((#tokens("Idle")) <= (#tokens("AskForSection")))))) | (((3) <= (#tokens("Turn")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("EndTurn")) <= (#tokens("AskForSection")))) & (((3) <= (#tokens("CS")))))) & (! ((2) <= (#tokens("EndTurn")))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("TestIdentity")) <= (#tokens("Turn")))) | (((((1) <= (#tokens("Turn")))) & (((#tokens("IsEndLoop")) <= (#tokens("Idle")))))))) | (((! ((#tokens("CS")) <= (#tokens("AskForSection")))) | (((1) <= (#tokens("CS")))))))
+  end.
+Property Peterson-COL-4-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((#tokens("CS")) <= (#tokens("Turn")))) | (((3) <= (#tokens("IsEndLoop")))))
+  end.

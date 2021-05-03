@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ! ((((((3) <= (#tokens("cIsMonitoring")))) | (((#tokens("DisablePollingE")) <= (#tokens("IdleTasks")))))) | (((((#tokens("P_1097")) <= (#tokens("NotifyEventEndOfCheckSourcesB")))) & (((#tokens("IsMonitoring")) <= (#tokens("cJobCnt")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("NotifyEventJobCompletedB")))) | (((((((#tokens("DisablePollingB")) <= (#tokens("NotifyEventJobCompletedE")))) & (((#tokens("QueueJobE")) <= (#tokens("P_1727")))))) & (((3) <= (#tokens("FetchJobB")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("SigAbort")))) & (((! ((3) <= (#tokens("NoSigAbort")))) & (((((#tokens("Check_Sources_E")) <= (#tokens("FetchJobE")))) & (((3) <= (#tokens("P_2579")))))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("PollingAbort")))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("P_1099")) <= (#tokens("Abort_Check_Sources_B")))) | (((3) <= (#tokens("ScheduleTaskE_Idle")))))) & (! ((2) <= (#tokens("EnablePollingB")))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ModifiedSrc")) <= (#tokens("P_1617")))) | (((#tokens("P_1159")) <= (#tokens("P_1119")))))) & (((#tokens("AvailableJobId")) <= (#tokens("P_1097")))))) & (! ((((#tokens("PlaceSources")) <= (#tokens("P_1093")))) & (((2) <= (#tokens("Perform_Work_E")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("Check_Sources_B")) <= (#tokens("P_1099")))) | (((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("cIsMonitoring")))))) | (((((#tokens("DisablePollingB")) <= (#tokens("P_1113")))) & (((#tokens("Idle")) <= (#tokens("P_1119")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ! ((((((3) <= (#tokens("cBlockedTasks")))) | (((#tokens("P_1160")) <= (#tokens("Check_Sources_E")))))) & (((2) <= (#tokens("Idle")))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((! ((1) <= (#tokens("Insert_Source_B")))) & (! ((#tokens("DisablePollingE")) <= (#tokens("NoSigAbort")))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("P_1095")) <= (#tokens("cBlockedTasks")))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ! ! ((((2) <= (#tokens("Abort_Check_Sources_B")))) & (((1) <= (#tokens("TryAllocateOneTaskE")))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("P_1159")) <= (#tokens("cIsMonitoring")))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("NoSigAbort")) <= (#tokens("cSources")))) & (((((3) <= (#tokens("ScheduleTaskB")))) & (((2) <= (#tokens("TryAllocateOneTaskB")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ! ((((1) <= (#tokens("ScheduleTaskB")))) | (((1) <= (#tokens("P_1155")))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("AvailableJobId")) <= (#tokens("P_1160")))) | (((3) <= (#tokens("CanInjectEvent")))))) & (((((2) <= (#tokens("P_1726")))) | (((#tokens("Insert_Source_B")) <= (#tokens("PollingAbort")))))))
+  end.
+Property PolyORBLF-COL-S02J04T10-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ! ! ! ((#tokens("ScheduleTaskE_Work")) <= (#tokens("P_1099")))
+  end.

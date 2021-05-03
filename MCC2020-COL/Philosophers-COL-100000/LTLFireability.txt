@@ -1,0 +1,80 @@
+Property Philosophers-COL-100000-00
+  "Automatically generated"
+  is:
+    A (F "FF1b"? U G !X G ("FF2b"? U F "FF2b"?))
+  end.
+Property Philosophers-COL-100000-01
+  "Automatically generated"
+  is:
+    A (X X "FF2a"? | (F "FF1a"? & X G "FF1b"?))
+  end.
+Property Philosophers-COL-100000-02
+  "Automatically generated"
+  is:
+    A G X ("End"? | "FF2a"?)
+  end.
+Property Philosophers-COL-100000-03
+  "Automatically generated"
+  is:
+    A !(("FF1b"? | !"FF2b"?) & G ("FF1a"? & "FF2b"?))
+  end.
+Property Philosophers-COL-100000-04
+  "Automatically generated"
+  is:
+    A X F X !"FF2b"?
+  end.
+Property Philosophers-COL-100000-05
+  "Automatically generated"
+  is:
+    A G (("End"? & G !X "End"?) U !G F "FF1b"?)
+  end.
+Property Philosophers-COL-100000-06
+  "Automatically generated"
+  is:
+    A X ((("FF1a"? | "FF2a"?) & F "FF1a"?) | G ("End"? & G "End"?))
+  end.
+Property Philosophers-COL-100000-07
+  "Automatically generated"
+  is:
+    A X G (!"FF2b"? & X G "FF1b"? & X "FF1b"?)
+  end.
+Property Philosophers-COL-100000-08
+  "Automatically generated"
+  is:
+    A (!"FF2a"? | F "End"? | !F (F "End"? U "FF2b"?))
+  end.
+Property Philosophers-COL-100000-09
+  "Automatically generated"
+  is:
+    A X !(X "FF1b"? & X F "FF1b"?)
+  end.
+Property Philosophers-COL-100000-10
+  "Automatically generated"
+  is:
+    A F (F "FF2a"? U "FF1a"?)
+  end.
+Property Philosophers-COL-100000-11
+  "Automatically generated"
+  is:
+    A !("FF1b"? | G F G !"End"?)
+  end.
+Property Philosophers-COL-100000-12
+  "Automatically generated"
+  is:
+    A ("FF1b"? & F G (G (G "FF2b"? U !"FF2b"?) U X G X "FF1b"?))
+  end.
+Property Philosophers-COL-100000-13
+  "Automatically generated"
+  is:
+    A (("FF2b"? U G ("FF1a"? & X F "FF1a"?)) | !G F "FF1a"?)
+  end.
+Property Philosophers-COL-100000-14
+  "Automatically generated"
+  is:
+    A (F (G X "FF2a"? U G "FF1b"?) & (G F "FF2b"? | G "FF2a"?))
+  end.
+Property Philosophers-COL-100000-15
+  "Automatically generated"
+  is:
+    A (!(!"End"? U G "FF1a"?) & F !G ("End"? | X "FF1a"?))
+  end.

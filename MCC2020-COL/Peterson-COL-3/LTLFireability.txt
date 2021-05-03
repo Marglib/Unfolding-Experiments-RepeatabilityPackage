@@ -1,0 +1,80 @@
+Property Peterson-COL-3-00
+  "Automatically generated"
+  is:
+    A X X G "AccessCS"?
+  end.
+Property Peterson-COL-3-01
+  "Automatically generated"
+  is:
+    A X !F (G F ("Loop"? U "UpdateTurn"?) U !"TurnDiff"?)
+  end.
+Property Peterson-COL-3-02
+  "Automatically generated"
+  is:
+    A ("Ask"? U "ProgressTurn"?)
+  end.
+Property Peterson-COL-3-03
+  "Automatically generated"
+  is:
+    A X X F ("Identity"? | F X !"UpdateTurn"?)
+  end.
+Property Peterson-COL-3-04
+  "Automatically generated"
+  is:
+    A F !"NotAlone"?
+  end.
+Property Peterson-COL-3-05
+  "Automatically generated"
+  is:
+    A G (G (F "ProgressTurn"? U "Identity"?) U G ("NoIdentity"? | X "UpdateTurn"?))
+  end.
+Property Peterson-COL-3-06
+  "Automatically generated"
+  is:
+    A G ((!G "Alone1"? U G "TurnEqual"?) & G !"TurnEqual"?)
+  end.
+Property Peterson-COL-3-07
+  "Automatically generated"
+  is:
+    A (G X "EndLoop"? & !F !X "Ask"? & !G "TurnEqual"?)
+  end.
+Property Peterson-COL-3-08
+  "Automatically generated"
+  is:
+    A !F G ("Alone1"? | ((X "TurnEqual"? U !"TurnEqual"?) & G X G "Alone1"?))
+  end.
+Property Peterson-COL-3-09
+  "Automatically generated"
+  is:
+    A F (G "NotAlone"? & X "Identity"? & X (G "Identity"? & G "NotAlone"?))
+  end.
+Property Peterson-COL-3-10
+  "Automatically generated"
+  is:
+    A (X "ContinueLoop"? & (F "Alone1"? | ("TurnEqual"? & G "TurnEqual"?)))
+  end.
+Property Peterson-COL-3-11
+  "Automatically generated"
+  is:
+    A G (G "ProgressTurn"? | !("TurnDiff"? U "TurnDiff"?) | !G !X !"TurnDiff"?)
+  end.
+Property Peterson-COL-3-12
+  "Automatically generated"
+  is:
+    A (F "Loop"? & F "UpdateTurn"? & G X ("NoIdentity"? & G "Alone1"?))
+  end.
+Property Peterson-COL-3-13
+  "Automatically generated"
+  is:
+    A ("Loop"? | "ProgressTurn"? | "Alone1"? | F G F X G ("NotAlone"? & "Alone1"?))
+  end.
+Property Peterson-COL-3-14
+  "Automatically generated"
+  is:
+    A !G X X !F G ("TurnEqual"? U ("TurnEqual"? U "BecomeIdle"?))
+  end.
+Property Peterson-COL-3-15
+  "Automatically generated"
+  is:
+    A !X F "TurnDiff"?
+  end.

@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((! ! (("enregistrement_A"?) & ("autorisation_A"?))) | (((((! "autorisation_A"?) | ("decision"?))) & ((((("basculement"?) | ("enregistrement_A"?))) & ("enregistrement_A"?))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F ! ! (("enregistrement_B"?) & (! "enregistrement_A"?))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ! ((((! "decision"?) & ("enregistrement_A"?))) & (! (("enregistrement_A"?) | ("autorisation_A"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ((((((! "timeout_B"?) | ((("enregistrement_B"?) & ("timeout_A"?))))) & ("altern_cpt"?))) & ((((((("enregistrement_B"?) | ("basculement"?))) | (! "liberation_A"?))) | (! "basculement"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F ((! (((("decision"?) | ("basculement"?))) | ((("enregistrement_B"?) | ("autorisation_A"?))))) & (((! (("timeout_A"?) & ("basculement"?))) & ("decision"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ((((((! "autorisation_A"?) | ("basculement"?))) | ("enregistrement_A"?))) | ((("timeout_A"?) & (! "basculement"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((! "enregistrement_B"?) & (! ((! "timeout_A"?) | ("timeout_B"?))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F (((((((("timeout_B"?) & ("liberation_A"?))) & ((("decision"?) | ("enregistrement_A"?))))) | ((((("enregistrement_A"?) | ("altern_cpt"?))) & ((("autorisation_A"?) & ("altern_cpt"?))))))) | (((! "autorisation_A"?) & (((! "enregistrement_B"?) & ((("enregistrement_B"?) & ("enregistrement_A"?))))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (((("basculement"?) | ("altern_cpt"?))) & ((((((("enregistrement_B"?) & ("basculement"?))) & ((("liberation_A"?) & ("decision"?))))) & ((((("basculement"?) | ("autorisation_A"?))) | ("timeout_B"?))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ! ! ! "enregistrement_B"?
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ((((! (("liberation_B"?) | ("liberation_B"?))) | (((! "timeout_A"?) & ((("altern_cpt"?) & ("basculement"?))))))) & (! (((("liberation_B"?) & ("decision"?))) | ((("enregistrement_A"?) | ("altern_cpt"?))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ! ! (((("timeout_A"?) & ("timeout_B"?))) & (! "altern_cpt"?))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ! (("enregistrement_A"?) | ((("autorisation_A"?) | ((("basculement"?) | ("timeout_A"?))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G "enregistrement_B"?
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (("enregistrement_A"?) & ((("basculement"?) & ((((("autorisation_A"?) & ("timeout_B"?))) & ((("timeout_B"?) & ("timeout_A"?))))))))
+  end.
+Property BridgeAndVehicles-COL-V20P20N20-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G "enregistrement_B"?
+  end.

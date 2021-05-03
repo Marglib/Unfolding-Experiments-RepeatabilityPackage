@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L01200M0120C060P060G030-00
+  "Automatically generated"
+  is:
+    A G X ((0) <= (#tokens("l3")))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-01
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("l18"))) | F ((2) <= (#tokens("lm2"))) | F ((3) <= (#tokens("l18"))) | G (G ((#tokens("m4")) <= (#tokens("p5"))) & !G ((3) <= (#tokens("l18")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-02
+  "Automatically generated"
+  is:
+    A (((#tokens("l28")) <= (#tokens("l1"))) U (G F ((#tokens("l12")) <= (#tokens("p1"))) U !X F ((#tokens("lm2")) <= (#tokens("m7")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-03
+  "Automatically generated"
+  is:
+    A !X F G (X ((2) <= (#tokens("l19"))) U (!((2) <= (#tokens("l19"))) & G !((#tokens("l30")) <= (#tokens("l36")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-04
+  "Automatically generated"
+  is:
+    A G F X (G ((#tokens("l8")) <= (#tokens("l22"))) | G (G ((#tokens("l17")) <= (#tokens("l21"))) U ((1) <= (#tokens("l15")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-05
+  "Automatically generated"
+  is:
+    A G F (((#tokens("l8")) <= (#tokens("c5"))) U G ((3) <= (#tokens("p3"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-06
+  "Automatically generated"
+  is:
+    A (F (((2) <= (#tokens("p8"))) & ((0) <= (#tokens("l9")))) | G (X F ((1) <= (#tokens("l16"))) U G !X ((0) <= (#tokens("l9")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-07
+  "Automatically generated"
+  is:
+    A (!F ((#tokens("m5")) <= (#tokens("l25"))) U ((3) <= (#tokens("l28"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-08
+  "Automatically generated"
+  is:
+    A !((!((3) <= (#tokens("p7"))) U X ((#tokens("l9")) <= (#tokens("lc2")))) | X (((#tokens("l9")) <= (#tokens("lc2"))) U X ((0) <= (#tokens("l31")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-09
+  "Automatically generated"
+  is:
+    A G (X ((3) <= (#tokens("l12"))) & G (((2) <= (#tokens("g1"))) | X ((3) <= (#tokens("l12")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-10
+  "Automatically generated"
+  is:
+    A X X F (((#tokens("m5")) <= (#tokens("m4"))) U ((#tokens("l40")) <= (#tokens("l8"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-11
+  "Automatically generated"
+  is:
+    A ((X F ((3) <= (#tokens("l4"))) U ((#tokens("g4")) <= (#tokens("l19")))) U ((#tokens("l40")) <= (#tokens("lg0"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-12
+  "Automatically generated"
+  is:
+    A ((((#tokens("m11")) <= (#tokens("c6"))) | F !G (!((#tokens("m11")) <= (#tokens("c6"))) | F ((#tokens("p9")) <= (#tokens("l1"))))) & (((#tokens("m11")) <= (#tokens("c6"))) | F ((#tokens("p9")) <= (#tokens("l1")))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-13
+  "Automatically generated"
+  is:
+    A !(G ((#tokens("ml1")) <= (#tokens("g2"))) U G ((#tokens("m4")) <= (#tokens("l25"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-14
+  "Automatically generated"
+  is:
+    A ((((#tokens("lc0")) <= (#tokens("l7"))) | G ((#tokens("c5")) <= (#tokens("c6"))) | (!((#tokens("l2")) <= (#tokens("lp1"))) & X G X ((3) <= (#tokens("l4"))))) U ((3) <= (#tokens("l4"))))
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-15
+  "Automatically generated"
+  is:
+    A ((((1) <= (#tokens("p7"))) & X ((1) <= (#tokens("lp0")))) | F X ((1) <= (#tokens("p7"))))
+  end.

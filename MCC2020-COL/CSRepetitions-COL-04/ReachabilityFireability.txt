@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-04-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (((((((("Send_Answer"?) | ("Lose_Request"?))) | ((("Send_Answer"?) & ("Prepare_Request"?))))) | (! ! "Lose_Request"?))) & (((! (("Send_Answer"?) | ("Lose_Request"?))) & (((! "Prepare_Request"?) | (! "Lose_Request"?))))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (("Lose_Request"?) | (((((! "Send_Answer"?) & ((("Read_Request"?) | ("Send_Request"?))))) | (((! "Lose_Request"?) | (! "Send_Answer"?))))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G (((("Send_Request"?) & ((("Send_Answer"?) & ((("Lose_Request"?) & ("Send_Answer"?))))))) | (! ((! "Send_Request"?) & (! "Prepare_Request"?))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F (((("Send_Answer"?) & (((! "Send_Answer"?) | (! "Send_Answer"?))))) & (((! (("Read_Request"?) | ("Send_Request"?))) & (! (("Lose_Request"?) | ("Lose_Request"?))))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (((((("Send_Request"?) & (! "Prepare_Request"?))) & ("Prepare_Request"?))) & (! ! "Prepare_Request"?))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F ((! (((("Prepare_Request"?) | ("Send_Answer"?))) & ((("Read_Request"?) | ("Read_Request"?))))) & (! ((! "Send_Answer"?) | (! "Send_Answer"?))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ((! "Prepare_Request"?) & (((! ! "Send_Answer"?) | (! "Send_Answer"?))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (((((((("Lose_Request"?) | ("Send_Request"?))) | ((("Send_Answer"?) | ("Send_Request"?))))) & ("Lose_Request"?))) & (((! ! "Send_Request"?) & ((((("Read_Request"?) | ("Lose_Request"?))) & (! "Read_Request"?))))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G (((("Send_Answer"?) | ((("Send_Answer"?) & ((("Send_Request"?) | ("Read_Request"?))))))) | (! "Send_Answer"?))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! ! ((! "Lose_Request"?) | ((("Lose_Request"?) & ("Lose_Request"?))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G (((("Prepare_Request"?) & (! "Read_Request"?))) | (((! ! "Prepare_Request"?) & ("Lose_Request"?))))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G (("Prepare_Request"?) | (! "Send_Answer"?))
+  end.
+Property CSRepetitions-COL-04-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G "Prepare_Request"?
+  end.

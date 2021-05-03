@@ -1,0 +1,80 @@
+Property TokenRing-COL-100-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((! ((! A X "OtherProcess"?) & ((((((("OtherProcess"?) | ("OtherProcess"?))) & (! "OtherProcess"?))) & (A F "MainProcess"?))))) | (A G ! A G "MainProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-01
+  "Automatically generated"
+  is:
+    E X "MainProcess"?
+  end.
+Property TokenRing-COL-100-CTLFireability-02
+  "Automatically generated"
+  is:
+    A ((E X ! "OtherProcess"?) U ("MainProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-03
+  "Automatically generated"
+  is:
+    "OtherProcess"?
+  end.
+Property TokenRing-COL-100-CTLFireability-04
+  "Automatically generated"
+  is:
+    A (("MainProcess"?) U (((A X "OtherProcess"?) & (A G "OtherProcess"?))))
+  end.
+Property TokenRing-COL-100-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((E X ! (("OtherProcess"?) & ((("OtherProcess"?) | ("OtherProcess"?))))) & (A F A F (("OtherProcess"?) & ("OtherProcess"?))))
+  end.
+Property TokenRing-COL-100-CTLFireability-06
+  "Automatically generated"
+  is:
+    A (((((((("MainProcess"?) & ("MainProcess"?))) & ("MainProcess"?))) | (E F "OtherProcess"?))) U ("MainProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-07
+  "Automatically generated"
+  is:
+    "MainProcess"?
+  end.
+Property TokenRing-COL-100-CTLFireability-08
+  "Automatically generated"
+  is:
+    E X ! E G (("MainProcess"?) | ("MainProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-09
+  "Automatically generated"
+  is:
+    (("MainProcess"?) & ("OtherProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-10
+  "Automatically generated"
+  is:
+    E X (((((((("MainProcess"?) | ("MainProcess"?))) & (! "MainProcess"?))) | ("OtherProcess"?))) | ((((("MainProcess"?) | ("OtherProcess"?))) & (E F "MainProcess"?))))
+  end.
+Property TokenRing-COL-100-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((((((A G "MainProcess"?) | ((((((("MainProcess"?) & ("MainProcess"?))) | ("MainProcess"?))) | ((((("MainProcess"?) & ("MainProcess"?))) & ((("OtherProcess"?) & ("OtherProcess"?))))))))) & ("OtherProcess"?))) & (((E ((! "OtherProcess"?) U ("OtherProcess"?))) | ((((("OtherProcess"?) & ("MainProcess"?))) | (E F "MainProcess"?))))))
+  end.
+Property TokenRing-COL-100-CTLFireability-12
+  "Automatically generated"
+  is:
+    "OtherProcess"?
+  end.
+Property TokenRing-COL-100-CTLFireability-13
+  "Automatically generated"
+  is:
+    A (((((((("MainProcess"?) | ("MainProcess"?))) | ((("MainProcess"?) | ("MainProcess"?))))) & ("MainProcess"?))) U ((("MainProcess"?) & (A X "OtherProcess"?))))
+  end.
+Property TokenRing-COL-100-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((((((((A G "MainProcess"?) | (E X "OtherProcess"?))) | (A G (("MainProcess"?) & ("OtherProcess"?))))) | ("MainProcess"?))) & ("OtherProcess"?))
+  end.
+Property TokenRing-COL-100-CTLFireability-15
+  "Automatically generated"
+  is:
+    A F "OtherProcess"?
+  end.

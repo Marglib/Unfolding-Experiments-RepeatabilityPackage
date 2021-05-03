@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J06T06-00
+  "Automatically generated"
+  is:
+    A (F (("T_2294"? & !"T_2294"?) U "T_2294"?) & X !"T_1722"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-01
+  "Automatically generated"
+  is:
+    A G (!F ("T_2541"? | F !F G "EnterCSPW"?) & F "T_2317"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-02
+  "Automatically generated"
+  is:
+    A G F G X X X G "NoCheck"?
+  end.
+Property PolyORBLF-COL-S04J06T06-03
+  "Automatically generated"
+  is:
+    A !((F !"EnterCSTCS"? & X !X "NotifyEventSourceAdded"?) | G "LeaveIdle"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-04
+  "Automatically generated"
+  is:
+    A G (!"NoCheck"? & (X "NOPDP"? | ("NoCheck"? & F X "NopAbort"?)))
+  end.
+Property PolyORBLF-COL-S04J06T06-05
+  "Automatically generated"
+  is:
+    A (!F "SetSigAbort"? U F ("T_1114"? & X !X X !X "NotifyEventSourceAdded"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-06
+  "Automatically generated"
+  is:
+    A (F !G "T_1100"? | !F G (F "T_1711"? & X "NotifyEventSourceAdded"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-07
+  "Automatically generated"
+  is:
+    A (F !("IsEvt"? & !("IsEvt"? & "GoPerformWork"?)) U F "GoIdle"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-08
+  "Automatically generated"
+  is:
+    A !F G X G (G X "NotifyEventJobCompleted"? & G !F !"T_1170"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-09
+  "Automatically generated"
+  is:
+    A G (X X G !X "T_1711"? U !"WaitforBlockedTasks"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-10
+  "Automatically generated"
+  is:
+    A X G X X !G F "WaitCompleted"?
+  end.
+Property PolyORBLF-COL-S04J06T06-11
+  "Automatically generated"
+  is:
+    A (G X G "NotifyEventSourceAdded"? & F !X "T_1444"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-12
+  "Automatically generated"
+  is:
+    A X (G "T_1444"? | !G "T_1722"?)
+  end.
+Property PolyORBLF-COL-S04J06T06-13
+  "Automatically generated"
+  is:
+    A !(X F !"T_2311"? | !G ("T_1711"? & X "T_1711"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-14
+  "Automatically generated"
+  is:
+    A !F X F X "T_2541"?
+  end.
+Property PolyORBLF-COL-S04J06T06-15
+  "Automatically generated"
+  is:
+    A F (X "IsEvt"? | !X G (X "IsEvt"? | G X F X "NeedMonitoring"?))
+  end.

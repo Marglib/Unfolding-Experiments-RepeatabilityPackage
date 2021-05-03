@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J40-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("place_482")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("mi2")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("f2")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("JobCnt")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("Schedule_Task_B")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("place_460")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("mo2")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("place_782")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("Schedule_Task_B")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("place_521")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("Schedule_Task_B")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("QueueJobE")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("mi3")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("TheSour")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("place_782")
+  end.
+Property PolyORBNT-COL-S10J40-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("cJobCnt")
+  end.

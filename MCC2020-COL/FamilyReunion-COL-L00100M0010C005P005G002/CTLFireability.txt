@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-00
+  "Automatically generated"
+  is:
+    ! A ((! (("AskCINFORMI"?) | ("Gate1XORJoin"?))) U ("ReserveAppCINFORMI"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-01
+  "Automatically generated"
+  is:
+    A F A F "AskCINFORMI"?
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-02
+  "Automatically generated"
+  is:
+    (((("DisplayNeedChoice"?) | (A F ((! "EvaluateReq"?) | ("ReceiveAppoint"?))))) & (((E X ! ! "RegisterRelativePubHealth"?) | (E F E F "TickDocsObtained"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((A X ! "ExplainProcedure"?) U ("ReqHousingSuitCertif"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-04
+  "Automatically generated"
+  is:
+    E F "Gate1ANDSplit"?
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-05
+  "Automatically generated"
+  is:
+    ! A ((! (("CommunicateResp"?) & ("ReceiveInstructions"?))) U ((((("CommunicateResp"?) & ("RegisterRelativePubHealth"?))) & ("ReceiveAppointReq"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((A F (((((("ReceiveDocsObtained"?) | ("GotIt"?))) & ((("GoToAppoint"?) & ("ReceiveDocsObtained"?))))) & (! ! "BringReqtoCINFORMI"?))) | (((A (((("ObtainMissingDocs"?) & ("Gate2ANDSplit"?))) U (! "SendClearanceToRel"?))) & (E F E G "SendSuitabilityCertif"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-07
+  "Automatically generated"
+  is:
+    E G ! E F (("ObtainMissingDocs"?) | ("ReceiveQuestion"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! A F E (("RegisterRelativePubHealth"?) U ("SendLangChoice"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((((A G "AccessMicTerminal"?) & (! "ReceiveReqDocsReq"?))) | (A G "ProvidePersonalnfo"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-10
+  "Automatically generated"
+  is:
+    E G ! E (("DisplayNeedChoice"?) U ("AppReqReceived"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-11
+  "Automatically generated"
+  is:
+    A ((((E G "GotoOSSAndProdDoc"?) | (! "PrepFamReuClearReq"?))) U (A G (("RegisterRelative"?) & ("CheckRequiredDoc"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((A G ! "RegisterRelative"?) | ("GotoOSSAndProdDoc"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-13
+  "Automatically generated"
+  is:
+    E G ((A X "Gate1XORJoin"?) | (((! ! "RespReceived"?) | (((! "CommunicateResp"?) | (! "ReceiveAccessReq"?))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-14
+  "Automatically generated"
+  is:
+    E ((! "Gate1XORSplit"?) U (E F (("ReceiveLangChoice"?) | ("Gate1XORSplit"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-CTLFireability-15
+  "Automatically generated"
+  is:
+    A F ! ((A F "ReceiveNeedChoice"?) | ((((("ProvidePersonalnfo"?) | ("Gate1ANDJoin"?))) | ((("ReceiveNeedChoice"?) & ("ObtainMissingDocs"?))))))
+  end.

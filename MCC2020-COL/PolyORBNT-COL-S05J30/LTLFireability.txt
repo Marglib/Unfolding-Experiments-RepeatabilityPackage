@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J30-00
+  "Automatically generated"
+  is:
+    A X (G "fi1"? | (F "trans_459"? & ("trans_459"? U X ("fi1"? | "NotifyEventEndOfCheckSources"?))))
+  end.
+Property PolyORBNT-COL-S05J30-01
+  "Automatically generated"
+  is:
+    A F X "trans_459"?
+  end.
+Property PolyORBNT-COL-S05J30-02
+  "Automatically generated"
+  is:
+    A ((!"trans_376"? U X F G (!"trans_376"? & "trans_776"?)) | X "trans_488"?)
+  end.
+Property PolyORBNT-COL-S05J30-03
+  "Automatically generated"
+  is:
+    A (!("fo2"? & X G "fo2"?) U ("NoJob"? | "WillPerformWork"?))
+  end.
+Property PolyORBNT-COL-S05J30-04
+  "Automatically generated"
+  is:
+    A ("fo3"? | (("NoJob"? & "WillPerformWork"?) U F G !F "fo3"?))
+  end.
+Property PolyORBNT-COL-S05J30-05
+  "Automatically generated"
+  is:
+    A ("GoCheckSource"? | F "trans_486"? | G "fo1"? | (("fo1"? & "fo2"?) U "GoCheckSource"?))
+  end.
+Property PolyORBNT-COL-S05J30-06
+  "Automatically generated"
+  is:
+    A !(("JobExist"? & X "fi3"? & ("trans_489"? U ("JobExist"? & G "trans_489"?))) U F "fi2"?)
+  end.
+Property PolyORBNT-COL-S05J30-07
+  "Automatically generated"
+  is:
+    A ("trans_533"? | (("trans_533"? | X "Run"?) U F "GoCheckSource"?))
+  end.
+Property PolyORBNT-COL-S05J30-08
+  "Automatically generated"
+  is:
+    A X G F ("trans_376"? | X G (G "trans_376"? | G !"trans_486"?))
+  end.
+Property PolyORBNT-COL-S05J30-09
+  "Automatically generated"
+  is:
+    A ((F "Run"? U "NoJob"?) | (X "NoJob"? & G F !("LeaveCSTCS"? & "NoJob"?)))
+  end.
+Property PolyORBNT-COL-S05J30-10
+  "Automatically generated"
+  is:
+    A (!G F "trans_487"? & ("trans_488"? U F X "trans_776"?))
+  end.
+Property PolyORBNT-COL-S05J30-11
+  "Automatically generated"
+  is:
+    A X G ("fo1"? | G F !"fo1"? | F G !"trans_457"?)
+  end.
+Property PolyORBNT-COL-S05J30-12
+  "Automatically generated"
+  is:
+    A (G "trans_510"? U "NotifyEventEndOfCheckSources"?)
+  end.
+Property PolyORBNT-COL-S05J30-13
+  "Automatically generated"
+  is:
+    A !(X ("fi3"? & "GoCheckSource"?) U G "WillPerformWork"?)
+  end.
+Property PolyORBNT-COL-S05J30-14
+  "Automatically generated"
+  is:
+    A X G "MustCheck"?
+  end.
+Property PolyORBNT-COL-S05J30-15
+  "Automatically generated"
+  is:
+    A G !(!"trans_508"? | "NotifyEventEndOfCheckSources"?)
+  end.

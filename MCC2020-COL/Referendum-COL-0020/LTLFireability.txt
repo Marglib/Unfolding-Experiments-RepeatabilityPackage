@@ -1,0 +1,80 @@
+Property Referendum-COL-0020-00
+  "Automatically generated"
+  is:
+    A (G !"yes"? & !X "yes"?)
+  end.
+Property Referendum-COL-0020-01
+  "Automatically generated"
+  is:
+    A (!G "no"? | F !F !("start"? & "no"?))
+  end.
+Property Referendum-COL-0020-02
+  "Automatically generated"
+  is:
+    A !(G "yes"? & !(!G "yes"? | G X X "yes"?))
+  end.
+Property Referendum-COL-0020-03
+  "Automatically generated"
+  is:
+    A (G ("start"? | G "start"?) | !G X "start"?)
+  end.
+Property Referendum-COL-0020-04
+  "Automatically generated"
+  is:
+    A (!F "yes"? | F X X G (F "yes"? U "yes"?))
+  end.
+Property Referendum-COL-0020-05
+  "Automatically generated"
+  is:
+    A G (F G (F !"yes"? U F "yes"?) | ("yes"? U !"no"?))
+  end.
+Property Referendum-COL-0020-06
+  "Automatically generated"
+  is:
+    A X X (!"no"? | !G (F ("no"? & "no"?) | G !"no"?))
+  end.
+Property Referendum-COL-0020-07
+  "Automatically generated"
+  is:
+    A F !F ("yes"? & X ("start"? U !F "yes"?))
+  end.
+Property Referendum-COL-0020-08
+  "Automatically generated"
+  is:
+    A X G (G "yes"? U X "yes"?)
+  end.
+Property Referendum-COL-0020-09
+  "Automatically generated"
+  is:
+    A X F G X !F G !((G "start"? U "start"?) & F "start"?)
+  end.
+Property Referendum-COL-0020-10
+  "Automatically generated"
+  is:
+    A (X (!"no"? & ("start"? U "no"?)) | ("no"? U X "start"?))
+  end.
+Property Referendum-COL-0020-11
+  "Automatically generated"
+  is:
+    A !(G "no"? | F ("no"? U "yes"?))
+  end.
+Property Referendum-COL-0020-12
+  "Automatically generated"
+  is:
+    A ((("start"? & "no"?) U (F "no"? | X "start"?)) & G ("no"? & "start"?))
+  end.
+Property Referendum-COL-0020-13
+  "Automatically generated"
+  is:
+    A (X X X X X "no"? U !G "yes"?)
+  end.
+Property Referendum-COL-0020-14
+  "Automatically generated"
+  is:
+    A (("start"? U F !F G F "yes"?) & !("yes"? | X F "start"?))
+  end.
+Property Referendum-COL-0020-15
+  "Automatically generated"
+  is:
+    A F !"yes"?
+  end.

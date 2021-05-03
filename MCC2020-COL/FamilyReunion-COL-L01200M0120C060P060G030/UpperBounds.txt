@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("m7")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("l25")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("l4")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("m9")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("g4")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("lp0")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l14")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("l3")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("g2")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("p3")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("gl1")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("l8")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("ml3")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("l35")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("p5")
+  end.
+Property FamilyReunion-COL-L01200M0120C060P060G030-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("c4")
+  end.

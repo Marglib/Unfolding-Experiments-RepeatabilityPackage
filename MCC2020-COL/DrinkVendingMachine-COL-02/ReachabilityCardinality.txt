@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("ready")) <= (#tokens("wait")))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("theOptions")) <= (#tokens("theOptions")))) | (((#tokens("theOptions")) <= (#tokens("productSlots")))))) | (((! ((#tokens("theProducts")) <= (#tokens("theProducts")))) & (((((3) <= (#tokens("optionSlots")))) | (((#tokens("wait")) <= (#tokens("theProducts")))))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((! ! ((3) <= (#tokens("optionSlots")))) & (! ((2) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("theOptions")))) & (((3) <= (#tokens("wait")))))) & (((#tokens("wait")) <= (#tokens("theOptions")))))) | (((((#tokens("optionSlots")) <= (#tokens("theProducts")))) | (((2) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((#tokens("ready")) <= (#tokens("ready")))) & (((3) <= (#tokens("ready")))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("theProducts")))) & (! ((((3) <= (#tokens("productSlots")))) | (((#tokens("optionSlots")) <= (#tokens("theProducts")))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("theProducts")) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ! ! ((#tokens("productSlots")) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("theProducts")))) & (((((1) <= (#tokens("theOptions")))) | (((3) <= (#tokens("wait")))))))) | (((3) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((#tokens("theProducts")) <= (#tokens("optionSlots")))) | (! ! ((1) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((#tokens("theProducts")) <= (#tokens("productSlots")))) | (((((((#tokens("productSlots")) <= (#tokens("wait")))) & (((#tokens("optionSlots")) <= (#tokens("theProducts")))))) & (((3) <= (#tokens("theOptions")))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("wait")) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((2) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((#tokens("optionSlots")) <= (#tokens("theProducts")))) & (((! ((#tokens("wait")) <= (#tokens("optionSlots")))) & (((((#tokens("wait")) <= (#tokens("ready")))) | (((#tokens("theProducts")) <= (#tokens("theProducts")))))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((((1) <= (#tokens("theProducts")))) & (! ((#tokens("productSlots")) <= (#tokens("theOptions")))))) | (((! ((3) <= (#tokens("theProducts")))) & (((((1) <= (#tokens("theOptions")))) | (((#tokens("optionSlots")) <= (#tokens("wait")))))))))
+  end.
+Property DrinkVendingMachine-COL-02-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("theOptions")) <= (#tokens("theProducts")))) & (((3) <= (#tokens("productSlots")))))) | (((((#tokens("theProducts")) <= (#tokens("ready")))) | (((#tokens("productSlots")) <= (#tokens("ready")))))))) | (! ! ((1) <= (#tokens("wait")))))
+  end.

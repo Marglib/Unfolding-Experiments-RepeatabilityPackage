@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-3-00
+  "Automatically generated"
+  is:
+    A (((#tokens("Score")) <= (#tokens("IsWinner"))) U (F G X ((0) <= (#tokens("OccupiedPositions"))) & (((#tokens("FreePositions")) <= (#tokens("IsWinner"))) | F ((0) <= (#tokens("OccupiedPositions"))) | F ((#tokens("Score")) <= (#tokens("IsWinner"))))))
+  end.
+Property DotAndBoxes-COL-3-01
+  "Automatically generated"
+  is:
+    A X (G (!((3) <= (#tokens("Idle"))) | X ((#tokens("Eval1")) <= (#tokens("End")))) & (((#tokens("Eval1")) <= (#tokens("End"))) | X F ((3) <= (#tokens("Idle")))))
+  end.
+Property DotAndBoxes-COL-3-02
+  "Automatically generated"
+  is:
+    A (G ((1) <= (#tokens("Chosed"))) & ((G ((0) <= (#tokens("Eval1"))) | X G ((#tokens("OccupiedPositions")) <= (#tokens("Score")))) U G (((0) <= (#tokens("Eval1"))) | ((#tokens("OccupiedPositions")) <= (#tokens("Score"))))))
+  end.
+Property DotAndBoxes-COL-3-03
+  "Automatically generated"
+  is:
+    A (F (((#tokens("FreePositions")) <= (#tokens("OccupiedPositions"))) & ((#tokens("Score")) <= (#tokens("OccupiedPositions")))) & X F ((1) <= (#tokens("FreePositions"))))
+  end.
+Property DotAndBoxes-COL-3-04
+  "Automatically generated"
+  is:
+    A (X X ((1) <= (#tokens("Score"))) & F X !X ((1) <= (#tokens("Score"))))
+  end.
+Property DotAndBoxes-COL-3-05
+  "Automatically generated"
+  is:
+    A ((X ((0) <= (#tokens("Score"))) & !F !((#tokens("Idle")) <= (#tokens("OccupiedPositions")))) U (!(((0) <= (#tokens("Score"))) & ((0) <= (#tokens("Score")))) & X ((3) <= (#tokens("OccupiedPositions")))))
+  end.
+Property DotAndBoxes-COL-3-06
+  "Automatically generated"
+  is:
+    A (G ((1) <= (#tokens("Chosed"))) | X (((#tokens("Idle")) <= (#tokens("Chosed"))) | !((2) <= (#tokens("Eval1")))))
+  end.
+Property DotAndBoxes-COL-3-07
+  "Automatically generated"
+  is:
+    A F G X (((#tokens("Score")) <= (#tokens("Idle"))) & (!((1) <= (#tokens("FreePositions"))) | G X (((#tokens("OccupiedPositions")) <= (#tokens("End"))) U ((3) <= (#tokens("Idle"))))))
+  end.
+Property DotAndBoxes-COL-3-08
+  "Automatically generated"
+  is:
+    A (((#tokens("Score")) <= (#tokens("Eval1"))) & X !F ((#tokens("Score")) <= (#tokens("Eval1"))) & F (((2) <= (#tokens("Idle"))) | ((#tokens("Score")) <= (#tokens("Eval1")))))
+  end.
+Property DotAndBoxes-COL-3-09
+  "Automatically generated"
+  is:
+    A ((((0) <= (#tokens("OccupiedPositions"))) | !X ((3) <= (#tokens("End")))) & !(((0) <= (#tokens("OccupiedPositions"))) & X F ((0) <= (#tokens("OccupiedPositions")))))
+  end.
+Property DotAndBoxes-COL-3-10
+  "Automatically generated"
+  is:
+    A (((0) <= (#tokens("Eval1"))) & !(((1) <= (#tokens("IsWinner"))) | (X ((#tokens("IsWinner")) <= (#tokens("OccupiedPositions"))) & G !((#tokens("End")) <= (#tokens("Eval1"))))))
+  end.
+Property DotAndBoxes-COL-3-11
+  "Automatically generated"
+  is:
+    A (((((2) <= (#tokens("End"))) | ((1) <= (#tokens("OccupiedPositions")))) U G ((1) <= (#tokens("OccupiedPositions")))) U (((0) <= (#tokens("OccupiedPositions"))) & G ((#tokens("Idle")) <= (#tokens("End")))))
+  end.
+Property DotAndBoxes-COL-3-12
+  "Automatically generated"
+  is:
+    A G F !G X (((#tokens("Score")) <= (#tokens("End"))) & X ((((#tokens("FreePositions")) <= (#tokens("OccupiedPositions"))) & G ((2) <= (#tokens("IsWinner")))) | F ((#tokens("Chosed")) <= (#tokens("FreePositions")))))
+  end.
+Property DotAndBoxes-COL-3-13
+  "Automatically generated"
+  is:
+    A G X F ((!((3) <= (#tokens("Eval1"))) U G F ((#tokens("OccupiedPositions")) <= (#tokens("FreePositions")))) U !((#tokens("Chosed")) <= (#tokens("FreePositions"))))
+  end.
+Property DotAndBoxes-COL-3-14
+  "Automatically generated"
+  is:
+    A F X (((#tokens("Eval1")) <= (#tokens("IsWinner"))) U X X X G (F ((1) <= (#tokens("End"))) | G ((1) <= (#tokens("End")))))
+  end.
+Property DotAndBoxes-COL-3-15
+  "Automatically generated"
+  is:
+    A X (!((3) <= (#tokens("Chosed"))) | ((((0) <= (#tokens("OccupiedPositions"))) | ((3) <= (#tokens("Chosed")))) & F G X X ((#tokens("Idle")) <= (#tokens("FreePositions")))))
+  end.

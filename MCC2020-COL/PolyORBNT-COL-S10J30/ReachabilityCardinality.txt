@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("FetchJobE")) <= (#tokens("mi3")))) & (((((#tokens("mo1")) <= (#tokens("place_500")))) & (((2) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))))) & (! ! ((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("NotifyEventJobQueuedB")) <= (#tokens("NotifyEventEndOfCheckSourcesB")))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("Try_Check_Sources_E")) <= (#tokens("mi3")))) & (((((3) <= (#tokens("Perform_Work_B")))) & (((3) <= (#tokens("QueueJobB")))))))) | (! ((((1) <= (#tokens("f2")))) | (((3) <= (#tokens("mi1")))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ! ((3) <= (#tokens("mi3")))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ! ((((3) <= (#tokens("NotifyEventJobQueuedE")))) | (((3) <= (#tokens("CreatedJobs")))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ! ((((3) <= (#tokens("place_482")))) | (((((1) <= (#tokens("DataOnSrc")))) & (((1) <= (#tokens("Check_Sources_E")))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ! ! ((((1) <= (#tokens("place_456")))) | (((#tokens("AvailableJobId")) <= (#tokens("Schedule_Task_B")))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("place_787")))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((! ((2) <= (#tokens("JobCnt")))) & (((#tokens("CanInjectEvent")) <= (#tokens("mi2")))))) | (((! ((#tokens("f3")) <= (#tokens("place_460")))) | (((#tokens("place_782")) <= (#tokens("mo1")))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("QueueJobE")) <= (#tokens("Try_Check_Sources_B")))) | (((1) <= (#tokens("place_482")))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ! ! ((((#tokens("place_460")) <= (#tokens("place_787")))) | (((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("DataOnSrc")))) & (((((((1) <= (#tokens("place_456")))) | (((#tokens("Try_Check_Sources_E")) <= (#tokens("Schedule_Task_E")))))) & (((((2) <= (#tokens("JobCnt")))) | (((3) <= (#tokens("place_500")))))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("mi2")) <= (#tokens("place_787")))) & (((((#tokens("mo3")) <= (#tokens("place_523")))) & (((2) <= (#tokens("Try_Check_Sources_E")))))))) & (((! ((#tokens("Perform_Work_B")) <= (#tokens("FetchJobE")))) | (((1) <= (#tokens("Try_Check_Sources_E")))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("mi1")))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("mi3")) <= (#tokens("mo3")))) | (((1) <= (#tokens("place_460")))))) & (((((((#tokens("place_518")) <= (#tokens("Try_Check_Sources_E")))) & (((1) <= (#tokens("block")))))) | (((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("Perform_Work_B")))))))
+  end.
+Property PolyORBNT-COL-S10J30-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("f3")) <= (#tokens("place_787")))) | (((((2) <= (#tokens("ModifiedSrc")))) | (((2) <= (#tokens("Schedule_Task_E")))))))) | (! ! ((1) <= (#tokens("QueueJobB")))))
+  end.

@@ -1,0 +1,80 @@
+Property Peterson-COL-4-00
+  "Automatically generated"
+  is:
+    A F (((1) <= (#tokens("EndTurn"))) | (!((#tokens("AskForSection")) <= (#tokens("IsEndLoop"))) & F ((1) <= (#tokens("EndTurn")))))
+  end.
+Property Peterson-COL-4-01
+  "Automatically generated"
+  is:
+    A (((#tokens("IsEndLoop")) <= (#tokens("Turn"))) | (G !(X ((0) <= (#tokens("EndTurn"))) U ((#tokens("Turn")) <= (#tokens("AskForSection")))) & X !((#tokens("WantSection")) <= (#tokens("Idle")))) | F ((#tokens("IsEndLoop")) <= (#tokens("Turn"))))
+  end.
+Property Peterson-COL-4-02
+  "Automatically generated"
+  is:
+    A F ((X ((2) <= (#tokens("TestTurn"))) U ((2) <= (#tokens("TestTurn")))) | X X ((3) <= (#tokens("CS"))))
+  end.
+Property Peterson-COL-4-03
+  "Automatically generated"
+  is:
+    A (F (!F !((2) <= (#tokens("WantSection"))) U ((2) <= (#tokens("CS")))) U (G ((1) <= (#tokens("EndTurn"))) U F X ((0) <= (#tokens("Idle")))))
+  end.
+Property Peterson-COL-4-04
+  "Automatically generated"
+  is:
+    A (((#tokens("TestAlone")) <= (#tokens("WantSection"))) & X !(F !((#tokens("TestAlone")) <= (#tokens("WantSection"))) | (((#tokens("TestTurn")) <= (#tokens("WantSection"))) U ((#tokens("WantSection")) <= (#tokens("BeginLoop"))))))
+  end.
+Property Peterson-COL-4-05
+  "Automatically generated"
+  is:
+    A (F G F ((2) <= (#tokens("Idle"))) U (((2) <= (#tokens("Idle"))) | ((0) <= (#tokens("AskForSection")))))
+  end.
+Property Peterson-COL-4-06
+  "Automatically generated"
+  is:
+    A X F (((0) <= (#tokens("AskForSection"))) | F (!((#tokens("IsEndLoop")) <= (#tokens("CS"))) & F G (((#tokens("Idle")) <= (#tokens("TestTurn"))) U (((1) <= (#tokens("CS"))) U ((1) <= (#tokens("BeginLoop")))))))
+  end.
+Property Peterson-COL-4-07
+  "Automatically generated"
+  is:
+    A X X F G (X ((#tokens("Idle")) <= (#tokens("Turn"))) U (((#tokens("IsEndLoop")) <= (#tokens("BeginLoop"))) U (((#tokens("IsEndLoop")) <= (#tokens("BeginLoop"))) | X X ((#tokens("CS")) <= (#tokens("TestAlone"))))))
+  end.
+Property Peterson-COL-4-08
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("TestTurn")))
+  end.
+Property Peterson-COL-4-09
+  "Automatically generated"
+  is:
+    A ((((#tokens("BeginLoop")) <= (#tokens("TestTurn"))) & ((3) <= (#tokens("TestTurn")))) U G !F (((#tokens("TestAlone")) <= (#tokens("IsEndLoop"))) U !(((#tokens("TestIdentity")) <= (#tokens("Turn"))) & G ((#tokens("TestIdentity")) <= (#tokens("Turn"))))))
+  end.
+Property Peterson-COL-4-10
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("TestIdentity"))) U X X F G !F ((1) <= (#tokens("AskForSection"))))
+  end.
+Property Peterson-COL-4-11
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("BeginLoop"))) | ((F ((#tokens("WantSection")) <= (#tokens("CS"))) U ((3) <= (#tokens("BeginLoop")))) U ((#tokens("TestAlone")) <= (#tokens("CS")))) | (((#tokens("TestAlone")) <= (#tokens("Turn"))) & G X G ((#tokens("CS")) <= (#tokens("EndTurn")))))
+  end.
+Property Peterson-COL-4-12
+  "Automatically generated"
+  is:
+    A X ((((#tokens("Turn")) <= (#tokens("TestAlone"))) U ((#tokens("TestTurn")) <= (#tokens("TestIdentity")))) & !(!G ((0) <= (#tokens("TestTurn"))) & G ((#tokens("TestTurn")) <= (#tokens("TestIdentity")))))
+  end.
+Property Peterson-COL-4-13
+  "Automatically generated"
+  is:
+    A !(((#tokens("TestTurn")) <= (#tokens("TestAlone"))) | X F (((#tokens("TestTurn")) <= (#tokens("TestAlone"))) | ((#tokens("AskForSection")) <= (#tokens("IsEndLoop")))) | G !G ((#tokens("AskForSection")) <= (#tokens("Idle"))))
+  end.
+Property Peterson-COL-4-14
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("TestIdentity"))) | ((#tokens("BeginLoop")) <= (#tokens("CS"))) | !F ((#tokens("BeginLoop")) <= (#tokens("CS"))) | (((#tokens("BeginLoop")) <= (#tokens("CS"))) U ((2) <= (#tokens("BeginLoop")))))
+  end.
+Property Peterson-COL-4-15
+  "Automatically generated"
+  is:
+    A G (!G X ((#tokens("IsEndLoop")) <= (#tokens("TestIdentity"))) | X !((#tokens("TestAlone")) <= (#tokens("CS"))) | F !(((3) <= (#tokens("EndTurn"))) | ((#tokens("TestAlone")) <= (#tokens("CS")))))
+  end.

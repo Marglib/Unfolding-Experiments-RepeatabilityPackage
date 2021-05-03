@@ -1,0 +1,80 @@
+Property Peterson-COL-2-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("EndTurn")))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("WantSection")))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("WantSection")))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("TestIdentity")) <= (#tokens("TestIdentity")))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((1) <= (#tokens("Turn")))) | (! ((((3) <= (#tokens("IsEndLoop")))) & (((2) <= (#tokens("TestIdentity")))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("Turn")))) | (! ((#tokens("WantSection")) <= (#tokens("IsEndLoop")))))) & (((2) <= (#tokens("Turn")))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("Idle")))) & (((#tokens("IsEndLoop")) <= (#tokens("EndTurn")))))) | (((((#tokens("IsEndLoop")) <= (#tokens("Idle")))) & (((#tokens("AskForSection")) <= (#tokens("TestIdentity")))))))) & (((((#tokens("Turn")) <= (#tokens("IsEndLoop")))) & (! ((#tokens("WantSection")) <= (#tokens("IsEndLoop")))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("TestAlone")))) & (((((2) <= (#tokens("AskForSection")))) & (((3) <= (#tokens("IsEndLoop")))))))) | (((((((#tokens("BeginLoop")) <= (#tokens("BeginLoop")))) & (((#tokens("BeginLoop")) <= (#tokens("WantSection")))))) | (((((1) <= (#tokens("Turn")))) & (((#tokens("TestTurn")) <= (#tokens("BeginLoop")))))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((1) <= (#tokens("IsEndLoop")))) | (((((((1) <= (#tokens("TestTurn")))) & (((#tokens("WantSection")) <= (#tokens("WantSection")))))) | (((((2) <= (#tokens("CS")))) | (((#tokens("CS")) <= (#tokens("IsEndLoop")))))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ! ((((#tokens("AskForSection")) <= (#tokens("BeginLoop")))) & (! ((#tokens("CS")) <= (#tokens("Idle")))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ! ((! ((2) <= (#tokens("Turn")))) | (((((1) <= (#tokens("WantSection")))) & (((#tokens("CS")) <= (#tokens("TestIdentity")))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("WantSection")) <= (#tokens("EndTurn")))) | (! ((#tokens("Turn")) <= (#tokens("BeginLoop")))))) | (((! ((1) <= (#tokens("WantSection")))) & (((((3) <= (#tokens("EndTurn")))) & (((#tokens("IsEndLoop")) <= (#tokens("IsEndLoop")))))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((((1) <= (#tokens("WantSection")))) | (((((#tokens("IsEndLoop")) <= (#tokens("TestTurn")))) & (((((#tokens("EndTurn")) <= (#tokens("EndTurn")))) & (((#tokens("BeginLoop")) <= (#tokens("Idle")))))))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ! ((((2) <= (#tokens("CS")))) & (((2) <= (#tokens("AskForSection")))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((! ((1) <= (#tokens("TestIdentity")))) | (((#tokens("TestAlone")) <= (#tokens("Turn")))))
+  end.
+Property Peterson-COL-2-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("CS")))) & (((#tokens("TestTurn")) <= (#tokens("AskForSection")))))) & (((((2) <= (#tokens("TestTurn")))) | (((#tokens("IsEndLoop")) <= (#tokens("IsEndLoop")))))))) & (((((((#tokens("WantSection")) <= (#tokens("EndTurn")))) & (((3) <= (#tokens("Turn")))))) & (((((2) <= (#tokens("Turn")))) & (((#tokens("WantSection")) <= (#tokens("CS")))))))))
+  end.

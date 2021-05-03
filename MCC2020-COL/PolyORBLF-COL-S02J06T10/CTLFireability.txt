@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J06T10-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F A X "T_1713"?
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-01
+  "Automatically generated"
+  is:
+    A ((((E F "LeaveCSIS"?) & (A F "T_1444"?))) U ("LeaveIdle"?))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((A F "T_0383"?) | ((("T_1722"?) & (A X (((("T_2280"?) & ("T_1730"?))) & ((("T_1171"?) | ("Run"?))))))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-03
+  "Automatically generated"
+  is:
+    A G ((! A G "EnterCSIS"?) & (! ((! "DummyOR1"?) & ((("IsAbort"?) & ("T_1170"?))))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! ((A X ((! "T_2283"?) | ((("NopAbort"?) | ("NOPEP"?))))) & (E G ((! "DummyOR1"?) | ((("T_1721"?) | ("T_1444"?))))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((A X "T_1123"?) | ((("T_2578"?) | (E F (("T_2311"?) & ((("T_1722"?) | ("EnterCSIS"?))))))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-06
+  "Automatically generated"
+  is:
+    ! A G E F (("T_1713"?) | ("T_2577"?))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-07
+  "Automatically generated"
+  is:
+    A F E ((! "NoMonitoring"?) U ("T_1170"?))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! A G ((E F "WillPerformWork"?) | ((((("T_1125"?) | ("T_1098"?))) & (! "T_1146"?))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-09
+  "Automatically generated"
+  is:
+    A ((! A G "WaitforBlockedTasks"?) U (((A G "NOPDP"?) | (E F "T_2283"?))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-10
+  "Automatically generated"
+  is:
+    A X A F (((("T_1711"?) & ("T_1147"?))) | ((("T_1124"?) & ("WaitforBlockedTasks"?))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((A ((E G "T_1125"?) U (! "T_1115"?))) & (((! ! E F "T_1125"?) | (A X "GoIdle"?))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((A F A F (("T_1170"?) | ("IsAbort"?))) & (((E G A G "T_1114"?) | (! E G (("WaitforBlockedTasks"?) | ("NoMonitoring"?))))))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F "DummyOR2"?
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-14
+  "Automatically generated"
+  is:
+    A X E G ! (("LeaveCSIS"?) | ("T_1729"?))
+  end.
+Property PolyORBLF-COL-S02J06T10-CTLFireability-15
+  "Automatically generated"
+  is:
+    E G ((E F ! "IsAbort"?) & (((! (("T_1098"?) | ("T_1729"?))) & (E F "T_1096"?))))
+  end.

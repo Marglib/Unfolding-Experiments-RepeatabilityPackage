@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("cg0")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("l32")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("l39")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("cl0")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("lm1")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("l35")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l18")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("g3")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("lc3")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("cg0")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("l26")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("gl0")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("l23")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("lc0")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("gl1")
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("p1")
+  end.

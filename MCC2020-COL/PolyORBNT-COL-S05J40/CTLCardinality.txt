@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J40-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A G E G ((((#tokens("place_460")) <= (#tokens("Try_Check_Sources_E")))) | (((#tokens("ModifiedSrc")) <= (#tokens("TheSour")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E ((((#tokens("CanInjectEvent")) <= (#tokens("mo1")))) U (A G ((1) <= (#tokens("Perform_Work_B")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((E F ((! ((#tokens("Perform_Work_E")) <= (#tokens("Perform_Work_B")))) & (((((#tokens("place_521")) <= (#tokens("AvailableJobId")))) & (((3) <= (#tokens("f1")))))))) & (A ((((((#tokens("f2")) <= (#tokens("place_787")))) | (((#tokens("JobCnt")) <= (#tokens("place_787")))))) U (((((1) <= (#tokens("AvailableJobId")))) | (((#tokens("block")) <= (#tokens("place_518")))))))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E G ((((1) <= (#tokens("cSources")))) & (((((((2) <= (#tokens("place_456")))) | (((#tokens("NotifyEventJobQueuedB")) <= (#tokens("mi2")))))) & (((#tokens("place_460")) <= (#tokens("Schedule_Task_B")))))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E F A G ((((1) <= (#tokens("place_782")))) | (((#tokens("NotifyEventJobQueuedB")) <= (#tokens("CreatedJobs")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ((E X A G ((3) <= (#tokens("block")))) | (A G ((! ((1) <= (#tokens("ModifiedSrc")))) & (! ((1) <= (#tokens("place_456")))))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((! ((((#tokens("place_500")) <= (#tokens("FetchJobB")))) | (((((3) <= (#tokens("place_518")))) & (((1) <= (#tokens("NotifyEventJobQueuedE")))))))) & (! ((((((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) | (((3) <= (#tokens("Try_Check_Sources_B")))))) & (! ((#tokens("FetchJobE")) <= (#tokens("Check_Sources_B")))))))) | (A X E G ((#tokens("f3")) <= (#tokens("NotifyEventJobQueuedB")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-07
+  "Automatically generated"
+  is:
+    A ((A G ((1) <= (#tokens("Schedule_Task_B")))) U (E G ((#tokens("Perform_Work_E")) <= (#tokens("AvailableJobId")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A F A G ((((1) <= (#tokens("Check_Sources_B")))) & (((#tokens("cSources")) <= (#tokens("Perform_Work_B")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A F E G ((((#tokens("Perform_Work_B")) <= (#tokens("DataOnSrc")))) & (((2) <= (#tokens("mi3")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((A F E F ((1) <= (#tokens("mi2")))) | (E G E F ((#tokens("place_482")) <= (#tokens("Check_Sources_B")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((((! A F ((3) <= (#tokens("place_456")))) & (A ((((2) <= (#tokens("Try_Check_Sources_E")))) U (((2) <= (#tokens("DataOnSrc")))))))) & (((2) <= (#tokens("DataOnSrc")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E X ((((((((#tokens("mo3")) <= (#tokens("place_518")))) | (((#tokens("NotifyEventJobQueuedE")) <= (#tokens("TheSour")))))) | (((((#tokens("Check_Sources_E")) <= (#tokens("DataOnSrc")))) | (((#tokens("FetchJobB")) <= (#tokens("place_456")))))))) & (E G ((#tokens("cJobCnt")) <= (#tokens("cJobCnt")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E G ! ((((((3) <= (#tokens("Try_Check_Sources_B")))) & (((2) <= (#tokens("Try_Check_Sources_E")))))) & (! ((#tokens("mo2")) <= (#tokens("NotifyEventEndOfCheckSourcesB")))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((((#tokens("place_458")) <= (#tokens("block")))) & (! A ((((3) <= (#tokens("cJobCnt")))) U (((2) <= (#tokens("place_522")))))))
+  end.
+Property PolyORBNT-COL-S05J40-CTLCardinality-15
+  "Automatically generated"
+  is:
+    A G A G ! ((3) <= (#tokens("mo3")))
+  end.

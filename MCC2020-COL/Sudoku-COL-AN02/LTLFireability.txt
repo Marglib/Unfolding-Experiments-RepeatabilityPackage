@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN02-00
+  "Automatically generated"
+  is:
+    A X G X (F G X ("select"? & F "select"?) & !G "select"?)
+  end.
+Property Sudoku-COL-AN02-01
+  "Automatically generated"
+  is:
+    A (F "select"? | (X F G X "select"? U G "select"?))
+  end.
+Property Sudoku-COL-AN02-02
+  "Automatically generated"
+  is:
+    A F G ("select"? | X "select"? | G X X "select"? | G F "select"?)
+  end.
+Property Sudoku-COL-AN02-03
+  "Automatically generated"
+  is:
+    A !X G F X "select"?
+  end.
+Property Sudoku-COL-AN02-04
+  "Automatically generated"
+  is:
+    A X (F "select"? & (!F "select"? U "select"?))
+  end.
+Property Sudoku-COL-AN02-05
+  "Automatically generated"
+  is:
+    A (G "select"? & (("select"? | F "select"?) U F "select"?))
+  end.
+Property Sudoku-COL-AN02-06
+  "Automatically generated"
+  is:
+    A X X (G "select"? & ("select"? U !"select"?))
+  end.
+Property Sudoku-COL-AN02-07
+  "Automatically generated"
+  is:
+    A (F ("select"? | G "select"?) & F !X F !"select"?)
+  end.
+Property Sudoku-COL-AN02-08
+  "Automatically generated"
+  is:
+    A !X (G "select"? U F G ("select"? U X X G X !"select"?))
+  end.
+Property Sudoku-COL-AN02-09
+  "Automatically generated"
+  is:
+    A X F G !(!"select"? & "select"?)
+  end.
+Property Sudoku-COL-AN02-10
+  "Automatically generated"
+  is:
+    A X G ("select"? & (!"select"? | "select"?))
+  end.
+Property Sudoku-COL-AN02-11
+  "Automatically generated"
+  is:
+    A X (!F "select"? & X ("select"? | G (!"select"? & ("select"? | "select"?))))
+  end.
+Property Sudoku-COL-AN02-12
+  "Automatically generated"
+  is:
+    A F (!(("select"? & G X F "select"?) U X X "select"?) U F "select"?)
+  end.
+Property Sudoku-COL-AN02-13
+  "Automatically generated"
+  is:
+    A X ("select"? | X F !X G X "select"?)
+  end.
+Property Sudoku-COL-AN02-14
+  "Automatically generated"
+  is:
+    A (("select"? U "select"?) | !("select"? U "select"?))
+  end.
+Property Sudoku-COL-AN02-15
+  "Automatically generated"
+  is:
+    A G F X X (X G (!"select"? | F "select"?) U "select"?)
+  end.

@@ -1,0 +1,80 @@
+Property Referendum-COL-0050-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G (("no"?) | (! "yes"?))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (((("start"?) & ("no"?))) & (! "no"?))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (((((("start"?) & ((("start"?) | ("start"?))))) | (! "start"?))) | (! "no"?))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ((! ! "start"?) & (((((! "start"?) & ("yes"?))) & (! "yes"?))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ((! (((("yes"?) | ("no"?))) & (! "yes"?))) | (! (("yes"?) | ((("no"?) & ("yes"?))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ! ((! (("start"?) & ("yes"?))) | (! "no"?))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((! (((("no"?) & ("yes"?))) | (! "no"?))) & ((("start"?) & (((! "no"?) | ((("start"?) | ("yes"?))))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F (("start"?) & (((((! "yes"?) | ("start"?))) & (! ! "no"?))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ((! ! (("start"?) | ("no"?))) | ((((((("yes"?) | ("yes"?))) & ((("no"?) | ("start"?))))) | ((((("start"?) & ("yes"?))) & (! "yes"?))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G ! ((! (("start"?) | ("no"?))) & (((! "yes"?) | (! "yes"?))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ((((! "yes"?) & (! (("no"?) | ("start"?))))) | (! (((("yes"?) | ("start"?))) | (! "start"?))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ((((! (("yes"?) | ("yes"?))) & (! ! "yes"?))) & (((! (("no"?) | ("start"?))) & (((! "start"?) | ((("no"?) & ("start"?))))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((((! ! "start"?) | (! "start"?))) | ((((((("yes"?) & ("start"?))) & ((("start"?) | ("start"?))))) & ((((("yes"?) & ("yes"?))) | (! "yes"?))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ((! ! (("yes"?) & ("yes"?))) | (((! "yes"?) | (! ! "yes"?))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (((("no"?) | ((("start"?) & (! "start"?))))) & ((("start"?) & (! (("start"?) | ("start"?))))))
+  end.
+Property Referendum-COL-0050-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ((((! (("start"?) | ("yes"?))) & ((("start"?) & ("no"?))))) & (((! "yes"?) | (! "no"?))))
+  end.

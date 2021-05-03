@@ -1,0 +1,80 @@
+Property VehicularWifi-COL-none-CTLFireability-00
+  "Automatically generated"
+  is:
+    A X (("EnteringErrorSpike"?) & (! ((! "CorrectPacketRts"?) & ((("ResumeBackoff2"?) | ("ReturnToBackoff"?))))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((! A ((! "EnteringErrorSpike"?) U ((("ReceiverTimeout"?) | ("GettingGarbled"?))))) & (A X E (("StopReceiving"?) U ("ResumeBackoff1"?))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-02
+  "Automatically generated"
+  is:
+    "GoToBackoff"?
+  end.
+Property VehicularWifi-COL-none-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((A F "BeginSending"?) U (A F ! "SendCTS"?))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-04
+  "Automatically generated"
+  is:
+    E G E (("ResumeBackoff1"?) U (! "SendAck"?))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((A G ! "ChooseBackoff"?) & (E G ((((! "PauseBackoff"?) & (! "SenderSenseCollision"?))) | (A F "ShortEnterVulnerable"?))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((! ((! A X "ResumeBackoff1"?) & (((E F "BeginReceiving"?) & (! ! "WaitAIFS4"?))))) & (E F ((E F "CorrectPacketRts"?) | (E X "SendRTS"?))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-07
+  "Automatically generated"
+  is:
+    (("ShortEnterVulnerable"?) & (! (("SendRTS"?) & (! ((! "StopReceiving"?) & ((("EndingGarbled"?) | ("CorrectPacketRts"?))))))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-08
+  "Automatically generated"
+  is:
+    "SendData"?
+  end.
+Property VehicularWifi-COL-none-CTLFireability-09
+  "Automatically generated"
+  is:
+    "ReceiverWrongPacket"?
+  end.
+Property VehicularWifi-COL-none-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((((((((E G "BeginWaitingForResponse"?) | ((("SenderWrongPacket"?) | (! "StopReceiving"?))))) | (! E X "GoToBackoff"?))) & (A G A X "ResumeBackoff3"?))) | (E G E F "InternalCollision"?))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((E G ! (((("EnteringErrorSpike"?) | ("GoToBackoff"?))) & ((("GoToBackoff"?) & ("SenderSenseCollision"?))))) | (A F (((((("SenderGarbled"?) | ("SenderTimeout"?))) | ("ExitingErrorSpike"?))) & (A G "BeginWaitingForResponse"?))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-12
+  "Automatically generated"
+  is:
+    E (("ReceiverGarbled"?) U ((((((("SenderWrongPacket"?) | ("ReceiverWrongPacket"?))) | (! "SendData"?))) & ("SenderSenseCollision"?))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-13
+  "Automatically generated"
+  is:
+    ((A X A X (("ChooseBackoff"?) | ("ResumeBackoff2"?))) | (((A G ! "GoToBackoff"?) | (A F (("EndingGarbled"?) & ((("PauseBackoff"?) | ("SenderGarbled"?))))))))
+  end.
+Property VehicularWifi-COL-none-CTLFireability-14
+  "Automatically generated"
+  is:
+    "SenderWrongPacket"?
+  end.
+Property VehicularWifi-COL-none-CTLFireability-15
+  "Automatically generated"
+  is:
+    "DecrementBackoff"?
+  end.

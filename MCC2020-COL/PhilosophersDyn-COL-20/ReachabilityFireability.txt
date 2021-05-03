@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-20-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ! (((((("Initialize"?) & ("Initialize"?))) | (! "Eat"?))) | (((! "Initialize"?) | (! "Leave"?))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ! ((((! "Eat"?) & ((("Eat"?) & ("TakeLeft"?))))) & (((! "Leave"?) | ((("SearchForks"?) & ("Join"?))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ! (((((("Join"?) & ("Eat"?))) & ((("Eat"?) & ("Join"?))))) & ("SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ! (("Eat"?) & (((! "Join"?) | ((("TakeLeft"?) & ("TakeLeft"?))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F (((((("Initialize"?) | (! "Eat"?))) & ("TakeRight"?))) & ("Initialize"?))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "Eat"?
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G (((("Join"?) & ("Join"?))) | (((! "Leave"?) | (! "Join"?))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G (((((((("SearchForks"?) & ("SearchForks"?))) & ("Initialize"?))) & (! (("Leave"?) & ("TakeRight"?))))) | ((((("TakeRight"?) & ("Initialize"?))) | ((("Leave"?) | (! "TakeLeft"?))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ! ! ((! "SearchForks"?) & ((("Eat"?) & ("Initialize"?))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G (((((((("TakeRight"?) & ("TakeLeft"?))) & ((("TakeLeft"?) | ("SearchForks"?))))) | (! "Initialize"?))) | (((! (("Join"?) & ("Initialize"?))) & ((("TakeLeft"?) | (! "TakeRight"?))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ! (((((("Leave"?) | ("Leave"?))) | ("Initialize"?))) & ((((("Eat"?) & ("SearchForks"?))) & ((("TakeLeft"?) | ("Leave"?))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G (((((((("Eat"?) & ("TakeLeft"?))) & ((("TakeRight"?) | ("Eat"?))))) & ((((("TakeRight"?) | ("Initialize"?))) & (! "Join"?))))) | (((! (("TakeLeft"?) & ("Initialize"?))) | (((! "Leave"?) & ((("Join"?) & ("TakeRight"?))))))))
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! "Eat"?
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ! "Eat"?
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F "Eat"?
+  end.
+Property PhilosophersDyn-COL-20-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ! ((! (("Eat"?) | ("Leave"?))) | (! ! "Leave"?))
+  end.

@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("l9")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("lm1")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("l21")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("p1")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("l4")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("c2")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l33")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("l5")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("l16")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("p3")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("p8")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("m11")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("p11")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("l22")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("p6")
+  end.
+Property FamilyReunion-COL-L00050M0005C002P002G001-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("p3")
+  end.

@@ -1,0 +1,80 @@
+Property NeoElection-COL-6-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((E F "poll__handleAnsP3"?) | (E G A G ! "sendAnnPs__end"?))
+  end.
+Property NeoElection-COL-6-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((! E F A X "sendAnnPs__end"?) | (((! ! (((("poll__handleRP"?) & ("poll__handleRI"?))) | (! "poll__iAmPrimary"?))) & (((((A G "poll__handleAnnP2"?) & (((! "poll__handleAnnP2"?) | ((("poll__handleAnsP1"?) | ("poll__handleAnnP1"?))))))) & (A G ! "poll__handleAnsP4"?))))))
+  end.
+Property NeoElection-COL-6-CTLFireability-02
+  "Automatically generated"
+  is:
+    E X ! ! E G "startNeg__start"?
+  end.
+Property NeoElection-COL-6-CTLFireability-03
+  "Automatically generated"
+  is:
+    E X A F ((! "poll__handleRI"?) & ((("poll__handleRI"?) & ("poll__handleAskP"?))))
+  end.
+Property NeoElection-COL-6-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F A G A F "startNeg__end"?
+  end.
+Property NeoElection-COL-6-CTLFireability-05
+  "Automatically generated"
+  is:
+    E F A F A X "poll__handleAnnP1"?
+  end.
+Property NeoElection-COL-6-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((E ((((! "poll__end"?) | ((("poll__handleRI"?) | ("poll__handleAI2"?))))) U ((("poll__handleAI2"?) & ((("poll__start"?) & ("poll__start"?))))))) & (((! E G ! "poll__end"?) | (E G A F "poll__handleAnnP2"?))))
+  end.
+Property NeoElection-COL-6-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! A G (((("poll__handleAnsP3"?) & (! "poll__end"?))) | (((! "poll__handleAnsP2"?) | ((("poll__handleAnsP3"?) | ("startNeg__start"?))))))
+  end.
+Property NeoElection-COL-6-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((! (("poll__end"?) | (E G ! "poll__handleAI1"?))) | (E F "poll__handleAnsP4"?))
+  end.
+Property NeoElection-COL-6-CTLFireability-09
+  "Automatically generated"
+  is:
+    A G A X (((("poll__iAmPrimary"?) & ("poll__handleAnnP2"?))) | (! "sendAnnPs__end"?))
+  end.
+Property NeoElection-COL-6-CTLFireability-10
+  "Automatically generated"
+  is:
+    A F ! ((! (("poll__handleAnsP3"?) | ("poll__end"?))) | (E G "poll__handleAnsP1"?))
+  end.
+Property NeoElection-COL-6-CTLFireability-11
+  "Automatically generated"
+  is:
+    E F "poll__handleAnsP1"?
+  end.
+Property NeoElection-COL-6-CTLFireability-12
+  "Automatically generated"
+  is:
+    A F "sendAnnPs__start"?
+  end.
+Property NeoElection-COL-6-CTLFireability-13
+  "Automatically generated"
+  is:
+    E F E (((("startSec"?) | ("startNeg__start"?))) U ((("poll__handleAnnP2"?) & ("sendAnnPs__start"?))))
+  end.
+Property NeoElection-COL-6-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((((! A F (("poll__handleAnsP3"?) & ("poll__iAmPrimary"?))) & (! E X (("poll__handleAnsP2"?) | ("poll__handleRP"?))))) & (! "sendAnnPs__start"?))
+  end.
+Property NeoElection-COL-6-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! A G E G ! "poll__handleAnsP1"?
+  end.

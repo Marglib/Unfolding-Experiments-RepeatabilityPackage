@@ -1,0 +1,80 @@
+Property Sudoku-COL-AN13-00
+  "Automatically generated"
+  is:
+    A F (F "select"? & G (F "select"? | !("select"? | X F "select"?)))
+  end.
+Property Sudoku-COL-AN13-01
+  "Automatically generated"
+  is:
+    A ("select"? | "select"? | ((G "select"? U X "select"?) U X X "select"?))
+  end.
+Property Sudoku-COL-AN13-02
+  "Automatically generated"
+  is:
+    A F G X F ("select"? | (!"select"? & !X F "select"?))
+  end.
+Property Sudoku-COL-AN13-03
+  "Automatically generated"
+  is:
+    A !(F G ("select"? | "select"?) U G X X !G X "select"?)
+  end.
+Property Sudoku-COL-AN13-04
+  "Automatically generated"
+  is:
+    A (!"select"? U !(("select"? | X G "select"?) U ("select"? & "select"?)))
+  end.
+Property Sudoku-COL-AN13-05
+  "Automatically generated"
+  is:
+    A G ("select"? & X "select"?)
+  end.
+Property Sudoku-COL-AN13-06
+  "Automatically generated"
+  is:
+    A X ("select"? | G X X "select"? | ("select"? U "select"?))
+  end.
+Property Sudoku-COL-AN13-07
+  "Automatically generated"
+  is:
+    A (F "select"? | (!X "select"? U !F (X "select"? | F X "select"?)))
+  end.
+Property Sudoku-COL-AN13-08
+  "Automatically generated"
+  is:
+    A (("select"? & X ("select"? & "select"?)) | X X (X "select"? | G F "select"?))
+  end.
+Property Sudoku-COL-AN13-09
+  "Automatically generated"
+  is:
+    A X !(!"select"? | G F ("select"? & !(G "select"? U G "select"?)))
+  end.
+Property Sudoku-COL-AN13-10
+  "Automatically generated"
+  is:
+    A X X (("select"? | X !"select"?) & X "select"? & G ("select"? | "select"?))
+  end.
+Property Sudoku-COL-AN13-11
+  "Automatically generated"
+  is:
+    A X X G "select"?
+  end.
+Property Sudoku-COL-AN13-12
+  "Automatically generated"
+  is:
+    A (X F !"select"? U ("select"? & "select"? & "select"?))
+  end.
+Property Sudoku-COL-AN13-13
+  "Automatically generated"
+  is:
+    A (F "select"? | (X "select"? U ("select"? | "select"?)))
+  end.
+Property Sudoku-COL-AN13-14
+  "Automatically generated"
+  is:
+    A X ((X (X "select"? U F "select"?) U F "select"?) U ("select"? & "select"?))
+  end.
+Property Sudoku-COL-AN13-15
+  "Automatically generated"
+  is:
+    A G (F "select"? U !G "select"?)
+  end.

@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0500-00
+  "Automatically generated"
+  is:
+    A (G ("t4_1"? U !"t1_1"?) & !G "SampleRW"?)
+  end.
+Property AirplaneLD-COL-0500-01
+  "Automatically generated"
+  is:
+    A (("t2_2"? & "getAlt"?) | F "t3_2"? | X "getAlt"?)
+  end.
+Property AirplaneLD-COL-0500-02
+  "Automatically generated"
+  is:
+    A G F ("SpeedRW"? & G "getAlt"?)
+  end.
+Property AirplaneLD-COL-0500-03
+  "Automatically generated"
+  is:
+    A F ("SpeedLW"? U "SpeedRW"?)
+  end.
+Property AirplaneLD-COL-0500-04
+  "Automatically generated"
+  is:
+    A G F (("getAlt"? | G X F "t4_1"?) U (!"t1_1"? & G "t2_1"?))
+  end.
+Property AirplaneLD-COL-0500-05
+  "Automatically generated"
+  is:
+    A F ("SpeedRW"? U F X G X G X ("t3_1"? & G "SampleLW"?))
+  end.
+Property AirplaneLD-COL-0500-06
+  "Automatically generated"
+  is:
+    A ((F !G "t5_1"? U "t5_1"?) | G X G "t1_2"?)
+  end.
+Property AirplaneLD-COL-0500-07
+  "Automatically generated"
+  is:
+    A G !(G "t3_2"? U !G X "getAlt"?)
+  end.
+Property AirplaneLD-COL-0500-08
+  "Automatically generated"
+  is:
+    A ("t5_1"? & X (F "t5_1"? | G ("getAlt"? | X "getAlt"?)))
+  end.
+Property AirplaneLD-COL-0500-09
+  "Automatically generated"
+  is:
+    A (("t1_1"? & (!"t3_1"? U F !"t3_1"?)) U X (X "t4_1"? U G "t1_1"?))
+  end.
+Property AirplaneLD-COL-0500-10
+  "Automatically generated"
+  is:
+    A G X !G "t2_1"?
+  end.
+Property AirplaneLD-COL-0500-11
+  "Automatically generated"
+  is:
+    A (F "getAlt"? & G "SampleLW"?)
+  end.
+Property AirplaneLD-COL-0500-12
+  "Automatically generated"
+  is:
+    A (G F !F !"SpeedRW"? U ("getAlt"? & X "t1_1"? & G !"SpeedRW"?))
+  end.
+Property AirplaneLD-COL-0500-13
+  "Automatically generated"
+  is:
+    A !((F !"t5_1"? | F G "t5_1"?) U F "t4_2"?)
+  end.
+Property AirplaneLD-COL-0500-14
+  "Automatically generated"
+  is:
+    A G F !G (("SpeedRW"? | !"SpeedRW"?) & F "t2_1"?)
+  end.
+Property AirplaneLD-COL-0500-15
+  "Automatically generated"
+  is:
+    A ("t3_2"? | "SpeedRW"? | X "t3_2"? | F X X X !G X "t1_2"?)
+  end.

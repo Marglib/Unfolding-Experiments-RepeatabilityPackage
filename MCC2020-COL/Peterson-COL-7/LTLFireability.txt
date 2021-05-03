@@ -1,0 +1,80 @@
+Property Peterson-COL-7-00
+  "Automatically generated"
+  is:
+    A ("UpdateTurn"? | G ("AccessCS"? | "UpdateTurn"?))
+  end.
+Property Peterson-COL-7-01
+  "Automatically generated"
+  is:
+    A G !X F X X "EndLoop"?
+  end.
+Property Peterson-COL-7-02
+  "Automatically generated"
+  is:
+    A (!(("Ask"? | "AccessCS"?) & !F "ContinueLoop"?) U X "Ask"?)
+  end.
+Property Peterson-COL-7-03
+  "Automatically generated"
+  is:
+    A F !X X G !"Identity"?
+  end.
+Property Peterson-COL-7-04
+  "Automatically generated"
+  is:
+    A ("NotAlone"? | F X "Loop"?)
+  end.
+Property Peterson-COL-7-05
+  "Automatically generated"
+  is:
+    A X F !("ProgressTurn"? U (X F "ProgressTurn"? & !F "UpdateTurn"?))
+  end.
+Property Peterson-COL-7-06
+  "Automatically generated"
+  is:
+    A G F X G X X (G "TurnEqual"? & G ("UpdateTurn"? & X "UpdateTurn"?))
+  end.
+Property Peterson-COL-7-07
+  "Automatically generated"
+  is:
+    A X (G (("EndLoop"? | "TurnEqual"?) & !X X !"TurnEqual"?) U "Loop"?)
+  end.
+Property Peterson-COL-7-08
+  "Automatically generated"
+  is:
+    A ((X !G X F "Alone1"? | (G "TurnEqual"? U "TurnEqual"?)) U G F "Alone1"?)
+  end.
+Property Peterson-COL-7-09
+  "Automatically generated"
+  is:
+    A (F !"NotAlone"? U G "NotAlone"?)
+  end.
+Property Peterson-COL-7-10
+  "Automatically generated"
+  is:
+    A X (!F X X X "ContinueLoop"? U X "TurnEqual"?)
+  end.
+Property Peterson-COL-7-11
+  "Automatically generated"
+  is:
+    A F G X X F X "NotAlone"?
+  end.
+Property Peterson-COL-7-12
+  "Automatically generated"
+  is:
+    A (!F X X "ContinueLoop"? U (("Loop"? & X "NoIdentity"?) U (G "Loop"? U "ContinueLoop"?)))
+  end.
+Property Peterson-COL-7-13
+  "Automatically generated"
+  is:
+    A F !((G "NotAlone"? & ("Alone1"? U !"ProgressTurn"?)) U F "Alone1"?)
+  end.
+Property Peterson-COL-7-14
+  "Automatically generated"
+  is:
+    A !("TurnEqual"? U (!"Loop"? | G (!"TurnEqual"? & F !"UpdateTurn"?)))
+  end.
+Property Peterson-COL-7-15
+  "Automatically generated"
+  is:
+    A G "TurnEqual"?
+  end.

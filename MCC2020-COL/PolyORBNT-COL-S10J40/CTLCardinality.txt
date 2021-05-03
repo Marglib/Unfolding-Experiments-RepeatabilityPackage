@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J40-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((A ((! ((#tokens("block")) <= (#tokens("mi3")))) U (! ((#tokens("Perform_Work_B")) <= (#tokens("place_523")))))) | (((E F ! ((#tokens("QueueJobE")) <= (#tokens("place_460")))) & (((((1) <= (#tokens("NotifyEventJobQueuedE")))) & (! ((#tokens("mo3")) <= (#tokens("CanInjectEvent")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E G ((1) <= (#tokens("mo1")))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((((((((((#tokens("CanInjectEvent")) <= (#tokens("Perform_Work_E")))) | (! ((3) <= (#tokens("CreatedJobs")))))) & (! ((((2) <= (#tokens("mi1")))) | (((1) <= (#tokens("Try_Check_Sources_B")))))))) & (E ((((1) <= (#tokens("AvailableJobId")))) U (((1) <= (#tokens("Try_Check_Sources_E")))))))) & (A X ((! ((#tokens("f3")) <= (#tokens("Try_Check_Sources_B")))) | (! ((#tokens("TheSour")) <= (#tokens("place_520")))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F ((E F ((2) <= (#tokens("QueueJobB")))) | (E X ((3) <= (#tokens("NotifyEventJobQueuedB")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-04
+  "Automatically generated"
+  is:
+    A G ((! ! ((2) <= (#tokens("mo3")))) | (((! ((3) <= (#tokens("f1")))) & (((((1) <= (#tokens("FetchJobE")))) | (((#tokens("f2")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A ((A X ((#tokens("mi2")) <= (#tokens("NotifyEventJobQueuedB")))) U (((3) <= (#tokens("FetchJobB")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((E G ! ((1) <= (#tokens("place_458")))) & (((((#tokens("Check_Sources_E")) <= (#tokens("place_782")))) & (((#tokens("QueueJobE")) <= (#tokens("place_787")))))))) | (((A G ! ((1) <= (#tokens("place_482")))) & (A F ((((3) <= (#tokens("Check_Sources_B")))) | (((1) <= (#tokens("QueueJobB")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ! E G A F ((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("mo3")))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ! ((A F ((((#tokens("DataOnSrc")) <= (#tokens("f3")))) & (((#tokens("QueueJobB")) <= (#tokens("place_522")))))) & (E G ! ((1) <= (#tokens("QueueJobB")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! A F ((3) <= (#tokens("Perform_Work_E")))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E F A G ((((#tokens("Check_Sources_B")) <= (#tokens("mo3")))) & (((1) <= (#tokens("place_787")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-11
+  "Automatically generated"
+  is:
+    E G ! ((((((3) <= (#tokens("Check_Sources_E")))) & (((1) <= (#tokens("place_482")))))) & (((((1) <= (#tokens("mo3")))) | (((2) <= (#tokens("place_456")))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((((((((#tokens("place_482")) <= (#tokens("CreatedJobs")))) | (((! ((2) <= (#tokens("mi2")))) | (! ((#tokens("place_523")) <= (#tokens("Try_Check_Sources_B")))))))) & (A F ((((#tokens("JobCnt")) <= (#tokens("place_787")))) & (((2) <= (#tokens("mo2")))))))) & (((#tokens("place_456")) <= (#tokens("place_520")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((#tokens("place_482")) <= (#tokens("place_500")))) | (E F ((2) <= (#tokens("TheSour")))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A ((((#tokens("place_482")) <= (#tokens("NotifyEventJobQueuedB")))) U (((((#tokens("CanInjectEvent")) <= (#tokens("mo3")))) & (((((#tokens("place_458")) <= (#tokens("Check_Sources_B")))) & (((#tokens("mo1")) <= (#tokens("mi1")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((E F ((((3) <= (#tokens("NotifyEventEndOfCheckSourcesB")))) | (((#tokens("AvailableJobId")) <= (#tokens("place_500")))))) & (((#tokens("place_462")) <= (#tokens("Check_Sources_E")))))) & (A F ((((2) <= (#tokens("f2")))) & (((((#tokens("NotifyEventJobQueuedE")) <= (#tokens("JobCnt")))) & (((3) <= (#tokens("Try_Check_Sources_B")))))))))
+  end.

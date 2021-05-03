@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((! ! ! "Acquire"?) | ((((((("Update"?) | ("Change"?))) | (! "SendReply"?))) | (((! "Update"?) | ((("SendReply"?) & ("Acquire"?))))))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F "Update"?
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ((! "Update"?) | ("SendReply"?))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F (("Release"?) & (! ! "SendReply"?))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G (((((((("Update"?) & ("Update"?))) | (! "Acquire"?))) & (! "end_update"?))) | (! (((("SendReply"?) | ("end_update"?))) & ((("Start"?) | ("SendMsg"?))))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ! (("SendReply"?) & ("Change"?))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G ! "SendMsg"?
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F "SendMsg"?
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (("end_update"?) & (((((! "SendReply"?) & (! "SendReply"?))) & ((("Change"?) | ("SendMsg"?))))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ((! ! (("Change"?) & ("SendReply"?))) & ((((((("Start"?) | ("end_update"?))) | ((("Acquire"?) | ("end_update"?))))) | (! (("Acquire"?) & ("Acquire"?))))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F (((((("end_update"?) | ((("Change"?) & ("Release"?))))) & (! ! "Start"?))) & ("end_update"?))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (((((((("Acquire"?) | ("Change"?))) & (! "SendReply"?))) & (! "SendReply"?))) & ((("Change"?) & ("SendMsg"?))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ! ((! (("end_update"?) & ("Release"?))) & (! (("SendMsg"?) & ("SendMsg"?))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F "Release"?
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ((! ! "Release"?) & ((((((("Start"?) | ("SendReply"?))) | (! "SendMsg"?))) & (! "Acquire"?))))
+  end.
+Property DatabaseWithMutex-COL-20-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ! (((((("Release"?) | ("Start"?))) | ((("Change"?) & ("Update"?))))) | (! (("SendMsg"?) & ("Update"?))))
+  end.

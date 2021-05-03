@@ -1,0 +1,80 @@
+Property TokenRing-COL-010-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((((E G ((#tokens("State")) <= (#tokens("State")))) & (! ! ((((3) <= (#tokens("State")))) & (((#tokens("State")) <= (#tokens("State")))))))) & (A G A F ((3) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("State")))
+  end.
+Property TokenRing-COL-010-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E ((((2) <= (#tokens("State")))) U (A G ((#tokens("State")) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((! ((A G ((#tokens("State")) <= (#tokens("State")))) & (((3) <= (#tokens("State")))))) & (A ((! ((#tokens("State")) <= (#tokens("State")))) U (((((#tokens("State")) <= (#tokens("State")))) | (((3) <= (#tokens("State")))))))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ! ((A F ! ((#tokens("State")) <= (#tokens("State")))) | (A G ! ((3) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ((E G A F ((3) <= (#tokens("State")))) & (E G E X ((#tokens("State")) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-06
+  "Automatically generated"
+  is:
+    A G A ((((2) <= (#tokens("State")))) U (((1) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((((! E F ((#tokens("State")) <= (#tokens("State")))) | (((A G ((#tokens("State")) <= (#tokens("State")))) | (E G ((#tokens("State")) <= (#tokens("State")))))))) | (((((((! ((3) <= (#tokens("State")))) & (((((3) <= (#tokens("State")))) | (((#tokens("State")) <= (#tokens("State")))))))) & (((((((#tokens("State")) <= (#tokens("State")))) | (((#tokens("State")) <= (#tokens("State")))))) | (! ((2) <= (#tokens("State")))))))) & (((((((((2) <= (#tokens("State")))) | (((3) <= (#tokens("State")))))) | (((#tokens("State")) <= (#tokens("State")))))) & (A G ((2) <= (#tokens("State")))))))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((((E G ((#tokens("State")) <= (#tokens("State")))) | (A X ((((#tokens("State")) <= (#tokens("State")))) | (((1) <= (#tokens("State")))))))) & (E G ! ! ((#tokens("State")) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E F ! A F ((2) <= (#tokens("State")))
+  end.
+Property TokenRing-COL-010-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E ((((! ((#tokens("State")) <= (#tokens("State")))) & (((1) <= (#tokens("State")))))) U (A G ((3) <= (#tokens("State")))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((! A G ((((1) <= (#tokens("State")))) & (((#tokens("State")) <= (#tokens("State")))))) & (((A G ((#tokens("State")) <= (#tokens("State")))) | (A F ! ((#tokens("State")) <= (#tokens("State")))))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E ((((((((2) <= (#tokens("State")))) & (((3) <= (#tokens("State")))))) & (((((1) <= (#tokens("State")))) & (((2) <= (#tokens("State")))))))) U (((! ((#tokens("State")) <= (#tokens("State")))) & (((((3) <= (#tokens("State")))) | (((#tokens("State")) <= (#tokens("State")))))))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E F A G ((#tokens("State")) <= (#tokens("State")))
+  end.
+Property TokenRing-COL-010-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A ((E F ((3) <= (#tokens("State")))) U (((! ((3) <= (#tokens("State")))) | (! ((2) <= (#tokens("State")))))))
+  end.
+Property TokenRing-COL-010-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((#tokens("State")) <= (#tokens("State")))) & (E F A G ((1) <= (#tokens("State")))))
+  end.

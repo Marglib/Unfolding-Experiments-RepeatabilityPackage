@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-50-CTLFireability-00
+  "Automatically generated"
+  is:
+    A G ! ! (((("switch4"?) | ("switch1"?))) | ((("switch6"?) & ("switch7"?))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-01
+  "Automatically generated"
+  is:
+    A F ! ! A G "switch7"?
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-02
+  "Automatically generated"
+  is:
+    A ((A X ! "switch12"?) U ("switch7"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-03
+  "Automatically generated"
+  is:
+    A X E F A F "display3"?
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F (("switch3"?) | (E (("switch5"?) U ("switch3"?))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((((! (("display3"?) & ("switch1"?))) & (((A G "switch11"?) | ((((((("switch5"?) & ("switch4"?))) | ("display3"?))) & ((("switch1"?) | ("switch5"?))))))))) | (((((! E F "switch8"?) & (((! (("switch5"?) & ("switch12"?))) & (E F "display1"?))))) & (E ((! "display1"?) U (! "switch8"?))))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-06
+  "Automatically generated"
+  is:
+    E G ((((E F "switch6"?) & (E X "switch2"?))) | (A X (("switch9"?) | ("switch5"?))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-07
+  "Automatically generated"
+  is:
+    A (((((((("switch10"?) | ("display1"?))) & ((("switch8"?) & ("switch12"?))))) | (E F "display3"?))) U (((A G "display1"?) | ((((("switch3"?) & ("switch1"?))) | ("switch8"?))))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-08
+  "Automatically generated"
+  is:
+    E G E ((! "display1"?) U ((("switch4"?) | ("switch12"?))))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-09
+  "Automatically generated"
+  is:
+    E F A F (("switch4"?) & ("switch9"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((E F (((((("display2"?) | ("switch7"?))) | ((("switch8"?) & ("switch11"?))))) | ("switch9"?))) & (! A X E F "switch10"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! ! E (((("switch1"?) | ("switch12"?))) U ("display2"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-12
+  "Automatically generated"
+  is:
+    (("switch6"?) | (A F "switch12"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-13
+  "Automatically generated"
+  is:
+    ((A F E X (("switch11"?) | ("switch4"?))) | (A G A G ! "switch2"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-14
+  "Automatically generated"
+  is:
+    A G ((A X ! "display2"?) | ("display2"?))
+  end.
+Property PermAdmissibility-COL-50-CTLFireability-15
+  "Automatically generated"
+  is:
+    E G ((A G (("display2"?) | ("switch5"?))) | (! A G "switch7"?))
+  end.

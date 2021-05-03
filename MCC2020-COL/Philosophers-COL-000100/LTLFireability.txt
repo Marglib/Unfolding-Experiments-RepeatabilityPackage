@@ -1,0 +1,80 @@
+Property Philosophers-COL-000100-00
+  "Automatically generated"
+  is:
+    A (G (("FF1a"? U "End"?) U ("FF1b"? & "FF1a"?)) U G "End"?)
+  end.
+Property Philosophers-COL-000100-01
+  "Automatically generated"
+  is:
+    A G F X ("FF2a"? U "FF2b"?)
+  end.
+Property Philosophers-COL-000100-02
+  "Automatically generated"
+  is:
+    A F G "FF1a"?
+  end.
+Property Philosophers-COL-000100-03
+  "Automatically generated"
+  is:
+    A (G "FF1b"? U X !"FF2a"?)
+  end.
+Property Philosophers-COL-000100-04
+  "Automatically generated"
+  is:
+    A !X F (F (!G "FF1a"? U !"FF1a"?) U X "FF1a"?)
+  end.
+Property Philosophers-COL-000100-05
+  "Automatically generated"
+  is:
+    A !(("FF2b"? | X !"FF2a"?) & G F "FF1b"?)
+  end.
+Property Philosophers-COL-000100-06
+  "Automatically generated"
+  is:
+    A F ("FF2a"? U (X !(X "FF1a"? U G "FF2a"?) U ("FF2a"? & F "FF2a"?)))
+  end.
+Property Philosophers-COL-000100-07
+  "Automatically generated"
+  is:
+    A F G (X "FF2a"? & F X "FF2a"?)
+  end.
+Property Philosophers-COL-000100-08
+  "Automatically generated"
+  is:
+    A ("FF2a"? & X (!"FF2a"? & (F "FF2a"? | G "End"?)))
+  end.
+Property Philosophers-COL-000100-09
+  "Automatically generated"
+  is:
+    A (("End"? U (G "FF2b"? & X "End"?)) | X ("End"? | F "End"?))
+  end.
+Property Philosophers-COL-000100-10
+  "Automatically generated"
+  is:
+    A X ("FF2a"? & !(!"FF2b"? & X ("FF2a"? | G "FF2a"?)))
+  end.
+Property Philosophers-COL-000100-11
+  "Automatically generated"
+  is:
+    A G F !G ("End"? | (F ("FF2b"? & F G "End"?) U "End"?))
+  end.
+Property Philosophers-COL-000100-12
+  "Automatically generated"
+  is:
+    A !X ("FF1a"? & X X G "End"?)
+  end.
+Property Philosophers-COL-000100-13
+  "Automatically generated"
+  is:
+    A !X F "FF1b"?
+  end.
+Property Philosophers-COL-000100-14
+  "Automatically generated"
+  is:
+    A ("FF2a"? | G (G X ("FF2a"? | "FF2b"? | X "End"?) U G "End"?))
+  end.
+Property Philosophers-COL-000100-15
+  "Automatically generated"
+  is:
+    A X ("FF2a"? & G ("FF2b"? & G "FF1a"?))
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-050000-00
+  "Automatically generated"
+  is:
+    A (!((#tokens("Catch1")) <= (#tokens("Think"))) | F (F (((#tokens("Catch2")) <= (#tokens("Fork"))) | F ((3) <= (#tokens("Catch2")))) U G !((#tokens("Catch2")) <= (#tokens("Fork")))))
+  end.
+Property Philosophers-COL-050000-01
+  "Automatically generated"
+  is:
+    A (G ((#tokens("Catch1")) <= (#tokens("Eat"))) & (F ((#tokens("Catch1")) <= (#tokens("Eat"))) U X !((#tokens("Think")) <= (#tokens("Catch1")))))
+  end.
+Property Philosophers-COL-050000-02
+  "Automatically generated"
+  is:
+    A X !(F ((#tokens("Think")) <= (#tokens("Eat"))) U X ((#tokens("Think")) <= (#tokens("Eat"))))
+  end.
+Property Philosophers-COL-050000-03
+  "Automatically generated"
+  is:
+    A (!((#tokens("Think")) <= (#tokens("Eat"))) | (((#tokens("Think")) <= (#tokens("Catch2"))) U (X ((1) <= (#tokens("Think"))) U !((#tokens("Think")) <= (#tokens("Eat"))))))
+  end.
+Property Philosophers-COL-050000-04
+  "Automatically generated"
+  is:
+    A F ((#tokens("Eat")) <= (#tokens("Catch2")))
+  end.
+Property Philosophers-COL-050000-05
+  "Automatically generated"
+  is:
+    A F G X !G (G ((#tokens("Eat")) <= (#tokens("Fork"))) | F ((#tokens("Eat")) <= (#tokens("Fork"))))
+  end.
+Property Philosophers-COL-050000-06
+  "Automatically generated"
+  is:
+    A (!(F ((#tokens("Eat")) <= (#tokens("Catch2"))) & X ((1) <= (#tokens("Think")))) U ((#tokens("Think")) <= (#tokens("Eat"))))
+  end.
+Property Philosophers-COL-050000-07
+  "Automatically generated"
+  is:
+    A (((#tokens("Catch1")) <= (#tokens("Catch2"))) & (((1) <= (#tokens("Catch2"))) | ((0) <= (#tokens("Catch1")))) & G X (X ((#tokens("Catch2")) <= (#tokens("Catch1"))) & G ((1) <= (#tokens("Catch2")))))
+  end.
+Property Philosophers-COL-050000-08
+  "Automatically generated"
+  is:
+    A !X X (((#tokens("Eat")) <= (#tokens("Fork"))) & (((#tokens("Eat")) <= (#tokens("Fork"))) U !F (X G ((#tokens("Catch2")) <= (#tokens("Think"))) U X ((#tokens("Eat")) <= (#tokens("Fork"))))))
+  end.
+Property Philosophers-COL-050000-09
+  "Automatically generated"
+  is:
+    A ((((2) <= (#tokens("Think"))) & X G X X ((2) <= (#tokens("Think")))) U !(((2) <= (#tokens("Think"))) | ((1) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-050000-10
+  "Automatically generated"
+  is:
+    A (X G X ((0) <= (#tokens("Eat"))) U F ((!((#tokens("Catch1")) <= (#tokens("Catch2"))) & !F ((#tokens("Think")) <= (#tokens("Eat")))) U !((#tokens("Think")) <= (#tokens("Eat")))))
+  end.
+Property Philosophers-COL-050000-11
+  "Automatically generated"
+  is:
+    A G (((3) <= (#tokens("Eat"))) & G F G X (X ((#tokens("Eat")) <= (#tokens("Catch1"))) U F ((#tokens("Eat")) <= (#tokens("Catch1")))))
+  end.
+Property Philosophers-COL-050000-12
+  "Automatically generated"
+  is:
+    A ((((3) <= (#tokens("Catch1"))) U !F ((0) <= (#tokens("Catch1")))) & X F (((3) <= (#tokens("Catch1"))) | G ((#tokens("Catch2")) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-050000-13
+  "Automatically generated"
+  is:
+    A (!((2) <= (#tokens("Fork"))) | G F (((#tokens("Catch2")) <= (#tokens("Think"))) U (((#tokens("Think")) <= (#tokens("Eat"))) & !F ((2) <= (#tokens("Fork"))))))
+  end.
+Property Philosophers-COL-050000-14
+  "Automatically generated"
+  is:
+    A G (X ((#tokens("Catch2")) <= (#tokens("Fork"))) | G !(((2) <= (#tokens("Think"))) | G F X !(((1) <= (#tokens("Catch2"))) U ((3) <= (#tokens("Catch2"))))))
+  end.
+Property Philosophers-COL-050000-15
+  "Automatically generated"
+  is:
+    A G (((#tokens("Catch1")) <= (#tokens("Fork"))) U (((2) <= (#tokens("Eat"))) | G F ((2) <= (#tokens("Catch1")))))
+  end.

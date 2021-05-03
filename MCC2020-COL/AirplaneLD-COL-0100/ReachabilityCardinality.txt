@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0100-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("stp1")) <= (#tokens("stp1")))) & (! ((#tokens("Weight_Left_Wheel")) <= (#tokens("Speed_Right_Wheel")))))) & (((((((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("Weight_Right_Wheel")))) & (((3) <= (#tokens("Weight_Left_Wheel")))))) | (((1) <= (#tokens("Speed_Right_Wheel")))))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("SpeedPossibleVal")) <= (#tokens("TheAltitude")))) & (((#tokens("TheAltitude")) <= (#tokens("P3")))))) | (((((3) <= (#tokens("stp1")))) | (((1) <= (#tokens("P6")))))))) | (((((((1) <= (#tokens("AltitudePossibleVal")))) & (((1) <= (#tokens("WeightPossibleVal")))))) & (! ((1) <= (#tokens("P6")))))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("Weight_Right_Wheel")) <= (#tokens("AltitudePossibleVal")))) & (((#tokens("P3")) <= (#tokens("Weight_Right_Wheel")))))) | (! ((1) <= (#tokens("AltitudePossibleVal")))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("P5")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("P6")) <= (#tokens("stp4")))) & (((((1) <= (#tokens("P3")))) | (((2) <= (#tokens("stp2")))))))) & (((#tokens("TheAltitude")) <= (#tokens("P3")))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("stp2")))) | (! ((1) <= (#tokens("P1")))))) | (((2) <= (#tokens("Speed_Right_Wheel")))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((1) <= (#tokens("stp1")))) | (((((((#tokens("AltitudePossibleVal")) <= (#tokens("Speed_Right_Wheel")))) | (((2) <= (#tokens("stp5")))))) | (((((#tokens("P1")) <= (#tokens("SpeedPossibleVal")))) & (((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("Weight_Right_Wheel")))))))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("Plane_On_Ground_Signal_no")))) & (((((#tokens("Speed_Right_Wheel")) <= (#tokens("stp3")))) & (((#tokens("WeightPossibleVal")) <= (#tokens("stp4")))))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((#tokens("stp5")) <= (#tokens("P1")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("P2")) <= (#tokens("stp5")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("WeightPossibleVal")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("AltitudePossibleVal")) <= (#tokens("stp3")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Plane_On_Ground_Signal_no")))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ((! ((#tokens("WeightPossibleVal")) <= (#tokens("Weight_Right_Wheel")))) | (((#tokens("stp1")) <= (#tokens("AltitudePossibleVal")))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("stp2")) <= (#tokens("P1")))) & (((#tokens("Speed_Right_Wheel")) <= (#tokens("AltitudePossibleVal")))))) | (((((#tokens("P3")) <= (#tokens("stp1")))) | (((2) <= (#tokens("stp3")))))))) | (((((3) <= (#tokens("P2")))) | (((((#tokens("P6")) <= (#tokens("P1")))) & (((#tokens("P3")) <= (#tokens("Speed_Left_Wheel")))))))))
+  end.
+Property AirplaneLD-COL-0100-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ! ((2) <= (#tokens("P2")))
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-000500-00
+  "Automatically generated"
+  is:
+    A ("End"? U G (("FF2b"? | ("End"? & "End"?)) & F "FF2b"?))
+  end.
+Property Philosophers-COL-000500-01
+  "Automatically generated"
+  is:
+    A X G ("FF2b"? & (G X "FF2b"? U "FF2a"?))
+  end.
+Property Philosophers-COL-000500-02
+  "Automatically generated"
+  is:
+    A X G (("FF1a"? | !"FF1a"?) U G !F "FF1a"?)
+  end.
+Property Philosophers-COL-000500-03
+  "Automatically generated"
+  is:
+    A (F "FF2a"? & G !"FF1b"?)
+  end.
+Property Philosophers-COL-000500-04
+  "Automatically generated"
+  is:
+    A ("End"? & G (!"FF1a"? & G "FF1a"?))
+  end.
+Property Philosophers-COL-000500-05
+  "Automatically generated"
+  is:
+    A X X ((F "FF1b"? | F "FF1b"?) U G "FF2b"?)
+  end.
+Property Philosophers-COL-000500-06
+  "Automatically generated"
+  is:
+    A F X (F "FF2a"? | X (X "FF2a"? | X "FF1a"?))
+  end.
+Property Philosophers-COL-000500-07
+  "Automatically generated"
+  is:
+    A ((F "FF1b"? U (G (G "FF1a"? U "FF1b"?) & G "FF2a"?)) U G "FF1a"?)
+  end.
+Property Philosophers-COL-000500-08
+  "Automatically generated"
+  is:
+    A (F "End"? & !X (G X !F "End"? U ("End"? U "End"?)))
+  end.
+Property Philosophers-COL-000500-09
+  "Automatically generated"
+  is:
+    A (X (("End"? | "FF1b"?) & G "End"?) U X !X "FF1a"?)
+  end.
+Property Philosophers-COL-000500-10
+  "Automatically generated"
+  is:
+    A (X !G "FF2a"? | G X X !"FF2a"?)
+  end.
+Property Philosophers-COL-000500-11
+  "Automatically generated"
+  is:
+    A !(X F "FF2a"? U G !"FF2b"?)
+  end.
+Property Philosophers-COL-000500-12
+  "Automatically generated"
+  is:
+    A F (X "End"? U ("FF1a"? | F (X F "FF1b"? & F X "FF2a"?)))
+  end.
+Property Philosophers-COL-000500-13
+  "Automatically generated"
+  is:
+    A X (!"FF1a"? & G "FF2b"? & G "FF1b"?)
+  end.
+Property Philosophers-COL-000500-14
+  "Automatically generated"
+  is:
+    A F G (G !G !(!"End"? | "FF1a"?) U G "End"?)
+  end.
+Property Philosophers-COL-000500-15
+  "Automatically generated"
+  is:
+    A (G "FF2a"? & G F (!("FF1b"? & "FF1a"?) | F "FF1b"?))
+  end.

@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-24-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((A X A F "elaborate3"?) | (((E G (((("elaborate0"?) & ("serve"?))) & ((("elaborate2"?) | ("addOption"?))))) & (! ! (("elaborate3"?) | ("serve"?))))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((! ((A X ! "elaborate3"?) & (E G (("addOption"?) | ("serve"?))))) | (E F A F (("elaborate1"?) & ("elaborate2"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-02
+  "Automatically generated"
+  is:
+    E ((A F ! "elaborate1"?) U (((! ! "elaborate1"?) | ((((("elaborate3"?) | ("addProduct"?))) & ((("elaborate3"?) | ("serve"?))))))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-03
+  "Automatically generated"
+  is:
+    "elaborate0"?
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-04
+  "Automatically generated"
+  is:
+    E ((E (("elaborate1"?) U ("elaborate3"?))) U (E F (("elaborate3"?) | ("elaborate2"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-05
+  "Automatically generated"
+  is:
+    E (((("elaborate1"?) & (! (("elaborate3"?) | ("elaborate0"?))))) U (A F (("elaborate3"?) | ("serve"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-06
+  "Automatically generated"
+  is:
+    "elaborate3"?
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! E F ((! (("elaborate2"?) | ("addOption"?))) & ((((("addOption"?) & ("elaborate0"?))) & ("serve"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-08
+  "Automatically generated"
+  is:
+    A F ((((A G "elaborate3"?) | ((((("elaborate2"?) | ("addOption"?))) & ("serve"?))))) & (E (("elaborate0"?) U ("addProduct"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-09
+  "Automatically generated"
+  is:
+    E ((A X (("elaborate1"?) & ("elaborate3"?))) U (A G (("serve"?) & ("elaborate0"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! E F (("addOption"?) & (((! "addProduct"?) | (! "addOption"?))))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-11
+  "Automatically generated"
+  is:
+    A X ((((E G "addProduct"?) | ((("elaborate3"?) & ((("addProduct"?) | ("addOption"?))))))) & (! ! ! "elaborate3"?))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((((! ! A G "serve"?) | (E ((! "elaborate2"?) U ((("elaborate2"?) | ("elaborate1"?))))))) | ("elaborate2"?))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-13
+  "Automatically generated"
+  is:
+    A G "serve"?
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-14
+  "Automatically generated"
+  is:
+    A X ((E G ! "addProduct"?) | ("addOption"?))
+  end.
+Property DrinkVendingMachine-COL-24-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((! E (("serve"?) U (! "serve"?))) | ((("elaborate1"?) & (E F E G "addProduct"?))))
+  end.

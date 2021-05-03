@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00800M0080C040P040G020-00
+  "Automatically generated"
+  is:
+    A (X ("Gate1XORSplit"? U ("GiveAppoint"? & !"ReceiveNeedReq"?)) U G ("Gate1XORSplit"? U G ("ReceiveNeedReq"? | "Gate1XORSplit"?)))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-01
+  "Automatically generated"
+  is:
+    A (X X G !"PrepIncomeCertif"? U !X !("DisplayNeedChoice"? U G "DisplayNeedChoice"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-02
+  "Automatically generated"
+  is:
+    A (!F G ("ReserveAppoint"? & F "ClearanceReqReceived"?) U !(!"ReserveAppCINFORMI"? U "Gate2ANDSplit"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-03
+  "Automatically generated"
+  is:
+    A G !G "RegisterRelativePubHealth"?
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-04
+  "Automatically generated"
+  is:
+    A X !(("Summoned"? U "PrepFamReuClearReq"?) & !F ("ReceiveReqDocsReq"? U !"Gate1XORSplit"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-05
+  "Automatically generated"
+  is:
+    A ((G X ("CheckRequiredDoc"? & "ExplainHowToObtainMissingDocs"?) U ("CheckRequiredDoc"? & "GotoOSSAndProdDoc"?)) U ("SendSuitabilityCertif"? | "GotoOSSAndProdDoc"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-06
+  "Automatically generated"
+  is:
+    A X F X G ("SetUpAppoint"? | !(("GotoOSSAndProdDoc"? & "Gate2XORSplit"?) U X G "GotoOSSAndProdDoc"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-07
+  "Automatically generated"
+  is:
+    A X (!"PrepFamReuClearReq"? | G "ReceiveAppoint"?)
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-08
+  "Automatically generated"
+  is:
+    A ("ReceiveAppoint"? | (X "DisplayLangChoice"? U ("ReceiveAppoint"? | "AskCINFORMI"? | ("Gate1XORSplit"? & "Summoned"?))))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-09
+  "Automatically generated"
+  is:
+    A G "Gate1ANDSplit"?
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-10
+  "Automatically generated"
+  is:
+    A F X X (F !"ReceiveNeedChoice"? U ("ArchiveReq"? | !"EvaluateReq"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-11
+  "Automatically generated"
+  is:
+    A (F !(!"Gate3XORSplit"? & "ClearanceReqReceived"?) & (X G "Gate3XORSplit"? U ("TransmitReq"? | G "TransmitReq"?)))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-12
+  "Automatically generated"
+  is:
+    A !F G ("ReceiveInstructions"? & X "SetUpAppoint"?)
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-13
+  "Automatically generated"
+  is:
+    A F G (!F X "Gate3XORSplit"? U F (X "CheckHousingSuitReq"? U F !F "ReceiveNeedChoice"?))
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-14
+  "Automatically generated"
+  is:
+    A F "ReserveAppoint"?
+  end.
+Property FamilyReunion-COL-L00800M0080C040P040G020-15
+  "Automatically generated"
+  is:
+    A G X "ReceiveLangChoice"?
+  end.

@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ! ! ((((#tokens("cJobCnt")) <= (#tokens("Try_Check_Sources_B")))) & (((2) <= (#tokens("block")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("NotifyEventJobQueuedB")) <= (#tokens("DataOnSrc")))) | (((#tokens("CreatedJobs")) <= (#tokens("place_482")))))) & (! ! ((#tokens("block")) <= (#tokens("mi2")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("f2")))) & (((2) <= (#tokens("ModifiedSrc")))))) | (((((2) <= (#tokens("cSources")))) | (((#tokens("place_518")) <= (#tokens("Check_Sources_E")))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("place_458")))) & (((2) <= (#tokens("place_521")))))) & (((1) <= (#tokens("mi2")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("NotifyEventJobQueuedB")))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("place_458")) <= (#tokens("FetchJobB")))) | (((2) <= (#tokens("Try_Check_Sources_B")))))) | (((3) <= (#tokens("place_521")))))) & (((((((3) <= (#tokens("place_522")))) & (((#tokens("QueueJobB")) <= (#tokens("block")))))) & (((((#tokens("AvailableJobId")) <= (#tokens("cSources")))) | (((#tokens("mi2")) <= (#tokens("mo1")))))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("Check_Sources_B")))) & (((2) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Try_Check_Sources_E")))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("mi1")) <= (#tokens("CanInjectEvent")))) | (((#tokens("place_462")) <= (#tokens("JobCnt")))))) & (! ((((#tokens("CreatedJobs")) <= (#tokens("NotifyEventJobQueuedB")))) & (((2) <= (#tokens("place_460")))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("place_521")) <= (#tokens("Schedule_Task_E")))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("Try_Check_Sources_E")))) & (((2) <= (#tokens("CanInjectEvent")))))) & (! ((#tokens("Schedule_Task_B")) <= (#tokens("Perform_Work_B")))))) & (((! ((#tokens("place_522")) <= (#tokens("mi3")))) | (((((1) <= (#tokens("JobCnt")))) | (((2) <= (#tokens("Try_Check_Sources_B")))))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("cSources")))) & (((2) <= (#tokens("Perform_Work_E")))))) | (((((#tokens("Try_Check_Sources_E")) <= (#tokens("place_523")))) & (((#tokens("place_523")) <= (#tokens("Check_Sources_E")))))))) | (! ! ((2) <= (#tokens("place_522")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("mo2")) <= (#tokens("cSources")))) | (((2) <= (#tokens("Schedule_Task_B")))))) | (((! ((#tokens("TheSour")) <= (#tokens("place_462")))) & (! ((#tokens("Perform_Work_B")) <= (#tokens("place_482")))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("place_520")) <= (#tokens("Check_Sources_E")))) | (((((3) <= (#tokens("f3")))) | (((2) <= (#tokens("f2")))))))) | (((#tokens("place_782")) <= (#tokens("ModifiedSrc")))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("CreatedJobs")) <= (#tokens("NotifyEventEndOfCheckSourcesB")))) & (((#tokens("DataOnSrc")) <= (#tokens("place_523")))))) | (((((((#tokens("place_523")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) | (((#tokens("Perform_Work_B")) <= (#tokens("NotifyEventJobQueuedE")))))) | (((((3) <= (#tokens("place_521")))) | (((2) <= (#tokens("Perform_Work_E")))))))))
+  end.
+Property PolyORBNT-COL-S05J60-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((! ((((3) <= (#tokens("cSources")))) & (((3) <= (#tokens("FetchJobB")))))) & (((((((#tokens("f3")) <= (#tokens("place_523")))) | (((2) <= (#tokens("Schedule_Task_B")))))) | (! ((#tokens("place_460")) <= (#tokens("place_500")))))))
+  end.

@@ -1,0 +1,80 @@
+Property SharedMemory-COL-001000-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((A G ((((((#tokens("Active")) <= (#tokens("OwnMemAcc")))) | (((1) <= (#tokens("Ext_Bus")))))) & (((#tokens("Queue")) <= (#tokens("Memory")))))) | (! ((! ((((#tokens("Ext_Mem_Acc")) <= (#tokens("Active")))) | (((1) <= (#tokens("Queue")))))) | (((#tokens("Ext_Bus")) <= (#tokens("Active")))))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((#tokens("Ext_Mem_Acc")) <= (#tokens("Ext_Bus")))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F E X ((((#tokens("Active")) <= (#tokens("Active")))) & (((#tokens("Active")) <= (#tokens("OwnMemAcc")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ! ((1) <= (#tokens("Queue")))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((((A ((((2) <= (#tokens("Ext_Bus")))) U (((#tokens("Queue")) <= (#tokens("Queue")))))) & (((3) <= (#tokens("Active")))))) | (E ((((((3) <= (#tokens("Ext_Bus")))) & (((#tokens("Active")) <= (#tokens("Ext_Bus")))))) U (! ((3) <= (#tokens("Ext_Bus")))))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ! A ((((((2) <= (#tokens("Active")))) & (((3) <= (#tokens("Ext_Mem_Acc")))))) U (((((3) <= (#tokens("Queue")))) & (((3) <= (#tokens("Ext_Mem_Acc")))))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E ((((1) <= (#tokens("OwnMemAcc")))) U (E X ((#tokens("Active")) <= (#tokens("Ext_Mem_Acc")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((! A F ! ((1) <= (#tokens("Active")))) & (((#tokens("Active")) <= (#tokens("Queue")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((#tokens("Queue")) <= (#tokens("Memory")))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! ((! ((((((#tokens("Ext_Mem_Acc")) <= (#tokens("Active")))) & (((#tokens("Active")) <= (#tokens("Active")))))) & (((3) <= (#tokens("Queue")))))) | (E G ((((2) <= (#tokens("Ext_Mem_Acc")))) | (((#tokens("Queue")) <= (#tokens("Ext_Bus")))))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ! ((! E G ((#tokens("Active")) <= (#tokens("Ext_Mem_Acc")))) | (A G ! ((3) <= (#tokens("Active")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-11
+  "Automatically generated"
+  is:
+    E F A X ((#tokens("OwnMemAcc")) <= (#tokens("Ext_Mem_Acc")))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ! A ((((((2) <= (#tokens("Ext_Bus")))) | (((1) <= (#tokens("Queue")))))) U (((#tokens("Active")) <= (#tokens("Queue")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A ((A F ((#tokens("OwnMemAcc")) <= (#tokens("OwnMemAcc")))) U (! ((((#tokens("Active")) <= (#tokens("Queue")))) & (((1) <= (#tokens("Queue")))))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E ((((3) <= (#tokens("Active")))) U (A F ((1) <= (#tokens("Ext_Bus")))))
+  end.
+Property SharedMemory-COL-001000-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((1) <= (#tokens("Ext_Bus")))
+  end.

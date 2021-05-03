@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0050-00
+  "Automatically generated"
+  is:
+    A X !(!X "SampleRW"? U G !"t4_2"?)
+  end.
+Property AirplaneLD-COL-0050-01
+  "Automatically generated"
+  is:
+    A F X "getAlt"?
+  end.
+Property AirplaneLD-COL-0050-02
+  "Automatically generated"
+  is:
+    A (F "getAlt"? | X !("t1_2"? U !("getAlt"? | F ("t4_2"? & G "t1_2"?))))
+  end.
+Property AirplaneLD-COL-0050-03
+  "Automatically generated"
+  is:
+    A X ("t2_1"? U "SpeedRW"?)
+  end.
+Property AirplaneLD-COL-0050-04
+  "Automatically generated"
+  is:
+    A G (G (!X "getAlt"? U X "t1_1"?) | G F G "t2_1"?)
+  end.
+Property AirplaneLD-COL-0050-05
+  "Automatically generated"
+  is:
+    A !X ("SpeedRW"? | G F (X "SampleLW"? U X "t2_1"?) | G F "SampleLW"?)
+  end.
+Property AirplaneLD-COL-0050-06
+  "Automatically generated"
+  is:
+    A (G !"t5_1"? U X "SpeedRW"?)
+  end.
+Property AirplaneLD-COL-0050-07
+  "Automatically generated"
+  is:
+    A G ("t3_2"? | X "t4_2"?)
+  end.
+Property AirplaneLD-COL-0050-08
+  "Automatically generated"
+  is:
+    A (!F X "t3_2"? | X X X F "t2_2"?)
+  end.
+Property AirplaneLD-COL-0050-09
+  "Automatically generated"
+  is:
+    A F ("t3_1"? U G ("t3_1"? & G "t4_1"?))
+  end.
+Property AirplaneLD-COL-0050-10
+  "Automatically generated"
+  is:
+    A G !F !(G "getAlt"? U ("t2_1"? & ("t2_1"? U "SpeedRW"?)))
+  end.
+Property AirplaneLD-COL-0050-11
+  "Automatically generated"
+  is:
+    A (!F !"t1_1"? U X "SampleLW"?)
+  end.
+Property AirplaneLD-COL-0050-12
+  "Automatically generated"
+  is:
+    A X X !F !"t5_1"?
+  end.
+Property AirplaneLD-COL-0050-13
+  "Automatically generated"
+  is:
+    A G ("t4_1"? & G "t3_2"? & !(G "t3_2"? U ("t4_2"? & "t3_2"?)))
+  end.
+Property AirplaneLD-COL-0050-14
+  "Automatically generated"
+  is:
+    A ((!"t1_2"? & "SpeedRW"?) | F (X "SpeedRW"? U F G "SpeedLW"?))
+  end.
+Property AirplaneLD-COL-0050-15
+  "Automatically generated"
+  is:
+    A (G F ("t2_2"? | !"SpeedRW"?) U F "t3_2"?)
+  end.

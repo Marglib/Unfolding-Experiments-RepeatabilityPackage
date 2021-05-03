@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-18-00
+  "Automatically generated"
+  is:
+    A !(!"malA1"? & F (G "malA1"? U X F "malA1"?) & F !"SackCS"?)
+  end.
+Property QuasiCertifProtocol-COL-18-01
+  "Automatically generated"
+  is:
+    A G "SackCS"?
+  end.
+Property QuasiCertifProtocol-COL-18-02
+  "Automatically generated"
+  is:
+    A F (F (F "CsendTS1"? U "malA5"?) & ((!"Sperform"? & !"AendCS"?) U X "malA5"?))
+  end.
+Property QuasiCertifProtocol-COL-18-03
+  "Automatically generated"
+  is:
+    A (!G "AackCS"? U F ("malA4"? | F ("malA4"? | !"AackCS"?)))
+  end.
+Property QuasiCertifProtocol-COL-18-04
+  "Automatically generated"
+  is:
+    A X F (F G (F !"malA3"? & (!"malA2"? | X "malA3"?)) U "malS3"?)
+  end.
+Property QuasiCertifProtocol-COL-18-05
+  "Automatically generated"
+  is:
+    A !("AreqCS"? & G X (F G "SreqTS"? | F ("malS4"? & X F "malS4"?)))
+  end.
+Property QuasiCertifProtocol-COL-18-06
+  "Automatically generated"
+  is:
+    A F X ("malA5"? & G "SgetTS"? & X F ("SgetTS"? & ("malA5"? U X "malA5"?)))
+  end.
+Property QuasiCertifProtocol-COL-18-07
+  "Automatically generated"
+  is:
+    A (F X !("malS5"? | G "malS4"?) | G X "malS5"?)
+  end.
+Property QuasiCertifProtocol-COL-18-08
+  "Automatically generated"
+  is:
+    A G F X X F "SgetTS"?
+  end.
+Property QuasiCertifProtocol-COL-18-09
+  "Automatically generated"
+  is:
+    A (("AackCS"? & F (G F "AreqCS"? U "AreqCS"?)) | X F ("SsendTS"? | G "SreqTS"?))
+  end.
+Property QuasiCertifProtocol-COL-18-10
+  "Automatically generated"
+  is:
+    A (G !F (F "Sperform"? U "malS4"?) U ("SackCS"? | "AgetTS"?))
+  end.
+Property QuasiCertifProtocol-COL-18-11
+  "Automatically generated"
+  is:
+    A (X "malA1"? | F G F "SreqTS"?)
+  end.
+Property QuasiCertifProtocol-COL-18-12
+  "Automatically generated"
+  is:
+    A (!("AendCS"? | F !"AreqCS"?) U X !("AreqCS"? | X X G "SgetTS"?))
+  end.
+Property QuasiCertifProtocol-COL-18-13
+  "Automatically generated"
+  is:
+    A X (("malS3"? & !"malS3"?) U !X G !G "malS6"?)
+  end.
+Property QuasiCertifProtocol-COL-18-14
+  "Automatically generated"
+  is:
+    A X X !F G F G F !(G "Sperform"? U "malA2"?)
+  end.
+Property QuasiCertifProtocol-COL-18-15
+  "Automatically generated"
+  is:
+    A ("malS5"? & "malA4"? & !F "Sperform"?)
+  end.

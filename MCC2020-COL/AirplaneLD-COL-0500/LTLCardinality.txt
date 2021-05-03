@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0500-00
+  "Automatically generated"
+  is:
+    A F X X X !X F (G ((#tokens("stp3")) <= (#tokens("P4"))) & !(((0) <= (#tokens("P2"))) & X ((#tokens("stp1")) <= (#tokens("Speed_Right_Wheel")))))
+  end.
+Property AirplaneLD-COL-0500-01
+  "Automatically generated"
+  is:
+    A F (F X (!((1) <= (#tokens("stp4"))) & F ((#tokens("stp1")) <= (#tokens("Weight_Right_Wheel")))) U X (((2) <= (#tokens("P6"))) & ((#tokens("stp1")) <= (#tokens("Weight_Right_Wheel")))))
+  end.
+Property AirplaneLD-COL-0500-02
+  "Automatically generated"
+  is:
+    A F (((1) <= (#tokens("TheAltitude"))) U ((#tokens("stp5")) <= (#tokens("P4"))))
+  end.
+Property AirplaneLD-COL-0500-03
+  "Automatically generated"
+  is:
+    A X (((2) <= (#tokens("stp5"))) | F ((((2) <= (#tokens("stp5"))) U ((#tokens("WeightPossibleVal")) <= (#tokens("TheAltitude")))) U !((#tokens("WeightPossibleVal")) <= (#tokens("TheAltitude")))))
+  end.
+Property AirplaneLD-COL-0500-04
+  "Automatically generated"
+  is:
+    A (G ((2) <= (#tokens("TheAltitude"))) & !(((0) <= (#tokens("P5"))) & (F X G ((2) <= (#tokens("AltitudePossibleVal"))) | G ((0) <= (#tokens("P5"))))))
+  end.
+Property AirplaneLD-COL-0500-05
+  "Automatically generated"
+  is:
+    A F !F ((#tokens("P5")) <= (#tokens("P1")))
+  end.
+Property AirplaneLD-COL-0500-06
+  "Automatically generated"
+  is:
+    A !(X X G ((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("Weight_Left_Wheel"))) U (((#tokens("Plane_On_Ground_Signal_no")) <= (#tokens("Weight_Left_Wheel"))) | !G ((#tokens("Weight_Left_Wheel")) <= (#tokens("stp1")))))
+  end.
+Property AirplaneLD-COL-0500-07
+  "Automatically generated"
+  is:
+    A G !F ((#tokens("P2")) <= (#tokens("Weight_Left_Wheel")))
+  end.
+Property AirplaneLD-COL-0500-08
+  "Automatically generated"
+  is:
+    A (X ((#tokens("TheAltitude")) <= (#tokens("Weight_Right_Wheel"))) U (G ((#tokens("TheAltitude")) <= (#tokens("Weight_Right_Wheel"))) & X X ((1) <= (#tokens("Weight_Left_Wheel")))))
+  end.
+Property AirplaneLD-COL-0500-09
+  "Automatically generated"
+  is:
+    A ((G ((#tokens("AltitudePossibleVal")) <= (#tokens("stp4"))) U F ((#tokens("stp2")) <= (#tokens("WeightPossibleVal")))) U X (((#tokens("AltitudePossibleVal")) <= (#tokens("stp4"))) U !F G ((#tokens("stp1")) <= (#tokens("stp4")))))
+  end.
+Property AirplaneLD-COL-0500-10
+  "Automatically generated"
+  is:
+    A ((!((#tokens("stp3")) <= (#tokens("WeightPossibleVal"))) & X G (X ((3) <= (#tokens("P2"))) U ((1) <= (#tokens("Speed_Left_Wheel"))))) U !(((1) <= (#tokens("Speed_Left_Wheel"))) & F ((3) <= (#tokens("P2")))))
+  end.
+Property AirplaneLD-COL-0500-11
+  "Automatically generated"
+  is:
+    A (!F (((3) <= (#tokens("P5"))) & ((0) <= (#tokens("Plane_On_Ground_Signal_no")))) | (F G ((2) <= (#tokens("stp3"))) U ((2) <= (#tokens("stp3")))))
+  end.
+Property AirplaneLD-COL-0500-12
+  "Automatically generated"
+  is:
+    A !(X (((#tokens("WeightPossibleVal")) <= (#tokens("P2"))) | ((#tokens("Weight_Right_Wheel")) <= (#tokens("Speed_Right_Wheel"))) | ((0) <= (#tokens("P3")))) & F !X !X ((0) <= (#tokens("P3"))))
+  end.
+Property AirplaneLD-COL-0500-13
+  "Automatically generated"
+  is:
+    A (F ((#tokens("stp3")) <= (#tokens("stp4"))) | F ((3) <= (#tokens("stp5"))) | G X (!((0) <= (#tokens("P3"))) & ((#tokens("Weight_Right_Wheel")) <= (#tokens("SpeedPossibleVal")))))
+  end.
+Property AirplaneLD-COL-0500-14
+  "Automatically generated"
+  is:
+    A F G X X ((#tokens("stp4")) <= (#tokens("Speed_Right_Wheel")))
+  end.
+Property AirplaneLD-COL-0500-15
+  "Automatically generated"
+  is:
+    A !(((2) <= (#tokens("stp2"))) & X F ((0) <= (#tokens("stp3"))))
+  end.

@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0100-00
+  "Automatically generated"
+  is:
+    A !X ("t4_2"? U G ("t1_1"? | ("t1_1"? & "SampleRW"?)))
+  end.
+Property AirplaneLD-COL-0100-01
+  "Automatically generated"
+  is:
+    A X F "t2_2"?
+  end.
+Property AirplaneLD-COL-0100-02
+  "Automatically generated"
+  is:
+    A G F X G F ("getAlt"? | ("SpeedRW"? & F !F "t1_2"?))
+  end.
+Property AirplaneLD-COL-0100-03
+  "Automatically generated"
+  is:
+    A X (F !"t2_1"? U !("SpeedRW"? & "t2_1"? & "t4_2"?))
+  end.
+Property AirplaneLD-COL-0100-04
+  "Automatically generated"
+  is:
+    A G F ("t2_1"? & X G (("t4_1"? & "getAlt"?) U "t4_1"?))
+  end.
+Property AirplaneLD-COL-0100-05
+  "Automatically generated"
+  is:
+    A F G X G (!"t3_1"? | G X "t2_1"?)
+  end.
+Property AirplaneLD-COL-0100-06
+  "Automatically generated"
+  is:
+    A ((X ("t2_1"? | F "SpeedRW"?) U X "SpeedRW"?) U (G "t1_2"? | X F "SpeedRW"?))
+  end.
+Property AirplaneLD-COL-0100-07
+  "Automatically generated"
+  is:
+    A (!"t5_1"? | G !X F (!X X "t4_2"? U "t4_2"?))
+  end.
+Property AirplaneLD-COL-0100-08
+  "Automatically generated"
+  is:
+    A !(G "t5_1"? | ("t3_2"? & F "t5_1"?))
+  end.
+Property AirplaneLD-COL-0100-09
+  "Automatically generated"
+  is:
+    A !X F !F G X G "t1_2"?
+  end.
+Property AirplaneLD-COL-0100-10
+  "Automatically generated"
+  is:
+    A G X X (F "t2_1"? & !G "getAlt"?)
+  end.
+Property AirplaneLD-COL-0100-11
+  "Automatically generated"
+  is:
+    A ((!"getAlt"? | ("t1_1"? & "SampleLW"?)) & G "t2_1"? & X "t2_1"? & F "getAlt"?)
+  end.
+Property AirplaneLD-COL-0100-12
+  "Automatically generated"
+  is:
+    A (!"getAlt"? | !F X "t5_1"?)
+  end.
+Property AirplaneLD-COL-0100-13
+  "Automatically generated"
+  is:
+    A (F X !(("SampleRW"? | G "t4_1"?) U "SampleRW"?) U G "SampleRW"?)
+  end.
+Property AirplaneLD-COL-0100-14
+  "Automatically generated"
+  is:
+    A F (G "t1_2"? & !X F X X "t2_1"?)
+  end.
+Property AirplaneLD-COL-0100-15
+  "Automatically generated"
+  is:
+    A (X ("t1_2"? U "SpeedRW"?) | X "SpeedRW"? | (F "t4_2"? U "t1_2"?))
+  end.

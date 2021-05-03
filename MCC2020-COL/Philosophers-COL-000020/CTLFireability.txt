@@ -1,0 +1,80 @@
+Property Philosophers-COL-000020-CTLFireability-00
+  "Automatically generated"
+  is:
+    ! E X ((E G "FF2b"?) | (! (("FF1a"?) & ("FF1b"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-01
+  "Automatically generated"
+  is:
+    A G "FF1a"?
+  end.
+Property Philosophers-COL-000020-CTLFireability-02
+  "Automatically generated"
+  is:
+    ! A ((A F "End"?) U ("End"?))
+  end.
+Property Philosophers-COL-000020-CTLFireability-03
+  "Automatically generated"
+  is:
+    A G (((((((("FF1a"?) & ("FF2a"?))) | ((("FF2a"?) & ("FF2a"?))))) & (E G "FF1b"?))) | ("FF1a"?))
+  end.
+Property Philosophers-COL-000020-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F "End"?
+  end.
+Property Philosophers-COL-000020-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((A G ((A G "End"?) | ((((("FF1b"?) | ("End"?))) | (! "FF2a"?))))) & ("FF1a"?))
+  end.
+Property Philosophers-COL-000020-CTLFireability-06
+  "Automatically generated"
+  is:
+    ! ((((((A G "FF2b"?) & ((((("End"?) & ("FF1b"?))) & ("FF1a"?))))) | (E X (("FF2b"?) | ("FF2b"?))))) & (E F ! (("FF1b"?) | ("End"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-07
+  "Automatically generated"
+  is:
+    E ((E F (("FF1a"?) | ("FF2b"?))) U (((! "FF1a"?) & (A X "End"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! A F (((("End"?) & ((("FF1a"?) | ("FF2a"?))))) | (! (("FF1a"?) & ("FF1b"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-09
+  "Automatically generated"
+  is:
+    A X E G A F "FF1a"?
+  end.
+Property Philosophers-COL-000020-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((E G ((E X "FF1b"?) & (A F "End"?))) | (A (("FF1b"?) U (E G "FF2b"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((! ((A F (("End"?) | ("FF2b"?))) & (E (("FF1a"?) U ("End"?))))) | (E G ((! "FF1b"?) | (((! "FF2a"?) & (! "FF2b"?))))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((A F E (("FF2b"?) U ("FF2b"?))) | (! E (((("FF1b"?) | ("FF1b"?))) U (! "FF1a"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-13
+  "Automatically generated"
+  is:
+    E X A G (((("End"?) | ("FF2a"?))) | (! "FF1b"?))
+  end.
+Property Philosophers-COL-000020-CTLFireability-14
+  "Automatically generated"
+  is:
+    (((("FF2a"?) & (! E X (("FF1b"?) | ("FF1b"?))))) | (((! ! A G "FF1b"?) | (E G A F "FF2a"?))))
+  end.
+Property Philosophers-COL-000020-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! E ((E F "End"?) U (E G "FF2b"?))
+  end.

@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-8-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((A (((((("forod_13"?) & ("yne0_4"?))) & ((("awaity"?) & ("setbi_11"?))))) U (E G "ynei_15"?))) | (E G A F "xeqi_10"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-01
+  "Automatically generated"
+  is:
+    A G A G (((("xeqi_10"?) | ("yeqi_15"?))) | (! "awaity"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((A X A F (("setbi_5"?) | ("fordo_12"?))) & (E X ((E X "yeqi_15"?) | (! (("sety0_23"?) | ("fordo_12"?))))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-03
+  "Automatically generated"
+  is:
+    E G E F (((("await_13"?) & ("setbi_5"?))) & ((("yne0_4"?) & ("yeq0_4"?))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! E G ((A X "forod_13"?) | (! (("await_13"?) | ("forod_13"?))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-05
+  "Automatically generated"
+  is:
+    E G A F (((("setbi_24"?) | ("fordo_12"?))) | ((("sety_9"?) & ("setbi_24"?))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((((E (("setbi_2"?) U ("sety_9"?))) & (! ((A F "setbi_11"?) | (((! "xnei_10"?) & ("awaity"?))))))) | (! E F A G "sety0_23"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-07
+  "Automatically generated"
+  is:
+    A ((A F (("sety_9"?) & ("ynei_15"?))) U (A G (("yne0_4"?) & ("forod_13"?))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((A G ((! (("awaity"?) | ("setbi_5"?))) | (A X "yeqi_15"?))) | (! E F "awaity"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((E G ((((! "setbi_5"?) | ((("sety0_23"?) & ("sety_9"?))))) | (A F "forod_13"?))) | ("await_13"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! E X ! E F "setbi_5"?
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-11
+  "Automatically generated"
+  is:
+    E F "setbi_5"?
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! ! A F (("ynei_15"?) & ((("await_13"?) | ("sety0_23"?))))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F ((A F "sety_9"?) & ("await_13"?))
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-14
+  "Automatically generated"
+  is:
+    ! ! A F A G "sety0_23"?
+  end.
+Property LamportFastMutEx-COL-8-CTLFireability-15
+  "Automatically generated"
+  is:
+    A F ((! ((! "ynei_15"?) | ("yeqi_15"?))) & (((((! "sety0_23"?) & ("xnei_10"?))) & ((((("setbi_11"?) | ("xeqi_10"?))) | ((("setx_3"?) | ("yeqi_15"?))))))))
+  end.

@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-00
+  "Automatically generated"
+  is:
+    ! A F (((((("ExplainHowToObtainMissingDocs"?) & ("RegisterRelative"?))) | ("TransmitReq"?))) | (A F "AppointReceived"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((E F "SendClearanceToRel"?) | (E X E (("ReceiveInstructions"?) U ("DisplayReqDocs"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-02
+  "Automatically generated"
+  is:
+    (((("ClearanceReqReceived"?) & (A (("SummonApplicant"?) U (! "ArchiveReq"?))))) & ("AskCINFORMI"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-03
+  "Automatically generated"
+  is:
+    ! "ReceiveRegsitration"?
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-04
+  "Automatically generated"
+  is:
+    E X ((((E G "SummonApplicant"?) & (E G "ExplainHowToObtainMissingDocs"?))) | (((A X "ReceiveHousingSuitCertifReq"?) & (A G "Summoned"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-05
+  "Automatically generated"
+  is:
+    E X ((A G (("CheckSanityReq"?) & ("TransmitReq"?))) & (E G "ReceiveAppointReq"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-06
+  "Automatically generated"
+  is:
+    E X A X ((! "ReceiveNeedChoice"?) & (! "BringReqtoCINFORMI"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-07
+  "Automatically generated"
+  is:
+    A F (((((("TickDocsObtained"?) & ("ObtainRelativeFinStatement"?))) & ((((("CheckHousingSuitReq"?) | ("RespReceived"?))) | ((("GiveAppoint"?) | ("Gate3XORSplit"?))))))) | (E (("ChoseFamilyReunion"?) U ("AppReqReceived"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((A ((! (("ReceiveAppointReq"?) | ("GoToAppoint"?))) U ((("AccessMicTerminal"?) | ((("DisplayNeedChoice"?) | ("ClearanceReqReceived"?))))))) | ((((("ObtainRelHealtCondStatement"?) | (E F "BringReqtoCINFORMI"?))) & (((! "Gate3XORSplit"?) | (((! "BringReqtoCINFORMI"?) & (! ! "ObtainFamRelCertif"?))))))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((! A X "DisplayLangChoice"?) & (E F ((A X "Summoned"?) & ("ReqHousingSuitCertif"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((E F E G ! "GoToAppoint"?) & (! ! A (("Gate2ANDSplit"?) U ("ArchiveReq"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-11
+  "Automatically generated"
+  is:
+    E ((A G (("SummonApplicant"?) | ("SendClearanceToRel"?))) U ("ReceiveLangReq"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! (("ReceiveHousingSuitCertifReq"?) | (A X E F "Gate2XORSplit"?))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-13
+  "Automatically generated"
+  is:
+    A ((E (("TickDocsObtained"?) U ("ObtainRelativeFinStatement"?))) U (! (("ReceiveHousingSuitCertifReq"?) | ((("Gate2ANDJoin"?) & ("ReceiveAppointReq"?))))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-14
+  "Automatically generated"
+  is:
+    (("ReceiveInstructions"?) | (E (("CheckSanityReq"?) U ("ReqHousingSuitCertif"?))))
+  end.
+Property FamilyReunion-COL-L08000M0800C400P400G200-CTLFireability-15
+  "Automatically generated"
+  is:
+    "GoToAppoint"?
+  end.

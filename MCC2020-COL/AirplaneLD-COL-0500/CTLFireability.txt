@@ -1,0 +1,80 @@
+Property AirplaneLD-COL-0500-CTLFireability-00
+  "Automatically generated"
+  is:
+    E X A X (((("SpeedRW"?) & ("t5_1"?))) | ("t2_2"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-01
+  "Automatically generated"
+  is:
+    E X E F E F "t3_2"?
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-02
+  "Automatically generated"
+  is:
+    E F A G "t3_2"?
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-03
+  "Automatically generated"
+  is:
+    (("SampleRW"?) & (! E F A G "SpeedLW"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-04
+  "Automatically generated"
+  is:
+    A G ! "t2_2"?
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-05
+  "Automatically generated"
+  is:
+    A F ! ! A G "t1_1"?
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-06
+  "Automatically generated"
+  is:
+    ! E G ! E F "t4_1"?
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-07
+  "Automatically generated"
+  is:
+    ((((((A (("t1_2"?) U ("t5_1"?))) & ("SpeedLW"?))) & (! ((E X "SpeedLW"?) | ((((("t1_2"?) & ("SpeedRW"?))) | ("SpeedRW"?))))))) | (A G ! A F "t5_2"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((E X E G ! "SpeedLW"?) | ("t3_1"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((! E (((("SampleLW"?) | ("t4_1"?))) U ((("SpeedRW"?) & ("t5_2"?))))) & (! ((((E X "t5_2"?) & ("SampleLW"?))) & ("t3_2"?))))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-10
+  "Automatically generated"
+  is:
+    A X ((! A F "t4_2"?) | (((! ! "SpeedLW"?) & (E G "t4_1"?))))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-11
+  "Automatically generated"
+  is:
+    A G (((("t4_2"?) | (E X "t3_1"?))) | (((A X "SpeedLW"?) | (A F "SampleRW"?))))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-12
+  "Automatically generated"
+  is:
+    E ((E X ! "t2_2"?) U ((((((("SampleRW"?) & ("t2_1"?))) & ("SpeedLW"?))) | (A G "SampleRW"?))))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-13
+  "Automatically generated"
+  is:
+    E F ! E X (("t3_2"?) & ("t5_1"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-14
+  "Automatically generated"
+  is:
+    E X (("t4_2"?) & (A F ! "t2_1"?))
+  end.
+Property AirplaneLD-COL-0500-CTLFireability-15
+  "Automatically generated"
+  is:
+    E F ((((A G "t5_2"?) & ((((("SpeedRW"?) | ("t2_2"?))) | ("t2_1"?))))) & (! ! ! "t3_1"?))
+  end.

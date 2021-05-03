@@ -1,0 +1,80 @@
+Property BART-COL-030-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((A G ! A G "TrainStable"?) | (E G "TrainAcc"?))
+  end.
+Property BART-COL-030-CTLFireability-01
+  "Automatically generated"
+  is:
+    E X E X E F "TrainStop"?
+  end.
+Property BART-COL-030-CTLFireability-02
+  "Automatically generated"
+  is:
+    E F A X (((("TrainDecc"?) & ("AtStation"?))) | ((("TrainStop"?) | ("TrainAcc"?))))
+  end.
+Property BART-COL-030-CTLFireability-03
+  "Automatically generated"
+  is:
+    A ((! E X "TrainStop"?) U (A (("TrainAcc"?) U ("TrainAcc"?))))
+  end.
+Property BART-COL-030-CTLFireability-04
+  "Automatically generated"
+  is:
+    ((! "TrainDecc"?) & (E F (((((("TrainDecc"?) | ("TooEarly"?))) | ("TrainStable"?))) & ((("TooEarly"?) & ((("AtStation"?) & ("TrainDecc"?))))))))
+  end.
+Property BART-COL-030-CTLFireability-05
+  "Automatically generated"
+  is:
+    A (((("AtStation"?) & ("TrainAcc"?))) U (A F (("TrainDecc"?) & ("TrainAcc"?))))
+  end.
+Property BART-COL-030-CTLFireability-06
+  "Automatically generated"
+  is:
+    E X ((E X (("TrainDecc"?) & ("TrainAcc"?))) | (E G (("TooEarly"?) & ("TrainDecc"?))))
+  end.
+Property BART-COL-030-CTLFireability-07
+  "Automatically generated"
+  is:
+    E F A X E G "TrainStable"?
+  end.
+Property BART-COL-030-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((! E F (((("TrainStop"?) | ("MissStation"?))) & (! "TrainStop"?))) & (! "TrainAcc"?))
+  end.
+Property BART-COL-030-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! ((((((A X "TrainDecc"?) | ((((("TrainStable"?) & ("TrainStable"?))) | ((("TrainDecc"?) | ("TrainStop"?))))))) | (((! ! "TrainDecc"?) | (A F "MissStation"?))))) | ("TrainStop"?))
+  end.
+Property BART-COL-030-CTLFireability-10
+  "Automatically generated"
+  is:
+    E G A G (((("TrainDecc"?) | ("MissStation"?))) | (! "TrainStop"?))
+  end.
+Property BART-COL-030-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! A X A F (("TooEarly"?) & ("TooEarly"?))
+  end.
+Property BART-COL-030-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((! ((((((! "TrainStable"?) | (! "TooEarly"?))) & (E F "MissStation"?))) & (E F "TooEarly"?))) & (! (((("TrainStable"?) | ((("TrainAcc"?) | ((("TooEarly"?) | ("TrainAcc"?))))))) & (E (("TrainStable"?) U ("TooEarly"?))))))
+  end.
+Property BART-COL-030-CTLFireability-13
+  "Automatically generated"
+  is:
+    (("TrainStop"?) | (E F E G "MissStation"?))
+  end.
+Property BART-COL-030-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((! ((! (((("TooEarly"?) | ("MissStation"?))) | (! "MissStation"?))) | ((((("TooEarly"?) | ((("TrainDecc"?) | ("TooEarly"?))))) & ((((("MissStation"?) | ("TrainDecc"?))) | ((("TrainStable"?) & ("AtStation"?))))))))) & (A F A G (("TooEarly"?) | ("TrainDecc"?))))
+  end.
+Property BART-COL-030-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! ! A F (((("TrainDecc"?) & ("TooEarly"?))) | ((("TrainStop"?) & ("TrainAcc"?))))
+  end.

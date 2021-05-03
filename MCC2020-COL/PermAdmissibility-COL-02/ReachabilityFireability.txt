@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-02-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F (((((("switch2"?) & ((("switch7"?) | ("switch5"?))))) | ((("switch10"?) & ("display4"?))))) & ("switch10"?))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F (((((("switch6"?) & ((("display4"?) | ("switch12"?))))) & (((! "switch5"?) | (! "switch4"?))))) | (((((! "switch4"?) & ("display1"?))) | ("switch11"?))))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F ((((! (("display2"?) | ("switch4"?))) & ((((("display4"?) | ("switch9"?))) & ((("switch7"?) & ("switch6"?))))))) & ("display3"?))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "switch9"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "display4"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ((((! (("switch3"?) & ("switch10"?))) & ((((("switch11"?) | ("display4"?))) & ((("display3"?) & ("switch2"?))))))) | ("switch10"?))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ! ! "switch8"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((((((! "switch8"?) | (! "switch9"?))) | (! "switch12"?))) | ((("switch9"?) | (((! "display2"?) & (! "switch11"?))))))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F "switch10"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (((((((("switch12"?) | ("switch8"?))) & ((("switch12"?) & ("switch4"?))))) & ((((("switch3"?) & ("switch2"?))) | ((("switch2"?) | ("switch6"?))))))) & ("switch9"?))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ((! ! (("switch3"?) & ("switch9"?))) | ((("switch12"?) | (((! "switch8"?) | ((("switch12"?) & ("switch1"?))))))))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (("switch12"?) | ((("display3"?) & ("switch10"?))))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ((((! ! "display4"?) & ("display3"?))) | ((((("display1"?) | ("display4"?))) & ((((("display3"?) & ("switch11"?))) & ((("switch2"?) | ("display3"?))))))))
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ! "display4"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F "switch12"?
+  end.
+Property PermAdmissibility-COL-02-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F (("switch2"?) & (((((! "switch3"?) & ("switch10"?))) & ((("display2"?) | ((("switch9"?) & ("switch8"?))))))))
+  end.

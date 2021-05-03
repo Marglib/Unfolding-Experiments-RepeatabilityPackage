@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J06T08-CTLFireability-00
+  "Automatically generated"
+  is:
+    A X E G ! (("T_1100"?) & ("T_1125"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-01
+  "Automatically generated"
+  is:
+    A G A F (((("T_2578"?) | ("T_2285"?))) & ((("DummyOR2"?) & ("LeaveCSPW"?))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-02
+  "Automatically generated"
+  is:
+    ! A (("GoIdle"?) U (A F "T_2311"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((((A F "T_0383"?) | (((! "DummyOR2"?) | ((("IsAbort"?) & ("T_0376"?))))))) U (((! ! "T_1125"?) & (! "LeaveCSPW"?))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-04
+  "Automatically generated"
+  is:
+    E G E F ! (("NOPDP"?) & ("NOPEP"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-05
+  "Automatically generated"
+  is:
+    E ((E F "EnterCSPW"?) U (A (("NOPEP"?) U ("T_1123"?))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-06
+  "Automatically generated"
+  is:
+    A F ((! ! (("T_1730"?) & ("NotifyEventJobCompleted"?))) & (! (((("T_1721"?) | ("EnterCSPW"?))) | ((("Run"?) & ("EnterCSPW"?))))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-07
+  "Automatically generated"
+  is:
+    E F "T_2577"?
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((! "T_1114"?) & (E G E X ! "WaitforBlockedTasks"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F ! ! E F "GoIdle"?
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-10
+  "Automatically generated"
+  is:
+    (((("IsEvt"?) | (((A G "T_1444"?) & (E G (("T_2285"?) & ("T_1722"?))))))) | (E G A F ! "T_2285"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((! ((! "T_1730"?) & (E F (("T_1114"?) | ("T_2294"?))))) | (E X A F (("T_2541"?) | ("NOPDP"?))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((((A X A F "T_1126"?) | ((((((((("T_1171"?) & ("DummyOR1"?))) & ((("T_1147"?) | ("T_1171"?))))) | (A F "T_1171"?))) & (! (("IsAbort"?) & ((("T_2294"?) & ("NotifyEventJobCompleted"?))))))))) | (E X "T_1170"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-13
+  "Automatically generated"
+  is:
+    E F (((((((("T_1148"?) & ("T_1114"?))) | ((("T_1145"?) & ("NOPDP"?))))) | (! (("NOPEP"?) | ("T_2296"?))))) & (A G "T_1098"?))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((((! (((("LeaveIdle"?) & ((("WaitforBlockedTasks"?) & ("T_1126"?))))) | (A G "T_2280"?))) & (A ((! "NOPEP"?) U ("WillPerformWork"?))))) | (E F ((E X "NotifyEventJobCompleted"?) & (A X "EnterCSPW"?))))
+  end.
+Property PolyORBLF-COL-S02J06T08-CTLFireability-15
+  "Automatically generated"
+  is:
+    E F ! ! A G "T_1171"?
+  end.

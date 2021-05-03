@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-28-00
+  "Automatically generated"
+  is:
+    A !(!"malA1"? & X ("AendCS"? & ("malA4"? U !"AendCS"?)))
+  end.
+Property QuasiCertifProtocol-COL-28-01
+  "Automatically generated"
+  is:
+    A !(F "malS4"? & F ("malS2"? & X X !X G "malS4"?))
+  end.
+Property QuasiCertifProtocol-COL-28-02
+  "Automatically generated"
+  is:
+    A (!("CsendTS1"? & G "Sperform"? & !("malA5"? | X "malA5"?)) U X X "CsendTS1"?)
+  end.
+Property QuasiCertifProtocol-COL-28-03
+  "Automatically generated"
+  is:
+    A F (("AendCS"? & ("AendCS"? | "SsendTS"?) & G "SsendTS"?) U ("malA4"? & "SsendTS"?))
+  end.
+Property QuasiCertifProtocol-COL-28-04
+  "Automatically generated"
+  is:
+    A ("malA3"? U F "malA2"?)
+  end.
+Property QuasiCertifProtocol-COL-28-05
+  "Automatically generated"
+  is:
+    A X (X G "AreqCS"? | F (("malA4"? | "AreqCS"?) & G ("SreqTS"? U "AreqCS"?)))
+  end.
+Property QuasiCertifProtocol-COL-28-06
+  "Automatically generated"
+  is:
+    A F G !F (("malA5"? U !"malA5"?) U "SgetTS"?)
+  end.
+Property QuasiCertifProtocol-COL-28-07
+  "Automatically generated"
+  is:
+    A (X ("AendCS"? | !X F "AendCS"?) | F (!"SackCS"? | "malS5"?))
+  end.
+Property QuasiCertifProtocol-COL-28-08
+  "Automatically generated"
+  is:
+    A X !G F G ("malC1"? & X "SgetTS"?)
+  end.
+Property QuasiCertifProtocol-COL-28-09
+  "Automatically generated"
+  is:
+    A G F !F (!"AackCS"? & F X ("SsendTS"? & !G "malS6"?))
+  end.
+Property QuasiCertifProtocol-COL-28-10
+  "Automatically generated"
+  is:
+    A ("Sperform"? | G !"Sperform"? | (!"SackCS"? U X "AgetTS"?))
+  end.
+Property QuasiCertifProtocol-COL-28-11
+  "Automatically generated"
+  is:
+    A !X X (("malA1"? | F "CsendTS1"?) U X F G ("malA4"? | G "CsendTS1"?))
+  end.
+Property QuasiCertifProtocol-COL-28-12
+  "Automatically generated"
+  is:
+    A X (!"SgetTS"? & F "malA4"? & G (!"AendCS"? | "AreqCS"?))
+  end.
+Property QuasiCertifProtocol-COL-28-13
+  "Automatically generated"
+  is:
+    A (G F X G "AackCS"? & (F ("AackCS"? U "AackCS"?) U F "malS6"?))
+  end.
+Property QuasiCertifProtocol-COL-28-14
+  "Automatically generated"
+  is:
+    A G F G !(X (!"CgenCertif"? U F "CsendTS1"?) | G ("malC1"? & "malA2"?))
+  end.
+Property QuasiCertifProtocol-COL-28-15
+  "Automatically generated"
+  is:
+    A !("malA4"? U "Sperform"?)
+  end.

@@ -1,0 +1,80 @@
+Property Philosophers-COL-000500-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E ((((#tokens("Fork")) <= (#tokens("Fork")))) U (! ((((1) <= (#tokens("Eat")))) | (((#tokens("Eat")) <= (#tokens("Eat")))))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E X E G ((((#tokens("Catch1")) <= (#tokens("Fork")))) | (((#tokens("Eat")) <= (#tokens("Eat")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E X ((E X ((#tokens("Fork")) <= (#tokens("Catch2")))) & (A G ((#tokens("Catch1")) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((A X E G ((#tokens("Catch1")) <= (#tokens("Think")))) & (! ! ((#tokens("Fork")) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((((#tokens("Think")) <= (#tokens("Fork")))) & (E F ! ((#tokens("Catch1")) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A F ((! ((3) <= (#tokens("Think")))) & (((((((#tokens("Catch1")) <= (#tokens("Think")))) & (((2) <= (#tokens("Fork")))))) & (((((#tokens("Catch1")) <= (#tokens("Think")))) | (((#tokens("Fork")) <= (#tokens("Eat")))))))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((A F ((((2) <= (#tokens("Catch1")))) | (((3) <= (#tokens("Catch1")))))) & (A G ((#tokens("Think")) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E F A ((((#tokens("Eat")) <= (#tokens("Catch2")))) U (((#tokens("Think")) <= (#tokens("Catch1")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A ((E G ((#tokens("Catch1")) <= (#tokens("Catch1")))) U (E X ((#tokens("Fork")) <= (#tokens("Catch1")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E ((A G ((2) <= (#tokens("Fork")))) U (E F ((3) <= (#tokens("Catch2")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-10
+  "Automatically generated"
+  is:
+    A F E G ((((#tokens("Catch2")) <= (#tokens("Catch1")))) | (((3) <= (#tokens("Think")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A X ((E F ((#tokens("Think")) <= (#tokens("Eat")))) & (A F ((#tokens("Catch2")) <= (#tokens("Eat")))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E G ((#tokens("Fork")) <= (#tokens("Fork")))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-13
+  "Automatically generated"
+  is:
+    A F ((1) <= (#tokens("Catch2")))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((((((A X ((3) <= (#tokens("Fork")))) | (((((((2) <= (#tokens("Fork")))) | (((#tokens("Fork")) <= (#tokens("Catch1")))))) | (! ((#tokens("Think")) <= (#tokens("Think")))))))) & (E F ! ((#tokens("Catch2")) <= (#tokens("Think")))))) & (E ((((((#tokens("Think")) <= (#tokens("Catch1")))) | (((#tokens("Fork")) <= (#tokens("Fork")))))) U (((#tokens("Eat")) <= (#tokens("Fork")))))))
+  end.
+Property Philosophers-COL-000500-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((((((#tokens("Eat")) <= (#tokens("Think")))) & (E X ((((1) <= (#tokens("Eat")))) | (((3) <= (#tokens("Eat")))))))) | (A ((((((2) <= (#tokens("Catch2")))) | (((#tokens("Catch2")) <= (#tokens("Fork")))))) U (! ((#tokens("Catch2")) <= (#tokens("Fork")))))))
+  end.

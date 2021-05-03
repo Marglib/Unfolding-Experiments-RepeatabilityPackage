@@ -1,0 +1,80 @@
+Property Philosophers-COL-000010-00
+  "Automatically generated"
+  is:
+    A (X !X (G "End"? U F G "FF2b"?) & F G "End"?)
+  end.
+Property Philosophers-COL-000010-01
+  "Automatically generated"
+  is:
+    A !("FF2b"? U (G "FF2a"? U G "FF2b"?))
+  end.
+Property Philosophers-COL-000010-02
+  "Automatically generated"
+  is:
+    A F (!"FF1a"? & G X X X !(!"FF1a"? U "FF1a"?))
+  end.
+Property Philosophers-COL-000010-03
+  "Automatically generated"
+  is:
+    A X X (F ("FF1b"? | X "FF2a"?) & X !X F "FF2a"?)
+  end.
+Property Philosophers-COL-000010-04
+  "Automatically generated"
+  is:
+    A G X X G "FF1a"?
+  end.
+Property Philosophers-COL-000010-05
+  "Automatically generated"
+  is:
+    A ("FF1b"? & F G !X "FF1b"?)
+  end.
+Property Philosophers-COL-000010-06
+  "Automatically generated"
+  is:
+    A ((!"FF2a"? U "FF1a"?) | G (!"FF1a"? & G (!"FF1a"? U F "FF1a"?)))
+  end.
+Property Philosophers-COL-000010-07
+  "Automatically generated"
+  is:
+    A F G X ((X G "FF1a"? U "FF1a"?) | (!"FF1a"? U "FF2b"?))
+  end.
+Property Philosophers-COL-000010-08
+  "Automatically generated"
+  is:
+    A (G X !X F X X "End"? U (F "End"? & X !"FF2a"?))
+  end.
+Property Philosophers-COL-000010-09
+  "Automatically generated"
+  is:
+    A (X ("FF2b"? | (G !"FF1b"? U "End"?)) & ("FF2b"? | F "FF1a"?))
+  end.
+Property Philosophers-COL-000010-10
+  "Automatically generated"
+  is:
+    A (("FF2a"? & F "FF2a"?) | F (!(!"FF2a"? & "FF2b"?) U "FF2a"?))
+  end.
+Property Philosophers-COL-000010-11
+  "Automatically generated"
+  is:
+    A (!G F G X "FF2b"? & (G "FF2b"? U "FF2b"?) & G !"FF2a"?)
+  end.
+Property Philosophers-COL-000010-12
+  "Automatically generated"
+  is:
+    A X (!"End"? | "FF1b"? | (X "FF1b"? & F "FF1b"?) | ("End"? U "FF2a"?))
+  end.
+Property Philosophers-COL-000010-13
+  "Automatically generated"
+  is:
+    A !F X ("FF1b"? | (G X "FF1b"? U F "FF1b"?))
+  end.
+Property Philosophers-COL-000010-14
+  "Automatically generated"
+  is:
+    A (F !(X "End"? & F ("FF2a"? | F "FF2b"?)) U G X !"End"?)
+  end.
+Property Philosophers-COL-000010-15
+  "Automatically generated"
+  is:
+    A X (G "FF2a"? & X ("FF2b"? & ((!"FF1b"? U "FF2a"?) U "FF2a"?)))
+  end.

@@ -1,0 +1,80 @@
+Property SafeBus-COL-20-00
+  "Automatically generated"
+  is:
+    A G X ((!"C_provide"? & G "I_reemit"?) U !"I_reemit"?)
+  end.
+Property SafeBus-COL-20-01
+  "Automatically generated"
+  is:
+    A !(F "I_reemit"? | X (!G "I_reemit"? U X "I_reemit"?) | F "I_ask2"?)
+  end.
+Property SafeBus-COL-20-02
+  "Automatically generated"
+  is:
+    A ("C_provide"? & X F ("I_rec1"? & !"C_provide"?))
+  end.
+Property SafeBus-COL-20-03
+  "Automatically generated"
+  is:
+    A !G X !("C_provide"? | ("C_provide"? & !"I_reemit"?) | F "C_provide"?)
+  end.
+Property SafeBus-COL-20-04
+  "Automatically generated"
+  is:
+    A (F "C_provide"? & (!X X X "C_provide"? U "C_provide"?))
+  end.
+Property SafeBus-COL-20-05
+  "Automatically generated"
+  is:
+    A !G ("I_rec1"? & (F G "I_ask1"? U ("I_rec1"? & F "I_rec1"? & F "I_ask1"?)))
+  end.
+Property SafeBus-COL-20-06
+  "Automatically generated"
+  is:
+    A F (G "I_reemit"? | G "C_refuse"?)
+  end.
+Property SafeBus-COL-20-07
+  "Automatically generated"
+  is:
+    A X (G "loss_m"? & F "C_refuse"?)
+  end.
+Property SafeBus-COL-20-08
+  "Automatically generated"
+  is:
+    A G ("C_refuse"? | F X F ("C_refuse"? U "I_rec2"?) | ("I_rec2"? U ("C_refuse"? & "I_rec2"?)))
+  end.
+Property SafeBus-COL-20-09
+  "Automatically generated"
+  is:
+    A !G ("Gto"? | G (F "I_refused"? | X "Gto"?))
+  end.
+Property SafeBus-COL-20-10
+  "Automatically generated"
+  is:
+    A (F "I_rec1"? U (X G (!"C_refuse"? | F "I_rec1"?) U ("I_rec2"? | !"I_emit"?)))
+  end.
+Property SafeBus-COL-20-11
+  "Automatically generated"
+  is:
+    A ("C_free"? | "C_free"? | G (F "I_rec1"? | X "loss_m"?))
+  end.
+Property SafeBus-COL-20-12
+  "Automatically generated"
+  is:
+    A !(!("I_rec2"? U F (X "loss_m"? U "loss_m"?)) U ("I_reemit"? | "I_ask1"?))
+  end.
+Property SafeBus-COL-20-13
+  "Automatically generated"
+  is:
+    A F X ("I_rec2"? & F G "I_rec1"?)
+  end.
+Property SafeBus-COL-20-14
+  "Automatically generated"
+  is:
+    A ("I_free"? U !(F !X (G F "C_refuse"? U "C_refuse"?) | X G "loss_m"?))
+  end.
+Property SafeBus-COL-20-15
+  "Automatically generated"
+  is:
+    A !X X F "C_free"?
+  end.

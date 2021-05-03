@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J04T08-00
+  "Automatically generated"
+  is:
+    A (F ("T_2283"? | X G "T_2294"?) U X F !("T_2283"? | X "IsAbort"?))
+  end.
+Property PolyORBLF-COL-S02J04T08-01
+  "Automatically generated"
+  is:
+    A (!X "T_2317"? U F ("T_2317"? | X G X ("T_2541"? U "T_1148"?)))
+  end.
+Property PolyORBLF-COL-S02J04T08-02
+  "Automatically generated"
+  is:
+    A F (G "NoCheck"? U ("DummyOR1"? | ("NoMonitoring"? & G !"NoCheck"?)))
+  end.
+Property PolyORBLF-COL-S02J04T08-03
+  "Automatically generated"
+  is:
+    A X (("LeaveIdle"? & G "NotifyEventSourceAdded"?) U (!"NotifyEventSourceAdded"? | "IsAbort"?))
+  end.
+Property PolyORBLF-COL-S02J04T08-04
+  "Automatically generated"
+  is:
+    A G "T_1713"?
+  end.
+Property PolyORBLF-COL-S02J04T08-05
+  "Automatically generated"
+  is:
+    A (("LeaveCSTCS"? & (!"SetSigAbort"? | "LeaveIdle"?)) | F "LeaveCSTCS"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-06
+  "Automatically generated"
+  is:
+    A G ("T_1711"? | F G ("T_1100"? U "T_1147"?))
+  end.
+Property PolyORBLF-COL-S02J04T08-07
+  "Automatically generated"
+  is:
+    A ("T_2315"? U !"T_1100"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-08
+  "Automatically generated"
+  is:
+    A G (!(G "T_1170"? | ("NotifyEventJobCompleted"? U !"LeaveCSIS"?)) U F ("T_2283"? U !"T_1730"?))
+  end.
+Property PolyORBLF-COL-S02J04T08-09
+  "Automatically generated"
+  is:
+    A (F X "T_1444"? & G F "T_1145"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-10
+  "Automatically generated"
+  is:
+    A F X !G F (!"T_1721"? | X X X !X "WaitCompleted"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-11
+  "Automatically generated"
+  is:
+    A (G "T_1125"? | X !X G "T_1444"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-12
+  "Automatically generated"
+  is:
+    A ((F !"T_1713"? | ("T_1711"? U "T_1444"?)) & G X X "T_1722"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-13
+  "Automatically generated"
+  is:
+    A ("T_1126"? | G (!"T_2311"? & !"NOPDP"?))
+  end.
+Property PolyORBLF-COL-S02J04T08-14
+  "Automatically generated"
+  is:
+    A !F ("NOPEP"? & !X "NOPEP"?)
+  end.
+Property PolyORBLF-COL-S02J04T08-15
+  "Automatically generated"
+  is:
+    A X F G ("T_1721"? U G X !G X F ("T_1722"? | "NeedMonitoring"?))
+  end.

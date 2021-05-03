@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-3-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("End")))) & (((((#tokens("Eval1")) <= (#tokens("IsWinner")))) | (! ((2) <= (#tokens("IsWinner")))))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ! ((1) <= (#tokens("Eval1")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("Score")) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ! ! ((1) <= (#tokens("Score")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("Score")) <= (#tokens("IsWinner")))) | (((((2) <= (#tokens("Score")))) & (((#tokens("FreePositions")) <= (#tokens("Chosed")))))))) | (((2) <= (#tokens("Chosed")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ! ((1) <= (#tokens("Score")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("OccupiedPositions")) <= (#tokens("End")))) & (((((#tokens("OccupiedPositions")) <= (#tokens("End")))) & (((1) <= (#tokens("OccupiedPositions")))))))) & (! ((1) <= (#tokens("Eval1")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((#tokens("End")) <= (#tokens("IsWinner")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("Eval1")) <= (#tokens("IsWinner")))) & (((1) <= (#tokens("End")))))) | (((2) <= (#tokens("FreePositions")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("FreePositions")))) & (((1) <= (#tokens("OccupiedPositions")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("OccupiedPositions")) <= (#tokens("FreePositions")))) & (((#tokens("Chosed")) <= (#tokens("Eval1")))))) | (((((2) <= (#tokens("IsWinner")))) & (((2) <= (#tokens("Score")))))))) | (((#tokens("FreePositions")) <= (#tokens("IsWinner")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("IsWinner")) <= (#tokens("OccupiedPositions")))) | (((#tokens("Chosed")) <= (#tokens("Eval1")))))) | (! ((2) <= (#tokens("IsWinner")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((2) <= (#tokens("Score")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("End")) <= (#tokens("Eval1")))) & (((#tokens("End")) <= (#tokens("Eval1")))))) & (((((1) <= (#tokens("OccupiedPositions")))) & (((1) <= (#tokens("FreePositions")))))))) & (! ! ((#tokens("OccupiedPositions")) <= (#tokens("Eval1")))))
+  end.
+Property DotAndBoxes-COL-3-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("Chosed")))) | (((2) <= (#tokens("Idle")))))) | (((#tokens("Score")) <= (#tokens("Chosed")))))) | (! ! ((1) <= (#tokens("Idle")))))
+  end.

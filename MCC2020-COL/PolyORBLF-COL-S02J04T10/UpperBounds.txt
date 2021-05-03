@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J04T10-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("P_1712")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("RunE")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("EnablePollingB")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("Insert_Source_B")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("P_1724")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("cIdleTasks")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("EnablePollingE")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("ScheduleTaskB")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("P_1617")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("MarkerRead")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("NotifyEventSourceAddedB")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("P_1725")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("TryAllocateOneTaskB")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("ScheduleTaskE_Idle")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("Try_Check_Sources_B")
+  end.
+Property PolyORBLF-COL-S02J04T10-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("P_1716")
+  end.

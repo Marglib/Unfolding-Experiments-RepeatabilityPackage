@@ -1,0 +1,80 @@
+Property SharedMemory-COL-100000-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ((((! ! "Req_Ext_Acc"?) & (! "Req_Ext_Acc"?))) & (((! ! "Begin_Own_Acc"?) | ("End_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F ! ((! ! "Req_Ext_Acc"?) | (((! "Begin_Own_Acc"?) | (! "Req_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "Begin_Ext_Acc"?
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F (((((((("End_Ext_Acc"?) & ("Req_Ext_Acc"?))) & ((("Begin_Own_Acc"?) | ("Req_Ext_Acc"?))))) | ((((("End_Own_Acc"?) | ("Req_Ext_Acc"?))) | (! "Begin_Own_Acc"?))))) & (((! (("Req_Ext_Acc"?) | ("Begin_Own_Acc"?))) | (((! "Begin_Own_Acc"?) & ((("End_Ext_Acc"?) & ("End_Ext_Acc"?))))))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G "Begin_Ext_Acc"?
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ! ((! (("Begin_Own_Acc"?) | ("End_Ext_Acc"?))) & ((("End_Ext_Acc"?) & ("Begin_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ! ! (((("Begin_Ext_Acc"?) | ("End_Ext_Acc"?))) & ((("Begin_Ext_Acc"?) | ("Req_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G (("End_Own_Acc"?) | ("Req_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G (("Begin_Own_Acc"?) | ((((((("Req_Ext_Acc"?) | ("End_Ext_Acc"?))) & ((("Begin_Own_Acc"?) & ("Begin_Own_Acc"?))))) & ("Req_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ((! (("Begin_Ext_Acc"?) | ((("Req_Ext_Acc"?) | ("Begin_Own_Acc"?))))) | ("Req_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G "Begin_Own_Acc"?
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ((((! (("End_Ext_Acc"?) & ("End_Own_Acc"?))) | (! ! "End_Own_Acc"?))) & (! (((("End_Own_Acc"?) | ("End_Own_Acc"?))) | ("End_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G "End_Own_Acc"?
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F ! (("Req_Ext_Acc"?) & ((((("End_Ext_Acc"?) | ("Req_Ext_Acc"?))) | ((("Begin_Own_Acc"?) | ("Begin_Ext_Acc"?))))))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! ((! "Begin_Own_Acc"?) | ("Begin_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-100000-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G "End_Ext_Acc"?
+  end.

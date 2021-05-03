@@ -1,0 +1,80 @@
+Property Referendum-COL-0050-00
+  "Automatically generated"
+  is:
+    A (((((1) <= (#tokens("voted_no"))) | G ((1) <= (#tokens("voted_no")))) & G X !((1) <= (#tokens("voted_no")))) | (((#tokens("voted_yes")) <= (#tokens("ready"))) & X ((1) <= (#tokens("voted_no")))))
+  end.
+Property Referendum-COL-0050-01
+  "Automatically generated"
+  is:
+    A X (X ((#tokens("ready")) <= (#tokens("voted_yes"))) | X (((#tokens("voting")) <= (#tokens("ready"))) & G X !((0) <= (#tokens("voted_no")))))
+  end.
+Property Referendum-COL-0050-02
+  "Automatically generated"
+  is:
+    A X !X G !((3) <= (#tokens("voted_no")))
+  end.
+Property Referendum-COL-0050-03
+  "Automatically generated"
+  is:
+    A !G F (!(((#tokens("ready")) <= (#tokens("voted_yes"))) | ((0) <= (#tokens("voting")))) | G F X G (((1) <= (#tokens("voted_no"))) U ((#tokens("voted_yes")) <= (#tokens("voted_no")))))
+  end.
+Property Referendum-COL-0050-04
+  "Automatically generated"
+  is:
+    A G (F G ((2) <= (#tokens("voted_no"))) U !F (!G ((#tokens("voted_yes")) <= (#tokens("ready"))) U ((#tokens("voted_yes")) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0050-05
+  "Automatically generated"
+  is:
+    A (F (((#tokens("ready")) <= (#tokens("voted_yes"))) & ((3) <= (#tokens("voted_no")))) & X X (((#tokens("voted_yes")) <= (#tokens("voting"))) & G ((#tokens("ready")) <= (#tokens("voted_yes")))))
+  end.
+Property Referendum-COL-0050-06
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("voting"))) | X F (F ((2) <= (#tokens("voting"))) U X (((#tokens("voting")) <= (#tokens("voted_yes"))) | ((#tokens("ready")) <= (#tokens("voted_no"))))))
+  end.
+Property Referendum-COL-0050-07
+  "Automatically generated"
+  is:
+    A (((1) <= (#tokens("voting"))) | (!((2) <= (#tokens("voted_no"))) & F ((1) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0050-08
+  "Automatically generated"
+  is:
+    A F !((G F ((#tokens("voted_yes")) <= (#tokens("voting"))) U (!((#tokens("voted_yes")) <= (#tokens("voting"))) | G !((1) <= (#tokens("voted_no"))))) U ((3) <= (#tokens("voting"))))
+  end.
+Property Referendum-COL-0050-09
+  "Automatically generated"
+  is:
+    A (F !X G F ((#tokens("ready")) <= (#tokens("voted_yes"))) | (((2) <= (#tokens("voted_no"))) U ((#tokens("ready")) <= (#tokens("voted_yes")))))
+  end.
+Property Referendum-COL-0050-10
+  "Automatically generated"
+  is:
+    A (F (!((3) <= (#tokens("ready"))) | (((#tokens("ready")) <= (#tokens("voted_no"))) U ((2) <= (#tokens("voted_yes"))))) & F G X ((#tokens("voted_no")) <= (#tokens("voting"))))
+  end.
+Property Referendum-COL-0050-11
+  "Automatically generated"
+  is:
+    A (((#tokens("voted_yes")) <= (#tokens("voted_no"))) | (X !F X X ((3) <= (#tokens("ready"))) U X (((#tokens("voted_yes")) <= (#tokens("voted_no"))) & ((#tokens("voted_yes")) <= (#tokens("voted_no"))))))
+  end.
+Property Referendum-COL-0050-12
+  "Automatically generated"
+  is:
+    A (F !((#tokens("voted_no")) <= (#tokens("voting"))) | (((#tokens("voted_yes")) <= (#tokens("voted_no"))) & G !F ((#tokens("ready")) <= (#tokens("voting")))))
+  end.
+Property Referendum-COL-0050-13
+  "Automatically generated"
+  is:
+    A (G ((#tokens("voting")) <= (#tokens("ready"))) U G F (G ((2) <= (#tokens("voted_yes"))) U X ((#tokens("voting")) <= (#tokens("ready")))))
+  end.
+Property Referendum-COL-0050-14
+  "Automatically generated"
+  is:
+    A G X X ((#tokens("voting")) <= (#tokens("voted_no")))
+  end.
+Property Referendum-COL-0050-15
+  "Automatically generated"
+  is:
+    A G (((2) <= (#tokens("voted_yes"))) | X ((2) <= (#tokens("voted_yes"))) | (!F ((1) <= (#tokens("voting"))) U ((#tokens("ready")) <= (#tokens("voting")))))
+  end.

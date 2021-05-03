@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J04T08-00
+  "Automatically generated"
+  is:
+    A (((((#tokens("P_2579")) <= (#tokens("P_1119"))) | ((#tokens("P_1724")) <= (#tokens("SigAbort")))) U ((#tokens("P_2579")) <= (#tokens("P_1119")))) & X (G (((#tokens("P_2318")) <= (#tokens("Insert_Source_E"))) | ((1) <= (#tokens("DisablePollingE")))) U (((1) <= (#tokens("DisablePollingE"))) | ((#tokens("P_1724")) <= (#tokens("SigAbort"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-01
+  "Automatically generated"
+  is:
+    A (((#tokens("P_1724")) <= (#tokens("QueueJobE"))) | F ((2) <= (#tokens("AbourtToModifySrc"))) | (X X X ((#tokens("P_1724")) <= (#tokens("QueueJobE"))) U (((#tokens("ScheduleTaskE_Idle")) <= (#tokens("RunE"))) | ((3) <= (#tokens("ScheduleTaskB"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-02
+  "Automatically generated"
+  is:
+    A (F G ((1) <= (#tokens("P_1726"))) | !F G !((#tokens("P_1725")) <= (#tokens("P_1119"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-03
+  "Automatically generated"
+  is:
+    A !G !X (G ((#tokens("P_1095")) <= (#tokens("EnablePollingE"))) & (!((0) <= (#tokens("Perform_Work_E"))) U (((#tokens("P_1095")) <= (#tokens("EnablePollingE"))) & ((0) <= (#tokens("Try_Check_Sources_E"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-04
+  "Automatically generated"
+  is:
+    A (((0) <= (#tokens("P_2321"))) & ((((#tokens("MarkerWrite")) <= (#tokens("P_1726"))) & ((#tokens("NotifyEventJobCompletedB")) <= (#tokens("P_1159")))) | (G ((#tokens("MarkerWrite")) <= (#tokens("P_1726"))) U ((#tokens("nyo")) <= (#tokens("P_1119"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-05
+  "Automatically generated"
+  is:
+    A G (((0) <= (#tokens("P_2579"))) & ((#tokens("Try_Check_Sources_B")) <= (#tokens("P_1093"))) & X (X ((2) <= (#tokens("NotifyEventJobQueuedB"))) | X G (((#tokens("Try_Check_Sources_B")) <= (#tokens("P_1093"))) | F ((#tokens("JobCnt")) <= (#tokens("P_1712"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-06
+  "Automatically generated"
+  is:
+    A X ((((1) <= (#tokens("P_1099"))) & (F X ((1) <= (#tokens("P_1099"))) U ((3) <= (#tokens("JobCnt"))))) | (((#tokens("NoSigAbort")) <= (#tokens("cPollingAbort"))) U F ((3) <= (#tokens("JobCnt")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-07
+  "Automatically generated"
+  is:
+    A X F (((2) <= (#tokens("Check_Sources_B"))) | ((0) <= (#tokens("P_1717"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-08
+  "Automatically generated"
+  is:
+    A F G (((#tokens("ScheduleTaskB")) <= (#tokens("NotifyEventEndOfCheckSourcesE"))) U ((2) <= (#tokens("QueueJobE"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-09
+  "Automatically generated"
+  is:
+    A G !(X X ((3) <= (#tokens("NotifyEventEndOfCheckSourcesB"))) | X (X ((1) <= (#tokens("P_1159"))) & G ((1) <= (#tokens("P_1159")))) | F ((0) <= (#tokens("RunE"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-10
+  "Automatically generated"
+  is:
+    A F G F X (((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobQueuedB"))) & F G (((#tokens("CanInjectEvent")) <= (#tokens("NotifyEventJobQueuedB"))) & !((#tokens("PlaceSources")) <= (#tokens("Perform_Work_E")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-11
+  "Automatically generated"
+  is:
+    A G (((#tokens("Abort_Check_Sources_B")) <= (#tokens("P_1160"))) | ((#tokens("FetchJobB")) <= (#tokens("IsMonitoring"))) | F ((#tokens("Abort_Check_Sources_B")) <= (#tokens("P_1160"))) | F G F !((#tokens("P_1725")) <= (#tokens("Insert_Source_B"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-12
+  "Automatically generated"
+  is:
+    A (((F ((2) <= (#tokens("P_1724"))) & F ((3) <= (#tokens("Try_Check_Sources_B")))) | X (((2) <= (#tokens("P_1724"))) | G ((0) <= (#tokens("ScheduleTaskB"))))) U ((0) <= (#tokens("ScheduleTaskB"))))
+  end.
+Property PolyORBLF-COL-S06J04T08-13
+  "Automatically generated"
+  is:
+    A ((((#tokens("P_1113")) <= (#tokens("Insert_Source_E"))) & F ((2) <= (#tokens("MarkerRead")))) U !X !F (G ((#tokens("cPollingAbort")) <= (#tokens("P_1097"))) | X !((3) <= (#tokens("QueueJobE")))))
+  end.
+Property PolyORBLF-COL-S06J04T08-14
+  "Automatically generated"
+  is:
+    A G !F X X (!((#tokens("FetchJobE")) <= (#tokens("Perform_Work_E"))) U (!((#tokens("cIsMonitoring")) <= (#tokens("BlockedTasks"))) | (((#tokens("FetchJobE")) <= (#tokens("Perform_Work_E"))) U X ((#tokens("FetchJobE")) <= (#tokens("Perform_Work_E"))))))
+  end.
+Property PolyORBLF-COL-S06J04T08-15
+  "Automatically generated"
+  is:
+    A X X !(!G ((#tokens("DataOnSrc")) <= (#tokens("Perform_Work_E"))) U X X F !((#tokens("NotifyEventEndOfCheckSourcesB")) <= (#tokens("ScheduleTaskE_Idle"))))
+  end.

@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((A G A F ((#tokens("P_1160")) <= (#tokens("nyo")))) & (((E ((((3) <= (#tokens("P_1113")))) U (((3) <= (#tokens("P_2318")))))) | (A G ! ((3) <= (#tokens("P_1113")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A F ((((2) <= (#tokens("DisablePollingB")))) & (! ((2) <= (#tokens("QueueJobB")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-02
+  "Automatically generated"
+  is:
+    E ((A F ((#tokens("Idle")) <= (#tokens("PlaceSources")))) U (((! ((#tokens("P_1097")) <= (#tokens("P_1113")))) | (((((3) <= (#tokens("EnablePollingE")))) & (((#tokens("IdleTasks")) <= (#tokens("P_1155")))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E X A F ((3) <= (#tokens("P_1113")))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E ((A G ((#tokens("AbourtToModifySrc")) <= (#tokens("Check_Sources_E")))) U (! ((((#tokens("P_2579")) <= (#tokens("RunE")))) & (((#tokens("AbourtToModifySrc")) <= (#tokens("Try_Check_Sources_E")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E F ((E F ((3) <= (#tokens("Check_Sources_E")))) | (E G ((#tokens("P_1712")) <= (#tokens("NotifyEventJobQueuedE")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E ((A X ((#tokens("Insert_Source_E")) <= (#tokens("Insert_Source_B")))) U (((! ((#tokens("ProcessingEvt")) <= (#tokens("nyo")))) & (((1) <= (#tokens("P_1725")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((A G ((3) <= (#tokens("BlockedTasks")))) | (A G A G ((#tokens("Try_Check_Sources_E")) <= (#tokens("EnablePollingE")))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) & (((2) <= (#tokens("ScheduleTaskE_Check")))))) | (((((((1) <= (#tokens("CreatedJobs")))) & (((1) <= (#tokens("P_1712")))))) & (((((3) <= (#tokens("P_1725")))) & (((#tokens("P_1158")) <= (#tokens("BlockedTasks")))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E G ((((1) <= (#tokens("P_1160")))) | (((((((#tokens("MarkerRead")) <= (#tokens("NoSigAbort")))) | (((#tokens("EnablePollingB")) <= (#tokens("cIdleTasks")))))) | (((((#tokens("MarkerRead")) <= (#tokens("CreatedJobs")))) | (((3) <= (#tokens("NotifyEventEndOfCheckSourcesE")))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((A G ! ((((2) <= (#tokens("P_1712")))) | (((3) <= (#tokens("P_1093")))))) & (((E X ((((#tokens("TryAllocateOneTaskE")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) & (((#tokens("DataOnSrc")) <= (#tokens("FetchJobE")))))) | (A ((((#tokens("FetchJobE")) <= (#tokens("NotifyEventEndOfCheckSourcesE")))) U (((2) <= (#tokens("cIsMonitoring")))))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-12
+  "Automatically generated"
+  is:
+    E ((((#tokens("P_1113")) <= (#tokens("NotifyEventJobCompletedB")))) U (! ((((#tokens("DisablePollingE")) <= (#tokens("P_1716")))) | (((1) <= (#tokens("cPollingAbort")))))))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("NotifyEventJobCompletedB")))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ! E F E G ((#tokens("P_2579")) <= (#tokens("P_1095")))
+  end.
+Property PolyORBLF-COL-S04J04T08-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("JobCnt")) <= (#tokens("P_1093")))) & (((3) <= (#tokens("cIdleTasks")))))) & (! ((#tokens("JobCnt")) <= (#tokens("FetchJobE")))))) | (((((1) <= (#tokens("EnablePollingB")))) & (((((2) <= (#tokens("cJobCnt")))) | (((3) <= (#tokens("ScheduleTaskE_Work")))))))))
+  end.

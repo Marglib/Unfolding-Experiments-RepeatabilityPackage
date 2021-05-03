@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ! ! ! "NoMonitoring"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F ! ((! (("NopAbort"?) | ("T_2317"?))) | (! "T_1722"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "LeaveCSIS"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F (("WaitCompleted"?) & ("T_2315"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "T_1721"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "NoCheck"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (((("T_1711"?) | ((("T_1711"?) | ((("T_1126"?) | ("T_1126"?))))))) & ("NeedMonitoring"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F ! ((((! "LeaveCSPW"?) | ("T_1730"?))) | (((! "T_1094"?) & ("T_2283"?))))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (("T_1098"?) & ("T_1123"?))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ! ((! (("NotifyEventSourceAdded"?) & ("GoIdle"?))) | ((((("T_1125"?) | ("WaitforBlockedTasks"?))) | ((("T_1126"?) | ("EnterCSIS"?))))))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "T_1171"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ! ! (((("T_2577"?) & ("NotifyEventJobCompleted"?))) & ((("T_1722"?) | ("DummyIS"?))))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F (((("T_2541"?) | ((((("T_1094"?) | ("T_1618"?))) & ((("DummyOR1"?) & ("T_2315"?))))))) & ((((((("T_2283"?) & ("T_1444"?))) | ((("T_2296"?) & ("T_1729"?))))) | (! (("WillPerformWork"?) | ("LeaveCSPW"?))))))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F "T_1148"?
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! (("T_1100"?) & (((! "T_2578"?) & ((("IsEvt"?) | ("T_2296"?))))))
+  end.
+Property PolyORBLF-COL-S04J06T06-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F "IsAbort"?
+  end.

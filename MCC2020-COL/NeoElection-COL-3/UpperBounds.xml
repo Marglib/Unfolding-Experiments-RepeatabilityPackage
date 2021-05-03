@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-electionInit</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-01</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-masterState</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-02</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-polling</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-03</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-masterState</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-04</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-network</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-05</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-network</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-negotiation</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-07</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-network</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-08</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-crashed</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-09</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>dead</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-10</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-electionInit</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-11</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-sendAnnPs__broadcasting</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-12</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-startNeg__broadcasting</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-13</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-poll__networl</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-14</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>dead</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>NeoElection-COL-3-UpperBounds-15</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>dead</place>
+      </place-bound>
+    </formula>
+  </property>
+</property-set>

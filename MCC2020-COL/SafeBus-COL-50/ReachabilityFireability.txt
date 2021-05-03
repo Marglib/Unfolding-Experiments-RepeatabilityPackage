@@ -1,0 +1,80 @@
+Property SafeBus-COL-50-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G (((("C_provide"?) | (((! "I_ask1"?) | (! "Gto"?))))) | ((((((("I_ask2"?) & ("I_refused"?))) | ((("loss_a"?) & ("I_ask2"?))))) & ((((("Gto"?) | ("I_rec1"?))) & (! "C_refuse"?))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G (("Gto"?) & ("I_ask2"?))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F ! (((((("I_refused"?) | ("I_ask1"?))) & (! "I_reemit"?))) | (((! "C_free"?) & ((("loss_a"?) & ("I_ask2"?))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ! (("I_rec2"?) & ((((("I_rec2"?) & ("I_refused"?))) & ((("I_refused"?) & ("Gto"?))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G (((((((("loss_m"?) | ("loss_m"?))) | ((("Gto"?) & ("I_rec2"?))))) & (! ! "loss_a"?))) & (! (("C_free"?) | ((("C_refuse"?) & ("I_ask2"?))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ((((((! "loss_m"?) & ((("loss_a"?) | ("loss_m"?))))) & ("I_ask2"?))) | (((! "I_ask2"?) & ("I_reemit"?))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((((((! "I_reemit"?) | ((("Gto"?) & ("I_reemit"?))))) & ("I_free"?))) & (((((! "I_rec1"?) & ("I_refused"?))) | ((((("I_reemit"?) & ("loss_m"?))) & ((("I_reemit"?) | ("C_provide"?))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F "I_emit"?
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (((((((("I_reemit"?) & ("C_free"?))) | ("I_reemit"?))) & (! (("C_refuse"?) | ("I_rec1"?))))) & (! ! ! "loss_a"?))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G (("I_refused"?) & ("I_rec2"?))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "I_emit"?
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ! "I_emit"?
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G (((((("I_ask1"?) & ("I_rec1"?))) | ((((("C_free"?) & ("C_refuse"?))) & ((("I_ask2"?) & ("I_ask2"?))))))) | (((((! "loss_a"?) & ((("I_emit"?) | ("I_rec2"?))))) & ((((("loss_a"?) | ("loss_m"?))) | (! "I_ask1"?))))))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G "I_rec1"?
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G (((((((("I_refused"?) & ("I_emit"?))) & (! "I_ask2"?))) | ((((("I_emit"?) & ("loss_a"?))) | (! "C_free"?))))) & ("I_ask1"?))
+  end.
+Property SafeBus-COL-50-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G "I_reemit"?
+  end.

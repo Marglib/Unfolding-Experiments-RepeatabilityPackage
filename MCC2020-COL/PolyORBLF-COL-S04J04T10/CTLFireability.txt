@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J04T10-CTLFireability-00
+  "Automatically generated"
+  is:
+    E ((A F "T_1148"?) U ("EnterCSIS"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-01
+  "Automatically generated"
+  is:
+    E ((A (("T_1148"?) U ("T_1123"?))) U (E F (("T_0376"?) & ("DummyIS"?))))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((E G (("T_1444"?) | (E F "T_1125"?))) & (! (("EnterCSIS"?) & (E F (("T_1096"?) & ("IsAbort"?))))))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-03
+  "Automatically generated"
+  is:
+    E G E ((! "T_1171"?) U (! "T_2578"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! E (((((("NoCheck"?) & ("T_2285"?))) & ((("T_1123"?) & ("T_1098"?))))) U (E F "T_2578"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-05
+  "Automatically generated"
+  is:
+    (("T_1444"?) | (A G A F "T_1114"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-06
+  "Automatically generated"
+  is:
+    E ((A X (("LeaveCSTCS"?) | ("T_1125"?))) U (! A F "LeaveCSPW"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! A F E (("T_1098"?) U ("T_2315"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-08
+  "Automatically generated"
+  is:
+    A F E X (("WillPerformWork"?) & ("T_1147"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F "T_1721"?
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-10
+  "Automatically generated"
+  is:
+    E G A F (("GoIdle"?) & ("T_1618"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((A (((((("T_1115"?) | ("T_2578"?))) & ((("T_1115"?) | ("T_2578"?))))) U ("NeedMonitoring"?))) | (A F "T_1124"?))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((A F "T_1114"?) | (A ((E G "NotifyEventJobCompleted"?) U ("NoCheck"?))))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-13
+  "Automatically generated"
+  is:
+    A X A F E X "T_2283"?
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-14
+  "Automatically generated"
+  is:
+    A F ((((A F "T_1171"?) & (! ! "EnterCSIS"?))) & (((A F "T_1147"?) & ("T_1100"?))))
+  end.
+Property PolyORBLF-COL-S04J04T10-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! E F A G (("LeaveCSTCS"?) | ("T_1170"?))
+  end.

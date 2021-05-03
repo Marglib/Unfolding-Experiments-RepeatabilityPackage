@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-05-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E ((! ! ((#tokens("aux11")) <= (#tokens("aux11")))) U (E F ((3) <= (#tokens("out3")))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((A F ((((((#tokens("aux14")) <= (#tokens("aux5")))) & (((3) <= (#tokens("aux12")))))) & (! ((2) <= (#tokens("in3")))))) & (! E G ((((3) <= (#tokens("c9")))) | (((#tokens("aux16")) <= (#tokens("out7")))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((((((3) <= (#tokens("c110")))) | (((E X ((1) <= (#tokens("c16")))) & (((! ((#tokens("aux6")) <= (#tokens("out3")))) & (! ((#tokens("out1")) <= (#tokens("aux12")))))))))) | (((((A G ((#tokens("aux11")) <= (#tokens("c19")))) | (E G ((#tokens("c15")) <= (#tokens("aux10")))))) | (((2) <= (#tokens("c12")))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A G A ((((#tokens("out2")) <= (#tokens("aux8")))) U (((1) <= (#tokens("c12")))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-04
+  "Automatically generated"
+  is:
+    A F ((((((((#tokens("out4")) <= (#tokens("aux5")))) & (((#tokens("out4")) <= (#tokens("c5")))))) & (! ((#tokens("aux7")) <= (#tokens("c13")))))) | (((((((3) <= (#tokens("out6")))) & (((1) <= (#tokens("aux14")))))) & (((((1) <= (#tokens("in2")))) & (((1) <= (#tokens("out5")))))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ! ((((((((((#tokens("c20")) <= (#tokens("c13")))) & (((1) <= (#tokens("c17")))))) | (! ((2) <= (#tokens("out3")))))) & (E G ((#tokens("c9")) <= (#tokens("c12")))))) | (((E F ((2) <= (#tokens("aux10")))) | (((! ((3) <= (#tokens("aux10")))) & (((((2) <= (#tokens("c15")))) & (((#tokens("aux16")) <= (#tokens("out2")))))))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((A F A G ((1) <= (#tokens("in2")))) | (A F A G ((#tokens("out4")) <= (#tokens("out4")))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("aux15")))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((((((E F ((1) <= (#tokens("out6")))) & (! ((1) <= (#tokens("out6")))))) & (A F ((#tokens("aux14")) <= (#tokens("aux16")))))) | (((A F ((((#tokens("c7")) <= (#tokens("c19")))) & (((3) <= (#tokens("c19")))))) & (((((! ((#tokens("out4")) <= (#tokens("c8")))) | (((((#tokens("out5")) <= (#tokens("c12")))) | (((#tokens("c110")) <= (#tokens("aux16")))))))) & (A G ((2) <= (#tokens("c16")))))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ! A F E G ((2) <= (#tokens("aux5")))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((! A F ((((2) <= (#tokens("in3")))) & (((#tokens("c11")) <= (#tokens("out6")))))) | (E ((((((3) <= (#tokens("c11")))) | (((3) <= (#tokens("in4")))))) U (! ((#tokens("aux14")) <= (#tokens("in4")))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((((E F ((((3) <= (#tokens("out1")))) | (((3) <= (#tokens("c8")))))) & (((((((((2) <= (#tokens("aux8")))) & (((#tokens("aux10")) <= (#tokens("out8")))))) & (! ((1) <= (#tokens("c17")))))) & (((((((#tokens("aux8")) <= (#tokens("c5")))) & (((2) <= (#tokens("out2")))))) | (((1) <= (#tokens("out7")))))))))) | (E ((! ((1) <= (#tokens("aux16")))) U (! ((#tokens("out2")) <= (#tokens("in3")))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((E G ((((((2) <= (#tokens("out5")))) & (((1) <= (#tokens("c16")))))) | (! ((2) <= (#tokens("c12")))))) & (((((! ((#tokens("in2")) <= (#tokens("in3")))) & (E G ((3) <= (#tokens("aux15")))))) | (E ((((1) <= (#tokens("c12")))) U (((#tokens("c8")) <= (#tokens("out3")))))))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ! A G E F ((1) <= (#tokens("in2")))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A X ((E F ((2) <= (#tokens("out4")))) | (((3) <= (#tokens("aux11")))))
+  end.
+Property PermAdmissibility-COL-05-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((! ! ((((((#tokens("aux14")) <= (#tokens("aux12")))) & (((2) <= (#tokens("c15")))))) & (((((2) <= (#tokens("out2")))) | (((2) <= (#tokens("aux10")))))))) | (A X E F ((3) <= (#tokens("out1")))))
+  end.

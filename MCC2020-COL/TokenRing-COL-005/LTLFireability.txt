@@ -1,0 +1,80 @@
+Property TokenRing-COL-005-00
+  "Automatically generated"
+  is:
+    A G !("MainProcess"? & (("OtherProcess"? & "MainProcess"?) U X F "OtherProcess"?))
+  end.
+Property TokenRing-COL-005-01
+  "Automatically generated"
+  is:
+    A ((!"OtherProcess"? | X "OtherProcess"? | F "OtherProcess"?) & F !F ("MainProcess"? | "MainProcess"?))
+  end.
+Property TokenRing-COL-005-02
+  "Automatically generated"
+  is:
+    A ("OtherProcess"? & G !F "OtherProcess"?)
+  end.
+Property TokenRing-COL-005-03
+  "Automatically generated"
+  is:
+    A ("MainProcess"? & G F !X X !X X G ("MainProcess"? & F "MainProcess"?))
+  end.
+Property TokenRing-COL-005-04
+  "Automatically generated"
+  is:
+    A !(G "MainProcess"? | !X G (F "MainProcess"? U ("OtherProcess"? | G "OtherProcess"?)))
+  end.
+Property TokenRing-COL-005-05
+  "Automatically generated"
+  is:
+    A !(X F G ("MainProcess"? & "OtherProcess"?) U F !"OtherProcess"?)
+  end.
+Property TokenRing-COL-005-06
+  "Automatically generated"
+  is:
+    A F ("OtherProcess"? & X F (("MainProcess"? & X X "MainProcess"?) U F "OtherProcess"?))
+  end.
+Property TokenRing-COL-005-07
+  "Automatically generated"
+  is:
+    A (G "MainProcess"? & ("OtherProcess"? | X X G (F G F X "OtherProcess"? U "MainProcess"?)))
+  end.
+Property TokenRing-COL-005-08
+  "Automatically generated"
+  is:
+    A F X X (!"MainProcess"? U "OtherProcess"?)
+  end.
+Property TokenRing-COL-005-09
+  "Automatically generated"
+  is:
+    A (X X X "OtherProcess"? U !G ("OtherProcess"? U X F "MainProcess"?))
+  end.
+Property TokenRing-COL-005-10
+  "Automatically generated"
+  is:
+    A X X ("OtherProcess"? | (X !"OtherProcess"? U F "OtherProcess"?))
+  end.
+Property TokenRing-COL-005-11
+  "Automatically generated"
+  is:
+    A (X "OtherProcess"? | (G "OtherProcess"? U "OtherProcess"?) | X !(G "MainProcess"? U X "OtherProcess"?))
+  end.
+Property TokenRing-COL-005-12
+  "Automatically generated"
+  is:
+    A (!X G "OtherProcess"? & !(G X "OtherProcess"? U ("MainProcess"? | ("OtherProcess"? U "MainProcess"?))))
+  end.
+Property TokenRing-COL-005-13
+  "Automatically generated"
+  is:
+    A X (!("OtherProcess"? U "OtherProcess"?) & ("OtherProcess"? U !G (!"OtherProcess"? & X "OtherProcess"?)))
+  end.
+Property TokenRing-COL-005-14
+  "Automatically generated"
+  is:
+    A G X G (X "MainProcess"? & (F "OtherProcess"? | F !F "MainProcess"?))
+  end.
+Property TokenRing-COL-005-15
+  "Automatically generated"
+  is:
+    A F X (G "MainProcess"? | ("MainProcess"? & !"MainProcess"? & F X "OtherProcess"?))
+  end.

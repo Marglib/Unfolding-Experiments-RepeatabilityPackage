@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-01-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ! ((((((2) <= (#tokens("out2")))) & (((2) <= (#tokens("aux13")))))) & (((1) <= (#tokens("out3")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("out4")) <= (#tokens("in1")))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((2) <= (#tokens("out4")))) & (((#tokens("aux9")) <= (#tokens("out8")))))) & (((((((1) <= (#tokens("c110")))) & (((#tokens("c15")) <= (#tokens("in1")))))) & (! ((3) <= (#tokens("c13")))))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((! ((1) <= (#tokens("aux12")))) & (((((#tokens("c8")) <= (#tokens("aux6")))) & (((1) <= (#tokens("out3")))))))) | (((((((3) <= (#tokens("c11")))) | (((#tokens("c110")) <= (#tokens("aux16")))))) & (((3) <= (#tokens("aux11")))))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((! ((1) <= (#tokens("c8")))) | (((! ((3) <= (#tokens("out1")))) | (! ((#tokens("out8")) <= (#tokens("out4")))))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("out1")))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("c16")) <= (#tokens("aux12")))) | (((#tokens("c15")) <= (#tokens("c14")))))) & (((3) <= (#tokens("aux7")))))) | (((((((#tokens("out1")) <= (#tokens("out5")))) | (((1) <= (#tokens("c110")))))) | (((((#tokens("c7")) <= (#tokens("in2")))) & (((#tokens("out2")) <= (#tokens("c20")))))))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("out7")) <= (#tokens("in2")))) & (((2) <= (#tokens("c5")))))) & (((((#tokens("aux8")) <= (#tokens("aux6")))) & (((3) <= (#tokens("c6")))))))) & (((3) <= (#tokens("c15")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((((((1) <= (#tokens("c8")))) & (((#tokens("c8")) <= (#tokens("c8")))))) | (((((#tokens("out8")) <= (#tokens("c19")))) & (((3) <= (#tokens("c16")))))))) | (! ((1) <= (#tokens("out7")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((#tokens("out1")) <= (#tokens("c110")))) | (((((#tokens("in2")) <= (#tokens("c20")))) & (((3) <= (#tokens("aux15")))))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((((! ((2) <= (#tokens("c13")))) | (((((#tokens("in1")) <= (#tokens("aux13")))) & (((1) <= (#tokens("c12")))))))) & (! ! ((3) <= (#tokens("c7")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("out5")) <= (#tokens("aux10")))) & (((#tokens("out7")) <= (#tokens("aux15")))))) | (((((#tokens("c20")) <= (#tokens("c8")))) & (((#tokens("in2")) <= (#tokens("c13")))))))) | (! ! ((#tokens("c20")) <= (#tokens("in3")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((#tokens("out2")) <= (#tokens("in3")))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((#tokens("c9")) <= (#tokens("out2")))) & (((1) <= (#tokens("c18")))))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("c18")) <= (#tokens("aux16")))
+  end.
+Property PermAdmissibility-COL-01-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("aux16")) <= (#tokens("out7")))) & (((#tokens("c11")) <= (#tokens("aux16")))))) & (((((3) <= (#tokens("out8")))) & (((#tokens("aux11")) <= (#tokens("aux6")))))))) | (! ((((2) <= (#tokens("aux13")))) & (((2) <= (#tokens("c6")))))))
+  end.

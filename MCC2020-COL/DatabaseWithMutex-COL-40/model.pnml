@@ -1,0 +1,2350 @@
+<?xml version="1.0"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+	<net id="DatabaseWithMutex-COL-40" type="http://www.pnml.org/version-2009/grammar/symmetricnet">
+		<page id="DocumentDefaultPage">
+			<place id="RecBuff">
+				<name>
+					<text>RecBuff</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="all_active">
+				<name>
+					<text>all_active</text>
+				</name>
+				<type>
+					<text>site</text>
+					<structure>
+						<usersort declaration="site"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(site.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="site"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="Active">
+				<name>
+					<text>Active</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="Mutex">
+				<name>
+					<text>Mutex</text>
+				</name>
+				<type>
+					<text>file</text>
+					<structure>
+						<usersort declaration="file"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(file.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="file"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="Message">
+				<name>
+					<text>Message</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="Modify">
+				<name>
+					<text>Modify</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="MesBuffReply">
+				<name>
+					<text>MesBuffReply</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="Acknowledge">
+				<name>
+					<text>Acknowledge</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="all_passive">
+				<name>
+					<text>all_passive</text>
+				</name>
+				<type>
+					<text>site</text>
+					<structure>
+						<usersort declaration="site"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(site.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="site"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="updating">
+				<name>
+					<text>updating</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<place id="WaitMutex">
+				<name>
+					<text>WaitMutex</text>
+				</name>
+				<type>
+					<text>SF</text>
+					<structure>
+						<usersort declaration="sf"/>
+					</structure>
+				</type>
+			</place>
+			<transition id="SendMsg">
+				<name>
+					<text>SendMsg</text>
+				</name>
+			</transition>
+			<transition id="SendReply">
+				<name>
+					<text>SendReply</text>
+				</name>
+			</transition>
+			<transition id="Change">
+				<name>
+					<text>Change</text>
+				</name>
+			</transition>
+			<transition id="Acquire">
+				<name>
+					<text>Acquire</text>
+				</name>
+			</transition>
+			<transition id="Release">
+				<name>
+					<text>Release</text>
+				</name>
+			</transition>
+			<transition id="Update">
+				<name>
+					<text>Update</text>
+				</name>
+			</transition>
+			<transition id="end_update">
+				<name>
+					<text>end_update</text>
+				</name>
+			</transition>
+			<transition id="Start">
+				<name>
+					<text>Start</text>
+				</name>
+			</transition>
+			<arc id="arc34" source="all_active" target="Start">
+				<hlinscription>
+					<text>1'[(s)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="vars"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc35" source="Change" target="Message">
+				<hlinscription>
+					<text>1'[(site.all),(f)] - 1'[(s),(f)]</text>
+					<structure>
+						<subtract>
+							<subterm>
+								<add>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site1"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site2"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site3"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site4"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site5"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site6"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site7"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site8"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site9"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site10"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site11"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site12"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site13"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site14"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site15"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site16"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site17"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site18"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site19"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site20"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site21"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site22"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site23"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site24"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site25"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site26"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site27"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site28"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site29"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site30"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site31"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site32"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site33"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site34"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site35"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site36"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site37"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site38"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site39"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site40"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+								</add>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<tuple>
+											<subterm>
+												<variable refvariable="vars"/>
+											</subterm>
+											<subterm>
+												<variable refvariable="varf"/>
+											</subterm>
+										</tuple>
+									</subterm>
+								</numberof>
+							</subterm>
+						</subtract>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc32" source="Active" target="Release">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc33" source="Release" target="Mutex">
+				<hlinscription>
+					<text>1'[(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varf"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc38" source="updating" target="end_update">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc39" source="end_update" target="MesBuffReply">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc36" source="Message" target="SendMsg">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc37" source="Update" target="updating">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc42" source="Change" target="Active">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc43" source="Modify" target="Change">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc40" source="Acknowledge" target="Release">
+				<hlinscription>
+					<text>1'[(site.all),(f)] - 1'[(s),(f)]</text>
+					<structure>
+						<subtract>
+							<subterm>
+								<add>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site1"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site2"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site3"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site4"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site5"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site6"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site7"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site8"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site9"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site10"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site11"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site12"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site13"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site14"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site15"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site16"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site17"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site18"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site19"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site20"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site21"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site22"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site23"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site24"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site25"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site26"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site27"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site28"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site29"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site30"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site31"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site32"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site33"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site34"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site35"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site36"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site37"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site38"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site39"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+									<subterm>
+										<numberof>
+											<subterm>
+												<numberconstant value="1">
+													<positive/>
+												</numberconstant>
+											</subterm>
+											<subterm>
+												<tuple>
+													<subterm>
+														<useroperator declaration="site40"/>
+													</subterm>
+													<subterm>
+														<variable refvariable="varf"/>
+													</subterm>
+												</tuple>
+											</subterm>
+										</numberof>
+									</subterm>
+								</add>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<tuple>
+											<subterm>
+												<variable refvariable="vars"/>
+											</subterm>
+											<subterm>
+												<variable refvariable="varf"/>
+											</subterm>
+										</tuple>
+									</subterm>
+								</numberof>
+							</subterm>
+						</subtract>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc41" source="all_passive" target="Update">
+				<hlinscription>
+					<text>1'[(s)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="vars"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc23" source="Start" target="WaitMutex">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc22" source="WaitMutex" target="Acquire">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc25" source="Release" target="all_active">
+				<hlinscription>
+					<text>1'[(s)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="vars"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc24" source="end_update" target="all_passive">
+				<hlinscription>
+					<text>1'[(s)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="vars"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc27" source="SendMsg" target="RecBuff">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc26" source="RecBuff" target="Update">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc29" source="MesBuffReply" target="SendReply">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc28" source="SendReply" target="Acknowledge">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc31" source="Mutex" target="Acquire">
+				<hlinscription>
+					<text>1'[(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varf"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc30" source="Acquire" target="Modify">
+				<hlinscription>
+					<text>1'[(s),(f)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<tuple>
+									<subterm>
+										<variable refvariable="vars"/>
+									</subterm>
+									<subterm>
+										<variable refvariable="varf"/>
+									</subterm>
+								</tuple>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+		</page>
+		<name>
+			<text>DatabaseWithMutex-COL-40</text>
+		</name>
+		<declaration>
+			<structure>
+				<declarations>
+					<namedsort id="site" name="site">
+						<cyclicenumeration>
+							<feconstant id="site1" name="1"/>
+							<feconstant id="site2" name="2"/>
+							<feconstant id="site3" name="3"/>
+							<feconstant id="site4" name="4"/>
+							<feconstant id="site5" name="5"/>
+							<feconstant id="site6" name="6"/>
+							<feconstant id="site7" name="7"/>
+							<feconstant id="site8" name="8"/>
+							<feconstant id="site9" name="9"/>
+							<feconstant id="site10" name="10"/>
+							<feconstant id="site11" name="11"/>
+							<feconstant id="site12" name="12"/>
+							<feconstant id="site13" name="13"/>
+							<feconstant id="site14" name="14"/>
+							<feconstant id="site15" name="15"/>
+							<feconstant id="site16" name="16"/>
+							<feconstant id="site17" name="17"/>
+							<feconstant id="site18" name="18"/>
+							<feconstant id="site19" name="19"/>
+							<feconstant id="site20" name="20"/>
+							<feconstant id="site21" name="21"/>
+							<feconstant id="site22" name="22"/>
+							<feconstant id="site23" name="23"/>
+							<feconstant id="site24" name="24"/>
+							<feconstant id="site25" name="25"/>
+							<feconstant id="site26" name="26"/>
+							<feconstant id="site27" name="27"/>
+							<feconstant id="site28" name="28"/>
+							<feconstant id="site29" name="29"/>
+							<feconstant id="site30" name="30"/>
+							<feconstant id="site31" name="31"/>
+							<feconstant id="site32" name="32"/>
+							<feconstant id="site33" name="33"/>
+							<feconstant id="site34" name="34"/>
+							<feconstant id="site35" name="35"/>
+							<feconstant id="site36" name="36"/>
+							<feconstant id="site37" name="37"/>
+							<feconstant id="site38" name="38"/>
+							<feconstant id="site39" name="39"/>
+							<feconstant id="site40" name="40"/>
+						</cyclicenumeration>
+					</namedsort>
+					<namedsort id="file" name="file">
+						<cyclicenumeration>
+							<feconstant id="file1" name="1"/>
+							<feconstant id="file2" name="2"/>
+							<feconstant id="file3" name="3"/>
+							<feconstant id="file4" name="4"/>
+							<feconstant id="file5" name="5"/>
+							<feconstant id="file6" name="6"/>
+							<feconstant id="file7" name="7"/>
+							<feconstant id="file8" name="8"/>
+							<feconstant id="file9" name="9"/>
+							<feconstant id="file10" name="10"/>
+							<feconstant id="file11" name="11"/>
+							<feconstant id="file12" name="12"/>
+							<feconstant id="file13" name="13"/>
+							<feconstant id="file14" name="14"/>
+							<feconstant id="file15" name="15"/>
+							<feconstant id="file16" name="16"/>
+							<feconstant id="file17" name="17"/>
+							<feconstant id="file18" name="18"/>
+							<feconstant id="file19" name="19"/>
+							<feconstant id="file20" name="20"/>
+							<feconstant id="file21" name="21"/>
+							<feconstant id="file22" name="22"/>
+							<feconstant id="file23" name="23"/>
+							<feconstant id="file24" name="24"/>
+							<feconstant id="file25" name="25"/>
+							<feconstant id="file26" name="26"/>
+							<feconstant id="file27" name="27"/>
+							<feconstant id="file28" name="28"/>
+							<feconstant id="file29" name="29"/>
+							<feconstant id="file30" name="30"/>
+							<feconstant id="file31" name="31"/>
+							<feconstant id="file32" name="32"/>
+							<feconstant id="file33" name="33"/>
+							<feconstant id="file34" name="34"/>
+							<feconstant id="file35" name="35"/>
+							<feconstant id="file36" name="36"/>
+							<feconstant id="file37" name="37"/>
+							<feconstant id="file38" name="38"/>
+							<feconstant id="file39" name="39"/>
+							<feconstant id="file40" name="40"/>
+						</cyclicenumeration>
+					</namedsort>
+					<namedsort id="sf" name="SF">
+						<productsort>
+							<usersort declaration="site"/>
+							<usersort declaration="file"/>
+						</productsort>
+					</namedsort>
+					<variabledecl id="vars" name="s">
+						<usersort declaration="site"/>
+					</variabledecl>
+					<variabledecl id="varf" name="f">
+						<usersort declaration="file"/>
+					</variabledecl>
+				</declarations>
+			</structure>
+		</declaration>
+	</net>
+</pnml>

@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-5-00
+  "Automatically generated"
+  is:
+    A X ("Lose2"? U G "Lose1"?)
+  end.
+Property DotAndBoxes-COL-5-01
+  "Automatically generated"
+  is:
+    A (G "Lose2"? U "Lose2"?)
+  end.
+Property DotAndBoxes-COL-5-02
+  "Automatically generated"
+  is:
+    A X G ("NoWin"? & X ("Win2H"? & "AWin"?))
+  end.
+Property DotAndBoxes-COL-5-03
+  "Automatically generated"
+  is:
+    A F (G X "Lose1"? U (!("Lose1"? | "NoWin"?) U "Win1"?))
+  end.
+Property DotAndBoxes-COL-5-04
+  "Automatically generated"
+  is:
+    A F !"AWin"?
+  end.
+Property DotAndBoxes-COL-5-05
+  "Automatically generated"
+  is:
+    A (X "AWin"? & G X ("Play"? & "Win2H"?) & F X X "AWin"?)
+  end.
+Property DotAndBoxes-COL-5-06
+  "Automatically generated"
+  is:
+    A !F X (X "Win2H"? U F "Lose2"?)
+  end.
+Property DotAndBoxes-COL-5-07
+  "Automatically generated"
+  is:
+    A X G ((!"Win1"? & F !"NoWin"?) U ("Win2H"? & G "Win2H"?))
+  end.
+Property DotAndBoxes-COL-5-08
+  "Automatically generated"
+  is:
+    A (G "Lose2"? & G X "Win1"? & X ("NoWin"? & F "Play"?))
+  end.
+Property DotAndBoxes-COL-5-09
+  "Automatically generated"
+  is:
+    A ("Lose2"? U G "Lose2"?)
+  end.
+Property DotAndBoxes-COL-5-10
+  "Automatically generated"
+  is:
+    A F X F (("Win2V"? | "Win1"?) & F (F "Win1"? U F X X "Win2V"?))
+  end.
+Property DotAndBoxes-COL-5-11
+  "Automatically generated"
+  is:
+    A (("Play"? | !"Play"?) & ("Win2H"? | "Play"? | F G "Lose1"?))
+  end.
+Property DotAndBoxes-COL-5-12
+  "Automatically generated"
+  is:
+    A F ("Lose1"? | F X X G (X "Lose2"? | (F "Win1"? & F "AWin"?)))
+  end.
+Property DotAndBoxes-COL-5-13
+  "Automatically generated"
+  is:
+    A X (X ("Lose1"? & F G ("Lose1"? U F "Lose2"?)) | (F "Lose1"? U "Lose2"?))
+  end.
+Property DotAndBoxes-COL-5-14
+  "Automatically generated"
+  is:
+    A F G F "NoWin"?
+  end.
+Property DotAndBoxes-COL-5-15
+  "Automatically generated"
+  is:
+    A (F "Play"? & (F X G "Play"? U ("Win2H"? U "Play"?)))
+  end.

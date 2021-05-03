@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00400M0040C020P020G001-00
+  "Automatically generated"
+  is:
+    A !((F "CheckSanityReq"? | ("DisplayNeedChoice"? U "CheckSanityReq"?)) U F ("CheckSanityReq"? U "DisplayNeedChoice"?))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-01
+  "Automatically generated"
+  is:
+    A F !G F !("SetUpAppoint"? & F ("PrepIncomeCertif"? U F "EvaluateReq"?))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-02
+  "Automatically generated"
+  is:
+    A F X !G ((!"ReqHousingSuitCertif"? U "GiveAppoint"?) U ("GiveAppoint"? & F "GotoOSSAndProdDoc"?))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-03
+  "Automatically generated"
+  is:
+    A (G (!F "CheckHousingSuitReq"? U ("ExplainProcedure"? & "CheckHousingSuitReq"?)) U X ("ObtainRelativeFinStatement"? | ("Gate2XORSplit"? U "ObtainRelativeFinStatement"?)))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-04
+  "Automatically generated"
+  is:
+    A X G ("GotIt"? | G X "AskCINFORMI"? | X !X F "ReqAppointCINFORMI"?)
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-05
+  "Automatically generated"
+  is:
+    A X F X X "Gate1ANDJoin"?
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-06
+  "Automatically generated"
+  is:
+    A F ((F "PrepFamReuClearReq"? | G "ExplainHowToObtainMissingDocs"?) U ("ReserveAppCINFORMI"? | X (F "ReserveAppCINFORMI"? U X "CheckRequiredDoc"?)))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-07
+  "Automatically generated"
+  is:
+    A X (X F G "Summoned"? U F "ReqAppointCINFORMI"?)
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-08
+  "Automatically generated"
+  is:
+    A (G F ("ExplainHowToObtainMissingDocs"? U "ReceiveQuestion"?) | X !"TickDocsObtained"?)
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-09
+  "Automatically generated"
+  is:
+    A (G "GotoOSSAndProdDoc"? | F (X "GotoOSSAndProdDoc"? | G X ("GotIt"? U ("ReceiveReqDocsReq"? & "ReserveAppoint"?))))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-10
+  "Automatically generated"
+  is:
+    A F !X G (G "ReceiveRegsitration"? & X G !G ("DisplayReqDocs"? | "TransmitReq"?))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-11
+  "Automatically generated"
+  is:
+    A F !G ("DisplayNeedChoice"? U F "DisplayNeedChoice"?)
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-12
+  "Automatically generated"
+  is:
+    A ("RegisterRelativePubHealth"? | ("CheckHousingSuitReq"? U ("RegisterRelativePubHealth"? & (G "AskCINFORMI"? | X F X "CheckHousingSuitReq"?))))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-13
+  "Automatically generated"
+  is:
+    A X (("BringReqtoCINFORMI"? | (!"Gate1ANDJoin"? & G X "ReceiveNeedReq"?)) & ("Gate1ANDJoin"? U "ReceiveNeedReq"?))
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-14
+  "Automatically generated"
+  is:
+    A G "Summoned"?
+  end.
+Property FamilyReunion-COL-L00400M0040C020P020G001-15
+  "Automatically generated"
+  is:
+    A !(G !G !"ReceiveRegsitration"? U !X G !G X "TickDocsObtained"?)
+  end.

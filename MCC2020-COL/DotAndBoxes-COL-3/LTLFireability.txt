@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-3-00
+  "Automatically generated"
+  is:
+    A (X "Lose1"? & (("Lose1"? | F G "Lose1"?) U X "Win1"?))
+  end.
+Property DotAndBoxes-COL-3-01
+  "Automatically generated"
+  is:
+    A (!("Lose2"? | !F "Lose2"?) U G "Lose2"?)
+  end.
+Property DotAndBoxes-COL-3-02
+  "Automatically generated"
+  is:
+    A G (!X ("Lose2"? | "AWin"?) | (G X !"Lose2"? U ("Win2H"? | "AWin"?)))
+  end.
+Property DotAndBoxes-COL-3-03
+  "Automatically generated"
+  is:
+    A (("Win2H"? | F (X "Win1"? U "Lose1"?)) U X ("Win1"? | X !"Win2H"?))
+  end.
+Property DotAndBoxes-COL-3-04
+  "Automatically generated"
+  is:
+    A ((F "Win2V"? | !G !("NoWin"? | ("Lose1"? & "Win1"?))) U X X "Win2V"?)
+  end.
+Property DotAndBoxes-COL-3-05
+  "Automatically generated"
+  is:
+    A X (X F "Win2H"? | X G (!"Lose1"? | ("Win2H"? U "Play"?)))
+  end.
+Property DotAndBoxes-COL-3-06
+  "Automatically generated"
+  is:
+    A ("Lose2"? | ("Win2H"? & X ("Lose2"? & G "Play"?)))
+  end.
+Property DotAndBoxes-COL-3-07
+  "Automatically generated"
+  is:
+    A G X G (!F "AWin"? U (G "AWin"? & ("Win2H"? U "Win2H"?)))
+  end.
+Property DotAndBoxes-COL-3-08
+  "Automatically generated"
+  is:
+    A (G (X "Win1"? U G ("Win1"? & X F "Win1"?)) U "Play"?)
+  end.
+Property DotAndBoxes-COL-3-09
+  "Automatically generated"
+  is:
+    A !(F X "Lose1"? & (!X "NoWin"? U X "NoWin"?))
+  end.
+Property DotAndBoxes-COL-3-10
+  "Automatically generated"
+  is:
+    A ("Win2V"? | F "Win1"?)
+  end.
+Property DotAndBoxes-COL-3-11
+  "Automatically generated"
+  is:
+    A X ("Win2H"? & X (G "Lose1"? U X G "Play"?))
+  end.
+Property DotAndBoxes-COL-3-12
+  "Automatically generated"
+  is:
+    A G !F G ("Lose2"? & (!"Lose1"? U F X "NoWin"?))
+  end.
+Property DotAndBoxes-COL-3-13
+  "Automatically generated"
+  is:
+    A G X X X (F "Win2H"? & X !X "Lose1"?)
+  end.
+Property DotAndBoxes-COL-3-14
+  "Automatically generated"
+  is:
+    A ("Lose2"? | G (G "Win1"? U "Win1"?))
+  end.
+Property DotAndBoxes-COL-3-15
+  "Automatically generated"
+  is:
+    A !X (G !G "NoWin"? | X ("Win2V"? & G !"Win2V"?))
+  end.

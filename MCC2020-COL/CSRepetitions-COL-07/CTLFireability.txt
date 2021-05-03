@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-07-CTLFireability-00
+  "Automatically generated"
+  is:
+    A X A X E G "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-07-CTLFireability-01
+  "Automatically generated"
+  is:
+    E G ! E (("Send_Answer"?) U ("Read_Request"?))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-02
+  "Automatically generated"
+  is:
+    (((((("Lose_Request"?) & (! "Send_Request"?))) & (E (((("Read_Request"?) | ("Send_Request"?))) U ("Send_Answer"?))))) | (! ((A (("Prepare_Request"?) U ("Lose_Request"?))) & ((((((("Lose_Request"?) | ("Read_Request"?))) & (! "Lose_Request"?))) | (E X "Send_Request"?))))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-03
+  "Automatically generated"
+  is:
+    ! ! A F A X "Lose_Request"?
+  end.
+Property CSRepetitions-COL-07-CTLFireability-04
+  "Automatically generated"
+  is:
+    ! A F "Send_Answer"?
+  end.
+Property CSRepetitions-COL-07-CTLFireability-05
+  "Automatically generated"
+  is:
+    ! A G (("Prepare_Request"?) | (A X "Send_Request"?))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-06
+  "Automatically generated"
+  is:
+    E X A (((("Lose_Request"?) | ("Send_Request"?))) U (! "Prepare_Request"?))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-07
+  "Automatically generated"
+  is:
+    A (((((((("Send_Request"?) | ("Prepare_Request"?))) & ("Send_Request"?))) | (A G "Read_Request"?))) U (E F (("Read_Request"?) & ("Send_Answer"?))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-08
+  "Automatically generated"
+  is:
+    A F (((((((("Read_Request"?) & ("Send_Request"?))) | ("Read_Request"?))) & (! (("Lose_Request"?) | ("Send_Request"?))))) & ((((((("Send_Request"?) | ("Lose_Request"?))) & ((("Send_Request"?) | ("Send_Answer"?))))) & (! (("Lose_Request"?) | ("Send_Request"?))))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-09
+  "Automatically generated"
+  is:
+    E G ((! (((("Prepare_Request"?) & ("Lose_Request"?))) & ("Prepare_Request"?))) | (! ((! "Send_Answer"?) & ((("Send_Answer"?) | ("Read_Request"?))))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((((A G E F "Send_Answer"?) | (((! E F "Lose_Request"?) | ((((((("Read_Request"?) | ("Send_Answer"?))) | ("Lose_Request"?))) | (A G "Prepare_Request"?))))))) & (((A (((("Lose_Request"?) & ("Read_Request"?))) U (! "Read_Request"?))) | (E F A G "Prepare_Request"?))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-11
+  "Automatically generated"
+  is:
+    E G A X "Prepare_Request"?
+  end.
+Property CSRepetitions-COL-07-CTLFireability-12
+  "Automatically generated"
+  is:
+    E G E (((("Send_Request"?) | ("Prepare_Request"?))) U ((("Prepare_Request"?) & ("Read_Request"?))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-13
+  "Automatically generated"
+  is:
+    ((((! A F "Send_Answer"?) | ("Read_Request"?))) | ("Read_Request"?))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((E G ! A G "Prepare_Request"?) | (((E G "Read_Request"?) | ("Send_Answer"?))))
+  end.
+Property CSRepetitions-COL-07-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((! A F A G "Send_Answer"?) | (A G ((! (("Prepare_Request"?) & ("Prepare_Request"?))) | (E G "Send_Request"?))))
+  end.

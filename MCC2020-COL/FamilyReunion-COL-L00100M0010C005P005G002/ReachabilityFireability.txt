@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ! (("SendLangChoice"?) & (((! "ProvidePersonalnfo"?) | ((("Gate2ANDJoin"?) | ("ReceiveAccessReq"?))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ! (("Gate1ANDJoin"?) & (! (("SendSuitabilityCertif"?) | ("SendLangChoice"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ! "Gate2ANDSplit"?
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ! ! (("ReceiveHousingSuitCertifReq"?) | ("ArchiveReq"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "TransmitReq"?
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G (((((((("TransmitReq"?) & ("ReceiveAppointReq"?))) | ("ReceiveNeedReq"?))) | (! (("ObtainMissingDocs"?) | ("ObtainFamRelCertif"?))))) | ((("AppReqReceived"?) | ("BringReqtoCINFORMI"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((! ! ! "ReceiveQuestion"?) & (((((! "ArchiveReq"?) | (! "ArchiveReq"?))) & ("Gate1ANDSplit"?))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F "ReceiveQuestion"?
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ! ((! (("CheckHousingSuitReq"?) & ("AskCINFORMI"?))) | ("ReceiveAppointReq"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ! ((((! "GotoOSSAndProdDoc"?) | ((("Gate3XORSplit"?) | ("ClearanceReqReceived"?))))) | ("CheckHousingSuitReq"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F (("PrepIncomeCertif"?) & ((("Gate1ANDJoin"?) | ((((("DisplayLangChoice"?) | ("DisplayLangChoice"?))) & (! "PrepFamReuClearReq"?))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ((((! (("GotoOSSAndProdDoc"?) & ("Gate2XORSplit"?))) & (((! "AppointReceived"?) | (! "ProvidePersonalnfo"?))))) & ((((((("AccessMicTerminal"?) & ("ReceiveNeedReq"?))) & ("ReceiveRegsitration"?))) | ((((("GoToAppoint"?) & ("HousingSuitCertifObtained"?))) | ((("Gate2ANDSplit"?) | ("DisplayNeedChoice"?))))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ((((! (("ReceiveHousingSuitCertifReq"?) | ("ObtainRelativeFinStatement"?))) & ("ReceiveNeedReq"?))) & (((! ! "GoToAppoint"?) & (! (("Gate2ANDSplit"?) & ("ProvidePersonalnfo"?))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ((! (("ReqAppointCINFORMI"?) & (! "ReceiveDocsObtained"?))) | (((! ! "ReqHousingSuitCertif"?) & ((((("ObtainRelHealtCondStatement"?) & ("CheckHousingSuitReq"?))) & ((("ExplainHowToObtainMissingDocs"?) & ("ReceiveLangChoice"?))))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (("CheckHousingSuitReq"?) & ("RegisterRelativePubHealth"?))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F (((((((("DisplayNeedChoice"?) & ("BringReqtoCINFORMI"?))) | ((("TickDocsObtained"?) | ("Gate3XORSplit"?))))) | ((((("ClearanceReqReceived"?) | ("RespReceived"?))) | ((("GiveAppoint"?) | ("TickDocsObtained"?))))))) & (! ! (("GotoOSSAndProdDoc"?) & ("ReceiveHousingSuitCertifReq"?))))
+  end.

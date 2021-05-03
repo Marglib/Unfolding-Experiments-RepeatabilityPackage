@@ -1,0 +1,80 @@
+Property NeoElection-COL-3-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((! (((("poll__end"?) | ("poll__handleAI2"?))) & ("poll__handleAnnP2"?))) | ((("poll__iAmPrimary"?) | ("poll__handleAnnP2"?))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ((((! (("poll__handleRI"?) | ("poll__handleAI2"?))) | ((("sendAnnPs__end"?) | (! "poll__handleAnsP3"?))))) & ((("startNeg__start"?) | ((("poll__iAmSecondary"?) | (! "sendAnnPs__start"?))))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F ((! "poll__handleAI2"?) & ("sendAnnPs__start"?))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "poll__iAmSecondary"?
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "poll__iAmSecondary"?
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ((! (((("startNeg__start"?) | ("poll__start"?))) & ((("sendAnnPs__end"?) & ("poll__handleAI1"?))))) & ((((("sendAnnPs__send"?) | ((("poll__iAmSecondary"?) & ("poll__handleAI2"?))))) & ("sendAnnPs__end"?))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G (("sendAnnPs__start"?) | (! ! ! "poll__handleAnsP3"?))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ! ((((! "poll__handleAskP"?) & ((("poll__handleAnnP1"?) & ("poll__iAmPrimary"?))))) & (! "poll__iAmPrimary"?))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ((! "poll__handleAskP"?) & ((("poll__iAmPrimary"?) & ((("poll__start"?) & ((("poll__handleAnsP2"?) | ("poll__end"?))))))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (((((("poll__handleAnsP2"?) | ((("sendAnnPs__start"?) & ("poll__handleAskP"?))))) | ("poll__iAmSecondary"?))) & ("poll__handleAnsP1"?))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "poll__handleAnsP4"?
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (((((((("sendAnnPs__start"?) & ("sendAnnPs__send"?))) | ("poll__handleAskP"?))) & ("poll__handleAnsP3"?))) & (((! ! "poll__handleAnsP2"?) | ((((("poll__end"?) | ("sendAnnPs__start"?))) | ((("poll__handleAnnP1"?) | ("poll__handleAnsP2"?))))))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F "poll__handleRP"?
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G (((((((("poll__handleAI1"?) | ("sendAnnPs__send"?))) | ((("poll__handleAnsP3"?) & ("poll__iAmSecondary"?))))) | (! ! "poll__end"?))) | (((! (("sendAnnPs__send"?) & ("poll__iAmSecondary"?))) & (! (("startSec"?) & ("poll__handleAI1"?))))))
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ! ! ! ! "sendAnnPs__start"?
+  end.
+Property NeoElection-COL-3-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G ! (("startSec"?) & ("startNeg__start"?))
+  end.

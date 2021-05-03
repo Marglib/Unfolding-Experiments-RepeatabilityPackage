@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-4-00
+  "Automatically generated"
+  is:
+    A (F !"setx_3"? & !(G "xnei_10"? U (G "forod_13"? U "awaity"?)))
+  end.
+Property LamportFastMutEx-COL-4-01
+  "Automatically generated"
+  is:
+    A !F (F (F "xeqi_10"? & X "xeqi_10"?) U (!"yne0_4"? U "fordo_12"?))
+  end.
+Property LamportFastMutEx-COL-4-02
+  "Automatically generated"
+  is:
+    A (F ("xnei_10"? & "sety0_23"?) U ("xnei_10"? | !("xnei_10"? | X "sety0_23"?)))
+  end.
+Property LamportFastMutEx-COL-4-03
+  "Automatically generated"
+  is:
+    A F !("yeq0_4"? | G "setbi_11"? | (!"ynei_15"? & G !"ynei_15"?))
+  end.
+Property LamportFastMutEx-COL-4-04
+  "Automatically generated"
+  is:
+    A F ("forod_13"? | X X X F X X "yne0_4"?)
+  end.
+Property LamportFastMutEx-COL-4-05
+  "Automatically generated"
+  is:
+    A G (G X F "fordo_12"? | !F X F X G "xeqi_10"?)
+  end.
+Property LamportFastMutEx-COL-4-06
+  "Automatically generated"
+  is:
+    A X !F G (X F "sety0_23"? & !X F !"sety0_23"?)
+  end.
+Property LamportFastMutEx-COL-4-07
+  "Automatically generated"
+  is:
+    A ("xnei_10"? U F ("xnei_10"? & G ("sety0_23"? | "xnei_10"?)))
+  end.
+Property LamportFastMutEx-COL-4-08
+  "Automatically generated"
+  is:
+    A (G "yne0_4"? U (!"yeq0_4"? | F (G "setx_3"? U G "yeq0_4"?)))
+  end.
+Property LamportFastMutEx-COL-4-09
+  "Automatically generated"
+  is:
+    A (("setbi_5"? | G "setbi_5"?) U G !X !("setbi_5"? & X "sety_9"?))
+  end.
+Property LamportFastMutEx-COL-4-10
+  "Automatically generated"
+  is:
+    A (G !"forod_13"? U "setbi_11"?)
+  end.
+Property LamportFastMutEx-COL-4-11
+  "Automatically generated"
+  is:
+    A G !"setbi_24"?
+  end.
+Property LamportFastMutEx-COL-4-12
+  "Automatically generated"
+  is:
+    A G ("await_13"? & G "setbi_24"?)
+  end.
+Property LamportFastMutEx-COL-4-13
+  "Automatically generated"
+  is:
+    A F G (((X G !"awaity"? U "setbi_24"?) & F "awaity"?) U "awaity"?)
+  end.
+Property LamportFastMutEx-COL-4-14
+  "Automatically generated"
+  is:
+    A F G (G "sety_9"? U (X "setbi_5"? U "xeqi_10"?))
+  end.
+Property LamportFastMutEx-COL-4-15
+  "Automatically generated"
+  is:
+    A !(F !"sety_9"? & G X X G "xeqi_10"?)
+  end.

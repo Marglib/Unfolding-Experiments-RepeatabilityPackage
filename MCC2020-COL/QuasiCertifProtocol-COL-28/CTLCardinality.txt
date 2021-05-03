@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-28-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((E ((! ((2) <= (#tokens("CstopOK")))) U (! ((3) <= (#tokens("n9")))))) & (((A ((((#tokens("s5")) <= (#tokens("SstopAbort")))) U (((#tokens("Cstart")) <= (#tokens("CstopOK")))))) | (((E F ((#tokens("malicious_reservoir")) <= (#tokens("SstopAbort")))) & (((#tokens("Astart")) <= (#tokens("malicious_reservoir")))))))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((A G ((((#tokens("CstopAbort")) <= (#tokens("a4")))) & (((#tokens("a5")) <= (#tokens("AstopAbort")))))) | (! E ((((1) <= (#tokens("a5")))) U (((#tokens("n1")) <= (#tokens("AstopAbort")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ((! ! A F ((#tokens("a4")) <= (#tokens("n5")))) & (A F A G ((#tokens("s2")) <= (#tokens("a3")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F E X ((3) <= (#tokens("n3")))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E ((((((1) <= (#tokens("Cstart")))) & (! ((#tokens("malicious_reservoir")) <= (#tokens("a5")))))) U (E G ((#tokens("s6")) <= (#tokens("a5")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A G ((A G ((#tokens("n6")) <= (#tokens("malicious_reservoir")))) & (((((((#tokens("n6")) <= (#tokens("Cstart")))) & (((#tokens("n7")) <= (#tokens("SstopAbort")))))) | (! ((1) <= (#tokens("a3")))))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F E ((((#tokens("n7")) <= (#tokens("n8")))) U (((2) <= (#tokens("a1")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-07
+  "Automatically generated"
+  is:
+    ((((((3) <= (#tokens("n8")))) & (A ((((#tokens("Sstart")) <= (#tokens("a5")))) U (((1) <= (#tokens("s5")))))))) | (A G ! ((1) <= (#tokens("n5")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A F A F ((((3) <= (#tokens("n4")))) & (((2) <= (#tokens("s5")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E ((((((((3) <= (#tokens("Astart")))) | (((#tokens("a3")) <= (#tokens("a5")))))) & (((#tokens("AstopAbort")) <= (#tokens("n4")))))) U (((! ((1) <= (#tokens("AstopOK")))) & (((((2) <= (#tokens("n3")))) & (((3) <= (#tokens("n6")))))))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E ((A F ((3) <= (#tokens("n6")))) U (E G ((#tokens("Astart")) <= (#tokens("n3")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A ((E X ((#tokens("CstopOK")) <= (#tokens("Cstart")))) U (! ((#tokens("n9")) <= (#tokens("SstopAbort")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-12
+  "Automatically generated"
+  is:
+    A G E F ((((3) <= (#tokens("s6")))) | (((#tokens("a5")) <= (#tokens("SstopAbort")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((((((E X ((2) <= (#tokens("n9")))) & (! ((#tokens("a5")) <= (#tokens("SstopAbort")))))) & (((((((2) <= (#tokens("n8")))) & (! ((1) <= (#tokens("s6")))))) & (E X ((#tokens("s6")) <= (#tokens("s5")))))))) | (A X E F ((1) <= (#tokens("s2")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E G E ((((#tokens("s2")) <= (#tokens("n5")))) U (((#tokens("SstopAbort")) <= (#tokens("n2")))))
+  end.
+Property QuasiCertifProtocol-COL-28-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ! E G A F ((#tokens("s2")) <= (#tokens("n6")))
+  end.

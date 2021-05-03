@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("ml4")) <= (#tokens("m5")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((! ((1) <= (#tokens("m10")))) | (! ((2) <= (#tokens("cg0")))))) | (((1) <= (#tokens("p3")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("c3")))) & (((#tokens("lc2")) <= (#tokens("l3")))))) | (((((3) <= (#tokens("c2")))) & (((#tokens("l25")) <= (#tokens("l30")))))))) | (((#tokens("l24")) <= (#tokens("ml1")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("gl1")) <= (#tokens("cl0")))) | (((#tokens("pl0")) <= (#tokens("l21")))))) & (((#tokens("l15")) <= (#tokens("l6")))))) | (! ! ((#tokens("m9")) <= (#tokens("c5")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((((((2) <= (#tokens("l37")))) | (((1) <= (#tokens("m1")))))) | (! ((3) <= (#tokens("l30")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("m5")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((#tokens("m6")) <= (#tokens("p5")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("g2")))) | (((1) <= (#tokens("l17")))))) | (! ((#tokens("c5")) <= (#tokens("p8")))))) | (((1) <= (#tokens("lg0")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("lg0")) <= (#tokens("m4")))) | (! ((2) <= (#tokens("p8")))))) | (((3) <= (#tokens("gl0")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("p11")) <= (#tokens("l40")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("l4")))) | (((#tokens("l24")) <= (#tokens("ml2")))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("m11")) <= (#tokens("pl1")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((((((1) <= (#tokens("r0")))) & (((((#tokens("c1")) <= (#tokens("lm4")))) & (((#tokens("ml1")) <= (#tokens("c7")))))))) | (((((3) <= (#tokens("lp1")))) | (! ((1) <= (#tokens("l15")))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("l24")))) & (((2) <= (#tokens("lm0")))))) | (((((((2) <= (#tokens("m6")))) & (((2) <= (#tokens("l0")))))) & (((#tokens("m8")) <= (#tokens("g2")))))))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((#tokens("lm2")) <= (#tokens("lm3")))
+  end.
+Property FamilyReunion-COL-L00100M0010C005P005G002-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("l14")) <= (#tokens("l9")))) & (((((#tokens("l11")) <= (#tokens("l29")))) | (((#tokens("c1")) <= (#tokens("l28")))))))) & (((! ((#tokens("l28")) <= (#tokens("m7")))) | (! ((#tokens("l40")) <= (#tokens("cl2")))))))
+  end.

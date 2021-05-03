@@ -1,0 +1,80 @@
+Property PermAdmissibility-COL-05-00
+  "Automatically generated"
+  is:
+    A F (((#tokens("c14")) <= (#tokens("aux14"))) U X X X (F ((#tokens("out7")) <= (#tokens("c16"))) U !F !((#tokens("c9")) <= (#tokens("c17")))))
+  end.
+Property PermAdmissibility-COL-05-01
+  "Automatically generated"
+  is:
+    A ((((1) <= (#tokens("aux7"))) | X ((1) <= (#tokens("c7")))) U F X F (!G ((3) <= (#tokens("c20"))) U (((1) <= (#tokens("aux7"))) & ((3) <= (#tokens("c20"))))))
+  end.
+Property PermAdmissibility-COL-05-02
+  "Automatically generated"
+  is:
+    A G F !F G (!((0) <= (#tokens("aux6"))) & G F ((#tokens("c5")) <= (#tokens("aux11"))))
+  end.
+Property PermAdmissibility-COL-05-03
+  "Automatically generated"
+  is:
+    A ((((2) <= (#tokens("c18"))) & ((1) <= (#tokens("in2")))) | F (F ((0) <= (#tokens("aux9"))) U ((0) <= (#tokens("aux9")))))
+  end.
+Property PermAdmissibility-COL-05-04
+  "Automatically generated"
+  is:
+    A G !G !X (X F X ((3) <= (#tokens("out8"))) & X X F ((3) <= (#tokens("out8"))))
+  end.
+Property PermAdmissibility-COL-05-05
+  "Automatically generated"
+  is:
+    A ((((#tokens("in3")) <= (#tokens("c15"))) & ((#tokens("aux11")) <= (#tokens("aux9")))) | G (X ((2) <= (#tokens("in3"))) | F !X F ((#tokens("in3")) <= (#tokens("c15")))))
+  end.
+Property PermAdmissibility-COL-05-06
+  "Automatically generated"
+  is:
+    A ((!((2) <= (#tokens("c19"))) U (((2) <= (#tokens("c19"))) & (((3) <= (#tokens("c20"))) U ((2) <= (#tokens("c19")))))) | G !(((1) <= (#tokens("c13"))) | F ((3) <= (#tokens("c20")))))
+  end.
+Property PermAdmissibility-COL-05-07
+  "Automatically generated"
+  is:
+    A X !(!(G ((2) <= (#tokens("out2"))) U ((#tokens("c13")) <= (#tokens("aux9")))) U (((3) <= (#tokens("aux6"))) | ((2) <= (#tokens("out2")))))
+  end.
+Property PermAdmissibility-COL-05-08
+  "Automatically generated"
+  is:
+    A !(X ((#tokens("out2")) <= (#tokens("c19"))) U (((2) <= (#tokens("c15"))) & F ((0) <= (#tokens("c14")))))
+  end.
+Property PermAdmissibility-COL-05-09
+  "Automatically generated"
+  is:
+    A X (!F ((3) <= (#tokens("aux14"))) | F G ((3) <= (#tokens("c15"))))
+  end.
+Property PermAdmissibility-COL-05-10
+  "Automatically generated"
+  is:
+    A !(((#tokens("aux14")) <= (#tokens("c18"))) & G F X G ((#tokens("c20")) <= (#tokens("c13"))))
+  end.
+Property PermAdmissibility-COL-05-11
+  "Automatically generated"
+  is:
+    A (G (((0) <= (#tokens("out3"))) & X ((1) <= (#tokens("c14")))) & (((#tokens("c18")) <= (#tokens("aux5"))) | (((1) <= (#tokens("c14"))) U F ((#tokens("c18")) <= (#tokens("aux5"))))))
+  end.
+Property PermAdmissibility-COL-05-12
+  "Automatically generated"
+  is:
+    A (F (F (((3) <= (#tokens("aux6"))) U ((2) <= (#tokens("aux14")))) U ((3) <= (#tokens("aux6")))) U ((2) <= (#tokens("aux14"))))
+  end.
+Property PermAdmissibility-COL-05-13
+  "Automatically generated"
+  is:
+    A F !F X (((3) <= (#tokens("c13"))) & G X ((#tokens("c9")) <= (#tokens("aux11"))))
+  end.
+Property PermAdmissibility-COL-05-14
+  "Automatically generated"
+  is:
+    A (G (((#tokens("out5")) <= (#tokens("aux6"))) & ((#tokens("c6")) <= (#tokens("aux5")))) & ((F ((#tokens("aux16")) <= (#tokens("aux15"))) & G ((#tokens("c6")) <= (#tokens("aux5")))) | F ((3) <= (#tokens("aux6")))))
+  end.
+Property PermAdmissibility-COL-05-15
+  "Automatically generated"
+  is:
+    A (!G !((#tokens("out5")) <= (#tokens("aux10"))) & G X !((#tokens("out5")) <= (#tokens("aux10"))))
+  end.

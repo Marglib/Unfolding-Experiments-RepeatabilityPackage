@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("lm4")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("l20")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("r0")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("lm1")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("l4")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("l39")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l31")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("l14")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("l4")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("l37")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("cl0")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("l11")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("l9")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("ml0")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("p4")
+  end.
+Property FamilyReunion-COL-L03000M0300G150P150G075-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("m11")
+  end.

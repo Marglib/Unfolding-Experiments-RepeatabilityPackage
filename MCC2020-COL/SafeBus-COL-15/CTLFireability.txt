@@ -1,0 +1,80 @@
+Property SafeBus-COL-15-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F ((E (("I_emit"?) U ("I_refused"?))) & (((((! "I_ask1"?) | ((("C_refuse"?) & ("I_free"?))))) | ((((("C_refuse"?) | ("loss_a"?))) | ((("loss_m"?) & ("I_rec1"?))))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((A F ((E X "loss_m"?) | ((("I_emit"?) | ((("I_rec1"?) | ("C_free"?))))))) & ((((((("I_free"?) | ((((("I_ask1"?) | ("loss_a"?))) & ("loss_a"?))))) & (((! "I_refused"?) | (E G "I_ask1"?))))) | (((A F (("loss_a"?) & ("I_ask2"?))) | (((A G "I_emit"?) | (! "I_reemit"?))))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((A G ! "I_ask2"?) & (((E ((! "I_reemit"?) U ((("I_ask1"?) & ("I_emit"?))))) | (((E X (("I_free"?) & ("C_provide"?))) & (((! (("I_refused"?) & ("Gto"?))) | ("I_reemit"?))))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((((! A (("C_refuse"?) U ("I_rec2"?))) & (E G (("I_rec1"?) | (! "I_emit"?))))) | ((((("C_free"?) | (! ! (("I_reemit"?) | ("I_emit"?))))) | (A (((("I_refused"?) & ("I_ask2"?))) U ((("C_refuse"?) & ("loss_a"?))))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-04
+  "Automatically generated"
+  is:
+    E X A F A F "I_rec1"?
+  end.
+Property SafeBus-COL-15-CTLFireability-05
+  "Automatically generated"
+  is:
+    A ((! (("I_free"?) & ("I_refused"?))) U ("I_rec1"?))
+  end.
+Property SafeBus-COL-15-CTLFireability-06
+  "Automatically generated"
+  is:
+    E ((((A X "I_emit"?) & (E G "I_free"?))) U (E F (("I_ask2"?) | ("C_free"?))))
+  end.
+Property SafeBus-COL-15-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! ! E F A G "I_refused"?
+  end.
+Property SafeBus-COL-15-CTLFireability-08
+  "Automatically generated"
+  is:
+    A G E ((! "I_ask2"?) U (! "I_free"?))
+  end.
+Property SafeBus-COL-15-CTLFireability-09
+  "Automatically generated"
+  is:
+    E F ((((E F "I_rec1"?) & (A G "I_ask1"?))) & (E F (("C_free"?) | ("I_rec2"?))))
+  end.
+Property SafeBus-COL-15-CTLFireability-10
+  "Automatically generated"
+  is:
+    A G ((((! ! "Gto"?) | (! "I_reemit"?))) | (((! "I_ask2"?) & (! (("I_rec1"?) | ("Gto"?))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! ! E G A F "I_emit"?
+  end.
+Property SafeBus-COL-15-CTLFireability-12
+  "Automatically generated"
+  is:
+    E G ! ((E F "I_reemit"?) & (A F "I_rec2"?))
+  end.
+Property SafeBus-COL-15-CTLFireability-13
+  "Automatically generated"
+  is:
+    ((A X E F (("C_provide"?) & ("C_free"?))) & (! ((E (("I_rec2"?) U ("I_refused"?))) & (A (("C_free"?) U ("C_refuse"?))))))
+  end.
+Property SafeBus-COL-15-CTLFireability-14
+  "Automatically generated"
+  is:
+    A G ((A F (("I_free"?) & ("C_provide"?))) | ("I_ask2"?))
+  end.
+Property SafeBus-COL-15-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((A G E (("loss_a"?) U ("I_ask1"?))) | (E G (("Gto"?) | ((((("I_reemit"?) & ("C_free"?))) & ((("I_emit"?) & ("I_ask1"?))))))))
+  end.

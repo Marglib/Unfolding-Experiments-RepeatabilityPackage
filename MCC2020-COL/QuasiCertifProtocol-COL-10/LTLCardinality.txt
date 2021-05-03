@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-10-00
+  "Automatically generated"
+  is:
+    A G (((2) <= (#tokens("a4"))) | (((#tokens("CstopAbort")) <= (#tokens("n8"))) & X ((2) <= (#tokens("AstopAbort")))))
+  end.
+Property QuasiCertifProtocol-COL-10-01
+  "Automatically generated"
+  is:
+    A X G (X ((2) <= (#tokens("s3"))) & F !(((#tokens("SstopAbort")) <= (#tokens("AstopAbort"))) & X ((2) <= (#tokens("s3"))) & G !((0) <= (#tokens("CstopOK")))))
+  end.
+Property QuasiCertifProtocol-COL-10-02
+  "Automatically generated"
+  is:
+    A (!(((0) <= (#tokens("c1"))) | F ((0) <= (#tokens("c1")))) U G !F ((3) <= (#tokens("CstopOK"))))
+  end.
+Property QuasiCertifProtocol-COL-10-03
+  "Automatically generated"
+  is:
+    A !(!X X G ((#tokens("a5")) <= (#tokens("c1"))) & X ((#tokens("SstopOK")) <= (#tokens("s3"))))
+  end.
+Property QuasiCertifProtocol-COL-10-04
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("Astart")))
+  end.
+Property QuasiCertifProtocol-COL-10-05
+  "Automatically generated"
+  is:
+    A (X X ((#tokens("c1")) <= (#tokens("s3"))) U (F ((2) <= (#tokens("s5"))) | (G !((1) <= (#tokens("SstopOK"))) U X ((1) <= (#tokens("SstopOK"))))))
+  end.
+Property QuasiCertifProtocol-COL-10-06
+  "Automatically generated"
+  is:
+    A X F !((#tokens("n4")) <= (#tokens("a1")))
+  end.
+Property QuasiCertifProtocol-COL-10-07
+  "Automatically generated"
+  is:
+    A (F !((#tokens("Astart")) <= (#tokens("s2"))) U F ((#tokens("CstopAbort")) <= (#tokens("malicious_reservoir"))))
+  end.
+Property QuasiCertifProtocol-COL-10-08
+  "Automatically generated"
+  is:
+    A G !G F G (((#tokens("s6")) <= (#tokens("a4"))) & (!G ((2) <= (#tokens("n4"))) | X G ((#tokens("SstopAbort")) <= (#tokens("n6")))))
+  end.
+Property QuasiCertifProtocol-COL-10-09
+  "Automatically generated"
+  is:
+    A G F X F (F ((1) <= (#tokens("s2"))) & F G (((#tokens("Cstart")) <= (#tokens("n5"))) | ((1) <= (#tokens("s2")))))
+  end.
+Property QuasiCertifProtocol-COL-10-10
+  "Automatically generated"
+  is:
+    A F (F ((0) <= (#tokens("n1"))) | G X (((#tokens("s2")) <= (#tokens("n3"))) & (((0) <= (#tokens("n1"))) | X ((2) <= (#tokens("n9"))))) | X ((2) <= (#tokens("CstopAbort"))))
+  end.
+Property QuasiCertifProtocol-COL-10-11
+  "Automatically generated"
+  is:
+    A G F X X !F ((3) <= (#tokens("CstopAbort")))
+  end.
+Property QuasiCertifProtocol-COL-10-12
+  "Automatically generated"
+  is:
+    A (X (((#tokens("c1")) <= (#tokens("AstopAbort"))) | G ((#tokens("n7")) <= (#tokens("SstopAbort")))) & (F ((#tokens("n7")) <= (#tokens("SstopAbort"))) U X X ((3) <= (#tokens("Cstart")))))
+  end.
+Property QuasiCertifProtocol-COL-10-13
+  "Automatically generated"
+  is:
+    A X (F X ((3) <= (#tokens("n8"))) & G (((0) <= (#tokens("s4"))) & ((1) <= (#tokens("AstopOK"))) & G ((0) <= (#tokens("s4")))))
+  end.
+Property QuasiCertifProtocol-COL-10-14
+  "Automatically generated"
+  is:
+    A (X !G ((0) <= (#tokens("n2"))) | (X ((#tokens("a1")) <= (#tokens("s3"))) & X X G ((#tokens("s3")) <= (#tokens("n1")))))
+  end.
+Property QuasiCertifProtocol-COL-10-15
+  "Automatically generated"
+  is:
+    A X G !(!G (!F !((3) <= (#tokens("AstopAbort"))) U ((1) <= (#tokens("a1")))) & G X ((#tokens("CstopOK")) <= (#tokens("Cstart"))))
+  end.

@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-10-CTLFireability-00
+  "Automatically generated"
+  is:
+    A X E X A G "SearchForks"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-01
+  "Automatically generated"
+  is:
+    A X ((! A F "Eat"?) | (((! (("TakeRight"?) | ("Leave"?))) | (E G "TakeRight"?))))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-02
+  "Automatically generated"
+  is:
+    E ((E F "Eat"?) U (A G ! "Initialize"?))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-03
+  "Automatically generated"
+  is:
+    A F "Eat"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-04
+  "Automatically generated"
+  is:
+    E G ! A G (("Eat"?) | ("TakeRight"?))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-05
+  "Automatically generated"
+  is:
+    A ((! A F "TakeRight"?) U ("SearchForks"?))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-06
+  "Automatically generated"
+  is:
+    ! E X ((E F "Initialize"?) & (((! "TakeLeft"?) | (! "SearchForks"?))))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-07
+  "Automatically generated"
+  is:
+    ((E (((((("Eat"?) | ("TakeLeft"?))) & ((("SearchForks"?) | ("Initialize"?))))) U ((((("Eat"?) | ("TakeLeft"?))) | (! "TakeRight"?))))) & (A F ((E G "SearchForks"?) & ((((("Join"?) & ("Leave"?))) & ((("Leave"?) & ("Leave"?))))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! A F A G ! "Initialize"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((((A X E G "TakeRight"?) | (A G A F "Leave"?))) & (((A X E X "TakeLeft"?) | ((((("Leave"?) & ((("TakeLeft"?) & ((("TakeLeft"?) & ("Leave"?))))))) | (((A X "Eat"?) & ((("Eat"?) & (! "Join"?))))))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-10
+  "Automatically generated"
+  is:
+    ((((! E G (("TakeRight"?) & ("Join"?))) & (E F "Eat"?))) & ("Initialize"?))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! A F "TakeRight"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-12
+  "Automatically generated"
+  is:
+    E X E G ! ! "Join"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-13
+  "Automatically generated"
+  is:
+    A G A F ! (("SearchForks"?) | ("Leave"?))
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-14
+  "Automatically generated"
+  is:
+    A X E G E F "TakeLeft"?
+  end.
+Property PhilosophersDyn-COL-10-CTLFireability-15
+  "Automatically generated"
+  is:
+    A G E F "TakeLeft"?
+  end.

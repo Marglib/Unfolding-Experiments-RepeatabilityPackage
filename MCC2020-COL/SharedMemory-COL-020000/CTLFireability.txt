@@ -1,0 +1,80 @@
+Property SharedMemory-COL-020000-CTLFireability-00
+  "Automatically generated"
+  is:
+    E G "End_Own_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-01
+  "Automatically generated"
+  is:
+    "Begin_Ext_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-02
+  "Automatically generated"
+  is:
+    (("End_Own_Acc"?) | (! "End_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-03
+  "Automatically generated"
+  is:
+    A G ((! (("Begin_Own_Acc"?) & ((("End_Own_Acc"?) & ("End_Ext_Acc"?))))) | ("Begin_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-04
+  "Automatically generated"
+  is:
+    ((((! (("Req_Ext_Acc"?) & (E X "End_Own_Acc"?))) & (((((! (("End_Ext_Acc"?) | ("End_Ext_Acc"?))) & (! (("Req_Ext_Acc"?) & ("End_Own_Acc"?))))) & ("End_Own_Acc"?))))) & ((((((((((("End_Ext_Acc"?) | ("Req_Ext_Acc"?))) | (! "Req_Ext_Acc"?))) & (! (("End_Own_Acc"?) | ("End_Own_Acc"?))))) & (! E F "End_Ext_Acc"?))) & (A G E X "Begin_Own_Acc"?))))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((((((E X "Begin_Own_Acc"?) | ((("Begin_Ext_Acc"?) | (A X "End_Ext_Acc"?))))) | (((((! "End_Own_Acc"?) | (A X "Req_Ext_Acc"?))) | ("Begin_Own_Acc"?))))) & (A G ((! (("Req_Ext_Acc"?) | ("Begin_Own_Acc"?))) | (! ! "End_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-06
+  "Automatically generated"
+  is:
+    E X E (("Begin_Own_Acc"?) U ((("Req_Ext_Acc"?) & ("End_Own_Acc"?))))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-07
+  "Automatically generated"
+  is:
+    "Req_Ext_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! ((A F (((("End_Ext_Acc"?) & ("Begin_Ext_Acc"?))) & ("Begin_Ext_Acc"?))) & (A X ((! "End_Own_Acc"?) & ((("Begin_Ext_Acc"?) & ("End_Ext_Acc"?))))))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F ((((E X "Req_Ext_Acc"?) & ((((("Begin_Own_Acc"?) | ("Begin_Ext_Acc"?))) | ((("Req_Ext_Acc"?) | ("Req_Ext_Acc"?))))))) | (E F "Req_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! ! ((! "Begin_Own_Acc"?) & (! ! (("End_Ext_Acc"?) | ("Begin_Ext_Acc"?))))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-11
+  "Automatically generated"
+  is:
+    (((((((("End_Own_Acc"?) & ((("Begin_Ext_Acc"?) | (! "End_Own_Acc"?))))) | (E (("End_Own_Acc"?) U ("Begin_Own_Acc"?))))) & (E (((("Req_Ext_Acc"?) & ("End_Own_Acc"?))) U ((("End_Own_Acc"?) | ("Begin_Own_Acc"?))))))) & (! ! "Begin_Ext_Acc"?))
+  end.
+Property SharedMemory-COL-020000-CTLFireability-12
+  "Automatically generated"
+  is:
+    A F E X "End_Ext_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-13
+  "Automatically generated"
+  is:
+    ! "Req_Ext_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-14
+  "Automatically generated"
+  is:
+    "End_Own_Acc"?
+  end.
+Property SharedMemory-COL-020000-CTLFireability-15
+  "Automatically generated"
+  is:
+    A (((("End_Ext_Acc"?) | (A X "End_Own_Acc"?))) U (A F ! "Begin_Own_Acc"?))
+  end.

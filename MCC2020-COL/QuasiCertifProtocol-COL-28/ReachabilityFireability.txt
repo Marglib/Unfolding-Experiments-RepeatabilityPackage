@@ -1,0 +1,80 @@
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((((((! "malA4"?) & ("SackCS"?))) | (! "malA2"?))) | (((! "SsendTS"?) | ((("CgenCertif"?) & ((("malS4"?) | ("malA1"?))))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ((((! (("SackCS"?) | ("AackCS"?))) | (! (("AreqCS"?) & ("malS1"?))))) | ((("AreqCS"?) & ((((("AreqCS"?) | ("AendCS"?))) & ((("malS6"?) | ("SsendTS"?))))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "malS3"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ((! "Sperform"?) & (! (((("malA4"?) & ("malC1"?))) | ("SackCS"?))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G (((((((("AstartCS"?) & ("AreqTS"?))) & (! "Sperform"?))) | ((("CgenCertif"?) & ((("SsendTS"?) & ("SgetTS"?))))))) | (! (((("malS1"?) & ("SackCS"?))) | ("CgenCertif"?))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ((! (((("malA1"?) & ("malA4"?))) | ("malA2"?))) & (! ((! "SsendTS"?) | (! "Sperform"?))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F "malS6"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F "malC1"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F "malA4"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F "malA5"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F "AendCS"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F ((! ! (("malA3"?) | ("SackCS"?))) | (! ((! "SackCS"?) | ((("CsendTS1"?) | ("SsendTS"?))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ((! (((("SackCS"?) & ("ScertCS"?))) & ((("CgenCertif"?) | ("malS1"?))))) | (! ((! "SsendTS"?) | ((("ScertCS"?) | ("SgetTS"?))))))
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F "CsendTS1"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! "ScertCS"?
+  end.
+Property QuasiCertifProtocol-COL-28-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F "AstartCS"?
+  end.

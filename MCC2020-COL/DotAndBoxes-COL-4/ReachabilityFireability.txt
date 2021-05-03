@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-4-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ((((((! "Win2H"?) | ((("Lose2"?) & ("Lose2"?))))) | (! "Win1"?))) | (! "Lose2"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G (((("Win2H"?) | ((((("Win1"?) & ("AWin"?))) & ("AWin"?))))) & ("Win2H"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G ((! (("Lose2"?) | (! "Win1"?))) & (! "Lose2"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ! (((("Play"?) & ((("AWin"?) | ("Lose2"?))))) | ((((("Win2H"?) & ("Win2V"?))) | ((("Win1"?) & ("Play"?))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ! (((((("Lose1"?) & ("Win1"?))) & ("NoWin"?))) | ((((("Win1"?) & ("AWin"?))) | (! "Play"?))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ((! "Lose2"?) | (((! ! "Lose2"?) & ((((("Lose2"?) | ("Win2V"?))) | ((("AWin"?) | ("Win1"?))))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G ! ((! (("Win1"?) & ("Play"?))) & ("Win1"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((! (((("Play"?) & ("Lose2"?))) & ((("AWin"?) & ("Lose1"?))))) & ((("Play"?) & (! (("Lose1"?) & ("NoWin"?))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ! ! (((("AWin"?) & ("Play"?))) | ((("NoWin"?) | ("Win2V"?))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G ! "Lose1"?
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G (("AWin"?) | (! (((("Win1"?) & ("Play"?))) & ((("Win2H"?) | ("Win2V"?))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ((! ((! "Lose2"?) | ((("NoWin"?) & ("Lose1"?))))) & (! ! "NoWin"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F (((((("AWin"?) | (! "AWin"?))) | (((! "NoWin"?) | ("NoWin"?))))) & ((((((("AWin"?) & ("AWin"?))) & (! "Win2V"?))) & ((((("NoWin"?) & ("Win2V"?))) & ((("Lose2"?) | ("Win2H"?))))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G ! (((((("AWin"?) & ("Win1"?))) & (! "AWin"?))) & ("Play"?))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ((! ! "NoWin"?) | ((("AWin"?) & ((((("Win1"?) | ("Play"?))) | ("Lose1"?))))))
+  end.
+Property DotAndBoxes-COL-4-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ((((! "Win1"?) & (((! "Play"?) & ("NoWin"?))))) & (! "Win1"?))
+  end.

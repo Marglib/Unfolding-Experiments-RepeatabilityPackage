@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("ScheduleTaskE_Idle")))) & (((2) <= (#tokens("Insert_Source_E")))))) | (((((1) <= (#tokens("IdleTasks")))) | (((1) <= (#tokens("P_1712")))))))) | (! ((#tokens("Check_Sources_B")) <= (#tokens("P_1724")))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("P_1724")) <= (#tokens("P_1726")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("DisablePollingE")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("NotifyEventSourceAddedB")) <= (#tokens("DisablePollingB")))) | (((1) <= (#tokens("NotifyEventJobQueuedE")))))) | (((((#tokens("ProcessingEvt")) <= (#tokens("FetchJobB")))) & (((#tokens("P_1113")) <= (#tokens("P_1726")))))))) | (((! ((3) <= (#tokens("NotifyEventJobQueuedB")))) & (((((#tokens("nyo")) <= (#tokens("NoSigAbort")))) | (((2) <= (#tokens("NotifyEventJobCompletedE")))))))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("P_1712")))) | (((#tokens("P_1617")) <= (#tokens("P_1712")))))) | (((3) <= (#tokens("P_1093")))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((! ((#tokens("IdleTasks")) <= (#tokens("NotifyEventJobCompletedE")))) | (((((((#tokens("P_1726")) <= (#tokens("Insert_Source_B")))) | (((#tokens("PollingAbort")) <= (#tokens("CreatedJobs")))))) | (! ((1) <= (#tokens("P_1727")))))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((#tokens("DisablePollingE")) <= (#tokens("RunB")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Insert_Source_E")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((#tokens("AbourtToModifySrc")) <= (#tokens("P_1716")))) & (((((((1) <= (#tokens("Insert_Source_B")))) & (((3) <= (#tokens("ScheduleTaskB")))))) & (((((#tokens("P_1159")) <= (#tokens("cJobCnt")))) | (((#tokens("cSources")) <= (#tokens("RunE")))))))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((#tokens("NotifyEventJobCompletedE")) <= (#tokens("P_2579")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("ScheduleTaskB")))) | (((2) <= (#tokens("P_1725")))))) | (((#tokens("SigAbort")) <= (#tokens("AwakeTasks")))))) & (! ((#tokens("cBlockedTasks")) <= (#tokens("P_1093")))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((! ! ((3) <= (#tokens("DisablePollingE")))) & (! ((((#tokens("ORB_Lock")) <= (#tokens("FetchJobB")))) & (((#tokens("EnablePollingB")) <= (#tokens("cPollingAbort")))))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("P_1160")) <= (#tokens("PollingAbort")))) | (((((1) <= (#tokens("ScheduleTaskE_Work")))) & (((#tokens("cJobCnt")) <= (#tokens("cBlockedTasks")))))))) & (! ((1) <= (#tokens("Try_Check_Sources_E")))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((#tokens("TryAllocateOneTaskB")) <= (#tokens("ProcessingEvt")))) | (((((((1) <= (#tokens("EnablePollingE")))) | (((#tokens("Insert_Source_B")) <= (#tokens("PollingAbort")))))) | (((#tokens("MarkerWrite")) <= (#tokens("RunB")))))))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((#tokens("SigAbort")) <= (#tokens("RunE")))
+  end.
+Property PolyORBLF-COL-S04J06T08-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("CanInjectEvent")))
+  end.

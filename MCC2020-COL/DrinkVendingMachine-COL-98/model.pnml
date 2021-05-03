@@ -1,0 +1,1523 @@
+<?xml version="1.0"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+	<net id="DrinkVendingMachine-COL-98" type="http://www.pnml.org/version-2009/grammar/symmetricnet">
+		<page id="DocumentDefaultPage">
+			<place id="optionSlots">
+				<name>
+					<text>optionSlots</text>
+				</name>
+				<type>
+					<text>Options</text>
+					<structure>
+						<usersort declaration="Options"/>
+					</structure>
+				</type>
+			</place>
+			<place id="theOptions">
+				<name>
+					<text>theOptions</text>
+				</name>
+				<type>
+					<text>Options</text>
+					<structure>
+						<usersort declaration="Options"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(Options.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="Options"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="productSlots">
+				<name>
+					<text>productSlots</text>
+				</name>
+				<type>
+					<text>Products</text>
+					<structure>
+						<usersort declaration="Products"/>
+					</structure>
+				</type>
+			</place>
+			<place id="theProducts">
+				<name>
+					<text>theProducts</text>
+				</name>
+				<type>
+					<text>Products</text>
+					<structure>
+						<usersort declaration="Products"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(Products.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="Products"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="wait">
+				<name>
+					<text>wait</text>
+				</name>
+				<type>
+					<text>Quality</text>
+					<structure>
+						<usersort declaration="Quality"/>
+					</structure>
+				</type>
+				<hlinitialMarking>
+					<text>1'(Quality.all)</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<all>
+									<usersort declaration="Quality"/>
+								</all>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinitialMarking>
+			</place>
+			<place id="ready">
+				<name>
+					<text>ready</text>
+				</name>
+				<type>
+					<text>Quality</text>
+					<structure>
+						<usersort declaration="Quality"/>
+					</structure>
+				</type>
+			</place>
+			<transition id="addOption">
+				<name>
+					<text>addOption</text>
+				</name>
+			</transition>
+			<transition id="addProduct">
+				<name>
+					<text>addProduct</text>
+				</name>
+			</transition>
+			<transition id="elaborate0">
+				<name>
+					<text>elaborate0</text>
+				</name>
+				<condition>
+					<text>(x) lte (Quality98)</text>
+					<structure>
+						<lessthanorequal>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+							<subterm>
+								<useroperator declaration="Quality98"/>
+							</subterm>
+						</lessthanorequal>
+					</structure>
+				</condition>
+			</transition>
+			<transition id="serve">
+				<name>
+					<text>serve</text>
+				</name>
+			</transition>
+			<transition id="elaborate1">
+				<name>
+					<text>elaborate1</text>
+				</name>
+				<condition>
+					<text>(x) gt (Quality98) and (x) lte (Quality196)</text>
+					<structure>
+						<and>
+							<subterm>
+								<greaterthan>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality98"/>
+									</subterm>
+								</greaterthan>
+							</subterm>
+							<subterm>
+								<lessthanorequal>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality196"/>
+									</subterm>
+								</lessthanorequal>
+							</subterm>
+						</and>
+					</structure>
+				</condition>
+			</transition>
+			<transition id="elaborate2">
+				<name>
+					<text>elaborate2</text>
+				</name>
+				<condition>
+					<text>(x) gt (Quality196) and (x) lte (Quality294)</text>
+					<structure>
+						<and>
+							<subterm>
+								<greaterthan>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality196"/>
+									</subterm>
+								</greaterthan>
+							</subterm>
+							<subterm>
+								<lessthanorequal>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality294"/>
+									</subterm>
+								</lessthanorequal>
+							</subterm>
+						</and>
+					</structure>
+				</condition>
+			</transition>
+			<transition id="elaborate3">
+				<name>
+					<text>elaborate3</text>
+				</name>
+				<condition>
+					<text>(x) gt (Quality294) and (x) lte (Quality392)</text>
+					<structure>
+						<and>
+							<subterm>
+								<greaterthan>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality294"/>
+									</subterm>
+								</greaterthan>
+							</subterm>
+							<subterm>
+								<lessthanorequal>
+									<subterm>
+										<variable refvariable="varx"/>
+									</subterm>
+									<subterm>
+										<useroperator declaration="Quality392"/>
+									</subterm>
+								</lessthanorequal>
+							</subterm>
+						</and>
+					</structure>
+				</condition>
+			</transition>
+			<arc id="arc34" source="elaborate0" target="ready">
+				<name>
+					<text>34</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc35" source="wait" target="elaborate0">
+				<name>
+					<text>35</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc32" source="elaborate1" target="optionSlots">
+				<name>
+					<text>32</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varo1"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc33" source="theOptions" target="elaborate1">
+				<name>
+					<text>33</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varo1"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc38" source="elaborate1" target="productSlots">
+				<name>
+					<text>38</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc39" source="theProducts" target="elaborate1">
+				<name>
+					<text>39</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc36" source="elaborate1" target="ready">
+				<name>
+					<text>36</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc37" source="wait" target="elaborate1">
+				<name>
+					<text>37</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc42" source="elaborate2" target="optionSlots">
+				<name>
+					<text>42</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)] + 1'[(o2)]</text>
+					<structure>
+						<add>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo1"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo2"/>
+									</subterm>
+								</numberof>
+							</subterm>
+						</add>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc43" source="theOptions" target="elaborate2">
+				<name>
+					<text>43</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)] + 1'[(o2)]</text>
+					<structure>
+						<add>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo1"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo2"/>
+									</subterm>
+								</numberof>
+							</subterm>
+						</add>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc40" source="elaborate2" target="productSlots">
+				<name>
+					<text>40</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc41" source="theProducts" target="elaborate2">
+				<name>
+					<text>41</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc17" source="elaborate2" target="ready">
+				<name>
+					<text>17</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc16" source="wait" target="elaborate2">
+				<name>
+					<text>16</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc19" source="elaborate3" target="optionSlots">
+				<name>
+					<text>19</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)] + 1'[(o2)] + 1'[(o3)]</text>
+					<structure>
+						<add>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo1"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo2"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo3"/>
+									</subterm>
+								</numberof>
+							</subterm>
+						</add>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc18" source="theOptions" target="elaborate3">
+				<name>
+					<text>18</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)] + 1'[(o2)] + 1'[(o3)]</text>
+					<structure>
+						<add>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo1"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo2"/>
+									</subterm>
+								</numberof>
+							</subterm>
+							<subterm>
+								<numberof>
+									<subterm>
+										<numberconstant value="1">
+											<positive/>
+										</numberconstant>
+									</subterm>
+									<subterm>
+										<variable refvariable="varo3"/>
+									</subterm>
+								</numberof>
+							</subterm>
+						</add>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc21" source="elaborate3" target="productSlots">
+				<name>
+					<text>21</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc20" source="theProducts" target="elaborate3">
+				<name>
+					<text>20</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc23" source="elaborate3" target="ready">
+				<name>
+					<text>23</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc22" source="wait" target="elaborate3">
+				<name>
+					<text>22</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc25" source="productSlots" target="addProduct">
+				<name>
+					<text>25</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc24" source="addProduct" target="theProducts">
+				<name>
+					<text>24</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc27" source="optionSlots" target="addOption">
+				<name>
+					<text>27</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varo1"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc26" source="addOption" target="theOptions">
+				<name>
+					<text>26</text>
+				</name>
+				<hlinscription>
+					<text>1'[(o1)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varo1"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc29" source="ready" target="serve">
+				<name>
+					<text>29</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc28" source="serve" target="wait">
+				<name>
+					<text>28</text>
+				</name>
+				<hlinscription>
+					<text>1'[(x)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varx"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc31" source="theProducts" target="elaborate0">
+				<name>
+					<text>31</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+			<arc id="arc30" source="elaborate0" target="productSlots">
+				<name>
+					<text>30</text>
+				</name>
+				<hlinscription>
+					<text>1'[(p)]</text>
+					<structure>
+						<numberof>
+							<subterm>
+								<numberconstant value="1">
+									<positive/>
+								</numberconstant>
+							</subterm>
+							<subterm>
+								<variable refvariable="varp"/>
+							</subterm>
+						</numberof>
+					</structure>
+				</hlinscription>
+			</arc>
+		</page>
+		
+		<declaration>
+			<structure>
+				<declarations>
+					<namedsort id="Quality" name="Quality">
+						<cyclicenumeration>
+							<feconstant id="Quality1" name="1"/>
+							<feconstant id="Quality2" name="2"/>
+							<feconstant id="Quality3" name="3"/>
+							<feconstant id="Quality4" name="4"/>
+							<feconstant id="Quality5" name="5"/>
+							<feconstant id="Quality6" name="6"/>
+							<feconstant id="Quality7" name="7"/>
+							<feconstant id="Quality8" name="8"/>
+							<feconstant id="Quality9" name="9"/>
+							<feconstant id="Quality10" name="10"/>
+							<feconstant id="Quality11" name="11"/>
+							<feconstant id="Quality12" name="12"/>
+							<feconstant id="Quality13" name="13"/>
+							<feconstant id="Quality14" name="14"/>
+							<feconstant id="Quality15" name="15"/>
+							<feconstant id="Quality16" name="16"/>
+							<feconstant id="Quality17" name="17"/>
+							<feconstant id="Quality18" name="18"/>
+							<feconstant id="Quality19" name="19"/>
+							<feconstant id="Quality20" name="20"/>
+							<feconstant id="Quality21" name="21"/>
+							<feconstant id="Quality22" name="22"/>
+							<feconstant id="Quality23" name="23"/>
+							<feconstant id="Quality24" name="24"/>
+							<feconstant id="Quality25" name="25"/>
+							<feconstant id="Quality26" name="26"/>
+							<feconstant id="Quality27" name="27"/>
+							<feconstant id="Quality28" name="28"/>
+							<feconstant id="Quality29" name="29"/>
+							<feconstant id="Quality30" name="30"/>
+							<feconstant id="Quality31" name="31"/>
+							<feconstant id="Quality32" name="32"/>
+							<feconstant id="Quality33" name="33"/>
+							<feconstant id="Quality34" name="34"/>
+							<feconstant id="Quality35" name="35"/>
+							<feconstant id="Quality36" name="36"/>
+							<feconstant id="Quality37" name="37"/>
+							<feconstant id="Quality38" name="38"/>
+							<feconstant id="Quality39" name="39"/>
+							<feconstant id="Quality40" name="40"/>
+							<feconstant id="Quality41" name="41"/>
+							<feconstant id="Quality42" name="42"/>
+							<feconstant id="Quality43" name="43"/>
+							<feconstant id="Quality44" name="44"/>
+							<feconstant id="Quality45" name="45"/>
+							<feconstant id="Quality46" name="46"/>
+							<feconstant id="Quality47" name="47"/>
+							<feconstant id="Quality48" name="48"/>
+							<feconstant id="Quality49" name="49"/>
+							<feconstant id="Quality50" name="50"/>
+							<feconstant id="Quality51" name="51"/>
+							<feconstant id="Quality52" name="52"/>
+							<feconstant id="Quality53" name="53"/>
+							<feconstant id="Quality54" name="54"/>
+							<feconstant id="Quality55" name="55"/>
+							<feconstant id="Quality56" name="56"/>
+							<feconstant id="Quality57" name="57"/>
+							<feconstant id="Quality58" name="58"/>
+							<feconstant id="Quality59" name="59"/>
+							<feconstant id="Quality60" name="60"/>
+							<feconstant id="Quality61" name="61"/>
+							<feconstant id="Quality62" name="62"/>
+							<feconstant id="Quality63" name="63"/>
+							<feconstant id="Quality64" name="64"/>
+							<feconstant id="Quality65" name="65"/>
+							<feconstant id="Quality66" name="66"/>
+							<feconstant id="Quality67" name="67"/>
+							<feconstant id="Quality68" name="68"/>
+							<feconstant id="Quality69" name="69"/>
+							<feconstant id="Quality70" name="70"/>
+							<feconstant id="Quality71" name="71"/>
+							<feconstant id="Quality72" name="72"/>
+							<feconstant id="Quality73" name="73"/>
+							<feconstant id="Quality74" name="74"/>
+							<feconstant id="Quality75" name="75"/>
+							<feconstant id="Quality76" name="76"/>
+							<feconstant id="Quality77" name="77"/>
+							<feconstant id="Quality78" name="78"/>
+							<feconstant id="Quality79" name="79"/>
+							<feconstant id="Quality80" name="80"/>
+							<feconstant id="Quality81" name="81"/>
+							<feconstant id="Quality82" name="82"/>
+							<feconstant id="Quality83" name="83"/>
+							<feconstant id="Quality84" name="84"/>
+							<feconstant id="Quality85" name="85"/>
+							<feconstant id="Quality86" name="86"/>
+							<feconstant id="Quality87" name="87"/>
+							<feconstant id="Quality88" name="88"/>
+							<feconstant id="Quality89" name="89"/>
+							<feconstant id="Quality90" name="90"/>
+							<feconstant id="Quality91" name="91"/>
+							<feconstant id="Quality92" name="92"/>
+							<feconstant id="Quality93" name="93"/>
+							<feconstant id="Quality94" name="94"/>
+							<feconstant id="Quality95" name="95"/>
+							<feconstant id="Quality96" name="96"/>
+							<feconstant id="Quality97" name="97"/>
+							<feconstant id="Quality98" name="98"/>
+							<feconstant id="Quality99" name="99"/>
+							<feconstant id="Quality100" name="100"/>
+							<feconstant id="Quality101" name="101"/>
+							<feconstant id="Quality102" name="102"/>
+							<feconstant id="Quality103" name="103"/>
+							<feconstant id="Quality104" name="104"/>
+							<feconstant id="Quality105" name="105"/>
+							<feconstant id="Quality106" name="106"/>
+							<feconstant id="Quality107" name="107"/>
+							<feconstant id="Quality108" name="108"/>
+							<feconstant id="Quality109" name="109"/>
+							<feconstant id="Quality110" name="110"/>
+							<feconstant id="Quality111" name="111"/>
+							<feconstant id="Quality112" name="112"/>
+							<feconstant id="Quality113" name="113"/>
+							<feconstant id="Quality114" name="114"/>
+							<feconstant id="Quality115" name="115"/>
+							<feconstant id="Quality116" name="116"/>
+							<feconstant id="Quality117" name="117"/>
+							<feconstant id="Quality118" name="118"/>
+							<feconstant id="Quality119" name="119"/>
+							<feconstant id="Quality120" name="120"/>
+							<feconstant id="Quality121" name="121"/>
+							<feconstant id="Quality122" name="122"/>
+							<feconstant id="Quality123" name="123"/>
+							<feconstant id="Quality124" name="124"/>
+							<feconstant id="Quality125" name="125"/>
+							<feconstant id="Quality126" name="126"/>
+							<feconstant id="Quality127" name="127"/>
+							<feconstant id="Quality128" name="128"/>
+							<feconstant id="Quality129" name="129"/>
+							<feconstant id="Quality130" name="130"/>
+							<feconstant id="Quality131" name="131"/>
+							<feconstant id="Quality132" name="132"/>
+							<feconstant id="Quality133" name="133"/>
+							<feconstant id="Quality134" name="134"/>
+							<feconstant id="Quality135" name="135"/>
+							<feconstant id="Quality136" name="136"/>
+							<feconstant id="Quality137" name="137"/>
+							<feconstant id="Quality138" name="138"/>
+							<feconstant id="Quality139" name="139"/>
+							<feconstant id="Quality140" name="140"/>
+							<feconstant id="Quality141" name="141"/>
+							<feconstant id="Quality142" name="142"/>
+							<feconstant id="Quality143" name="143"/>
+							<feconstant id="Quality144" name="144"/>
+							<feconstant id="Quality145" name="145"/>
+							<feconstant id="Quality146" name="146"/>
+							<feconstant id="Quality147" name="147"/>
+							<feconstant id="Quality148" name="148"/>
+							<feconstant id="Quality149" name="149"/>
+							<feconstant id="Quality150" name="150"/>
+							<feconstant id="Quality151" name="151"/>
+							<feconstant id="Quality152" name="152"/>
+							<feconstant id="Quality153" name="153"/>
+							<feconstant id="Quality154" name="154"/>
+							<feconstant id="Quality155" name="155"/>
+							<feconstant id="Quality156" name="156"/>
+							<feconstant id="Quality157" name="157"/>
+							<feconstant id="Quality158" name="158"/>
+							<feconstant id="Quality159" name="159"/>
+							<feconstant id="Quality160" name="160"/>
+							<feconstant id="Quality161" name="161"/>
+							<feconstant id="Quality162" name="162"/>
+							<feconstant id="Quality163" name="163"/>
+							<feconstant id="Quality164" name="164"/>
+							<feconstant id="Quality165" name="165"/>
+							<feconstant id="Quality166" name="166"/>
+							<feconstant id="Quality167" name="167"/>
+							<feconstant id="Quality168" name="168"/>
+							<feconstant id="Quality169" name="169"/>
+							<feconstant id="Quality170" name="170"/>
+							<feconstant id="Quality171" name="171"/>
+							<feconstant id="Quality172" name="172"/>
+							<feconstant id="Quality173" name="173"/>
+							<feconstant id="Quality174" name="174"/>
+							<feconstant id="Quality175" name="175"/>
+							<feconstant id="Quality176" name="176"/>
+							<feconstant id="Quality177" name="177"/>
+							<feconstant id="Quality178" name="178"/>
+							<feconstant id="Quality179" name="179"/>
+							<feconstant id="Quality180" name="180"/>
+							<feconstant id="Quality181" name="181"/>
+							<feconstant id="Quality182" name="182"/>
+							<feconstant id="Quality183" name="183"/>
+							<feconstant id="Quality184" name="184"/>
+							<feconstant id="Quality185" name="185"/>
+							<feconstant id="Quality186" name="186"/>
+							<feconstant id="Quality187" name="187"/>
+							<feconstant id="Quality188" name="188"/>
+							<feconstant id="Quality189" name="189"/>
+							<feconstant id="Quality190" name="190"/>
+							<feconstant id="Quality191" name="191"/>
+							<feconstant id="Quality192" name="192"/>
+							<feconstant id="Quality193" name="193"/>
+							<feconstant id="Quality194" name="194"/>
+							<feconstant id="Quality195" name="195"/>
+							<feconstant id="Quality196" name="196"/>
+							<feconstant id="Quality197" name="197"/>
+							<feconstant id="Quality198" name="198"/>
+							<feconstant id="Quality199" name="199"/>
+							<feconstant id="Quality200" name="200"/>
+							<feconstant id="Quality201" name="201"/>
+							<feconstant id="Quality202" name="202"/>
+							<feconstant id="Quality203" name="203"/>
+							<feconstant id="Quality204" name="204"/>
+							<feconstant id="Quality205" name="205"/>
+							<feconstant id="Quality206" name="206"/>
+							<feconstant id="Quality207" name="207"/>
+							<feconstant id="Quality208" name="208"/>
+							<feconstant id="Quality209" name="209"/>
+							<feconstant id="Quality210" name="210"/>
+							<feconstant id="Quality211" name="211"/>
+							<feconstant id="Quality212" name="212"/>
+							<feconstant id="Quality213" name="213"/>
+							<feconstant id="Quality214" name="214"/>
+							<feconstant id="Quality215" name="215"/>
+							<feconstant id="Quality216" name="216"/>
+							<feconstant id="Quality217" name="217"/>
+							<feconstant id="Quality218" name="218"/>
+							<feconstant id="Quality219" name="219"/>
+							<feconstant id="Quality220" name="220"/>
+							<feconstant id="Quality221" name="221"/>
+							<feconstant id="Quality222" name="222"/>
+							<feconstant id="Quality223" name="223"/>
+							<feconstant id="Quality224" name="224"/>
+							<feconstant id="Quality225" name="225"/>
+							<feconstant id="Quality226" name="226"/>
+							<feconstant id="Quality227" name="227"/>
+							<feconstant id="Quality228" name="228"/>
+							<feconstant id="Quality229" name="229"/>
+							<feconstant id="Quality230" name="230"/>
+							<feconstant id="Quality231" name="231"/>
+							<feconstant id="Quality232" name="232"/>
+							<feconstant id="Quality233" name="233"/>
+							<feconstant id="Quality234" name="234"/>
+							<feconstant id="Quality235" name="235"/>
+							<feconstant id="Quality236" name="236"/>
+							<feconstant id="Quality237" name="237"/>
+							<feconstant id="Quality238" name="238"/>
+							<feconstant id="Quality239" name="239"/>
+							<feconstant id="Quality240" name="240"/>
+							<feconstant id="Quality241" name="241"/>
+							<feconstant id="Quality242" name="242"/>
+							<feconstant id="Quality243" name="243"/>
+							<feconstant id="Quality244" name="244"/>
+							<feconstant id="Quality245" name="245"/>
+							<feconstant id="Quality246" name="246"/>
+							<feconstant id="Quality247" name="247"/>
+							<feconstant id="Quality248" name="248"/>
+							<feconstant id="Quality249" name="249"/>
+							<feconstant id="Quality250" name="250"/>
+							<feconstant id="Quality251" name="251"/>
+							<feconstant id="Quality252" name="252"/>
+							<feconstant id="Quality253" name="253"/>
+							<feconstant id="Quality254" name="254"/>
+							<feconstant id="Quality255" name="255"/>
+							<feconstant id="Quality256" name="256"/>
+							<feconstant id="Quality257" name="257"/>
+							<feconstant id="Quality258" name="258"/>
+							<feconstant id="Quality259" name="259"/>
+							<feconstant id="Quality260" name="260"/>
+							<feconstant id="Quality261" name="261"/>
+							<feconstant id="Quality262" name="262"/>
+							<feconstant id="Quality263" name="263"/>
+							<feconstant id="Quality264" name="264"/>
+							<feconstant id="Quality265" name="265"/>
+							<feconstant id="Quality266" name="266"/>
+							<feconstant id="Quality267" name="267"/>
+							<feconstant id="Quality268" name="268"/>
+							<feconstant id="Quality269" name="269"/>
+							<feconstant id="Quality270" name="270"/>
+							<feconstant id="Quality271" name="271"/>
+							<feconstant id="Quality272" name="272"/>
+							<feconstant id="Quality273" name="273"/>
+							<feconstant id="Quality274" name="274"/>
+							<feconstant id="Quality275" name="275"/>
+							<feconstant id="Quality276" name="276"/>
+							<feconstant id="Quality277" name="277"/>
+							<feconstant id="Quality278" name="278"/>
+							<feconstant id="Quality279" name="279"/>
+							<feconstant id="Quality280" name="280"/>
+							<feconstant id="Quality281" name="281"/>
+							<feconstant id="Quality282" name="282"/>
+							<feconstant id="Quality283" name="283"/>
+							<feconstant id="Quality284" name="284"/>
+							<feconstant id="Quality285" name="285"/>
+							<feconstant id="Quality286" name="286"/>
+							<feconstant id="Quality287" name="287"/>
+							<feconstant id="Quality288" name="288"/>
+							<feconstant id="Quality289" name="289"/>
+							<feconstant id="Quality290" name="290"/>
+							<feconstant id="Quality291" name="291"/>
+							<feconstant id="Quality292" name="292"/>
+							<feconstant id="Quality293" name="293"/>
+							<feconstant id="Quality294" name="294"/>
+							<feconstant id="Quality295" name="295"/>
+							<feconstant id="Quality296" name="296"/>
+							<feconstant id="Quality297" name="297"/>
+							<feconstant id="Quality298" name="298"/>
+							<feconstant id="Quality299" name="299"/>
+							<feconstant id="Quality300" name="300"/>
+							<feconstant id="Quality301" name="301"/>
+							<feconstant id="Quality302" name="302"/>
+							<feconstant id="Quality303" name="303"/>
+							<feconstant id="Quality304" name="304"/>
+							<feconstant id="Quality305" name="305"/>
+							<feconstant id="Quality306" name="306"/>
+							<feconstant id="Quality307" name="307"/>
+							<feconstant id="Quality308" name="308"/>
+							<feconstant id="Quality309" name="309"/>
+							<feconstant id="Quality310" name="310"/>
+							<feconstant id="Quality311" name="311"/>
+							<feconstant id="Quality312" name="312"/>
+							<feconstant id="Quality313" name="313"/>
+							<feconstant id="Quality314" name="314"/>
+							<feconstant id="Quality315" name="315"/>
+							<feconstant id="Quality316" name="316"/>
+							<feconstant id="Quality317" name="317"/>
+							<feconstant id="Quality318" name="318"/>
+							<feconstant id="Quality319" name="319"/>
+							<feconstant id="Quality320" name="320"/>
+							<feconstant id="Quality321" name="321"/>
+							<feconstant id="Quality322" name="322"/>
+							<feconstant id="Quality323" name="323"/>
+							<feconstant id="Quality324" name="324"/>
+							<feconstant id="Quality325" name="325"/>
+							<feconstant id="Quality326" name="326"/>
+							<feconstant id="Quality327" name="327"/>
+							<feconstant id="Quality328" name="328"/>
+							<feconstant id="Quality329" name="329"/>
+							<feconstant id="Quality330" name="330"/>
+							<feconstant id="Quality331" name="331"/>
+							<feconstant id="Quality332" name="332"/>
+							<feconstant id="Quality333" name="333"/>
+							<feconstant id="Quality334" name="334"/>
+							<feconstant id="Quality335" name="335"/>
+							<feconstant id="Quality336" name="336"/>
+							<feconstant id="Quality337" name="337"/>
+							<feconstant id="Quality338" name="338"/>
+							<feconstant id="Quality339" name="339"/>
+							<feconstant id="Quality340" name="340"/>
+							<feconstant id="Quality341" name="341"/>
+							<feconstant id="Quality342" name="342"/>
+							<feconstant id="Quality343" name="343"/>
+							<feconstant id="Quality344" name="344"/>
+							<feconstant id="Quality345" name="345"/>
+							<feconstant id="Quality346" name="346"/>
+							<feconstant id="Quality347" name="347"/>
+							<feconstant id="Quality348" name="348"/>
+							<feconstant id="Quality349" name="349"/>
+							<feconstant id="Quality350" name="350"/>
+							<feconstant id="Quality351" name="351"/>
+							<feconstant id="Quality352" name="352"/>
+							<feconstant id="Quality353" name="353"/>
+							<feconstant id="Quality354" name="354"/>
+							<feconstant id="Quality355" name="355"/>
+							<feconstant id="Quality356" name="356"/>
+							<feconstant id="Quality357" name="357"/>
+							<feconstant id="Quality358" name="358"/>
+							<feconstant id="Quality359" name="359"/>
+							<feconstant id="Quality360" name="360"/>
+							<feconstant id="Quality361" name="361"/>
+							<feconstant id="Quality362" name="362"/>
+							<feconstant id="Quality363" name="363"/>
+							<feconstant id="Quality364" name="364"/>
+							<feconstant id="Quality365" name="365"/>
+							<feconstant id="Quality366" name="366"/>
+							<feconstant id="Quality367" name="367"/>
+							<feconstant id="Quality368" name="368"/>
+							<feconstant id="Quality369" name="369"/>
+							<feconstant id="Quality370" name="370"/>
+							<feconstant id="Quality371" name="371"/>
+							<feconstant id="Quality372" name="372"/>
+							<feconstant id="Quality373" name="373"/>
+							<feconstant id="Quality374" name="374"/>
+							<feconstant id="Quality375" name="375"/>
+							<feconstant id="Quality376" name="376"/>
+							<feconstant id="Quality377" name="377"/>
+							<feconstant id="Quality378" name="378"/>
+							<feconstant id="Quality379" name="379"/>
+							<feconstant id="Quality380" name="380"/>
+							<feconstant id="Quality381" name="381"/>
+							<feconstant id="Quality382" name="382"/>
+							<feconstant id="Quality383" name="383"/>
+							<feconstant id="Quality384" name="384"/>
+							<feconstant id="Quality385" name="385"/>
+							<feconstant id="Quality386" name="386"/>
+							<feconstant id="Quality387" name="387"/>
+							<feconstant id="Quality388" name="388"/>
+							<feconstant id="Quality389" name="389"/>
+							<feconstant id="Quality390" name="390"/>
+							<feconstant id="Quality391" name="391"/>
+							<feconstant id="Quality392" name="392"/>
+						</cyclicenumeration>
+					</namedsort>
+					<namedsort id="Products" name="Products">
+						<cyclicenumeration>
+							<feconstant id="Products1" name="1"/>
+							<feconstant id="Products2" name="2"/>
+							<feconstant id="Products3" name="3"/>
+							<feconstant id="Products4" name="4"/>
+							<feconstant id="Products5" name="5"/>
+							<feconstant id="Products6" name="6"/>
+							<feconstant id="Products7" name="7"/>
+							<feconstant id="Products8" name="8"/>
+							<feconstant id="Products9" name="9"/>
+							<feconstant id="Products10" name="10"/>
+							<feconstant id="Products11" name="11"/>
+							<feconstant id="Products12" name="12"/>
+							<feconstant id="Products13" name="13"/>
+							<feconstant id="Products14" name="14"/>
+							<feconstant id="Products15" name="15"/>
+							<feconstant id="Products16" name="16"/>
+							<feconstant id="Products17" name="17"/>
+							<feconstant id="Products18" name="18"/>
+							<feconstant id="Products19" name="19"/>
+							<feconstant id="Products20" name="20"/>
+							<feconstant id="Products21" name="21"/>
+							<feconstant id="Products22" name="22"/>
+							<feconstant id="Products23" name="23"/>
+							<feconstant id="Products24" name="24"/>
+							<feconstant id="Products25" name="25"/>
+							<feconstant id="Products26" name="26"/>
+							<feconstant id="Products27" name="27"/>
+							<feconstant id="Products28" name="28"/>
+							<feconstant id="Products29" name="29"/>
+							<feconstant id="Products30" name="30"/>
+							<feconstant id="Products31" name="31"/>
+							<feconstant id="Products32" name="32"/>
+							<feconstant id="Products33" name="33"/>
+							<feconstant id="Products34" name="34"/>
+							<feconstant id="Products35" name="35"/>
+							<feconstant id="Products36" name="36"/>
+							<feconstant id="Products37" name="37"/>
+							<feconstant id="Products38" name="38"/>
+							<feconstant id="Products39" name="39"/>
+							<feconstant id="Products40" name="40"/>
+							<feconstant id="Products41" name="41"/>
+							<feconstant id="Products42" name="42"/>
+							<feconstant id="Products43" name="43"/>
+							<feconstant id="Products44" name="44"/>
+							<feconstant id="Products45" name="45"/>
+							<feconstant id="Products46" name="46"/>
+							<feconstant id="Products47" name="47"/>
+							<feconstant id="Products48" name="48"/>
+							<feconstant id="Products49" name="49"/>
+							<feconstant id="Products50" name="50"/>
+							<feconstant id="Products51" name="51"/>
+							<feconstant id="Products52" name="52"/>
+							<feconstant id="Products53" name="53"/>
+							<feconstant id="Products54" name="54"/>
+							<feconstant id="Products55" name="55"/>
+							<feconstant id="Products56" name="56"/>
+							<feconstant id="Products57" name="57"/>
+							<feconstant id="Products58" name="58"/>
+							<feconstant id="Products59" name="59"/>
+							<feconstant id="Products60" name="60"/>
+							<feconstant id="Products61" name="61"/>
+							<feconstant id="Products62" name="62"/>
+							<feconstant id="Products63" name="63"/>
+							<feconstant id="Products64" name="64"/>
+							<feconstant id="Products65" name="65"/>
+							<feconstant id="Products66" name="66"/>
+							<feconstant id="Products67" name="67"/>
+							<feconstant id="Products68" name="68"/>
+							<feconstant id="Products69" name="69"/>
+							<feconstant id="Products70" name="70"/>
+							<feconstant id="Products71" name="71"/>
+							<feconstant id="Products72" name="72"/>
+							<feconstant id="Products73" name="73"/>
+							<feconstant id="Products74" name="74"/>
+							<feconstant id="Products75" name="75"/>
+							<feconstant id="Products76" name="76"/>
+							<feconstant id="Products77" name="77"/>
+							<feconstant id="Products78" name="78"/>
+							<feconstant id="Products79" name="79"/>
+							<feconstant id="Products80" name="80"/>
+							<feconstant id="Products81" name="81"/>
+							<feconstant id="Products82" name="82"/>
+							<feconstant id="Products83" name="83"/>
+							<feconstant id="Products84" name="84"/>
+							<feconstant id="Products85" name="85"/>
+							<feconstant id="Products86" name="86"/>
+							<feconstant id="Products87" name="87"/>
+							<feconstant id="Products88" name="88"/>
+							<feconstant id="Products89" name="89"/>
+							<feconstant id="Products90" name="90"/>
+							<feconstant id="Products91" name="91"/>
+							<feconstant id="Products92" name="92"/>
+							<feconstant id="Products93" name="93"/>
+							<feconstant id="Products94" name="94"/>
+							<feconstant id="Products95" name="95"/>
+							<feconstant id="Products96" name="96"/>
+							<feconstant id="Products97" name="97"/>
+							<feconstant id="Products98" name="98"/>
+						</cyclicenumeration>
+					</namedsort>
+					<namedsort id="Options" name="Options">
+						<cyclicenumeration>
+							<feconstant id="Options1" name="1"/>
+							<feconstant id="Options2" name="2"/>
+							<feconstant id="Options3" name="3"/>
+							<feconstant id="Options4" name="4"/>
+							<feconstant id="Options5" name="5"/>
+							<feconstant id="Options6" name="6"/>
+							<feconstant id="Options7" name="7"/>
+							<feconstant id="Options8" name="8"/>
+							<feconstant id="Options9" name="9"/>
+							<feconstant id="Options10" name="10"/>
+							<feconstant id="Options11" name="11"/>
+							<feconstant id="Options12" name="12"/>
+							<feconstant id="Options13" name="13"/>
+							<feconstant id="Options14" name="14"/>
+							<feconstant id="Options15" name="15"/>
+							<feconstant id="Options16" name="16"/>
+							<feconstant id="Options17" name="17"/>
+							<feconstant id="Options18" name="18"/>
+							<feconstant id="Options19" name="19"/>
+							<feconstant id="Options20" name="20"/>
+							<feconstant id="Options21" name="21"/>
+							<feconstant id="Options22" name="22"/>
+							<feconstant id="Options23" name="23"/>
+							<feconstant id="Options24" name="24"/>
+							<feconstant id="Options25" name="25"/>
+							<feconstant id="Options26" name="26"/>
+							<feconstant id="Options27" name="27"/>
+							<feconstant id="Options28" name="28"/>
+							<feconstant id="Options29" name="29"/>
+							<feconstant id="Options30" name="30"/>
+							<feconstant id="Options31" name="31"/>
+							<feconstant id="Options32" name="32"/>
+							<feconstant id="Options33" name="33"/>
+							<feconstant id="Options34" name="34"/>
+							<feconstant id="Options35" name="35"/>
+							<feconstant id="Options36" name="36"/>
+							<feconstant id="Options37" name="37"/>
+							<feconstant id="Options38" name="38"/>
+							<feconstant id="Options39" name="39"/>
+							<feconstant id="Options40" name="40"/>
+							<feconstant id="Options41" name="41"/>
+							<feconstant id="Options42" name="42"/>
+							<feconstant id="Options43" name="43"/>
+							<feconstant id="Options44" name="44"/>
+							<feconstant id="Options45" name="45"/>
+							<feconstant id="Options46" name="46"/>
+							<feconstant id="Options47" name="47"/>
+							<feconstant id="Options48" name="48"/>
+							<feconstant id="Options49" name="49"/>
+							<feconstant id="Options50" name="50"/>
+							<feconstant id="Options51" name="51"/>
+							<feconstant id="Options52" name="52"/>
+							<feconstant id="Options53" name="53"/>
+							<feconstant id="Options54" name="54"/>
+							<feconstant id="Options55" name="55"/>
+							<feconstant id="Options56" name="56"/>
+							<feconstant id="Options57" name="57"/>
+							<feconstant id="Options58" name="58"/>
+							<feconstant id="Options59" name="59"/>
+							<feconstant id="Options60" name="60"/>
+							<feconstant id="Options61" name="61"/>
+							<feconstant id="Options62" name="62"/>
+							<feconstant id="Options63" name="63"/>
+							<feconstant id="Options64" name="64"/>
+							<feconstant id="Options65" name="65"/>
+							<feconstant id="Options66" name="66"/>
+							<feconstant id="Options67" name="67"/>
+							<feconstant id="Options68" name="68"/>
+							<feconstant id="Options69" name="69"/>
+							<feconstant id="Options70" name="70"/>
+							<feconstant id="Options71" name="71"/>
+							<feconstant id="Options72" name="72"/>
+							<feconstant id="Options73" name="73"/>
+							<feconstant id="Options74" name="74"/>
+							<feconstant id="Options75" name="75"/>
+							<feconstant id="Options76" name="76"/>
+							<feconstant id="Options77" name="77"/>
+							<feconstant id="Options78" name="78"/>
+							<feconstant id="Options79" name="79"/>
+							<feconstant id="Options80" name="80"/>
+							<feconstant id="Options81" name="81"/>
+							<feconstant id="Options82" name="82"/>
+							<feconstant id="Options83" name="83"/>
+							<feconstant id="Options84" name="84"/>
+							<feconstant id="Options85" name="85"/>
+							<feconstant id="Options86" name="86"/>
+							<feconstant id="Options87" name="87"/>
+							<feconstant id="Options88" name="88"/>
+							<feconstant id="Options89" name="89"/>
+							<feconstant id="Options90" name="90"/>
+							<feconstant id="Options91" name="91"/>
+							<feconstant id="Options92" name="92"/>
+							<feconstant id="Options93" name="93"/>
+							<feconstant id="Options94" name="94"/>
+							<feconstant id="Options95" name="95"/>
+							<feconstant id="Options96" name="96"/>
+							<feconstant id="Options97" name="97"/>
+							<feconstant id="Options98" name="98"/>
+						</cyclicenumeration>
+					</namedsort>
+					<variabledecl id="varp" name="p">
+						<usersort declaration="Products"/>
+					</variabledecl>
+					<variabledecl id="varo3" name="o3">
+						<usersort declaration="Options"/>
+					</variabledecl>
+					<variabledecl id="varo2" name="o2">
+						<usersort declaration="Options"/>
+					</variabledecl>
+					<variabledecl id="varo1" name="o1">
+						<usersort declaration="Options"/>
+					</variabledecl>
+					<variabledecl id="varx" name="x">
+						<usersort declaration="Quality"/>
+					</variabledecl>
+				</declarations>
+			</structure>
+		</declaration>
+	<name><text>DrinkVendingMachine-COL-98</text></name></net>
+</pnml>

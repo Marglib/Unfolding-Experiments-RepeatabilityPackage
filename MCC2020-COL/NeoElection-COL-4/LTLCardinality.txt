@@ -1,0 +1,80 @@
+Property NeoElection-COL-4-00
+  "Automatically generated"
+  is:
+    A (G (((2) <= (#tokens("electionFailed"))) & X ((#tokens("crashed")) <= (#tokens("negotiation")))) U (((2) <= (#tokens("electionFailed"))) & ((#tokens("crashed")) <= (#tokens("negotiation"))) & X G ((#tokens("crashed")) <= (#tokens("negotiation")))))
+  end.
+Property NeoElection-COL-4-01
+  "Automatically generated"
+  is:
+    A F (((#tokens("crashed")) <= (#tokens("startNeg__broadcasting"))) U F !((#tokens("poll__pollEnd")) <= (#tokens("masterState"))))
+  end.
+Property NeoElection-COL-4-02
+  "Automatically generated"
+  is:
+    A X G !X F G F ((#tokens("stage")) <= (#tokens("poll__pollEnd")))
+  end.
+Property NeoElection-COL-4-03
+  "Automatically generated"
+  is:
+    A F (((2) <= (#tokens("network"))) | (((#tokens("network")) <= (#tokens("electionFailed"))) U ((2) <= (#tokens("polling")))))
+  end.
+Property NeoElection-COL-4-04
+  "Automatically generated"
+  is:
+    A F G (((#tokens("masterList")) <= (#tokens("sendAnnPs__broadcasting"))) U X G !((#tokens("sendAnnPs__broadcasting")) <= (#tokens("network"))))
+  end.
+Property NeoElection-COL-4-05
+  "Automatically generated"
+  is:
+    A (!(((0) <= (#tokens("electedSecondary"))) & (((#tokens("electionInit")) <= (#tokens("poll__pollEnd"))) U !((#tokens("electionInit")) <= (#tokens("poll__pollEnd"))))) & !G !(((3) <= (#tokens("poll__networl"))) U !((1) <= (#tokens("stage")))))
+  end.
+Property NeoElection-COL-4-06
+  "Automatically generated"
+  is:
+    A !(X X X F X !(((1) <= (#tokens("stage"))) | !((#tokens("electedSecondary")) <= (#tokens("sendAnnPs__broadcasting")))) U X F ((#tokens("electedSecondary")) <= (#tokens("sendAnnPs__broadcasting"))))
+  end.
+Property NeoElection-COL-4-07
+  "Automatically generated"
+  is:
+    A (((#tokens("masterList")) <= (#tokens("sendAnnPs__broadcasting"))) & (X ((2) <= (#tokens("network"))) | (((2) <= (#tokens("network"))) U (((2) <= (#tokens("network"))) & F (((#tokens("masterList")) <= (#tokens("sendAnnPs__broadcasting"))) U ((#tokens("electionInit")) <= (#tokens("dead"))))))))
+  end.
+Property NeoElection-COL-4-08
+  "Automatically generated"
+  is:
+    A !(F X G (X ((2) <= (#tokens("sendAnnPs__broadcasting"))) | G (((#tokens("polling")) <= (#tokens("electionInit"))) U ((2) <= (#tokens("sendAnnPs__broadcasting"))))) & !G ((#tokens("polling")) <= (#tokens("electionInit"))))
+  end.
+Property NeoElection-COL-4-09
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("masterList"))) & X X G (F ((2) <= (#tokens("masterList"))) U !((#tokens("electedSecondary")) <= (#tokens("network")))))
+  end.
+Property NeoElection-COL-4-10
+  "Automatically generated"
+  is:
+    A (((#tokens("poll__networl")) <= (#tokens("poll__pollEnd"))) & F (G ((#tokens("poll__networl")) <= (#tokens("poll__pollEnd"))) | (((3) <= (#tokens("electionFailed"))) U ((((3) <= (#tokens("poll__waitingMessage"))) & X ((#tokens("poll__networl")) <= (#tokens("poll__pollEnd")))) U X ((2) <= (#tokens("poll__pollEnd")))))))
+  end.
+Property NeoElection-COL-4-11
+  "Automatically generated"
+  is:
+    A (X X ((#tokens("crashed")) <= (#tokens("electionInit"))) U X ((((#tokens("polling")) <= (#tokens("poll__networl"))) | X X ((#tokens("polling")) <= (#tokens("poll__networl")))) & G (((#tokens("dead")) <= (#tokens("negotiation"))) U ((1) <= (#tokens("sendAnnPs__broadcasting"))))))
+  end.
+Property NeoElection-COL-4-12
+  "Automatically generated"
+  is:
+    A (G ((#tokens("poll__handlingMessage")) <= (#tokens("electedPrimary"))) & (((#tokens("negotiation")) <= (#tokens("electionInit"))) U !((2) <= (#tokens("electedSecondary")))))
+  end.
+Property NeoElection-COL-4-13
+  "Automatically generated"
+  is:
+    A G (F (((3) <= (#tokens("startNeg__broadcasting"))) U ((#tokens("sendAnnPs__broadcasting")) <= (#tokens("startNeg__broadcasting")))) | F (((#tokens("sendAnnPs__broadcasting")) <= (#tokens("startNeg__broadcasting"))) | ((3) <= (#tokens("startNeg__broadcasting")))))
+  end.
+Property NeoElection-COL-4-14
+  "Automatically generated"
+  is:
+    A !F (F G ((1) <= (#tokens("negotiation"))) U !((#tokens("negotiation")) <= (#tokens("poll__waitingMessage"))))
+  end.
+Property NeoElection-COL-4-15
+  "Automatically generated"
+  is:
+    A !X (((#tokens("poll__networl")) <= (#tokens("poll__waitingMessage"))) U (((#tokens("crashed")) <= (#tokens("electedPrimary"))) | (((2) <= (#tokens("stage"))) & X (((#tokens("crashed")) <= (#tokens("electedPrimary"))) U ((#tokens("poll__networl")) <= (#tokens("poll__waitingMessage")))))))
+  end.

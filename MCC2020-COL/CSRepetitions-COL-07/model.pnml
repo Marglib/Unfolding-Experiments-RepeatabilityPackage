@@ -1,0 +1,431 @@
+<?xml version="1.0"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+  <net id="CSRepetitions-COL-07" type="http://www.pnml.org/version-2009/grammar/symmetricnet">
+    <page id="csrDefaultPage">
+      <place id="requestBufferSlots">
+        <name>
+          <text>RequestBufferSlots</text>
+        </name>
+        <type>
+          <text>Dot</text>
+          <structure>          <usersort declaration="dot"/>
+</structure>
+        </type>
+        <hlinitialMarking>
+          <text>7'(dot)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="7">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <dotconstant/>            </subterm>          </numberof>
+</structure>
+        </hlinitialMarking>
+      </place>
+      <place id="clientSending">
+        <name>
+          <text>Client_Sending</text>
+        </name>
+        <type>
+          <text>Client</text>
+          <structure>          <usersort declaration="clclass"/>
+</structure>
+        </type>
+      </place>
+      <place id="requestBuffer">
+        <name>
+          <text>RequestBuffer</text>
+        </name>
+        <type>
+          <text>Client</text>
+          <structure>          <usersort declaration="clclass"/>
+</structure>
+        </type>
+      </place>
+      <place id="serverWaiting">
+        <name>
+          <text>Server_Waiting</text>
+        </name>
+        <type>
+          <text>Server</text>
+          <structure>          <usersort declaration="srclass"/>
+</structure>
+        </type>
+        <hlinitialMarking>
+          <text>Server.all</text>
+          <structure>          <all>
+            <usersort declaration="srclass"/>
+          </all>
+</structure>
+        </hlinitialMarking>
+      </place>
+      <place id="clientWaiting">
+        <name>
+          <text>Client_Waiting</text>
+        </name>
+        <type>
+          <text>Client</text>
+          <structure>          <usersort declaration="clclass"/>
+</structure>
+        </type>
+        <hlinitialMarking>
+          <text>Client.all</text>
+          <structure>          <all>
+            <usersort declaration="clclass"/>
+          </all>
+</structure>
+        </hlinitialMarking>
+      </place>
+      <place id="serverAnwering">
+        <name>
+          <text>Server_Anwering</text>
+        </name>
+        <type>
+          <text>Computation</text>
+          <structure>          <usersort declaration="computation"/>
+</structure>
+        </type>
+      </place>
+      <transition id="sendRequest">
+        <name>
+          <text>Send_Request</text>
+        </name>
+      </transition>
+      <transition id="readRequest">
+        <name>
+          <text>Read_Request</text>
+        </name>
+      </transition>
+      <transition id="prepareRequest">
+        <name>
+          <text>Prepare_Request</text>
+        </name>
+      </transition>
+      <transition id="loseRequest">
+        <name>
+          <text>Lose_Request</text>
+        </name>
+      </transition>
+      <transition id="sendAnswer">
+        <name>
+          <text>Send_Answer</text>
+        </name>
+      </transition>
+      <arc id="requestBufferSlots2sendRequest" source="requestBufferSlots" target="sendRequest">
+        <name>
+          <text>RequestBufferSlots2Send_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(dot)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <dotconstant/>            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="readRequest2requestBufferSlots" source="readRequest" target="requestBufferSlots">
+        <name>
+          <text>Read_Request2RequestBufferSlots</text>
+        </name>
+        <hlinscription>
+          <text>1'(dot)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <dotconstant/>            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="clientSending2sendRequest" source="clientSending" target="sendRequest">
+        <name>
+          <text>Client_Sending2Send_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="sendRequest2clientSending" source="sendRequest" target="clientSending">
+        <name>
+          <text>Send_Request2Client_Sending</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="sendRequest2requestBuffer" source="sendRequest" target="requestBuffer">
+        <name>
+          <text>Send_Request2RequestBuffer</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="requestBuffer2readRequest" source="requestBuffer" target="readRequest">
+        <name>
+          <text>RequestBuffer2Read_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="requestBuffer2loseRequest" source="requestBuffer" target="loseRequest">
+        <name>
+          <text>RequestBuffer2Lose_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="serverWaiting2readRequest" source="serverWaiting" target="readRequest">
+        <name>
+          <text>Server_Waiting2Read_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(s)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="vars"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="readRequest2ServerAnwering" source="readRequest" target="serverAnwering">
+        <name>
+          <text>Read_Request2Server_Anwering</text>
+        </name>
+        <hlinscription>
+          <text>1'(c,s)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <tuple>
+              <subterm>              <variable refvariable="varc"/>
+              </subterm>              <subterm>              <variable refvariable="vars"/>
+              </subterm>            </tuple>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="clientSending2SendAnswer" source="clientSending" target="sendAnswer">
+        <name>
+          <text>Client_Sending2Send_Answer</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="sendAnswer2serverWaiting" source="sendAnswer" target="serverWaiting">
+        <name>
+          <text>Send_Answer2Server_Waiting</text>
+        </name>
+        <hlinscription>
+          <text>1'(s)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="vars"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="clientWaiting2PrepareRequest" source="clientWaiting" target="prepareRequest">
+        <name>
+          <text>Client_Waiting2Prepare_Request</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="prepareRequest2ClientSending" source="prepareRequest" target="clientSending">
+        <name>
+          <text>Prepare_Request2Client_Sending</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="serverAnwering2SendAnswer" source="serverAnwering" target="sendAnswer">
+        <name>
+          <text>Server_Anwering2Send_Answer</text>
+        </name>
+        <hlinscription>
+          <text>1'(c,s)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <tuple>
+              <subterm>              <variable refvariable="varc"/>
+              </subterm>              <subterm>              <variable refvariable="vars"/>
+              </subterm>            </tuple>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+      <arc id="sendAnswer2ClientWaiting" source="sendAnswer" target="clientWaiting">
+        <name>
+          <text>Send_Answer2Client_Waiting</text>
+        </name>
+        <hlinscription>
+          <text>1'(c)</text>
+          <structure>          <numberof>
+            <subterm>            <numberconstant value="1">
+              <positive/>
+            </numberconstant>
+            </subterm>            <subterm>            <variable refvariable="varc"/>
+            </subterm>          </numberof>
+</structure>
+        </hlinscription>
+      </arc>
+    </page>
+    <name>
+      <text>CSRepetitions-COL-07</text>
+    </name>
+    <declaration>
+      <structure>      <declarations>
+        <namedsort id="clclass" name="Client">
+          <cyclicenumeration>
+            <feconstant id="cId1" name="1"/>
+            <feconstant id="cId2" name="2"/>
+            <feconstant id="cId3" name="3"/>
+            <feconstant id="cId4" name="4"/>
+            <feconstant id="cId5" name="5"/>
+            <feconstant id="cId6" name="6"/>
+            <feconstant id="cId7" name="7"/>
+            <feconstant id="cId8" name="8"/>
+            <feconstant id="cId9" name="9"/>
+            <feconstant id="cId10" name="10"/>
+            <feconstant id="cId11" name="11"/>
+            <feconstant id="cId12" name="12"/>
+            <feconstant id="cId13" name="13"/>
+            <feconstant id="cId14" name="14"/>
+            <feconstant id="cId15" name="15"/>
+            <feconstant id="cId16" name="16"/>
+            <feconstant id="cId17" name="17"/>
+            <feconstant id="cId18" name="18"/>
+            <feconstant id="cId19" name="19"/>
+            <feconstant id="cId20" name="20"/>
+            <feconstant id="cId21" name="21"/>
+            <feconstant id="cId22" name="22"/>
+            <feconstant id="cId23" name="23"/>
+            <feconstant id="cId24" name="24"/>
+            <feconstant id="cId25" name="25"/>
+            <feconstant id="cId26" name="26"/>
+            <feconstant id="cId27" name="27"/>
+            <feconstant id="cId28" name="28"/>
+            <feconstant id="cId29" name="29"/>
+            <feconstant id="cId30" name="30"/>
+            <feconstant id="cId31" name="31"/>
+            <feconstant id="cId32" name="32"/>
+            <feconstant id="cId33" name="33"/>
+            <feconstant id="cId34" name="34"/>
+            <feconstant id="cId35" name="35"/>
+            <feconstant id="cId36" name="36"/>
+            <feconstant id="cId37" name="37"/>
+            <feconstant id="cId38" name="38"/>
+            <feconstant id="cId39" name="39"/>
+            <feconstant id="cId40" name="40"/>
+            <feconstant id="cId41" name="41"/>
+            <feconstant id="cId42" name="42"/>
+            <feconstant id="cId43" name="43"/>
+            <feconstant id="cId44" name="44"/>
+            <feconstant id="cId45" name="45"/>
+            <feconstant id="cId46" name="46"/>
+            <feconstant id="cId47" name="47"/>
+            <feconstant id="cId48" name="48"/>
+            <feconstant id="cId49" name="49"/>
+          </cyclicenumeration>
+        </namedsort>
+        <namedsort id="srclass" name="Server">
+          <cyclicenumeration>
+            <feconstant id="sId1" name="1"/>
+            <feconstant id="sId2" name="2"/>
+            <feconstant id="sId3" name="3"/>
+            <feconstant id="sId4" name="4"/>
+            <feconstant id="sId5" name="5"/>
+            <feconstant id="sId6" name="6"/>
+            <feconstant id="sId7" name="7"/>
+          </cyclicenumeration>
+        </namedsort>
+        <namedsort id="dot" name="Dot">
+          <dot/>
+        </namedsort>
+        <namedsort id="computation" name="Computation">
+          <productsort>
+            <usersort declaration="clclass"/>
+            <usersort declaration="srclass"/>
+          </productsort>
+        </namedsort>
+        <variabledecl id="varc" name="c">
+          <usersort declaration="clclass"/>
+        </variabledecl>
+        <variabledecl id="vars" name="s">
+          <usersort declaration="srclass"/>
+        </variabledecl>
+      </declarations>
+</structure>
+    </declaration>
+  </net>
+</pnml>

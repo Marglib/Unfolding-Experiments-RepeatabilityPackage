@@ -1,0 +1,80 @@
+Property Peterson-COL-3-00
+  "Automatically generated"
+  is:
+    A X F ((((#tokens("AskForSection")) <= (#tokens("IsEndLoop"))) & ((#tokens("TestTurn")) <= (#tokens("Idle")))) | (((#tokens("WantSection")) <= (#tokens("TestTurn"))) U (((1) <= (#tokens("IsEndLoop"))) & F ((1) <= (#tokens("IsEndLoop"))))))
+  end.
+Property Peterson-COL-3-01
+  "Automatically generated"
+  is:
+    A ((!(((#tokens("Turn")) <= (#tokens("AskForSection"))) | F X ((3) <= (#tokens("EndTurn")))) U ((0) <= (#tokens("EndTurn")))) U ((#tokens("IsEndLoop")) <= (#tokens("Turn"))))
+  end.
+Property Peterson-COL-3-02
+  "Automatically generated"
+  is:
+    A (((1) <= (#tokens("TestIdentity"))) & X F ((2) <= (#tokens("TestTurn"))))
+  end.
+Property Peterson-COL-3-03
+  "Automatically generated"
+  is:
+    A ((((2) <= (#tokens("WantSection"))) | (((1) <= (#tokens("EndTurn"))) & ((#tokens("AskForSection")) <= (#tokens("IsEndLoop"))))) & X (!((2) <= (#tokens("WantSection"))) & !G ((1) <= (#tokens("EndTurn")))))
+  end.
+Property Peterson-COL-3-04
+  "Automatically generated"
+  is:
+    A G !(((#tokens("BeginLoop")) <= (#tokens("TestIdentity"))) & (G (((0) <= (#tokens("CS"))) & ((#tokens("WantSection")) <= (#tokens("BeginLoop"))) & X ((#tokens("TestTurn")) <= (#tokens("WantSection")))) U (((#tokens("TestAlone")) <= (#tokens("WantSection"))) & ((#tokens("BeginLoop")) <= (#tokens("TestIdentity"))))))
+  end.
+Property Peterson-COL-3-05
+  "Automatically generated"
+  is:
+    A G X !G (F ((2) <= (#tokens("Idle"))) & !(!((#tokens("EndTurn")) <= (#tokens("IsEndLoop"))) | !X X ((2) <= (#tokens("Idle")))))
+  end.
+Property Peterson-COL-3-06
+  "Automatically generated"
+  is:
+    A (G F G (((1) <= (#tokens("BeginLoop"))) U ((1) <= (#tokens("CS")))) & (((0) <= (#tokens("AskForSection"))) | X ((1) <= (#tokens("BeginLoop")))))
+  end.
+Property Peterson-COL-3-07
+  "Automatically generated"
+  is:
+    A G (F ((2) <= (#tokens("TestIdentity"))) & F !F ((#tokens("CS")) <= (#tokens("TestAlone"))))
+  end.
+Property Peterson-COL-3-08
+  "Automatically generated"
+  is:
+    A G (X !((3) <= (#tokens("Turn"))) & (((3) <= (#tokens("TestAlone"))) | G (((#tokens("Idle")) <= (#tokens("CS"))) | G ((3) <= (#tokens("TestAlone"))))))
+  end.
+Property Peterson-COL-3-09
+  "Automatically generated"
+  is:
+    A !G !X !F !((3) <= (#tokens("TestTurn")))
+  end.
+Property Peterson-COL-3-10
+  "Automatically generated"
+  is:
+    A (F G ((((#tokens("AskForSection")) <= (#tokens("CS"))) | ((#tokens("Turn")) <= (#tokens("AskForSection")))) & !F ((2) <= (#tokens("TestIdentity")))) U ((#tokens("AskForSection")) <= (#tokens("CS"))))
+  end.
+Property Peterson-COL-3-11
+  "Automatically generated"
+  is:
+    A !(((#tokens("TestAlone")) <= (#tokens("Turn"))) & (((#tokens("WantSection")) <= (#tokens("CS"))) | G ((#tokens("TestAlone")) <= (#tokens("CS")))) & F ((3) <= (#tokens("BeginLoop"))))
+  end.
+Property Peterson-COL-3-12
+  "Automatically generated"
+  is:
+    A ((!((0) <= (#tokens("TestAlone"))) & X (F ((0) <= (#tokens("TestAlone"))) | (((0) <= (#tokens("TestTurn"))) & ((#tokens("TestTurn")) <= (#tokens("TestIdentity"))) & G ((0) <= (#tokens("TestTurn")))))) U ((#tokens("Turn")) <= (#tokens("TestAlone"))))
+  end.
+Property Peterson-COL-3-13
+  "Automatically generated"
+  is:
+    A (((((0) <= (#tokens("BeginLoop"))) | X ((#tokens("AskForSection")) <= (#tokens("IsEndLoop")))) U (((#tokens("AskForSection")) <= (#tokens("Idle"))) U !((#tokens("AskForSection")) <= (#tokens("IsEndLoop"))))) | (((2) <= (#tokens("Idle"))) U G !((#tokens("AskForSection")) <= (#tokens("Idle")))))
+  end.
+Property Peterson-COL-3-14
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("BeginLoop"))) & G ((#tokens("IsEndLoop")) <= (#tokens("WantSection"))))
+  end.
+Property Peterson-COL-3-15
+  "Automatically generated"
+  is:
+    A G (!((#tokens("IsEndLoop")) <= (#tokens("TestIdentity"))) & (((#tokens("IsEndLoop")) <= (#tokens("TestIdentity"))) | F ((3) <= (#tokens("EndTurn")))) & G F (((#tokens("TestAlone")) <= (#tokens("CS"))) | F ((#tokens("Turn")) <= (#tokens("Idle")))))
+  end.

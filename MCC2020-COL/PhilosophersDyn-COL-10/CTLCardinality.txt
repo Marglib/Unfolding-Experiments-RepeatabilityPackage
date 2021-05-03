@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-10-CTLCardinality-00
+  "Automatically generated"
+  is:
+    E G ((((! ((#tokens("Think")) <= (#tokens("Outside")))) | (((((#tokens("Neighbourhood")) <= (#tokens("Think")))) | (((2) <= (#tokens("HasRight")))))))) | (A F ((#tokens("Think")) <= (#tokens("HasRight")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-01
+  "Automatically generated"
+  is:
+    ((A G A X ((#tokens("Forks")) <= (#tokens("HasRight")))) | (E X E G ((#tokens("Think")) <= (#tokens("Think")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F A G ((#tokens("HasLeft")) <= (#tokens("WaitRight")))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-03
+  "Automatically generated"
+  is:
+    E X ((A F ((#tokens("Neighbourhood")) <= (#tokens("WaitRight")))) & (E X ((1) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("Neighbourhood")))) | (((! ((2) <= (#tokens("WaitLeft")))) | (((((#tokens("Neighbourhood")) <= (#tokens("HasLeft")))) & (((#tokens("Think")) <= (#tokens("HasRight")))))))))) & (! ((#tokens("Forks")) <= (#tokens("WaitLeft")))))) | (A F A G ((3) <= (#tokens("HasLeft")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E ((((3) <= (#tokens("Neighbourhood")))) U (E F ((3) <= (#tokens("WaitLeft")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((E F A F ((3) <= (#tokens("HasLeft")))) & (! E X ((((#tokens("HasRight")) <= (#tokens("WaitRight")))) & (((3) <= (#tokens("WaitLeft")))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E G ! A G ((3) <= (#tokens("WaitLeft")))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ((! ! E X ((#tokens("Neighbourhood")) <= (#tokens("WaitLeft")))) | (A ((((((#tokens("WaitRight")) <= (#tokens("HasLeft")))) | (((#tokens("Forks")) <= (#tokens("Neighbourhood")))))) U (((3) <= (#tokens("Think")))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A F ! A F ((3) <= (#tokens("Neighbourhood")))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((E ((! ((#tokens("Outside")) <= (#tokens("WaitLeft")))) U (((((3) <= (#tokens("HasRight")))) & (((#tokens("WaitLeft")) <= (#tokens("HasLeft")))))))) & (A ((((((#tokens("WaitLeft")) <= (#tokens("HasLeft")))) | (((#tokens("HasLeft")) <= (#tokens("HasRight")))))) U (! ((3) <= (#tokens("Forks")))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-11
+  "Automatically generated"
+  is:
+    A G ((#tokens("Think")) <= (#tokens("Neighbourhood")))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ! ((((E F ((2) <= (#tokens("Think")))) & (((((((#tokens("HasLeft")) <= (#tokens("HasRight")))) | (((#tokens("WaitLeft")) <= (#tokens("Think")))))) & (((((3) <= (#tokens("HasRight")))) & (((3) <= (#tokens("WaitLeft")))))))))) | (E G ((((#tokens("Neighbourhood")) <= (#tokens("Outside")))) | (((1) <= (#tokens("WaitRight")))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E G ((((1) <= (#tokens("HasLeft")))) | (((#tokens("Neighbourhood")) <= (#tokens("Forks")))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((A F A F ((2) <= (#tokens("WaitLeft")))) | (E ((((3) <= (#tokens("HasRight")))) U (! ((#tokens("WaitRight")) <= (#tokens("HasLeft")))))))
+  end.
+Property PhilosophersDyn-COL-10-CTLCardinality-15
+  "Automatically generated"
+  is:
+    A G ((A F ((#tokens("WaitLeft")) <= (#tokens("HasRight")))) | (((((3) <= (#tokens("HasRight")))) | (! ((1) <= (#tokens("Think")))))))
+  end.

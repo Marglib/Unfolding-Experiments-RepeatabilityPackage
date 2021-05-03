@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-6-00
+  "Automatically generated"
+  is:
+    A (G "awaity"? | ("xnei_10"? & !G "setx_3"? & (F "yeqi_15"? U "yeqi_15"?)))
+  end.
+Property LamportFastMutEx-COL-6-01
+  "Automatically generated"
+  is:
+    A (X "setbi_24"? & ("yne0_4"? | ("setx_3"? & X G X "xeqi_10"?)))
+  end.
+Property LamportFastMutEx-COL-6-02
+  "Automatically generated"
+  is:
+    A X X F X !(!"yeq0_4"? & !"ynei_15"?)
+  end.
+Property LamportFastMutEx-COL-6-03
+  "Automatically generated"
+  is:
+    A X (!"xnei_10"? U "setbi_11"?)
+  end.
+Property LamportFastMutEx-COL-6-04
+  "Automatically generated"
+  is:
+    A F (("xnei_10"? U G "yne0_4"?) U !("xnei_10"? | X "forod_13"?))
+  end.
+Property LamportFastMutEx-COL-6-05
+  "Automatically generated"
+  is:
+    A G F "setx_3"?
+  end.
+Property LamportFastMutEx-COL-6-06
+  "Automatically generated"
+  is:
+    A F X (!"sety_9"? & X G X F "sety_9"?)
+  end.
+Property LamportFastMutEx-COL-6-07
+  "Automatically generated"
+  is:
+    A (X !G ("sety_9"? | "xnei_10"?) & (!G X !G "sety_9"? U "xnei_10"?))
+  end.
+Property LamportFastMutEx-COL-6-08
+  "Automatically generated"
+  is:
+    A G (G "setx_3"? U X F G "forod_13"?)
+  end.
+Property LamportFastMutEx-COL-6-09
+  "Automatically generated"
+  is:
+    A F X F X G "yeqi_15"?
+  end.
+Property LamportFastMutEx-COL-6-10
+  "Automatically generated"
+  is:
+    A (!F ("xnei_10"? & F "forod_13"?) | ("sety_9"? & F "setbi_5"?))
+  end.
+Property LamportFastMutEx-COL-6-11
+  "Automatically generated"
+  is:
+    A G !F "fordo_12"?
+  end.
+Property LamportFastMutEx-COL-6-12
+  "Automatically generated"
+  is:
+    A X ("await_13"? & !X (!"yeqi_15"? U "await_13"?))
+  end.
+Property LamportFastMutEx-COL-6-13
+  "Automatically generated"
+  is:
+    A !(F G (!(!"setbi_24"? U "yne0_4"?) U "sety0_23"?) U ("sety0_23"? & "yne0_4"?))
+  end.
+Property LamportFastMutEx-COL-6-14
+  "Automatically generated"
+  is:
+    A G ("setbi_5"? | "xeqi_10"? | F ("await_13"? & !F "sety_9"?) | F "setbi_5"?)
+  end.
+Property LamportFastMutEx-COL-6-15
+  "Automatically generated"
+  is:
+    A X (G "sety_9"? U !"xeqi_10"?)
+  end.

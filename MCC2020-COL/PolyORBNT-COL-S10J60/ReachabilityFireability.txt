@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G ! ((! (("trans_461"?) | ("trans_533"?))) & ((("trans_486"?) & (! "trans_478"?))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F "fi2"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F "trans_510"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F (("fo3"?) & ("NoJob"?))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F (((((((("trans_689"?) & ("trans_511"?))) | ((("MustCheck"?) | ("DummyOR1"?))))) & ("trans_459"?))) & ((("trans_478"?) | (! (("fo3"?) & ("trans_486"?))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F "trans_489"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F "DummyOR1"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F ((((! (("fi1"?) | ("LeaveCSTCS"?))) & (((! "JobExist"?) & (! "fi3"?))))) & ((("trans_459"?) | ("trans_508"?))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F "trans_508"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F (("trans_534"?) | ("fo3"?))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ((((! (("trans_459"?) | ("DummyOR2"?))) | (((! "trans_533"?) & (! "trans_488"?))))) & ((("trans_478"?) & ((("trans_534"?) | ("trans_463"?))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G ! "LeaveCSTCS"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! (((((("IsEvt"?) & ("trans_478"?))) | (! "NoJob"?))) & ("fo1"?))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F "trans_457"?
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F ((! ((! "trans_510"?) | (! "trans_459"?))) | ((((((("EnterCSTCS"?) & ("Run"?))) & ("trans_534"?))) & ((((("trans_489"?) | ("LeaveCSTCS"?))) & ("GoCheckSource"?))))))
+  end.
+Property PolyORBNT-COL-S10J60-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F "trans_689"?
+  end.

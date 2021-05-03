@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((((((A X "CheckHousingSuitReq"?) & (E F "ReceiveNeedChoice"?))) & (! A X (("AppReqReceived"?) & ("ReceiveHousingSuitCertifReq"?))))) & (! A F E G "ExplainProcedure"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-01
+  "Automatically generated"
+  is:
+    (("ReceiveReqDocsReq"?) | (((! ! (((("RegisterRelative"?) | ("Gate1XORSplit"?))) | ("SendSuitabilityCertif"?))) & (! "AppointReceived"?))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((A X A (("AppointReceived"?) U ("BringReqtoCINFORMI"?))) & ("BringReqtoCINFORMI"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((! E G ! (("SendSuitabilityCertif"?) | ("ReceiveAppoint"?))) & (! (((((("ExplainProcedure"?) | ("GotIt"?))) & ("ReceiveAccessReq"?))) | ((("ReserveAppCINFORMI"?) & ("RegisterRelative"?))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-04
+  "Automatically generated"
+  is:
+    "ReceiveAccessReq"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-05
+  "Automatically generated"
+  is:
+    E G "Gate1ANDJoin"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((((! (((((("SummonApplicant"?) | ("ReceiveAppoint"?))) | (! "ReceiveLangChoice"?))) & (E F "ReceiveRegsitration"?))) & (A F ! "PrepIncomeCertif"?))) & (! A (((("HousingSuitCertifObtained"?) | ("HousingSuitCertifObtained"?))) U ((("ChoseFamilyReunion"?) | ("ReceiveQuestion"?))))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-07
+  "Automatically generated"
+  is:
+    (((((((("CommunicateResp"?) | (E F "PrepIncomeCertif"?))) & (E X "AppReqReceived"?))) & (((! ! "SummonApplicant"?) & (E (("ReceiveLangChoice"?) U ("ReceiveLangChoice"?))))))) | (((E F ! "ReqAppointCINFORMI"?) & ("CheckSanityReq"?))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-08
+  "Automatically generated"
+  is:
+    A G (((("DisplayLangChoice"?) | (A X "ObtainFamRelCertif"?))) | ((((((("ReceiveDocsObtained"?) | ("ExplainHowToObtainMissingDocs"?))) & (! "RegisterRelativePubHealth"?))) | (! "ReserveAppCINFORMI"?))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! "Gate1XORJoin"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-10
+  "Automatically generated"
+  is:
+    A X A (("GiveAppoint"?) U ((("ReceiveLangChoice"?) & ("TickDocsObtained"?))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((((((A (("ExplainProcedure"?) U ("AskCINFORMI"?))) | ((("ObtainMissingDocs"?) | (E G "ExplainProcedure"?))))) & ("Gate2ANDJoin"?))) | (E F E X ! "DisplayLangChoice"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! A (((((("AskCINFORMI"?) | ("Gate1XORSplit"?))) & ((("Gate1ANDJoin"?) | ("ObtainRelativeFinStatement"?))))) U (A G "ArchiveReq"?))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-13
+  "Automatically generated"
+  is:
+    "Gate2XORSplit"?
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-14
+  "Automatically generated"
+  is:
+    E ((((A G "CheckHousingSuitReq"?) | (E G "Gate1ANDJoin"?))) U (((E F "Gate2ANDJoin"?) & (A F "Gate1XORJoin"?))))
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((((((E G (("ReceiveAppointReq"?) & ("ObtainMissingDocs"?))) | ((((((("CheckHousingSuitReq"?) | ("HousingSuitCertifObtained"?))) | ("ReceiveNeedReq"?))) | (((! "Gate2ANDJoin"?) | ("AppointReceived"?))))))) & ("AccessMicTerminal"?))) & (((((E (("HousingSuitCertifObtained"?) U ("ExplainHowToObtainMissingDocs"?))) & ((((("ReceiveLangChoice"?) | ((("ReceiveReqDocsReq"?) & ("AppointReceived"?))))) | (! (("ReceiveRegsitration"?) & ("HousingSuitCertifObtained"?))))))) | ("ProvidePersonalnfo"?))))
+  end.

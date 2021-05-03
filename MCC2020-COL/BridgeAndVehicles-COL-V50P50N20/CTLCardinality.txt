@@ -1,0 +1,80 @@
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A F E G ! ((#tokens("SUR_PONT_A")) <= (#tokens("NB_ATTENTE_A")))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-01
+  "Automatically generated"
+  is:
+    E ((E F ((#tokens("ATTENTE_B")) <= (#tokens("SUR_PONT_B")))) U (A F ((3) <= (#tokens("COMPTEUR")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((#tokens("SUR_PONT_B")) <= (#tokens("CONTROLEUR")))) | (((((((3) <= (#tokens("ROUTE_A")))) & (((3) <= (#tokens("CAPACITE")))))) | (((#tokens("NB_ATTENTE_B")) <= (#tokens("ATTENTE_B")))))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-03
+  "Automatically generated"
+  is:
+    ((((((((2) <= (#tokens("CAPACITE")))) | (((((((3) <= (#tokens("ROUTE_B")))) | (((2) <= (#tokens("ATTENTE_B")))))) & (((((1) <= (#tokens("COMPTEUR")))) | (((3) <= (#tokens("COMPTEUR")))))))))) | (((E X ((#tokens("ROUTE_B")) <= (#tokens("CONTROLEUR")))) & (! ! ((#tokens("CAPACITE")) <= (#tokens("CONTROLEUR")))))))) & (A F E G ((#tokens("NB_ATTENTE_A")) <= (#tokens("NB_ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((#tokens("ROUTE_B")) <= (#tokens("SORTI_B")))) | (A G ((#tokens("COMPTEUR")) <= (#tokens("NB_ATTENTE_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-05
+  "Automatically generated"
+  is:
+    E ((A G ((#tokens("NB_ATTENTE_B")) <= (#tokens("CAPACITE")))) U (((#tokens("ROUTE_B")) <= (#tokens("SORTI_A")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((#tokens("ROUTE_A")) <= (#tokens("NB_ATTENTE_B")))) | (E G ((3) <= (#tokens("CONTROLEUR")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E F ((E F ((2) <= (#tokens("ATTENTE_B")))) & (! ((((#tokens("NB_ATTENTE_A")) <= (#tokens("COMPTEUR")))) | (((3) <= (#tokens("SUR_PONT_A")))))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-08
+  "Automatically generated"
+  is:
+    E G E F ! ((2) <= (#tokens("SORTI_A")))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-09
+  "Automatically generated"
+  is:
+    A ((((#tokens("ATTENTE_A")) <= (#tokens("NB_ATTENTE_B")))) U (A F ((1) <= (#tokens("VIDANGE")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-10
+  "Automatically generated"
+  is:
+    E X E F ! ((3) <= (#tokens("ROUTE_A")))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ((A ((((((#tokens("SORTI_B")) <= (#tokens("CAPACITE")))) & (((1) <= (#tokens("NB_ATTENTE_B")))))) U (((((1) <= (#tokens("ATTENTE_B")))) & (((1) <= (#tokens("CONTROLEUR")))))))) | (A X ! ! ((3) <= (#tokens("SUR_PONT_B")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-12
+  "Automatically generated"
+  is:
+    A F ! ((((((#tokens("CAPACITE")) <= (#tokens("ROUTE_B")))) | (((#tokens("SORTI_B")) <= (#tokens("SORTI_B")))))) & (((((2) <= (#tokens("CHOIX")))) | (((3) <= (#tokens("CAPACITE")))))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ! ! A G ((((#tokens("ATTENTE_A")) <= (#tokens("ATTENTE_A")))) | (((#tokens("CONTROLEUR")) <= (#tokens("ROUTE_B")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-14
+  "Automatically generated"
+  is:
+    A G ((E X ((1) <= (#tokens("COMPTEUR")))) | (E G ((#tokens("SUR_PONT_A")) <= (#tokens("VIDANGE")))))
+  end.
+Property BridgeAndVehicles-COL-V50P50N20-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E G E F ! ((2) <= (#tokens("COMPTEUR")))
+  end.

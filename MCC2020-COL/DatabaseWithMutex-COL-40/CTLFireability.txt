@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-40-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((E G E X ! "Change"?) | ("SendReply"?))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-01
+  "Automatically generated"
+  is:
+    E F ((A F ! "Start"?) | (((E F "SendMsg"?) | (E F "end_update"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-02
+  "Automatically generated"
+  is:
+    A F "SendReply"?
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((((! "Update"?) & (A F (("Update"?) & (! "SendReply"?))))) | (((! "Change"?) & ("SendReply"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-04
+  "Automatically generated"
+  is:
+    A X A G ((! "end_update"?) | ((("Acquire"?) | ("SendMsg"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((((((((! (("SendReply"?) & ("Change"?))) | ("SendMsg"?))) | (! (((("SendMsg"?) | ("end_update"?))) & (! "Change"?))))) & (E F A F "end_update"?))) | (((((A X (("Start"?) | ("SendReply"?))) & (E X (("SendMsg"?) & ("SendMsg"?))))) | ("Change"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-06
+  "Automatically generated"
+  is:
+    E F A F (((("Acquire"?) & ("SendMsg"?))) & ("Release"?))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-07
+  "Automatically generated"
+  is:
+    E G (("Acquire"?) | (! (("SendMsg"?) & ((("Start"?) | ("SendReply"?))))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-08
+  "Automatically generated"
+  is:
+    ((A F "SendMsg"?) | ("SendReply"?))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-09
+  "Automatically generated"
+  is:
+    ((((A F ! ! "Start"?) & (((((A G "SendMsg"?) & (! (("Update"?) & ("SendMsg"?))))) | (A X "SendReply"?))))) | (A F (((((("SendReply"?) | ("Start"?))) & ((("Start"?) & ("Update"?))))) & (A F "Acquire"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-10
+  "Automatically generated"
+  is:
+    E F ((((((! "Start"?) | ("Start"?))) | (! (("Start"?) | ("Update"?))))) & ("end_update"?))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-11
+  "Automatically generated"
+  is:
+    A (((("Update"?) & (! (("Update"?) & ("SendMsg"?))))) U (((A F "SendReply"?) | ("end_update"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! E F E X ! "Acquire"?
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-13
+  "Automatically generated"
+  is:
+    A G ! A X (("Update"?) | ("Change"?))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-14
+  "Automatically generated"
+  is:
+    A G ((! ! (("Release"?) & ("Acquire"?))) | ((((((("Start"?) | ("Release"?))) | ((("end_update"?) & ("Start"?))))) & (E F "Change"?))))
+  end.
+Property DatabaseWithMutex-COL-40-CTLFireability-15
+  "Automatically generated"
+  is:
+    A G ! ((! (("SendReply"?) | ("Start"?))) & (((! "SendReply"?) | (! "Update"?))))
+  end.

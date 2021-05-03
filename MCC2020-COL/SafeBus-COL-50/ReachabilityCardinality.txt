@@ -1,0 +1,80 @@
+Property SafeBus-COL-50-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ! ! ! ((3) <= (#tokens("FMCb")))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("cable_free")))) | (((#tokens("RMC")) <= (#tokens("loop_em")))))) | (((((1) <= (#tokens("cable_free")))) | (((3) <= (#tokens("Cpt2")))))))) | (! ((2) <= (#tokens("wait_cable")))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((#tokens("ACK")) <= (#tokens("PMC")))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((#tokens("FMC")) <= (#tokens("listen")))) | (((((((#tokens("RMC")) <= (#tokens("wait_ack")))) & (((1) <= (#tokens("wait_cable")))))) & (((((#tokens("MSG")) <= (#tokens("FMC")))) | (((3) <= (#tokens("R_tout")))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((3) <= (#tokens("msgl")))) | (! ((((#tokens("cable_free")) <= (#tokens("listen")))) & (((2) <= (#tokens("FMCb")))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((#tokens("RMC")) <= (#tokens("ACK")))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((#tokens("loop_em")) <= (#tokens("msgl")))) & (! ((#tokens("wait_msg")) <= (#tokens("Cpt2")))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("PMC")) <= (#tokens("T_out")))) & (((2) <= (#tokens("wait_ack")))))) | (((((1) <= (#tokens("PMC")))) & (((#tokens("S_tout")) <= (#tokens("T_out")))))))) & (((! ((3) <= (#tokens("PMC")))) | (((((1) <= (#tokens("wait_msg")))) | (((#tokens("wait_ack")) <= (#tokens("T_out")))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((#tokens("cable_free")) <= (#tokens("RMC")))) | (((((((#tokens("T_out")) <= (#tokens("FMC")))) & (((#tokens("wait_ack")) <= (#tokens("S_tout")))))) & (((((1) <= (#tokens("MSG")))) | (((1) <= (#tokens("loop_em")))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((#tokens("S_tout")) <= (#tokens("T_out")))) | (! ((((#tokens("FMC")) <= (#tokens("wait_cable")))) | (((3) <= (#tokens("R_tout")))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("listen")) <= (#tokens("PMC")))) & (((#tokens("cable_free")) <= (#tokens("PMC")))))) | (((((2) <= (#tokens("Cpt2")))) & (((2) <= (#tokens("wait_ack")))))))) & (((#tokens("Cpt2")) <= (#tokens("wait_ack")))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((2) <= (#tokens("FMC")))) & (((((#tokens("ACK")) <= (#tokens("RMC")))) & (((#tokens("cable_free")) <= (#tokens("wait_ack")))))))) | (! ((1) <= (#tokens("FMCb")))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((! ((#tokens("RMC")) <= (#tokens("FMCb")))) & (((((((1) <= (#tokens("listen")))) & (((#tokens("wait_ack")) <= (#tokens("FMC")))))) & (((((#tokens("loop_em")) <= (#tokens("R_tout")))) | (((#tokens("PMC")) <= (#tokens("FMCb")))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((#tokens("Cpt2")) <= (#tokens("PMC")))) & (((((((#tokens("Cpt1")) <= (#tokens("cable_free")))) & (((2) <= (#tokens("listen")))))) | (((((#tokens("Cpt2")) <= (#tokens("cable_free")))) | (((1) <= (#tokens("cable_free")))))))))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((#tokens("S_tout")) <= (#tokens("ACK")))
+  end.
+Property SafeBus-COL-50-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("AMC")))) | (((((#tokens("R_tout")) <= (#tokens("Cpt2")))) & (((#tokens("msgl")) <= (#tokens("MSG")))))))) & (((((((2) <= (#tokens("FMC")))) | (((1) <= (#tokens("FMC")))))) & (((2) <= (#tokens("MSG")))))))
+  end.

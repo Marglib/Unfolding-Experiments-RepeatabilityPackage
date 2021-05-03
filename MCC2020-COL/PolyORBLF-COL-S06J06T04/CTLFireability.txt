@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S06J06T04-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F A (((("T_2578"?) & ("T_1126"?))) U ("NotifyEventJobCompleted"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-01
+  "Automatically generated"
+  is:
+    A G ! E F (("T_1444"?) | ("T_1729"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-02
+  "Automatically generated"
+  is:
+    E F E X ((! "NoMonitoring"?) & ("T_1171"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((((((! "T_1115"?) | ((("EnterCSIS"?) & ("T_2315"?))))) | (((! "T_1115"?) & ((("T_1711"?) | ("T_1145"?))))))) U (! ((! "IsAbort"?) | ((("NeedMonitoring"?) | ("GoIdle"?))))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-04
+  "Automatically generated"
+  is:
+    ((E X "NotifyEventJobCompleted"?) | (! ! ((E F "GoCheckSource"?) & (E F "T_2294"?))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-05
+  "Automatically generated"
+  is:
+    E ((! (("NopAbort"?) | ((("T_1444"?) & ("LeaveCSTCS"?))))) U (A G ! "GoPerformWork"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-06
+  "Automatically generated"
+  is:
+    A F A G ((! "T_1171"?) | ((("LeaveCSTCS"?) | ("LeaveCSPW"?))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-07
+  "Automatically generated"
+  is:
+    ((E F E G "T_0376"?) & (E F A (("LeaveIdle"?) U ("NotifyEventJobCompleted"?))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-08
+  "Automatically generated"
+  is:
+    A ((! (((("LeaveIdle"?) & ("IsAbort"?))) & (! "T_2577"?))) U ((((((("T_2317"?) & ("DummyOR1"?))) & ((("NeedMonitoring"?) & ("T_1098"?))))) | (A F "DummyOR2"?))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F A X A G "NotifyEventJobCompleted"?
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-10
+  "Automatically generated"
+  is:
+    E ((! E X "T_1171"?) U ("SetSigAbort"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-11
+  "Automatically generated"
+  is:
+    ! E ((! "T_1096"?) U (E X "T_1711"?))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-12
+  "Automatically generated"
+  is:
+    E F "LeaveIdle"?
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-13
+  "Automatically generated"
+  is:
+    ! ((((A F ! "IsEvt"?) & (! A F "T_1096"?))) | (((((A X "NopAbort"?) & ((((("NOPEP"?) & ("T_2311"?))) & ("SetSigAbort"?))))) & (A (("T_2280"?) U ("T_2317"?))))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((E X (((((("T_1147"?) & ("T_1713"?))) & ("T_1721"?))) & (A G "EnterCSIS"?))) | (A F E (("T_2283"?) U ("LeaveCSPW"?))))
+  end.
+Property PolyORBLF-COL-S06J06T04-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! ((A F E G "T_1124"?) | ("T_1114"?))
+  end.

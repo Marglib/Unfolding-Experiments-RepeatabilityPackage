@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("b")) <= (#tokens("sety_9")))) | (((#tokens("ifxi_10")) <= (#tokens("done")))))) | (((((#tokens("awaity")) <= (#tokens("sety_9")))) | (((3) <= (#tokens("await_13")))))))) | (((((((#tokens("awaity")) <= (#tokens("setbi_11")))) & (((2) <= (#tokens("ifxi_10")))))) | (((((#tokens("setbi_5")) <= (#tokens("await_13")))) | (((#tokens("awaity")) <= (#tokens("setbi_5")))))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ! ! ((((1) <= (#tokens("ifyi_15")))) & (((#tokens("sety_9")) <= (#tokens("setbi_11")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("sety_9")))) & (((#tokens("ifxi_10")) <= (#tokens("setx_3")))))) | (((((#tokens("wait")) <= (#tokens("setx_3")))) | (((#tokens("done")) <= (#tokens("awaity")))))))) & (((((((1) <= (#tokens("fordo_12")))) & (((2) <= (#tokens("x")))))) & (((((3) <= (#tokens("sety_9")))) & (((#tokens("ifxi_10")) <= (#tokens("ify0_4")))))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ifyi_15")) <= (#tokens("setbi_11")))) & (((1) <= (#tokens("setbi_11")))))) & (((3) <= (#tokens("sety_9")))))) & (((2) <= (#tokens("setbi_11")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("start_1")))) & (((#tokens("start_1")) <= (#tokens("await_13")))))) | (! ((3) <= (#tokens("setbi_5")))))) | (((#tokens("done")) <= (#tokens("y")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("await_13")) <= (#tokens("ifyi_15")))) & (((((#tokens("setbi_11")) <= (#tokens("wait")))) & (((2) <= (#tokens("ifyi_15")))))))) & (((((((#tokens("setbi_24")) <= (#tokens("setbi_11")))) | (((1) <= (#tokens("b")))))) & (((((#tokens("setx_3")) <= (#tokens("setbi_24")))) & (((1) <= (#tokens("sety_9")))))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("y")))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((! ((2) <= (#tokens("y")))) & (((((#tokens("CS_21")) <= (#tokens("start_1")))) & (((#tokens("wait")) <= (#tokens("y")))))))) & (((3) <= (#tokens("setbi_11")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((#tokens("b")) <= (#tokens("ifyi_15")))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((((((1) <= (#tokens("setbi_24")))) & (((#tokens("x")) <= (#tokens("fordo_12")))))) | (((2) <= (#tokens("fordo_12")))))) & (((((((1) <= (#tokens("ifxi_10")))) & (((2) <= (#tokens("start_1")))))) | (((((#tokens("ifyi_15")) <= (#tokens("x")))) & (((3) <= (#tokens("ify0_4")))))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("y")))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("setbi_11")) <= (#tokens("wait")))) | (((1) <= (#tokens("ify0_4")))))) | (! ((#tokens("setbi_24")) <= (#tokens("setbi_24")))))) & (((((((2) <= (#tokens("ifxi_10")))) | (((3) <= (#tokens("setbi_5")))))) & (((((#tokens("setbi_24")) <= (#tokens("await_13")))) & (((1) <= (#tokens("done")))))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((! ((2) <= (#tokens("done")))) | (((#tokens("ifxi_10")) <= (#tokens("b")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ! ((((1) <= (#tokens("ifyi_15")))) & (! ((1) <= (#tokens("x")))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("ifxi_10")))) & (((((#tokens("setx_3")) <= (#tokens("sety_9")))) & (((#tokens("CS_21")) <= (#tokens("x")))))))) & (! ((((#tokens("sety_9")) <= (#tokens("ifyi_15")))) | (((#tokens("ifyi_15")) <= (#tokens("setbi_24")))))))
+  end.
+Property LamportFastMutEx-COL-3-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((#tokens("setbi_24")) <= (#tokens("b")))
+  end.

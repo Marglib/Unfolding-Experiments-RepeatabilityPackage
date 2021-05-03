@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S05J80-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("mo2")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("Schedule_Task_B")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("ModifiedSrc")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("place_482")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("CreatedJobs")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("mi3")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("Try_Check_Sources_B")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("Check_Sources_E")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("cSources")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("place_460")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("mi1")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("f2")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("cJobCnt")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("mi1")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("Check_Sources_E")
+  end.
+Property PolyORBNT-COL-S05J80-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("place_522")
+  end.

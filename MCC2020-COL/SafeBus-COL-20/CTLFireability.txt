@@ -1,0 +1,80 @@
+Property SafeBus-COL-20-CTLFireability-00
+  "Automatically generated"
+  is:
+    ! E ((E X "C_provide"?) U ("loss_m"?))
+  end.
+Property SafeBus-COL-20-CTLFireability-01
+  "Automatically generated"
+  is:
+    ! ((E F E G "I_reemit"?) | (((((E F "C_refuse"?) & (E F "loss_a"?))) | (A X "I_refused"?))))
+  end.
+Property SafeBus-COL-20-CTLFireability-02
+  "Automatically generated"
+  is:
+    E G ((A (("I_ask1"?) U ("I_rec2"?))) & (((A F "I_emit"?) | (E G "C_provide"?))))
+  end.
+Property SafeBus-COL-20-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((! (((("I_rec2"?) | ("I_refused"?))) | ((("C_refuse"?) & ("I_ask1"?))))) U ("loss_a"?))
+  end.
+Property SafeBus-COL-20-CTLFireability-04
+  "Automatically generated"
+  is:
+    A X ((((((! "C_free"?) & (! "I_free"?))) & ("I_ask2"?))) | (A F (("loss_m"?) | ("I_ask2"?))))
+  end.
+Property SafeBus-COL-20-CTLFireability-05
+  "Automatically generated"
+  is:
+    ! E F ! A F "I_rec1"?
+  end.
+Property SafeBus-COL-20-CTLFireability-06
+  "Automatically generated"
+  is:
+    A F "I_rec2"?
+  end.
+Property SafeBus-COL-20-CTLFireability-07
+  "Automatically generated"
+  is:
+    E F "I_refused"?
+  end.
+Property SafeBus-COL-20-CTLFireability-08
+  "Automatically generated"
+  is:
+    A G (((("I_refused"?) | ((((("C_provide"?) | ("I_ask2"?))) | (! "C_free"?))))) | (((E G "I_free"?) | ((("I_rec2"?) & ((("loss_a"?) & ("I_free"?))))))))
+  end.
+Property SafeBus-COL-20-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! ! E F (((("I_refused"?) & ("I_emit"?))) & (! "I_free"?))
+  end.
+Property SafeBus-COL-20-CTLFireability-10
+  "Automatically generated"
+  is:
+    E F E X A X "C_refuse"?
+  end.
+Property SafeBus-COL-20-CTLFireability-11
+  "Automatically generated"
+  is:
+    ((! E F A F "I_ask2"?) | (! ! A G ! "I_reemit"?))
+  end.
+Property SafeBus-COL-20-CTLFireability-12
+  "Automatically generated"
+  is:
+    ! ((A ((! "I_ask2"?) U (! "C_refuse"?))) & (A F E G "I_emit"?))
+  end.
+Property SafeBus-COL-20-CTLFireability-13
+  "Automatically generated"
+  is:
+    E F ((A X (("C_provide"?) & ("loss_a"?))) | ((("loss_a"?) & ((((("Gto"?) | ("Gto"?))) | ((("I_rec1"?) | ("I_reemit"?))))))))
+  end.
+Property SafeBus-COL-20-CTLFireability-14
+  "Automatically generated"
+  is:
+    E F E G E X "I_ask2"?
+  end.
+Property SafeBus-COL-20-CTLFireability-15
+  "Automatically generated"
+  is:
+    ! E X ((E X "C_provide"?) & (E F "C_free"?))
+  end.

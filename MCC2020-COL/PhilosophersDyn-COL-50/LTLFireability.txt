@@ -1,0 +1,80 @@
+Property PhilosophersDyn-COL-50-00
+  "Automatically generated"
+  is:
+    A G ("TakeRight"? | X !"Initialize"?)
+  end.
+Property PhilosophersDyn-COL-50-01
+  "Automatically generated"
+  is:
+    A ((F "Leave"? & F "Eat"?) | !G X G F !"SearchForks"?)
+  end.
+Property PhilosophersDyn-COL-50-02
+  "Automatically generated"
+  is:
+    A X ("TakeLeft"? | G "Leave"? | G "SearchForks"? | !X !X F "Leave"?)
+  end.
+Property PhilosophersDyn-COL-50-03
+  "Automatically generated"
+  is:
+    A G (("Leave"? & !"SearchForks"?) U G F G "Leave"?)
+  end.
+Property PhilosophersDyn-COL-50-04
+  "Automatically generated"
+  is:
+    A !F G (G ("Eat"? & G "Eat"?) U !X "Eat"?)
+  end.
+Property PhilosophersDyn-COL-50-05
+  "Automatically generated"
+  is:
+    A X X F ("SearchForks"? U "Join"?)
+  end.
+Property PhilosophersDyn-COL-50-06
+  "Automatically generated"
+  is:
+    A F "SearchForks"?
+  end.
+Property PhilosophersDyn-COL-50-07
+  "Automatically generated"
+  is:
+    A X X (G "Join"? & !X X !F X ("TakeLeft"? | F "TakeLeft"?))
+  end.
+Property PhilosophersDyn-COL-50-08
+  "Automatically generated"
+  is:
+    A (G ("TakeLeft"? U "SearchForks"?) & X F "Initialize"?)
+  end.
+Property PhilosophersDyn-COL-50-09
+  "Automatically generated"
+  is:
+    A (F "SearchForks"? U ("SearchForks"? U "Leave"?))
+  end.
+Property PhilosophersDyn-COL-50-10
+  "Automatically generated"
+  is:
+    A (F G !"Initialize"? & F !"SearchForks"?)
+  end.
+Property PhilosophersDyn-COL-50-11
+  "Automatically generated"
+  is:
+    A ("Eat"? & G "Join"? & X (X "Eat"? | X "TakeLeft"?))
+  end.
+Property PhilosophersDyn-COL-50-12
+  "Automatically generated"
+  is:
+    A ("Join"? & G "Initialize"? & F "Join"? & ("Join"? U "TakeLeft"?))
+  end.
+Property PhilosophersDyn-COL-50-13
+  "Automatically generated"
+  is:
+    A X !X ("Leave"? & ("TakeLeft"? U "Initialize"?))
+  end.
+Property PhilosophersDyn-COL-50-14
+  "Automatically generated"
+  is:
+    A X G !X G !(G "TakeLeft"? U ("TakeLeft"? | G "Leave"?))
+  end.
+Property PhilosophersDyn-COL-50-15
+  "Automatically generated"
+  is:
+    A (!(G "Join"? U G !"SearchForks"?) U G "Join"?)
+  end.

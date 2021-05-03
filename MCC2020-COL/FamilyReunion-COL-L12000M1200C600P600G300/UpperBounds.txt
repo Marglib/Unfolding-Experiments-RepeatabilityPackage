@@ -1,0 +1,80 @@
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-00
+  "Automatically generated"
+  is:
+    bound("p2")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-01
+  "Automatically generated"
+  is:
+    bound("p9")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-02
+  "Automatically generated"
+  is:
+    bound("l15")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-03
+  "Automatically generated"
+  is:
+    bound("m7")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-04
+  "Automatically generated"
+  is:
+    bound("l5")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-05
+  "Automatically generated"
+  is:
+    bound("p3")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-06
+  "Automatically generated"
+  is:
+    bound("l22")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-07
+  "Automatically generated"
+  is:
+    bound("lm4")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-08
+  "Automatically generated"
+  is:
+    bound("l23")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-09
+  "Automatically generated"
+  is:
+    bound("l5")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-10
+  "Automatically generated"
+  is:
+    bound("cl2")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-11
+  "Automatically generated"
+  is:
+    bound("l10")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-12
+  "Automatically generated"
+  is:
+    bound("m5")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-13
+  "Automatically generated"
+  is:
+    bound("lp1")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-14
+  "Automatically generated"
+  is:
+    bound("m10")
+  end.
+Property FamilyReunion-COL-L12000M1200C600P600G300-UpperBounds-15
+  "Automatically generated"
+  is:
+    bound("l33")
+  end.

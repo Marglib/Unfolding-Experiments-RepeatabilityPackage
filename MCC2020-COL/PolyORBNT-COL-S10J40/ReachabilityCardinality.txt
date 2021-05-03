@@ -1,0 +1,80 @@
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((! ((3) <= (#tokens("CanInjectEvent")))) | (! ((3) <= (#tokens("place_458")))))) | (((! ((2) <= (#tokens("place_782")))) & (((((3) <= (#tokens("place_456")))) & (((#tokens("place_500")) <= (#tokens("Try_Check_Sources_B")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ! ! ((((3) <= (#tokens("place_500")))) & (((#tokens("block")) <= (#tokens("mi1")))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ! ((((((1) <= (#tokens("cJobCnt")))) & (((#tokens("CreatedJobs")) <= (#tokens("Schedule_Task_E")))))) | (((((2) <= (#tokens("f1")))) & (((#tokens("place_522")) <= (#tokens("place_462")))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((2) <= (#tokens("QueueJobE")))) | (((((1) <= (#tokens("QueueJobB")))) | (((((#tokens("place_782")) <= (#tokens("place_456")))) & (((#tokens("AvailableJobId")) <= (#tokens("f3")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("place_462")))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ! ((! ((#tokens("block")) <= (#tokens("place_522")))) & (! ((1) <= (#tokens("place_500")))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("DataOnSrc")) <= (#tokens("place_456")))) & (((1) <= (#tokens("cSources")))))) | (! ((1) <= (#tokens("AvailableJobId")))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("AvailableJobId")) <= (#tokens("place_787")))) | (((#tokens("place_500")) <= (#tokens("AvailableJobId")))))) | (! ! ((2) <= (#tokens("Perform_Work_B")))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("QueueJobE")))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("AvailableJobId")) <= (#tokens("Try_Check_Sources_E")))) | (((((#tokens("Perform_Work_E")) <= (#tokens("place_500")))) & (((2) <= (#tokens("place_782")))))))) | (((#tokens("place_500")) <= (#tokens("mi1")))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((((((1) <= (#tokens("NotifyEventJobQueuedB")))) | (((((1) <= (#tokens("Try_Check_Sources_B")))) | (((1) <= (#tokens("Try_Check_Sources_B")))))))) & (((! ((3) <= (#tokens("place_482")))) & (((1) <= (#tokens("QueueJobE")))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("place_460")) <= (#tokens("place_500")))) & (((! ((2) <= (#tokens("Check_Sources_E")))) & (! ((#tokens("NotifyEventEndOfCheckSourcesE")) <= (#tokens("Try_Check_Sources_B")))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ! ((1) <= (#tokens("block")))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("place_521")) <= (#tokens("place_520")))) & (((((1) <= (#tokens("JobCnt")))) & (((2) <= (#tokens("place_522")))))))) | (((((1) <= (#tokens("AvailableJobId")))) & (((((3) <= (#tokens("block")))) | (((2) <= (#tokens("place_520")))))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("place_787")))) & (((((((#tokens("TheSour")) <= (#tokens("place_518")))) & (((#tokens("Perform_Work_E")) <= (#tokens("place_787")))))) & (((#tokens("NotifyEventJobQueuedB")) <= (#tokens("AvailableJobId")))))))
+  end.
+Property PolyORBNT-COL-S10J40-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("cJobCnt")) <= (#tokens("place_522")))) | (((2) <= (#tokens("place_520")))))) & (((((#tokens("block")) <= (#tokens("cJobCnt")))) | (((#tokens("Try_Check_Sources_B")) <= (#tokens("place_521")))))))
+  end.

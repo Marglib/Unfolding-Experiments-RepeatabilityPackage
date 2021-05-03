@@ -1,0 +1,147 @@
+<?xml version="1.0"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-00</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-setx_3</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-01</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-ify0_4</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-02</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>b</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-03</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-setx_3</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-04</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>x</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-05</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>x</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-06</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-sety_9</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-07</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>y</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-08</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-setbi_11</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-09</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-ifxi_10</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-10</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-await_13</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-11</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-ifyi_15</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-12</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-ifxi_10</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-13</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>b</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-14</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>wait</place>
+      </place-bound>
+    </formula>
+  </property>
+  <property>
+    <id>LamportFastMutEx-COL-8-UpperBounds-15</id>
+    <description>Automatically generated</description>
+    <formula>
+      <place-bound>
+        <place>P-setbi_11</place>
+      </place-bound>
+    </formula>
+  </property>
+</property-set>

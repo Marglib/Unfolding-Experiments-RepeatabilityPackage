@@ -1,0 +1,80 @@
+Property NeoElection-COL-2-00
+  "Automatically generated"
+  is:
+    A F (X "poll__handleAnsP2"? U G X G ("poll__handleAnsP2"? | X F "poll__handleRI"?))
+  end.
+Property NeoElection-COL-2-01
+  "Automatically generated"
+  is:
+    A ("poll__iAmPrimary"? U !"poll__handleAI1"?)
+  end.
+Property NeoElection-COL-2-02
+  "Automatically generated"
+  is:
+    A F X (X "poll__handleAnnP2"? | G X G ("poll__handleAnnP2"? & F "sendAnnPs__end"?))
+  end.
+Property NeoElection-COL-2-03
+  "Automatically generated"
+  is:
+    A X F ("sendAnnPs__send"? | X F "poll__end"?)
+  end.
+Property NeoElection-COL-2-04
+  "Automatically generated"
+  is:
+    A X G ("poll__start"? U "sendAnnPs__end"?)
+  end.
+Property NeoElection-COL-2-05
+  "Automatically generated"
+  is:
+    A F X !(G F "poll__handleAskP"? & ("poll__handleAnnP2"? | X ("startNeg__start"? U "poll__handleAnnP2"?)))
+  end.
+Property NeoElection-COL-2-06
+  "Automatically generated"
+  is:
+    A ((X G "poll__iAmSecondary"? & F (F "sendAnnPs__start"? U !"poll__start"?)) U !X "startSec"?)
+  end.
+Property NeoElection-COL-2-07
+  "Automatically generated"
+  is:
+    A !X ("poll__handleRI"? & F (X !"poll__handleAnnP2"? & !X !"poll__handleRI"?))
+  end.
+Property NeoElection-COL-2-08
+  "Automatically generated"
+  is:
+    A (F ("poll__handleAnsP1"? & "poll__handleAI1"?) & X "poll__handleAnsP1"? & G !"poll__handleAnsP4"?)
+  end.
+Property NeoElection-COL-2-09
+  "Automatically generated"
+  is:
+    A ("poll__handleAskP"? & G ("startNeg__start"? | ("sendAnnPs__end"? U "startSec"?)) & F ("poll__handleAskP"? & X F "poll__handleAskP"?))
+  end.
+Property NeoElection-COL-2-10
+  "Automatically generated"
+  is:
+    A (!G F !("poll__end"? & F "sendAnnPs__start"?) U !"poll__handleAnnP1"?)
+  end.
+Property NeoElection-COL-2-11
+  "Automatically generated"
+  is:
+    A F (G F !G F ("poll__handleAI2"? & F "poll__handleAskP"?) | X "poll__handleAI1"?)
+  end.
+Property NeoElection-COL-2-12
+  "Automatically generated"
+  is:
+    A !((F !G "poll__handleRP"? U X "poll__handleAnsP3"?) & ("poll__handleAnnP2"? U ("poll__handleRP"? | X "poll__handleRP"?)))
+  end.
+Property NeoElection-COL-2-13
+  "Automatically generated"
+  is:
+    A X (("sendAnnPs__send"? & F "startNeg__start"?) | ("startNeg__start"? U (X G "startNeg__start"? & X F "sendAnnPs__end"?)))
+  end.
+Property NeoElection-COL-2-14
+  "Automatically generated"
+  is:
+    A X F ("poll__handleAnsP4"? & X ("sendAnnPs__send"? & (F X G "poll__iAmSecondary"? U !X "poll__handleAnsP4"?)))
+  end.
+Property NeoElection-COL-2-15
+  "Automatically generated"
+  is:
+    A !("poll__handleRI"? U X !"poll__handleRI"?)
+  end.

@@ -1,0 +1,80 @@
+Property CSRepetitions-COL-04-00
+  "Automatically generated"
+  is:
+    A (F (((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) & ((#tokens("Client_Waiting")) <= (#tokens("Client_Sending")))) & F !F ((#tokens("Client_Sending")) <= (#tokens("RequestBufferSlots"))))
+  end.
+Property CSRepetitions-COL-04-01
+  "Automatically generated"
+  is:
+    A !G X F G ((#tokens("RequestBufferSlots")) <= (#tokens("Server_Anwering")))
+  end.
+Property CSRepetitions-COL-04-02
+  "Automatically generated"
+  is:
+    A !X (F (((0) <= (#tokens("RequestBufferSlots"))) | G ((3) <= (#tokens("RequestBufferSlots")))) & G ((0) <= (#tokens("RequestBufferSlots"))) & F ((0) <= (#tokens("RequestBufferSlots"))))
+  end.
+Property CSRepetitions-COL-04-03
+  "Automatically generated"
+  is:
+    A (((1) <= (#tokens("Server_Waiting"))) | ((2) <= (#tokens("Server_Waiting"))) | (G F ((2) <= (#tokens("RequestBufferSlots"))) & (((#tokens("Client_Sending")) <= (#tokens("Client_Waiting"))) U F !F X ((#tokens("Client_Sending")) <= (#tokens("Client_Waiting"))))))
+  end.
+Property CSRepetitions-COL-04-04
+  "Automatically generated"
+  is:
+    A (G ((#tokens("Client_Waiting")) <= (#tokens("Client_Sending"))) U X G X F (((1) <= (#tokens("RequestBufferSlots"))) & X ((1) <= (#tokens("Client_Sending")))))
+  end.
+Property CSRepetitions-COL-04-05
+  "Automatically generated"
+  is:
+    A X (F ((3) <= (#tokens("Client_Waiting"))) & X (((#tokens("Server_Anwering")) <= (#tokens("Client_Sending"))) | G ((3) <= (#tokens("Server_Waiting")))))
+  end.
+Property CSRepetitions-COL-04-06
+  "Automatically generated"
+  is:
+    A (((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) & F G (!((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots"))) & !((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering")))))
+  end.
+Property CSRepetitions-COL-04-07
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("Client_Sending"))) & X !(X ((2) <= (#tokens("Client_Sending"))) | X G (((0) <= (#tokens("Server_Waiting"))) | ((2) <= (#tokens("Client_Sending"))))) & G ((2) <= (#tokens("Client_Sending"))))
+  end.
+Property CSRepetitions-COL-04-08
+  "Automatically generated"
+  is:
+    A (G X G ((2) <= (#tokens("Server_Anwering"))) | X X (((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots"))) | G X !((#tokens("Server_Anwering")) <= (#tokens("RequestBufferSlots")))))
+  end.
+Property CSRepetitions-COL-04-09
+  "Automatically generated"
+  is:
+    A (!(((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))) U ((2) <= (#tokens("Client_Waiting")))) & G X !X F X ((#tokens("RequestBufferSlots")) <= (#tokens("Client_Waiting"))))
+  end.
+Property CSRepetitions-COL-04-10
+  "Automatically generated"
+  is:
+    A X !X (G ((0) <= (#tokens("Client_Waiting"))) & !F (((0) <= (#tokens("Client_Waiting"))) & ((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting")))))
+  end.
+Property CSRepetitions-COL-04-11
+  "Automatically generated"
+  is:
+    A X F X F ((((3) <= (#tokens("Server_Anwering"))) & F ((#tokens("Client_Sending")) <= (#tokens("Server_Waiting")))) U ((((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering"))) | ((#tokens("Server_Waiting")) <= (#tokens("Server_Anwering")))) & F ((#tokens("Server_Waiting")) <= (#tokens("Server_Anwering")))))
+  end.
+Property CSRepetitions-COL-04-12
+  "Automatically generated"
+  is:
+    A F (X ((1) <= (#tokens("Server_Anwering"))) U !(((#tokens("Server_Anwering")) <= (#tokens("Client_Waiting"))) & X ((#tokens("Client_Waiting")) <= (#tokens("Server_Anwering")))))
+  end.
+Property CSRepetitions-COL-04-13
+  "Automatically generated"
+  is:
+    A F G !F !X !(((#tokens("RequestBufferSlots")) <= (#tokens("Server_Waiting"))) | F ((1) <= (#tokens("Client_Sending"))))
+  end.
+Property CSRepetitions-COL-04-14
+  "Automatically generated"
+  is:
+    A G !(!X ((3) <= (#tokens("Server_Waiting"))) & X ((#tokens("Client_Sending")) <= (#tokens("RequestBufferSlots"))) & F ((3) <= (#tokens("Server_Waiting"))))
+  end.
+Property CSRepetitions-COL-04-15
+  "Automatically generated"
+  is:
+    A F (F G (((0) <= (#tokens("Server_Waiting"))) & F (((2) <= (#tokens("Client_Waiting"))) U ((#tokens("Server_Anwering")) <= (#tokens("Server_Waiting"))))) | F ((2) <= (#tokens("Client_Waiting"))))
+  end.
