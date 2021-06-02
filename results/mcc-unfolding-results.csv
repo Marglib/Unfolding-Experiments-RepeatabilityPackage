@@ -1,4 +1,4 @@
-name,mcc-Aplaces,mcc-Atransitions,mcc-Aarcs,mcc-unfoldingtime
+name,places,transitions,arcs,unfoldingtime
 AirplaneLD-COL-0010,89,88,333,0.4323333333333333
 AirplaneLD-COL-0020,159,168,638,0.11499999999999999
 AirplaneLD-COL-0050,369,408,1553,0.44566666666666666
