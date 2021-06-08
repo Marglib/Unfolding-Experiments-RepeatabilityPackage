@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config date="1621951236017" transient="false">
+	<site updateable="true" url="platform:/base/" enabled="true" policy="USER-EXCLUDE">
+		<feature id="fr.lip6.move.gal.itscl.feature" version="1.0.0.202105251359" url="features/fr.lip6.move.gal.itscl.feature_1.0.0.202105251359/">
+		</feature>
+	</site>
+</config>

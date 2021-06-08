@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.5.0
+Build-Jdk-Spec: 11
+Bundle-ManifestVersion: 2
+Bundle-Name: ITS packaging for binary tools
+Bundle-SymbolicName: fr.lip6.move.gal.itstools.binaries;singleton:=true
+Bundle-Version: 1.0.0.202105251352
+Bundle-Activator: fr.lip6.move.gal.itstools.BinaryToolsPlugin
+Eclipse-BundleShape: dir
+Require-Bundle: fr.lip6.move.gal.process;visibility:=reexport,org.eclips
+ e.core.runtime
+Bundle-ActivationPolicy: lazy
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-ClassPath: .
+Bundle-Vendor: LIP6
+Export-Package: fr.lip6.move.gal.itstools
+

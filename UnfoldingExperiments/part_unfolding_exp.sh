@@ -46,7 +46,7 @@ for t in ${properties[@]} ; do
         unfoldedquery="$F/$i/$t-tp-unfolded.xml"
         CMD=$(./run_model.sh "binaries/$BIN -n -x 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16 ../$F/$i/model.pnml ../$F/$i/${t}.xml --write-simplified $unfoldedquery --write-reduced $unfoldednet --output-stats $BINDIR --noverify -q 0 -r 0" "$ODIR/${i}.QSLURM_ARRAY_TASK_ID.${t}"  $M $TO $unfoldednet $unfoldedquery)
         echo "$CMD"
-    done
+    done 
 done
 
 LTLproperties=(LTLCardinality LTLFireability)
