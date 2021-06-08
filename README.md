@@ -12,9 +12,9 @@ ITS-Tools: https://yanntm.github.io/ITS-commandline/
 Spike: https://www-dssz.informatik.tu-cottbus.de/DSSZ/Software/Spike#downloads  
 MCC: https://github.com/dalzilio/mcc  
 
-### Commands
+# Commands
 
-# Cactus Plots
+### Cactus Plots
 To produce the cactus plots yourself run the following commands:
 
 py cactus_plot.py -f <folder> -s -n 200 -o output/sizegraph.png -d
