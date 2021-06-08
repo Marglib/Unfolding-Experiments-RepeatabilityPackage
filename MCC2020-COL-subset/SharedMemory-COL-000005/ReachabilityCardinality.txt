@@ -1,0 +1,80 @@
+Property SharedMemory-COL-000005-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((#tokens("Ext_Bus")) <= (#tokens("Ext_Bus")))) | (! ((((#tokens("Memory")) <= (#tokens("Active")))) | (((2) <= (#tokens("Ext_Mem_Acc")))))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ! ((! ((2) <= (#tokens("OwnMemAcc")))) | (! ((#tokens("Queue")) <= (#tokens("Ext_Mem_Acc")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Ext_Bus")))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ! ((! ((#tokens("Memory")) <= (#tokens("Memory")))) & (((((3) <= (#tokens("Ext_Mem_Acc")))) | (((1) <= (#tokens("Ext_Mem_Acc")))))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("Queue")))) & (((1) <= (#tokens("OwnMemAcc")))))) | (! ((1) <= (#tokens("Ext_Bus")))))) | (((1) <= (#tokens("OwnMemAcc")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Active")) <= (#tokens("Ext_Bus")))) | (((#tokens("Ext_Mem_Acc")) <= (#tokens("Active")))))) & (! ((2) <= (#tokens("Ext_Bus")))))) | (((#tokens("Memory")) <= (#tokens("Ext_Bus")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((((! ((3) <= (#tokens("Ext_Bus")))) | (((3) <= (#tokens("Active")))))) | (((((#tokens("Memory")) <= (#tokens("Queue")))) & (((((2) <= (#tokens("Queue")))) | (((1) <= (#tokens("Memory")))))))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ! ((((((1) <= (#tokens("Queue")))) & (((1) <= (#tokens("Active")))))) | (! ((#tokens("OwnMemAcc")) <= (#tokens("Ext_Mem_Acc")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((#tokens("OwnMemAcc")) <= (#tokens("Ext_Bus")))) | (((((#tokens("OwnMemAcc")) <= (#tokens("OwnMemAcc")))) & (((2) <= (#tokens("Active")))))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("Active")))) | (((3) <= (#tokens("Ext_Bus")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ((! ! ((3) <= (#tokens("Queue")))) & (((1) <= (#tokens("Active")))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((#tokens("Memory")) <= (#tokens("Active")))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("OwnMemAcc")))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("Memory")))) | (! ((1) <= (#tokens("Ext_Mem_Acc")))))) & (((((((1) <= (#tokens("Queue")))) | (((1) <= (#tokens("Memory")))))) & (((#tokens("OwnMemAcc")) <= (#tokens("Ext_Mem_Acc")))))))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Memory")))
+  end.
+Property SharedMemory-COL-000005-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ! ((#tokens("Ext_Mem_Acc")) <= (#tokens("Active")))
+  end.

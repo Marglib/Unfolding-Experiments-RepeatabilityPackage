@@ -1,0 +1,80 @@
+Property Referendum-COL-0010-00
+  "Automatically generated"
+  is:
+    A G !(("no"? & F "yes"?) | X F "yes"?)
+  end.
+Property Referendum-COL-0010-01
+  "Automatically generated"
+  is:
+    A (X "yes"? U X G !X ("yes"? & F "no"?))
+  end.
+Property Referendum-COL-0010-02
+  "Automatically generated"
+  is:
+    A !(F ("start"? | ("start"? U "yes"?)) & G X "no"?)
+  end.
+Property Referendum-COL-0010-03
+  "Automatically generated"
+  is:
+    A (!"start"? & (X !F "start"? | F !"start"?))
+  end.
+Property Referendum-COL-0010-04
+  "Automatically generated"
+  is:
+    A X !F !(!G F "yes"? U "no"?)
+  end.
+Property Referendum-COL-0010-05
+  "Automatically generated"
+  is:
+    A !G F G "yes"?
+  end.
+Property Referendum-COL-0010-06
+  "Automatically generated"
+  is:
+    A G F G ((!"yes"? | ("yes"? & ("no"? U "start"?))) & X "start"?)
+  end.
+Property Referendum-COL-0010-07
+  "Automatically generated"
+  is:
+    A F X F ("yes"? U F X F ("no"? U G (G "no"? U "yes"?)))
+  end.
+Property Referendum-COL-0010-08
+  "Automatically generated"
+  is:
+    A ("yes"? & (("start"? & "start"?) | G X "no"?))
+  end.
+Property Referendum-COL-0010-09
+  "Automatically generated"
+  is:
+    A G ((F !X "start"? U X "start"?) U X "start"?)
+  end.
+Property Referendum-COL-0010-10
+  "Automatically generated"
+  is:
+    A F X !X !(("start"? & G "no"?) U !"no"?)
+  end.
+Property Referendum-COL-0010-11
+  "Automatically generated"
+  is:
+    A ("yes"? | F "no"? | G ("yes"? | G ("no"? | X "start"?)))
+  end.
+Property Referendum-COL-0010-12
+  "Automatically generated"
+  is:
+    A !F !(!"no"? | X G X ("no"? & !"no"?))
+  end.
+Property Referendum-COL-0010-13
+  "Automatically generated"
+  is:
+    A !("start"? & G (!("start"? & X X "no"?) | ("start"? & G "no"?)))
+  end.
+Property Referendum-COL-0010-14
+  "Automatically generated"
+  is:
+    A (F ("no"? | ("start"? & G "yes"?)) U !F "yes"?)
+  end.
+Property Referendum-COL-0010-15
+  "Automatically generated"
+  is:
+    A (X ("yes"? | !G "no"?) U (!"yes"? U "yes"?))
+  end.

@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-2-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ! ! ((((#tokens("FreePositions")) <= (#tokens("Idle")))) & (((1) <= (#tokens("Idle")))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((! ((2) <= (#tokens("Idle")))) & (((1) <= (#tokens("OccupiedPositions")))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((((#tokens("Chosed")) <= (#tokens("IsWinner")))) | (((((#tokens("FreePositions")) <= (#tokens("IsWinner")))) & (((((#tokens("OccupiedPositions")) <= (#tokens("IsWinner")))) & (((2) <= (#tokens("OccupiedPositions")))))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("FreePositions")) <= (#tokens("FreePositions")))) | (((#tokens("Score")) <= (#tokens("OccupiedPositions")))))) | (((1) <= (#tokens("End")))))) | (((! ((#tokens("End")) <= (#tokens("Score")))) & (! ((2) <= (#tokens("Idle")))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ! ((((((#tokens("Chosed")) <= (#tokens("IsWinner")))) | (((#tokens("OccupiedPositions")) <= (#tokens("Idle")))))) | (((((1) <= (#tokens("OccupiedPositions")))) & (((#tokens("FreePositions")) <= (#tokens("Eval1")))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Chosed")))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("FreePositions")) <= (#tokens("IsWinner")))) & (((3) <= (#tokens("FreePositions")))))) & (((((#tokens("Idle")) <= (#tokens("Eval1")))) & (((#tokens("IsWinner")) <= (#tokens("FreePositions")))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((((3) <= (#tokens("End")))) | (((((#tokens("IsWinner")) <= (#tokens("Idle")))) & (((#tokens("OccupiedPositions")) <= (#tokens("OccupiedPositions")))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("IsWinner")))) | (((2) <= (#tokens("IsWinner")))))) & (((((1) <= (#tokens("End")))) | (((3) <= (#tokens("Chosed")))))))) & (((3) <= (#tokens("FreePositions")))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("Eval1")) <= (#tokens("IsWinner")))) | (((#tokens("FreePositions")) <= (#tokens("Score")))))) | (! ((#tokens("Idle")) <= (#tokens("OccupiedPositions")))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((2) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((((! ((#tokens("End")) <= (#tokens("Idle")))) & (((3) <= (#tokens("Chosed")))))) & (((((#tokens("Idle")) <= (#tokens("Chosed")))) | (! ((1) <= (#tokens("Eval1")))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((3) <= (#tokens("Score")))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("FreePositions")) <= (#tokens("End")))) & (((2) <= (#tokens("OccupiedPositions")))))) & (! ((#tokens("Chosed")) <= (#tokens("IsWinner")))))) & (((((((3) <= (#tokens("End")))) & (((1) <= (#tokens("OccupiedPositions")))))) | (((((#tokens("Score")) <= (#tokens("IsWinner")))) | (((#tokens("Eval1")) <= (#tokens("IsWinner")))))))))
+  end.
+Property DotAndBoxes-COL-2-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((#tokens("Chosed")) <= (#tokens("Eval1")))) | (((((((#tokens("Eval1")) <= (#tokens("Idle")))) & (((#tokens("Score")) <= (#tokens("Idle")))))) | (((((#tokens("End")) <= (#tokens("Eval1")))) & (((2) <= (#tokens("FreePositions")))))))))
+  end.

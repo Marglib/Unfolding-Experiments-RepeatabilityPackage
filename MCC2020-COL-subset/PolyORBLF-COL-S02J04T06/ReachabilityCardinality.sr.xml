@@ -1,0 +1,578 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p234</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-01</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p14</place>
+                <place>p15</place>
+                <place>p16</place>
+                <place>p17</place>
+                <place>p18</place>
+                <place>p19</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p256</place>
+                <place>p257</place>
+                <place>p258</place>
+                <place>p259</place>
+                <place>p260</place>
+                <place>p261</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p110</place>
+                <place>p111</place>
+                <place>p112</place>
+                <place>p113</place>
+                <place>p114</place>
+                <place>p115</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p235</place>
+                <place>p236</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p354</place>
+                <place>p355</place>
+                <place>p356</place>
+                <place>p357</place>
+                <place>p358</place>
+                <place>p359</place>
+              </tokens-count>
+</integer-le>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p274</place>
+              </tokens-count>
+</integer-le></negation>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-02</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p126</place>
+                <place>p127</place>
+                <place>p128</place>
+                <place>p129</place>
+                <place>p130</place>
+                <place>p131</place>
+                <place>p132</place>
+                <place>p133</place>
+                <place>p134</place>
+                <place>p135</place>
+                <place>p136</place>
+                <place>p137</place>
+              </tokens-count>
+</integer-le></negation>
+<conjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p124</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p123</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+              <tokens-count>
+                <place>p417</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p336</place>
+                <place>p337</place>
+                <place>p338</place>
+                <place>p339</place>
+                <place>p340</place>
+                <place>p341</place>
+              </tokens-count>
+</integer-le></negation>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-03</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<negation><integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p374</place>
+                <place>p375</place>
+                <place>p376</place>
+                <place>p377</place>
+                <place>p378</place>
+                <place>p379</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+              <tokens-count>
+                <place>p277</place>
+                <place>p278</place>
+                <place>p279</place>
+                <place>p280</place>
+                <place>p281</place>
+                <place>p282</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p123</place>
+              </tokens-count>
+</integer-le></negation>
+<conjunction>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p277</place>
+                <place>p278</place>
+                <place>p279</place>
+                <place>p280</place>
+                <place>p281</place>
+                <place>p282</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p283</place>
+                <place>p284</place>
+                <place>p285</place>
+                <place>p286</place>
+                <place>p287</place>
+                <place>p288</place>
+                <place>p289</place>
+                <place>p290</place>
+                <place>p291</place>
+                <place>p292</place>
+                <place>p293</place>
+                <place>p294</place>
+              </tokens-count>
+</integer-le></negation>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-04</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p418</place>
+                <place>p419</place>
+                <place>p420</place>
+                <place>p421</place>
+                <place>p422</place>
+                <place>p423</place>
+              </tokens-count>
+</integer-le></negation>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-05</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p2</place>
+                <place>p3</place>
+                <place>p4</place>
+                <place>p5</place>
+                <place>p6</place>
+                <place>p7</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p380</place>
+                <place>p381</place>
+                <place>p382</place>
+                <place>p383</place>
+                <place>p384</place>
+                <place>p385</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p276</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p386</place>
+                <place>p387</place>
+                <place>p388</place>
+                <place>p389</place>
+                <place>p390</place>
+                <place>p391</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-08</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p228</place>
+                <place>p229</place>
+                <place>p230</place>
+                <place>p231</place>
+                <place>p232</place>
+                <place>p233</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p238</place>
+                <place>p239</place>
+                <place>p240</place>
+                <place>p241</place>
+                <place>p242</place>
+                <place>p243</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-09</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<conjunction>
+<disjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p342</place>
+                <place>p343</place>
+                <place>p344</place>
+                <place>p345</place>
+                <place>p346</place>
+                <place>p347</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p125</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p0</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p193</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+<disjunction>
+<negation><integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p426</place>
+                <place>p427</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p277</place>
+                <place>p278</place>
+                <place>p279</place>
+                <place>p280</place>
+                <place>p281</place>
+                <place>p282</place>
+              </tokens-count>
+</integer-le></negation>
+</disjunction>
+</conjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-10</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p122</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p380</place>
+                <place>p381</place>
+                <place>p382</place>
+                <place>p383</place>
+                <place>p384</place>
+                <place>p385</place>
+              </tokens-count>
+</integer-le>
+<negation><integer-le>
+              <tokens-count>
+                <place>p426</place>
+                <place>p427</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p150</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p312</place>
+                <place>p313</place>
+                <place>p314</place>
+                <place>p315</place>
+                <place>p316</place>
+                <place>p317</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p126</place>
+                <place>p127</place>
+                <place>p128</place>
+                <place>p129</place>
+                <place>p130</place>
+                <place>p131</place>
+                <place>p132</place>
+                <place>p133</place>
+                <place>p134</place>
+                <place>p135</place>
+                <place>p136</place>
+                <place>p137</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p425</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-12</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p268</place>
+                <place>p269</place>
+                <place>p270</place>
+                <place>p271</place>
+                <place>p272</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p234</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-13</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p126</place>
+                <place>p127</place>
+                <place>p128</place>
+                <place>p129</place>
+                <place>p130</place>
+                <place>p131</place>
+                <place>p132</place>
+                <place>p133</place>
+                <place>p134</place>
+                <place>p135</place>
+                <place>p136</place>
+                <place>p137</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-14</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p0</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>PolyORBLF-COL-S02J04T06-ReachabilityCardinality-15</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p446</place>
+                <place>p447</place>
+                <place>p448</place>
+                <place>p449</place>
+                <place>p450</place>
+                <place>p451</place>
+                <place>p452</place>
+                <place>p453</place>
+                <place>p454</place>
+                <place>p455</place>
+                <place>p456</place>
+                <place>p457</place>
+                <place>p458</place>
+                <place>p459</place>
+                <place>p460</place>
+                <place>p461</place>
+                <place>p462</place>
+                <place>p463</place>
+                <place>p464</place>
+                <place>p465</place>
+                <place>p466</place>
+                <place>p467</place>
+                <place>p468</place>
+                <place>p469</place>
+                <place>p470</place>
+                <place>p471</place>
+                <place>p472</place>
+                <place>p473</place>
+                <place>p474</place>
+                <place>p475</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p123</place>
+              </tokens-count>
+</integer-le></negation>
+<conjunction>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p425</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+              <tokens-count>
+                <place>p122</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p305</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+</property-set>
+

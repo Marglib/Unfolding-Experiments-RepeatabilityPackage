@@ -1,0 +1,80 @@
+Property Peterson-COL-2-00
+  "Automatically generated"
+  is:
+    A F ((!((1) <= (#tokens("IsEndLoop"))) | ((#tokens("TestTurn")) <= (#tokens("Idle")))) U F ((#tokens("AskForSection")) <= (#tokens("IsEndLoop"))))
+  end.
+Property Peterson-COL-2-01
+  "Automatically generated"
+  is:
+    A !(G X ((#tokens("Turn")) <= (#tokens("AskForSection"))) & X X F X ((#tokens("WantSection")) <= (#tokens("Idle"))))
+  end.
+Property Peterson-COL-2-02
+  "Automatically generated"
+  is:
+    A !(((1) <= (#tokens("TestIdentity"))) & G ((3) <= (#tokens("CS"))))
+  end.
+Property Peterson-COL-2-03
+  "Automatically generated"
+  is:
+    A F ((#tokens("AskForSection")) <= (#tokens("IsEndLoop")))
+  end.
+Property Peterson-COL-2-04
+  "Automatically generated"
+  is:
+    A (X !(X (((#tokens("BeginLoop")) <= (#tokens("TestIdentity"))) | X ((#tokens("BeginLoop")) <= (#tokens("TestIdentity")))) U ((#tokens("TestAlone")) <= (#tokens("WantSection")))) & X G !X ((#tokens("BeginLoop")) <= (#tokens("TestIdentity"))))
+  end.
+Property Peterson-COL-2-05
+  "Automatically generated"
+  is:
+    A (G X (F ((#tokens("EndTurn")) <= (#tokens("IsEndLoop"))) U ((#tokens("EndTurn")) <= (#tokens("IsEndLoop")))) & (((#tokens("EndTurn")) <= (#tokens("IsEndLoop"))) | ((0) <= (#tokens("AskForSection"))) | X X X ((0) <= (#tokens("AskForSection")))))
+  end.
+Property Peterson-COL-2-06
+  "Automatically generated"
+  is:
+    A X G !G F (((0) <= (#tokens("AskForSection"))) & F (((1) <= (#tokens("CS"))) | G ((1) <= (#tokens("BeginLoop")))))
+  end.
+Property Peterson-COL-2-07
+  "Automatically generated"
+  is:
+    A F G F X X (((#tokens("CS")) <= (#tokens("TestAlone"))) | G ((#tokens("IsEndLoop")) <= (#tokens("BeginLoop"))))
+  end.
+Property Peterson-COL-2-08
+  "Automatically generated"
+  is:
+    A (((3) <= (#tokens("TestAlone"))) & X G ((3) <= (#tokens("TestAlone"))))
+  end.
+Property Peterson-COL-2-09
+  "Automatically generated"
+  is:
+    A (G ((#tokens("BeginLoop")) <= (#tokens("TestTurn"))) & G F !F !X !((#tokens("TestIdentity")) <= (#tokens("Turn"))))
+  end.
+Property Peterson-COL-2-10
+  "Automatically generated"
+  is:
+    A !X X X !F X X F !F ((#tokens("AskForSection")) <= (#tokens("CS")))
+  end.
+Property Peterson-COL-2-11
+  "Automatically generated"
+  is:
+    A X X (G X ((3) <= (#tokens("BeginLoop"))) | (((#tokens("CS")) <= (#tokens("EndTurn"))) & X X (((#tokens("TestAlone")) <= (#tokens("CS"))) U F ((#tokens("TestAlone")) <= (#tokens("Turn"))))))
+  end.
+Property Peterson-COL-2-12
+  "Automatically generated"
+  is:
+    A (G ((0) <= (#tokens("TestTurn"))) U (!(((#tokens("TestTurn")) <= (#tokens("TestIdentity"))) | F (F ((#tokens("Turn")) <= (#tokens("TestAlone"))) U G ((0) <= (#tokens("TestAlone"))))) U !((#tokens("TestTurn")) <= (#tokens("TestIdentity")))))
+  end.
+Property Peterson-COL-2-13
+  "Automatically generated"
+  is:
+    A (X ((2) <= (#tokens("Idle"))) & (G F ((#tokens("AskForSection")) <= (#tokens("Idle"))) U !G F ((#tokens("TestTurn")) <= (#tokens("TestAlone")))))
+  end.
+Property Peterson-COL-2-14
+  "Automatically generated"
+  is:
+    A G ((#tokens("Idle")) <= (#tokens("TestAlone")))
+  end.
+Property Peterson-COL-2-15
+  "Automatically generated"
+  is:
+    A (!((#tokens("IsEndLoop")) <= (#tokens("TestIdentity"))) | ((2) <= (#tokens("TestIdentity"))) | G (((#tokens("Turn")) <= (#tokens("Idle"))) U (((#tokens("IsEndLoop")) <= (#tokens("TestIdentity"))) U ((3) <= (#tokens("EndTurn"))))))
+  end.

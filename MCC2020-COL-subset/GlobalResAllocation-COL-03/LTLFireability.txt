@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-03-00
+  "Automatically generated"
+  is:
+    A !F !X G !X X "release1"?
+  end.
+Property GlobalResAllocation-COL-03-01
+  "Automatically generated"
+  is:
+    A ((!"release1"? & X G "enter3"?) U !F !F !"enter3"?)
+  end.
+Property GlobalResAllocation-COL-03-02
+  "Automatically generated"
+  is:
+    A X X X G "exit"?
+  end.
+Property GlobalResAllocation-COL-03-03
+  "Automatically generated"
+  is:
+    A !X F ("enter4"? & "release2"? & F "enter4"? & F "exit"?)
+  end.
+Property GlobalResAllocation-COL-03-04
+  "Automatically generated"
+  is:
+    A (G "release1"? & (("enter3"? & "release1"?) U !"enter3"?))
+  end.
+Property GlobalResAllocation-COL-03-05
+  "Automatically generated"
+  is:
+    A !F !(X "release2"? | F X G "release2"?)
+  end.
+Property GlobalResAllocation-COL-03-06
+  "Automatically generated"
+  is:
+    A ("exit"? | ("enter1"? U (F "exit"? U ("exit"? & F "exit"?))))
+  end.
+Property GlobalResAllocation-COL-03-07
+  "Automatically generated"
+  is:
+    A F (X X G "release2"? U F "release1"?)
+  end.
+Property GlobalResAllocation-COL-03-08
+  "Automatically generated"
+  is:
+    A X (X F "exit"? & F ("exit"? & X "enter1"?))
+  end.
+Property GlobalResAllocation-COL-03-09
+  "Automatically generated"
+  is:
+    A F X !F (X X ("enter2"? & "release2"?) & G "release1"?)
+  end.
+Property GlobalResAllocation-COL-03-10
+  "Automatically generated"
+  is:
+    A G !X F !X F X !("enter4"? & X "release2"?)
+  end.
+Property GlobalResAllocation-COL-03-11
+  "Automatically generated"
+  is:
+    A G X ("enter4"? U G "enter3"?)
+  end.
+Property GlobalResAllocation-COL-03-12
+  "Automatically generated"
+  is:
+    A !(G ("enter4"? & X G "enter4"?) & !("enter4"? U ("exit"? & G "exit"?)))
+  end.
+Property GlobalResAllocation-COL-03-13
+  "Automatically generated"
+  is:
+    A G ("enter2"? & F !(F "enter1"? & G !"enter4"?))
+  end.
+Property GlobalResAllocation-COL-03-14
+  "Automatically generated"
+  is:
+    A F (F "enter1"? & ("enter3"? | !"enter4"? | G "enter4"? | G "enter3"?))
+  end.
+Property GlobalResAllocation-COL-03-15
+  "Automatically generated"
+  is:
+    A X (G X X "exit"? U "enter3"?)
+  end.

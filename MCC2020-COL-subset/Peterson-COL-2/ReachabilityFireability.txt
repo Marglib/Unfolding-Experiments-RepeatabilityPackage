@@ -1,0 +1,80 @@
+Property Peterson-COL-2-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ((((! "ProgressTurn"?) & ((("Loop"?) | ((("AccessCS"?) | ("Alone1"?))))))) & ("EndLoop"?))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    E F "BecomeIdle"?
+  end.
+Property Peterson-COL-2-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F (((("BecomeIdle"?) & ((("ProgressTurn"?) | (! "TurnDiff"?))))) & (! ! (("UpdateTurn"?) | ("ProgressTurn"?))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ((! (((("Loop"?) & ("UpdateTurn"?))) & ((("EndLoop"?) & ("UpdateTurn"?))))) | (! "TurnDiff"?))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G (("Loop"?) | (! (("EndLoop"?) & ("Identity"?))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    A G ((! "BecomeIdle"?) & (! (((("BecomeIdle"?) | ("Loop"?))) & ((("NotAlone"?) & ("Identity"?))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G (((((("TurnEqual"?) | ((("EndLoop"?) | ("Alone1"?))))) | (! "AccessCS"?))) & (((! (("NoIdentity"?) & ("EndLoop"?))) | ((((("UpdateTurn"?) & ("EndLoop"?))) & ((("Identity"?) | ("Loop"?))))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    E F (("EndLoop"?) & ((((((("ProgressTurn"?) | ("NoIdentity"?))) | ("BecomeIdle"?))) & (((! "NoIdentity"?) | ((("ProgressTurn"?) & ("Identity"?))))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ! (("AccessCS"?) & ((("NoIdentity"?) & ((("TurnEqual"?) | ("NoIdentity"?))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    E F ((! "EndLoop"?) & ((("AccessCS"?) & ((((("EndLoop"?) | ("ProgressTurn"?))) | ((("ContinueLoop"?) & ("Alone1"?))))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ((! (((("Alone1"?) & ("NotAlone"?))) | ((("Loop"?) | ("NotAlone"?))))) | ((("Identity"?) | ((((("EndLoop"?) & ("ProgressTurn"?))) | (! "EndLoop"?))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (((("BecomeIdle"?) & ("Alone1"?))) & (! ! (("Alone1"?) | ("ProgressTurn"?))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    A G ! ((! "UpdateTurn"?) & ((("EndLoop"?) & ((("ProgressTurn"?) | ("NoIdentity"?))))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F ((((! (("ProgressTurn"?) | ("EndLoop"?))) & ((((("TurnDiff"?) & ("Loop"?))) & ((("NotAlone"?) & ("Alone1"?))))))) & (! (((("ContinueLoop"?) | ("UpdateTurn"?))) | ("ContinueLoop"?))))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F (((((("TurnDiff"?) | ((("EndLoop"?) & ("EndLoop"?))))) | ("Ask"?))) & (! ! "AccessCS"?))
+  end.
+Property Peterson-COL-2-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F ((((((! "TurnDiff"?) | ((("NoIdentity"?) & ("NotAlone"?))))) & (((! "Identity"?) & ((("NotAlone"?) | ("EndLoop"?))))))) & ((("AccessCS"?) & ((((("TurnEqual"?) | ("BecomeIdle"?))) & ("Ask"?))))))
+  end.

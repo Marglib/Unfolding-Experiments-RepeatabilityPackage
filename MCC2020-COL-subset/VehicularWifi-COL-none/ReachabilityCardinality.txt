@@ -1,0 +1,80 @@
+Property VehicularWifi-COL-none-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((((2) <= (#tokens("TxAttemptsCounter")))) | (((((#tokens("PacketSent")) <= (#tokens("BackoffCounter")))) | (((#tokens("GoingToBackoff")) <= (#tokens("PausingBackoff")))))))) & (((((((#tokens("Vulnerable")) <= (#tokens("Receiving")))) | (((#tokens("Sense")) <= (#tokens("Medium")))))) | (((#tokens("Medium")) <= (#tokens("BackoffMappings")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((((2) <= (#tokens("PausingBackoff")))) & (((#tokens("Vulnerable")) <= (#tokens("NotErrorSpike")))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((1) <= (#tokens("ErrorSpike")))) | (((! ((2) <= (#tokens("GoingToBackoff")))) | (((((#tokens("BackoffCounter")) <= (#tokens("Sending")))) | (((#tokens("Sending")) <= (#tokens("ReadingPacket")))))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("AGarbled")) <= (#tokens("WaitForResponse")))) | (((#tokens("Garbled")) <= (#tokens("Vulnerable")))))) & (! ((#tokens("AGarbled")) <= (#tokens("PacketSent")))))) | (((3) <= (#tokens("Receiving")))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ! ((3) <= (#tokens("NotErrorSpike")))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("AMedium")) <= (#tokens("GoingToBackoff")))) & (((#tokens("ChoosingBackoff")) <= (#tokens("PacketSent")))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("BackoffMappings")) <= (#tokens("Sending")))) & (((#tokens("NotErrorSpike")) <= (#tokens("Medium")))))) & (((((1) <= (#tokens("SentPacket")))) | (((1) <= (#tokens("AMedium")))))))) & (((! ((#tokens("Sense")) <= (#tokens("Sending")))) | (! ((2) <= (#tokens("ReadingPacket")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("Garbled")))) | (((2) <= (#tokens("Garbled")))))) | (((((#tokens("Medium")) <= (#tokens("Receiving")))) & (((2) <= (#tokens("NotErrorSpike")))))))) & (((((((2) <= (#tokens("ReadingPacket")))) | (((#tokens("Vulnerable")) <= (#tokens("SentPacket")))))) | (((3) <= (#tokens("ErrorSpike")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Sending")))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("AGarbled")) <= (#tokens("Idle")))) | (((#tokens("BackoffCounter")) <= (#tokens("GoingToBackoff")))))) | (((((3) <= (#tokens("Sending")))) | (((3) <= (#tokens("PacketSent")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((#tokens("Sending")) <= (#tokens("PausingBackoff")))) | (((((#tokens("Vulnerable")) <= (#tokens("Sense")))) & (((#tokens("WaitForResponse")) <= (#tokens("GoingToBackoff")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("Garbled")) <= (#tokens("Vulnerable")))) | (! ((#tokens("ErrorSpike")) <= (#tokens("SentPacket")))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("Medium")))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((! ((((2) <= (#tokens("AGarbled")))) | (((#tokens("SentPacket")) <= (#tokens("AGarbled")))))) & (((#tokens("Sense")) <= (#tokens("Receiving")))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("ErrorSpike")))) | (((((((#tokens("Sending")) <= (#tokens("SentPacket")))) | (((1) <= (#tokens("SentPacket")))))) | (((3) <= (#tokens("ReadingPacket")))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((! ((((#tokens("AGarbled")) <= (#tokens("Vulnerable")))) | (((3) <= (#tokens("BackoffCounter")))))) & (((#tokens("PausingBackoff")) <= (#tokens("Sending")))))
+  end.

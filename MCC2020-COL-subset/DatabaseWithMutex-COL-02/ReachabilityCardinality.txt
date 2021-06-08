@@ -1,0 +1,80 @@
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((#tokens("Modify")) <= (#tokens("Message")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("RecBuff")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    E F ((! ! ((#tokens("all_active")) <= (#tokens("all_active")))) | (((((((#tokens("RecBuff")) <= (#tokens("Message")))) & (((1) <= (#tokens("RecBuff")))))) | (((((#tokens("WaitMutex")) <= (#tokens("Message")))) & (((1) <= (#tokens("all_passive")))))))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("WaitMutex")))) | (((((((3) <= (#tokens("Mutex")))) | (((#tokens("WaitMutex")) <= (#tokens("Message")))))) | (((#tokens("Acknowledge")) <= (#tokens("Mutex")))))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((#tokens("MesBuffReply")) <= (#tokens("Active")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("Acknowledge")) <= (#tokens("Modify")))) | (((2) <= (#tokens("Acknowledge")))))) | (((3) <= (#tokens("updating")))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((#tokens("Active")) <= (#tokens("WaitMutex")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((#tokens("Mutex")) <= (#tokens("Message")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((1) <= (#tokens("Acknowledge")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("Active")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("Modify")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((((((#tokens("updating")) <= (#tokens("all_active")))) | (((1) <= (#tokens("WaitMutex")))))) | (((((1) <= (#tokens("MesBuffReply")))) & (((#tokens("all_active")) <= (#tokens("Modify")))))))) | (((#tokens("Acknowledge")) <= (#tokens("all_passive")))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((! ((((1) <= (#tokens("all_active")))) & (((1) <= (#tokens("Mutex")))))) | (((! ((#tokens("Acknowledge")) <= (#tokens("Mutex")))) | (((((#tokens("Mutex")) <= (#tokens("WaitMutex")))) | (((2) <= (#tokens("Modify")))))))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((2) <= (#tokens("updating")))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((((((((3) <= (#tokens("Message")))) & (((3) <= (#tokens("RecBuff")))))) | (((#tokens("Mutex")) <= (#tokens("Modify")))))) | (((((((#tokens("Mutex")) <= (#tokens("Message")))) & (((2) <= (#tokens("all_passive")))))) | (! ((#tokens("WaitMutex")) <= (#tokens("WaitMutex")))))))
+  end.
+Property DatabaseWithMutex-COL-02-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((! ((#tokens("all_active")) <= (#tokens("all_passive")))) & (((2) <= (#tokens("Mutex")))))
+  end.

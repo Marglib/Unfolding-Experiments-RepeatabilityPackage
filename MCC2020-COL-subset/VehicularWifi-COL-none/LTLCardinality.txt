@@ -1,0 +1,80 @@
+Property VehicularWifi-COL-none-00
+  "Automatically generated"
+  is:
+    A (F G F ((1) <= (#tokens("WaitForResponse"))) U G ((#tokens("AMedium")) <= (#tokens("WaitForResponse"))))
+  end.
+Property VehicularWifi-COL-none-01
+  "Automatically generated"
+  is:
+    A G !G (X ((2) <= (#tokens("Receiving"))) | G F ((#tokens("Sense")) <= (#tokens("SentPacket"))))
+  end.
+Property VehicularWifi-COL-none-02
+  "Automatically generated"
+  is:
+    A !(!X !((#tokens("BackoffMappings")) <= (#tokens("WaitForResponse"))) U F !(((#tokens("BackoffMappings")) <= (#tokens("AMedium"))) | ((1) <= (#tokens("Medium"))) | F G ((#tokens("GoingToBackoff")) <= (#tokens("BackoffCounter")))))
+  end.
+Property VehicularWifi-COL-none-03
+  "Automatically generated"
+  is:
+    A (G ((3) <= (#tokens("Vulnerable"))) U (((3) <= (#tokens("BackoffMappings"))) & F X F (((3) <= (#tokens("BackoffMappings"))) | X ((2) <= (#tokens("PacketSent"))))))
+  end.
+Property VehicularWifi-COL-none-04
+  "Automatically generated"
+  is:
+    A (G (((#tokens("Sense")) <= (#tokens("ChoosingBackoff"))) & !((0) <= (#tokens("SentPacket")))) & F G X ((#tokens("Sense")) <= (#tokens("ChoosingBackoff"))))
+  end.
+Property VehicularWifi-COL-none-05
+  "Automatically generated"
+  is:
+    A F (((#tokens("Medium")) <= (#tokens("WaitForResponse"))) | F ((0) <= (#tokens("AMedium"))))
+  end.
+Property VehicularWifi-COL-none-06
+  "Automatically generated"
+  is:
+    A (((#tokens("NotErrorSpike")) <= (#tokens("ChoosingBackoff"))) & (X ((1) <= (#tokens("Receiving"))) | X (((0) <= (#tokens("ErrorSpike"))) & X (!((1) <= (#tokens("Receiving"))) & F !((#tokens("NotErrorSpike")) <= (#tokens("ChoosingBackoff")))))))
+  end.
+Property VehicularWifi-COL-none-07
+  "Automatically generated"
+  is:
+    A F G X ((G ((0) <= (#tokens("TxAttemptsCounter"))) U !((2) <= (#tokens("NotErrorSpike")))) U F ((2) <= (#tokens("NotErrorSpike"))))
+  end.
+Property VehicularWifi-COL-none-08
+  "Automatically generated"
+  is:
+    A !(F ((3) <= (#tokens("BackoffMappings"))) | ((!((#tokens("ErrorSpike")) <= (#tokens("TxAttemptsCounter"))) | !((3) <= (#tokens("BackoffMappings")))) & F ((2) <= (#tokens("Vulnerable"))) & G ((#tokens("ErrorSpike")) <= (#tokens("TxAttemptsCounter")))))
+  end.
+Property VehicularWifi-COL-none-09
+  "Automatically generated"
+  is:
+    A G (((#tokens("Receiving")) <= (#tokens("ChoosingBackoff"))) & F X !X F ((0) <= (#tokens("AMedium"))))
+  end.
+Property VehicularWifi-COL-none-10
+  "Automatically generated"
+  is:
+    A G !((#tokens("AGarbled")) <= (#tokens("NotErrorSpike")))
+  end.
+Property VehicularWifi-COL-none-11
+  "Automatically generated"
+  is:
+    A (G (((3) <= (#tokens("ErrorSpike"))) & G ((#tokens("Sending")) <= (#tokens("ChoosingBackoff")))) | (X ((#tokens("ErrorSpike")) <= (#tokens("Idle"))) & G (((#tokens("ErrorSpike")) <= (#tokens("Idle"))) U ((#tokens("Sending")) <= (#tokens("ChoosingBackoff"))))))
+  end.
+Property VehicularWifi-COL-none-12
+  "Automatically generated"
+  is:
+    A !X (G ((#tokens("AGarbled")) <= (#tokens("ReadingPacket"))) | F ((3) <= (#tokens("AGarbled"))))
+  end.
+Property VehicularWifi-COL-none-13
+  "Automatically generated"
+  is:
+    A ((X ((3) <= (#tokens("PausingBackoff"))) U ((#tokens("TxAttemptsCounter")) <= (#tokens("NotErrorSpike")))) U ((3) <= (#tokens("PausingBackoff"))))
+  end.
+Property VehicularWifi-COL-none-14
+  "Automatically generated"
+  is:
+    A X (((#tokens("Sending")) <= (#tokens("Idle"))) | ((#tokens("Idle")) <= (#tokens("Receiving"))) | G X ((#tokens("Sending")) <= (#tokens("Idle"))))
+  end.
+Property VehicularWifi-COL-none-15
+  "Automatically generated"
+  is:
+    A !(!((2) <= (#tokens("TxAttemptsCounter"))) | ((#tokens("TxAttemptsCounter")) <= (#tokens("Receiving"))) | !(((1) <= (#tokens("NotErrorSpike"))) | !(((0) <= (#tokens("NotErrorSpike"))) | G F ((1) <= (#tokens("NotErrorSpike"))))))
+  end.

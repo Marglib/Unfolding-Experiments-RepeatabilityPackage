@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+<net id="ITS Tools generated" type="http://www.pnml.org/version-2009/grammar/ptnet">
+<page id="page0"><name><text>DefaultPage</text></name>
+<place id="p0"><name><text>think_0</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p1"><name><text>think_1</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p2"><name><text>think_2</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p3"><name><text>think_3</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p4"><name><text>think_4</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p5"><name><text>fork_0</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p6"><name><text>fork_1</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p7"><name><text>fork_2</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p8"><name><text>fork_3</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p9"><name><text>fork_4</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p10"><name><text>catch1_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p11"><name><text>catch1_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p12"><name><text>catch1_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p13"><name><text>catch1_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p14"><name><text>catch1_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p15"><name><text>catch2_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p16"><name><text>catch2_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p17"><name><text>catch2_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p18"><name><text>catch2_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p19"><name><text>catch2_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p20"><name><text>eat_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p21"><name><text>eat_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p22"><name><text>eat_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p23"><name><text>eat_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p24"><name><text>eat_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<transition id="t0"><name><text>ff1ax0</text></name></transition>
+<transition id="t1"><name><text>ff1ax1</text></name></transition>
+<transition id="t2"><name><text>ff1ax2</text></name></transition>
+<transition id="t3"><name><text>ff1ax3</text></name></transition>
+<transition id="t4"><name><text>ff1ax4</text></name></transition>
+<transition id="t5"><name><text>ff1bx0</text></name></transition>
+<transition id="t6"><name><text>ff1bx1</text></name></transition>
+<transition id="t7"><name><text>ff1bx2</text></name></transition>
+<transition id="t8"><name><text>ff1bx3</text></name></transition>
+<transition id="t9"><name><text>ff1bx4</text></name></transition>
+<transition id="t10"><name><text>ff2ax0</text></name></transition>
+<transition id="t11"><name><text>ff2ax1</text></name></transition>
+<transition id="t12"><name><text>ff2ax2</text></name></transition>
+<transition id="t13"><name><text>ff2ax3</text></name></transition>
+<transition id="t14"><name><text>ff2ax4</text></name></transition>
+<transition id="t15"><name><text>ff2bx0</text></name></transition>
+<transition id="t16"><name><text>ff2bx1</text></name></transition>
+<transition id="t17"><name><text>ff2bx2</text></name></transition>
+<transition id="t18"><name><text>ff2bx3</text></name></transition>
+<transition id="t19"><name><text>ff2bx4</text></name></transition>
+<transition id="t20"><name><text>endx0</text></name></transition>
+<transition id="t21"><name><text>endx1</text></name></transition>
+<transition id="t22"><name><text>endx2</text></name></transition>
+<transition id="t23"><name><text>endx3</text></name></transition>
+<transition id="t24"><name><text>endx4</text></name></transition>
+<arc id="arc0" source="p0" target="t0"><inscription><text>1</text></inscription></arc>
+<arc id="arc1" source="p9" target="t0"><inscription><text>1</text></inscription></arc>
+<arc id="arc2" source="p1" target="t1"><inscription><text>1</text></inscription></arc>
+<arc id="arc3" source="p5" target="t1"><inscription><text>1</text></inscription></arc>
+<arc id="arc4" source="p2" target="t2"><inscription><text>1</text></inscription></arc>
+<arc id="arc5" source="p6" target="t2"><inscription><text>1</text></inscription></arc>
+<arc id="arc6" source="p3" target="t3"><inscription><text>1</text></inscription></arc>
+<arc id="arc7" source="p7" target="t3"><inscription><text>1</text></inscription></arc>
+<arc id="arc8" source="p4" target="t4"><inscription><text>1</text></inscription></arc>
+<arc id="arc9" source="p8" target="t4"><inscription><text>1</text></inscription></arc>
+<arc id="arc10" source="p0" target="t5"><inscription><text>1</text></inscription></arc>
+<arc id="arc11" source="p5" target="t5"><inscription><text>1</text></inscription></arc>
+<arc id="arc12" source="p1" target="t6"><inscription><text>1</text></inscription></arc>
+<arc id="arc13" source="p6" target="t6"><inscription><text>1</text></inscription></arc>
+<arc id="arc14" source="p2" target="t7"><inscription><text>1</text></inscription></arc>
+<arc id="arc15" source="p7" target="t7"><inscription><text>1</text></inscription></arc>
+<arc id="arc16" source="p3" target="t8"><inscription><text>1</text></inscription></arc>
+<arc id="arc17" source="p8" target="t8"><inscription><text>1</text></inscription></arc>
+<arc id="arc18" source="p4" target="t9"><inscription><text>1</text></inscription></arc>
+<arc id="arc19" source="p9" target="t9"><inscription><text>1</text></inscription></arc>
+<arc id="arc20" source="p5" target="t10"><inscription><text>1</text></inscription></arc>
+<arc id="arc21" source="p10" target="t10"><inscription><text>1</text></inscription></arc>
+<arc id="arc22" source="p6" target="t11"><inscription><text>1</text></inscription></arc>
+<arc id="arc23" source="p11" target="t11"><inscription><text>1</text></inscription></arc>
+<arc id="arc24" source="p7" target="t12"><inscription><text>1</text></inscription></arc>
+<arc id="arc25" source="p12" target="t12"><inscription><text>1</text></inscription></arc>
+<arc id="arc26" source="p8" target="t13"><inscription><text>1</text></inscription></arc>
+<arc id="arc27" source="p13" target="t13"><inscription><text>1</text></inscription></arc>
+<arc id="arc28" source="p9" target="t14"><inscription><text>1</text></inscription></arc>
+<arc id="arc29" source="p14" target="t14"><inscription><text>1</text></inscription></arc>
+<arc id="arc30" source="p9" target="t15"><inscription><text>1</text></inscription></arc>
+<arc id="arc31" source="p15" target="t15"><inscription><text>1</text></inscription></arc>
+<arc id="arc32" source="p5" target="t16"><inscription><text>1</text></inscription></arc>
+<arc id="arc33" source="p16" target="t16"><inscription><text>1</text></inscription></arc>
+<arc id="arc34" source="p6" target="t17"><inscription><text>1</text></inscription></arc>
+<arc id="arc35" source="p17" target="t17"><inscription><text>1</text></inscription></arc>
+<arc id="arc36" source="p7" target="t18"><inscription><text>1</text></inscription></arc>
+<arc id="arc37" source="p18" target="t18"><inscription><text>1</text></inscription></arc>
+<arc id="arc38" source="p8" target="t19"><inscription><text>1</text></inscription></arc>
+<arc id="arc39" source="p19" target="t19"><inscription><text>1</text></inscription></arc>
+<arc id="arc40" source="p20" target="t20"><inscription><text>1</text></inscription></arc>
+<arc id="arc41" source="p21" target="t21"><inscription><text>1</text></inscription></arc>
+<arc id="arc42" source="p22" target="t22"><inscription><text>1</text></inscription></arc>
+<arc id="arc43" source="p23" target="t23"><inscription><text>1</text></inscription></arc>
+<arc id="arc44" source="p24" target="t24"><inscription><text>1</text></inscription></arc>
+<arc id="arc45" source="t0" target="p10"><inscription><text>1</text></inscription></arc>
+<arc id="arc46" source="t1" target="p11"><inscription><text>1</text></inscription></arc>
+<arc id="arc47" source="t2" target="p12"><inscription><text>1</text></inscription></arc>
+<arc id="arc48" source="t3" target="p13"><inscription><text>1</text></inscription></arc>
+<arc id="arc49" source="t4" target="p14"><inscription><text>1</text></inscription></arc>
+<arc id="arc50" source="t5" target="p15"><inscription><text>1</text></inscription></arc>
+<arc id="arc51" source="t6" target="p16"><inscription><text>1</text></inscription></arc>
+<arc id="arc52" source="t7" target="p17"><inscription><text>1</text></inscription></arc>
+<arc id="arc53" source="t8" target="p18"><inscription><text>1</text></inscription></arc>
+<arc id="arc54" source="t9" target="p19"><inscription><text>1</text></inscription></arc>
+<arc id="arc55" source="t10" target="p20"><inscription><text>1</text></inscription></arc>
+<arc id="arc56" source="t11" target="p21"><inscription><text>1</text></inscription></arc>
+<arc id="arc57" source="t12" target="p22"><inscription><text>1</text></inscription></arc>
+<arc id="arc58" source="t13" target="p23"><inscription><text>1</text></inscription></arc>
+<arc id="arc59" source="t14" target="p24"><inscription><text>1</text></inscription></arc>
+<arc id="arc60" source="t15" target="p20"><inscription><text>1</text></inscription></arc>
+<arc id="arc61" source="t16" target="p21"><inscription><text>1</text></inscription></arc>
+<arc id="arc62" source="t17" target="p22"><inscription><text>1</text></inscription></arc>
+<arc id="arc63" source="t18" target="p23"><inscription><text>1</text></inscription></arc>
+<arc id="arc64" source="t19" target="p24"><inscription><text>1</text></inscription></arc>
+<arc id="arc65" source="t20" target="p0"><inscription><text>1</text></inscription></arc>
+<arc id="arc66" source="t20" target="p5"><inscription><text>1</text></inscription></arc>
+<arc id="arc67" source="t20" target="p9"><inscription><text>1</text></inscription></arc>
+<arc id="arc68" source="t21" target="p1"><inscription><text>1</text></inscription></arc>
+<arc id="arc69" source="t21" target="p5"><inscription><text>1</text></inscription></arc>
+<arc id="arc70" source="t21" target="p6"><inscription><text>1</text></inscription></arc>
+<arc id="arc71" source="t22" target="p2"><inscription><text>1</text></inscription></arc>
+<arc id="arc72" source="t22" target="p6"><inscription><text>1</text></inscription></arc>
+<arc id="arc73" source="t22" target="p7"><inscription><text>1</text></inscription></arc>
+<arc id="arc74" source="t23" target="p3"><inscription><text>1</text></inscription></arc>
+<arc id="arc75" source="t23" target="p7"><inscription><text>1</text></inscription></arc>
+<arc id="arc76" source="t23" target="p8"><inscription><text>1</text></inscription></arc>
+<arc id="arc77" source="t24" target="p4"><inscription><text>1</text></inscription></arc>
+<arc id="arc78" source="t24" target="p8"><inscription><text>1</text></inscription></arc>
+<arc id="arc79" source="t24" target="p9"><inscription><text>1</text></inscription></arc>
+</page>
+<name><text>Philosophers_COL_000005_unf</text></name></net>
+</pnml>

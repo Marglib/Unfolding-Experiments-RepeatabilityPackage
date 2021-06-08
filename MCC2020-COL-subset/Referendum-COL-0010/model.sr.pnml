@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pnml xmlns="http://www.pnml.org/version-2009/grammar/pnml">
+<net id="ITS Tools generated" type="http://www.pnml.org/version-2009/grammar/ptnet">
+<page id="page0"><name><text>DefaultPage</text></name>
+<place id="p0"><name><text>ready_0</text></name><initialMarking><text>1</text></initialMarking></place>
+<place id="p1"><name><text>voted_no_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p2"><name><text>voted_no_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p3"><name><text>voted_no_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p4"><name><text>voted_no_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p5"><name><text>voted_no_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p6"><name><text>voted_no_5</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p7"><name><text>voted_no_6</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p8"><name><text>voted_no_7</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p9"><name><text>voted_no_8</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p10"><name><text>voted_no_9</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p11"><name><text>voted_yes_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p12"><name><text>voted_yes_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p13"><name><text>voted_yes_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p14"><name><text>voted_yes_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p15"><name><text>voted_yes_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p16"><name><text>voted_yes_5</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p17"><name><text>voted_yes_6</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p18"><name><text>voted_yes_7</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p19"><name><text>voted_yes_8</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p20"><name><text>voted_yes_9</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p21"><name><text>voting_0</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p22"><name><text>voting_1</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p23"><name><text>voting_2</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p24"><name><text>voting_3</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p25"><name><text>voting_4</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p26"><name><text>voting_5</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p27"><name><text>voting_6</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p28"><name><text>voting_7</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p29"><name><text>voting_8</text></name><initialMarking><text>0</text></initialMarking></place>
+<place id="p30"><name><text>voting_9</text></name><initialMarking><text>0</text></initialMarking></place>
+<transition id="t0"><name><text>start</text></name></transition>
+<transition id="t1"><name><text>nov0</text></name></transition>
+<transition id="t2"><name><text>nov1</text></name></transition>
+<transition id="t3"><name><text>nov2</text></name></transition>
+<transition id="t4"><name><text>nov3</text></name></transition>
+<transition id="t5"><name><text>nov4</text></name></transition>
+<transition id="t6"><name><text>nov5</text></name></transition>
+<transition id="t7"><name><text>nov6</text></name></transition>
+<transition id="t8"><name><text>nov7</text></name></transition>
+<transition id="t9"><name><text>nov8</text></name></transition>
+<transition id="t10"><name><text>nov9</text></name></transition>
+<transition id="t11"><name><text>yesv0</text></name></transition>
+<transition id="t12"><name><text>yesv1</text></name></transition>
+<transition id="t13"><name><text>yesv2</text></name></transition>
+<transition id="t14"><name><text>yesv3</text></name></transition>
+<transition id="t15"><name><text>yesv4</text></name></transition>
+<transition id="t16"><name><text>yesv5</text></name></transition>
+<transition id="t17"><name><text>yesv6</text></name></transition>
+<transition id="t18"><name><text>yesv7</text></name></transition>
+<transition id="t19"><name><text>yesv8</text></name></transition>
+<transition id="t20"><name><text>yesv9</text></name></transition>
+<arc id="arc0" source="p0" target="t0"><inscription><text>1</text></inscription></arc>
+<arc id="arc1" source="p21" target="t1"><inscription><text>1</text></inscription></arc>
+<arc id="arc2" source="p22" target="t2"><inscription><text>1</text></inscription></arc>
+<arc id="arc3" source="p23" target="t3"><inscription><text>1</text></inscription></arc>
+<arc id="arc4" source="p24" target="t4"><inscription><text>1</text></inscription></arc>
+<arc id="arc5" source="p25" target="t5"><inscription><text>1</text></inscription></arc>
+<arc id="arc6" source="p26" target="t6"><inscription><text>1</text></inscription></arc>
+<arc id="arc7" source="p27" target="t7"><inscription><text>1</text></inscription></arc>
+<arc id="arc8" source="p28" target="t8"><inscription><text>1</text></inscription></arc>
+<arc id="arc9" source="p29" target="t9"><inscription><text>1</text></inscription></arc>
+<arc id="arc10" source="p30" target="t10"><inscription><text>1</text></inscription></arc>
+<arc id="arc11" source="p21" target="t11"><inscription><text>1</text></inscription></arc>
+<arc id="arc12" source="p22" target="t12"><inscription><text>1</text></inscription></arc>
+<arc id="arc13" source="p23" target="t13"><inscription><text>1</text></inscription></arc>
+<arc id="arc14" source="p24" target="t14"><inscription><text>1</text></inscription></arc>
+<arc id="arc15" source="p25" target="t15"><inscription><text>1</text></inscription></arc>
+<arc id="arc16" source="p26" target="t16"><inscription><text>1</text></inscription></arc>
+<arc id="arc17" source="p27" target="t17"><inscription><text>1</text></inscription></arc>
+<arc id="arc18" source="p28" target="t18"><inscription><text>1</text></inscription></arc>
+<arc id="arc19" source="p29" target="t19"><inscription><text>1</text></inscription></arc>
+<arc id="arc20" source="p30" target="t20"><inscription><text>1</text></inscription></arc>
+<arc id="arc21" source="t0" target="p21"><inscription><text>1</text></inscription></arc>
+<arc id="arc22" source="t0" target="p22"><inscription><text>1</text></inscription></arc>
+<arc id="arc23" source="t0" target="p23"><inscription><text>1</text></inscription></arc>
+<arc id="arc24" source="t0" target="p24"><inscription><text>1</text></inscription></arc>
+<arc id="arc25" source="t0" target="p25"><inscription><text>1</text></inscription></arc>
+<arc id="arc26" source="t0" target="p26"><inscription><text>1</text></inscription></arc>
+<arc id="arc27" source="t0" target="p27"><inscription><text>1</text></inscription></arc>
+<arc id="arc28" source="t0" target="p28"><inscription><text>1</text></inscription></arc>
+<arc id="arc29" source="t0" target="p29"><inscription><text>1</text></inscription></arc>
+<arc id="arc30" source="t0" target="p30"><inscription><text>1</text></inscription></arc>
+<arc id="arc31" source="t1" target="p1"><inscription><text>1</text></inscription></arc>
+<arc id="arc32" source="t2" target="p2"><inscription><text>1</text></inscription></arc>
+<arc id="arc33" source="t3" target="p3"><inscription><text>1</text></inscription></arc>
+<arc id="arc34" source="t4" target="p4"><inscription><text>1</text></inscription></arc>
+<arc id="arc35" source="t5" target="p5"><inscription><text>1</text></inscription></arc>
+<arc id="arc36" source="t6" target="p6"><inscription><text>1</text></inscription></arc>
+<arc id="arc37" source="t7" target="p7"><inscription><text>1</text></inscription></arc>
+<arc id="arc38" source="t8" target="p8"><inscription><text>1</text></inscription></arc>
+<arc id="arc39" source="t9" target="p9"><inscription><text>1</text></inscription></arc>
+<arc id="arc40" source="t10" target="p10"><inscription><text>1</text></inscription></arc>
+<arc id="arc41" source="t11" target="p11"><inscription><text>1</text></inscription></arc>
+<arc id="arc42" source="t12" target="p12"><inscription><text>1</text></inscription></arc>
+<arc id="arc43" source="t13" target="p13"><inscription><text>1</text></inscription></arc>
+<arc id="arc44" source="t14" target="p14"><inscription><text>1</text></inscription></arc>
+<arc id="arc45" source="t15" target="p15"><inscription><text>1</text></inscription></arc>
+<arc id="arc46" source="t16" target="p16"><inscription><text>1</text></inscription></arc>
+<arc id="arc47" source="t17" target="p17"><inscription><text>1</text></inscription></arc>
+<arc id="arc48" source="t18" target="p18"><inscription><text>1</text></inscription></arc>
+<arc id="arc49" source="t19" target="p19"><inscription><text>1</text></inscription></arc>
+<arc id="arc50" source="t20" target="p20"><inscription><text>1</text></inscription></arc>
+</page>
+<name><text>Referendum_COL_010_unf</text></name></net>
+</pnml>

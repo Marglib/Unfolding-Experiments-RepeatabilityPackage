@@ -1,0 +1,80 @@
+Property PolyORBLF-COL-S02J04T06-CTLFireability-00
+  "Automatically generated"
+  is:
+    E ((E G ! "Run"?) U ((((((("SetSigAbort"?) & ("T_1722"?))) & ("LeaveCSPW"?))) & (A G "LeaveCSTCS"?))))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-01
+  "Automatically generated"
+  is:
+    A G E F E F "GoIdle"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-02
+  "Automatically generated"
+  is:
+    A F ((E G (("EnterCSTCS"?) | ("T_1146"?))) | ((("T_2315"?) & ((("T_1123"?) & (! "T_0376"?))))))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-03
+  "Automatically generated"
+  is:
+    ((! A F "T_1711"?) | ("T_2541"?))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F "NoCheck"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((! ((A X ! "DummyOR2"?) & ((((((("NOPEP"?) & ("IsEvt"?))) & ("T_1100"?))) & ("T_1148"?))))) & (E F "T_1098"?))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-06
+  "Automatically generated"
+  is:
+    E F "T_1711"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-07
+  "Automatically generated"
+  is:
+    E F ((((! ! "T_1115"?) & ("T_2541"?))) & (((! (("LeaveCSTCS"?) & ("T_2280"?))) | (A X "T_0376"?))))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-08
+  "Automatically generated"
+  is:
+    E X E G ! (("T_1444"?) | ("T_1124"?))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-09
+  "Automatically generated"
+  is:
+    E X A F E G "T_1171"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-10
+  "Automatically generated"
+  is:
+    E F "DummyIS"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-11
+  "Automatically generated"
+  is:
+    A F E X E G "T_1721"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-12
+  "Automatically generated"
+  is:
+    E X A F A F "T_1618"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-13
+  "Automatically generated"
+  is:
+    E F ((! (("NoMonitoring"?) | (! "DummyOR1"?))) & (A X (("T_2577"?) & ("SetSigAbort"?))))
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-14
+  "Automatically generated"
+  is:
+    E G A F E G "T_2317"?
+  end.
+Property PolyORBLF-COL-S02J04T06-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((((((((A F "T_1713"?) & (E G "WaitCompleted"?))) & (E G (("IsAbort"?) & ("T_1170"?))))) & ("T_1123"?))) | (A ((E F "GoCheckSource"?) U ((((("T_1125"?) & ("T_1124"?))) & ("T_2285"?))))))
+  end.

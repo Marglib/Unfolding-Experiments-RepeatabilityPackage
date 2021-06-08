@@ -1,0 +1,80 @@
+Property VehicularWifi-COL-none-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ((((! ! "SendRTS"?) & ((((("InternalCollision"?) | ("PauseBackoff"?))) | (! "EndingGarbled"?))))) & (! "SendRTS"?))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G "CorrectPacketAck"?
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (("ReceiverTimeout"?) & ("CorrectPacketAck"?))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    A G ! ! ! (("ReceiverGarbled"?) | ("ReceiverTimeout"?))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G ((((! ! "EndingGarbled"?) & ((((("ResumeBackoff4"?) | ("ReceiverTimeout"?))) & ((("ResumeBackoff3"?) | ("WaitAIFS4"?))))))) | (! (((("ExitingErrorSpike"?) & ("ResumeBackoff1"?))) & (! "SendAck"?))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ! (("CorrectPacketRts"?) | (((! "ResumeBackoff1"?) | ((("ExitBackoff"?) | ("WaitAIFS4"?))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F (((((((("DropPacket"?) | ("SenderWrongPacket"?))) & ("WaitAIFS1"?))) & ((((("ReceiverGarbled"?) | ("DropPacket"?))) | ("EndingGarbled"?))))) | (((((! "InternalCollision"?) & ("BeginWaitingForResponse"?))) | ((("SendCTS"?) & ("CorrectPacketAck"?))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((! ! (("GettingGarbled"?) | ("StopReceiving"?))) & (((((! "EnteringErrorSpike"?) & ("SenderWrongPacket"?))) | (! (("ChooseBackoff"?) & ("WaitAIFS3"?))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F ! ! (((("BeginReceiving"?) | ("EnteringErrorSpike"?))) | (! "ReturnToBackoff"?))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G ! (((((("WaitAIFS4"?) & ("BeginReceiving"?))) & ((("ResumeBackoff4"?) & ("ShortEnterVulnerable"?))))) & (! ! "BeginWaitingForResponse"?))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    E F ((((! ! "SendCTS"?) & (((! "EnteringErrorSpike"?) & ((("PacketArrival"?) & ("ReceiverGarbled"?))))))) | ((((((("ReceiverSenseCollision"?) | ("CorrectPacketRts"?))) & (! "StopReceiving"?))) | ((("ResumeBackoff4"?) | (! "SendData"?))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G (("CorrectPacketButAck"?) | (! (((("SendData"?) & ("DecrementBackoff"?))) & ((("BeginReceiving"?) & ("BeginReceiving"?))))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F "WaitAIFS2"?
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F ! "BeginWaitingForResponse"?
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G (((((((("StopReceiving"?) | ("ResumeBackoff3"?))) | ((("ReceiverSenseCollision"?) & ("ReceiverWrongPacket"?))))) & (! "ResumeBackoff4"?))) | ((((((("WaitAIFS1"?) & ("GettingGarbled"?))) & ("WaitAIFS3"?))) | ("DropPacket"?))))
+  end.
+Property VehicularWifi-COL-none-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G ! "CorrectPacketAck"?
+  end.

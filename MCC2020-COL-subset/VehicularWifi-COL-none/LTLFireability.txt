@@ -1,0 +1,80 @@
+Property VehicularWifi-COL-none-00
+  "Automatically generated"
+  is:
+    A (X G "SendCTS"? | (!"SendCTS"? U "CorrectPacketButAck"?))
+  end.
+Property VehicularWifi-COL-none-01
+  "Automatically generated"
+  is:
+    A ("BeginReceiving"? | F "BeginReceiving"? | G (F X "BeginReceiving"? U "ResumeBackoff2"?))
+  end.
+Property VehicularWifi-COL-none-02
+  "Automatically generated"
+  is:
+    A G ("InternalCollision"? | G F X X ("CorrectPacketAck"? | G "InternalCollision"?))
+  end.
+Property VehicularWifi-COL-none-03
+  "Automatically generated"
+  is:
+    A (G ("BeginReceiving"? & F "BeginWaitingForResponse"?) & (X ("InternalCollision"? U "BeginReceiving"?) U "GoToBackoff"?))
+  end.
+Property VehicularWifi-COL-none-04
+  "Automatically generated"
+  is:
+    A G F X X G ("ReceiverWrongPacket"? U (!"ReceiverWrongPacket"? & (!"GoToBackoff"? | "ReceiverWrongPacket"?)))
+  end.
+Property VehicularWifi-COL-none-05
+  "Automatically generated"
+  is:
+    A !G F G !G "EndingGarbled"?
+  end.
+Property VehicularWifi-COL-none-06
+  "Automatically generated"
+  is:
+    A F ("SenderGarbled"? | !G !F ("SenderTimeout"? & G (X X "SenderGarbled"? U "WaitAIFS2"?)))
+  end.
+Property VehicularWifi-COL-none-07
+  "Automatically generated"
+  is:
+    A G !("PauseBackoff"? | (F G "PauseBackoff"? U ("PauseBackoff"? & F "EndingGarbled"?)))
+  end.
+Property VehicularWifi-COL-none-08
+  "Automatically generated"
+  is:
+    A G !"BeginSending"?
+  end.
+Property VehicularWifi-COL-none-09
+  "Automatically generated"
+  is:
+    A X F (F ("ExitBackoff"? U F ("ReceiverGarbled"? U "DecrementBackoff"?)) | F "SendAck"?)
+  end.
+Property VehicularWifi-COL-none-10
+  "Automatically generated"
+  is:
+    A (!G ("SenderTimeout"? & "ReturnToBackoff"?) | (F ("ReturnToBackoff"? U "SenderTimeout"?) U !F "SenderTimeout"?))
+  end.
+Property VehicularWifi-COL-none-11
+  "Automatically generated"
+  is:
+    A !F !"PacketArrival"?
+  end.
+Property VehicularWifi-COL-none-12
+  "Automatically generated"
+  is:
+    A F G X X (X G "ChooseBackoff"? U G "ReceiverSenseCollision"?)
+  end.
+Property VehicularWifi-COL-none-13
+  "Automatically generated"
+  is:
+    A !G ("ExitBackoff"? & G "SendCTS"? & (!G "GettingGarbled"? U !G F "GettingGarbled"?))
+  end.
+Property VehicularWifi-COL-none-14
+  "Automatically generated"
+  is:
+    A (("SenderTimeout"? U G "SendData"?) U ("BeginReceiving"? | (F "BeginReceiving"? & !F !G "SenderTimeout"?)))
+  end.
+Property VehicularWifi-COL-none-15
+  "Automatically generated"
+  is:
+    A F ("CorrectPacketButAck"? & "ReceiverGarbled"?)
+  end.

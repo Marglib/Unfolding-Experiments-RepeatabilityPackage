@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-2-00
+  "Automatically generated"
+  is:
+    A F !G !G (F "NoWin"? U G "Win2H"?)
+  end.
+Property DotAndBoxes-COL-2-01
+  "Automatically generated"
+  is:
+    A X (G X "Win2H"? & (("Win2H"? U "Win2H"?) U "Win1"?))
+  end.
+Property DotAndBoxes-COL-2-02
+  "Automatically generated"
+  is:
+    A G !(G "Win1"? U !"Play"?)
+  end.
+Property DotAndBoxes-COL-2-03
+  "Automatically generated"
+  is:
+    A (X "Lose2"? | ("NoWin"? U F "Win2V"?))
+  end.
+Property DotAndBoxes-COL-2-04
+  "Automatically generated"
+  is:
+    A X (F !"Win2V"? & X (F ("Lose1"? | ("Lose1"? U !"Lose1"?)) U "Win2V"?))
+  end.
+Property DotAndBoxes-COL-2-05
+  "Automatically generated"
+  is:
+    A X X (F "Lose1"? | !F X X "AWin"?)
+  end.
+Property DotAndBoxes-COL-2-06
+  "Automatically generated"
+  is:
+    A !(("Win2H"? & "AWin"?) U (!"AWin"? & "Win2H"? & F "Lose2"?))
+  end.
+Property DotAndBoxes-COL-2-07
+  "Automatically generated"
+  is:
+    A (("Lose2"? U !X ("NoWin"? U G "Lose2"?)) U G "Lose2"?)
+  end.
+Property DotAndBoxes-COL-2-08
+  "Automatically generated"
+  is:
+    A X (G X "NoWin"? U (!("AWin"? U "NoWin"?) U X X "Win1"?))
+  end.
+Property DotAndBoxes-COL-2-09
+  "Automatically generated"
+  is:
+    A X X G "Win2H"?
+  end.
+Property DotAndBoxes-COL-2-10
+  "Automatically generated"
+  is:
+    A (((G "NoWin"? U !"NoWin"?) & ("NoWin"? U ("Lose1"? | "NoWin"?))) U ("NoWin"? | "NoWin"?))
+  end.
+Property DotAndBoxes-COL-2-11
+  "Automatically generated"
+  is:
+    A (("Win2V"? & "Lose2"?) | F G ("Lose2"? & "Win2V"?))
+  end.
+Property DotAndBoxes-COL-2-12
+  "Automatically generated"
+  is:
+    A G ("NoWin"? U G (!"NoWin"? & G F ("Win2V"? & "Win2H"?)))
+  end.
+Property DotAndBoxes-COL-2-13
+  "Automatically generated"
+  is:
+    A X X ("Win2H"? | (G ("Win2V"? U "Win2H"?) & X "Lose2"?))
+  end.
+Property DotAndBoxes-COL-2-14
+  "Automatically generated"
+  is:
+    A G X G (!"Win2H"? | F "NoWin"?)
+  end.
+Property DotAndBoxes-COL-2-15
+  "Automatically generated"
+  is:
+    A !G (("Lose1"? & F "AWin"?) | (G "Lose2"? U F ("Play"? & !"Lose1"?)))
+  end.

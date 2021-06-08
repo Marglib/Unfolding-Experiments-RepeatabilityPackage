@@ -1,0 +1,80 @@
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    A G ((((! ((1) <= (#tokens("sety_9")))) | (((((#tokens("awaity")) <= (#tokens("x")))) | (((2) <= (#tokens("x")))))))) & (((#tokens("await_13")) <= (#tokens("setbi_24")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((#tokens("y")) <= (#tokens("x")))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("setx_3")) <= (#tokens("setbi_11")))) & (((((#tokens("setbi_11")) <= (#tokens("sety_9")))) & (((1) <= (#tokens("setbi_5")))))))) & (((1) <= (#tokens("await_13")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ! ((((3) <= (#tokens("x")))) | (((((#tokens("ify0_4")) <= (#tokens("sety_9")))) | (((#tokens("setbi_11")) <= (#tokens("y")))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ((! ((((#tokens("setbi_5")) <= (#tokens("ifxi_10")))) & (((#tokens("y")) <= (#tokens("setbi_24")))))) | (! ! ((#tokens("await_13")) <= (#tokens("await_13")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    E F ((((((#tokens("start_1")) <= (#tokens("fordo_12")))) | (! ((1) <= (#tokens("CS_21")))))) & (((#tokens("b")) <= (#tokens("b")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("await_13")) <= (#tokens("x")))) | (((((2) <= (#tokens("CS_21")))) & (((2) <= (#tokens("setbi_24")))))))) | (((((#tokens("y")) <= (#tokens("done")))) | (! ((#tokens("ifxi_10")) <= (#tokens("setx_3")))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ! ((! ((#tokens("setx_3")) <= (#tokens("ifxi_10")))) | (((((#tokens("setbi_5")) <= (#tokens("await_13")))) & (((3) <= (#tokens("x")))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ! ! ((1) <= (#tokens("await_13")))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((((3) <= (#tokens("fordo_12")))) & (((((((#tokens("x")) <= (#tokens("ify0_4")))) & (((#tokens("ifyi_15")) <= (#tokens("awaity")))))) & (((((3) <= (#tokens("setx_3")))) & (((#tokens("awaity")) <= (#tokens("setx_3")))))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ! ((! ((1) <= (#tokens("setbi_11")))) & (! ((#tokens("setbi_24")) <= (#tokens("done")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((! ((#tokens("y")) <= (#tokens("sety_9")))) & (! ((3) <= (#tokens("awaity")))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((((((2) <= (#tokens("ifxi_10")))) & (! ((#tokens("ifxi_10")) <= (#tokens("start_1")))))) | (((((((2) <= (#tokens("setbi_5")))) & (((#tokens("x")) <= (#tokens("sety_9")))))) & (((((3) <= (#tokens("y")))) | (((2) <= (#tokens("awaity")))))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ! ((! ((2) <= (#tokens("setbi_5")))) | (((((#tokens("b")) <= (#tokens("x")))) | (((1) <= (#tokens("wait")))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((#tokens("wait")) <= (#tokens("ifxi_10")))) | (((((((1) <= (#tokens("setbi_11")))) & (((#tokens("setbi_11")) <= (#tokens("CS_21")))))) & (((((#tokens("await_13")) <= (#tokens("start_1")))) & (((3) <= (#tokens("await_13")))))))))
+  end.
+Property LamportFastMutEx-COL-2-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("awaity")))) & (((#tokens("awaity")) <= (#tokens("ify0_4")))))) | (! ((#tokens("ifyi_15")) <= (#tokens("x")))))) & (((! ((#tokens("CS_21")) <= (#tokens("y")))) & (((((#tokens("await_13")) <= (#tokens("y")))) & (((#tokens("sety_9")) <= (#tokens("wait")))))))))
+  end.

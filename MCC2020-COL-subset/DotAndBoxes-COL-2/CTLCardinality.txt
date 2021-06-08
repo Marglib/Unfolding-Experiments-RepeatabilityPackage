@@ -1,0 +1,80 @@
+Property DotAndBoxes-COL-2-CTLCardinality-00
+  "Automatically generated"
+  is:
+    A X ! ((#tokens("Chosed")) <= (#tokens("Chosed")))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A ((A F ((1) <= (#tokens("Idle")))) U (((! ((#tokens("FreePositions")) <= (#tokens("OccupiedPositions")))) & (((((#tokens("FreePositions")) <= (#tokens("Eval1")))) & (((#tokens("End")) <= (#tokens("OccupiedPositions")))))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-02
+  "Automatically generated"
+  is:
+    A F ! ! ((((#tokens("OccupiedPositions")) <= (#tokens("IsWinner")))) & (((#tokens("Idle")) <= (#tokens("End")))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F E G ((((1) <= (#tokens("Score")))) & (((1) <= (#tokens("Chosed")))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((E X ((! ((2) <= (#tokens("Chosed")))) & (((((#tokens("FreePositions")) <= (#tokens("Eval1")))) | (((#tokens("OccupiedPositions")) <= (#tokens("IsWinner")))))))) & (A X ((((((2) <= (#tokens("IsWinner")))) | (((1) <= (#tokens("FreePositions")))))) & (((#tokens("Score")) <= (#tokens("IsWinner")))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-05
+  "Automatically generated"
+  is:
+    ((((1) <= (#tokens("OccupiedPositions")))) | (! ! ((((((3) <= (#tokens("OccupiedPositions")))) | (((#tokens("FreePositions")) <= (#tokens("Idle")))))) & (((2) <= (#tokens("Score")))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-06
+  "Automatically generated"
+  is:
+    E F ((A G ((#tokens("Chosed")) <= (#tokens("IsWinner")))) | (((((((#tokens("End")) <= (#tokens("Eval1")))) & (((#tokens("OccupiedPositions")) <= (#tokens("OccupiedPositions")))))) | (((((3) <= (#tokens("Idle")))) | (((#tokens("Eval1")) <= (#tokens("OccupiedPositions")))))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E ((((3) <= (#tokens("FreePositions")))) U (((#tokens("End")) <= (#tokens("Chosed")))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-08
+  "Automatically generated"
+  is:
+    A G ((((#tokens("Eval1")) <= (#tokens("FreePositions")))) | (((((((2) <= (#tokens("Eval1")))) & (((#tokens("FreePositions")) <= (#tokens("Chosed")))))) & (((#tokens("IsWinner")) <= (#tokens("End")))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-09
+  "Automatically generated"
+  is:
+    ((2) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ((3) <= (#tokens("Idle")))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-11
+  "Automatically generated"
+  is:
+    ! ! ((((((2) <= (#tokens("OccupiedPositions")))) & (((((2) <= (#tokens("Chosed")))) & (((#tokens("Chosed")) <= (#tokens("IsWinner")))))))) | (A X ((2) <= (#tokens("Idle")))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-12
+  "Automatically generated"
+  is:
+    A X ((A F ((1) <= (#tokens("Score")))) | (((1) <= (#tokens("Chosed")))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-13
+  "Automatically generated"
+  is:
+    ((#tokens("OccupiedPositions")) <= (#tokens("IsWinner")))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-14
+  "Automatically generated"
+  is:
+    E X ! ((((((3) <= (#tokens("End")))) | (((#tokens("Score")) <= (#tokens("IsWinner")))))) & (((((#tokens("End")) <= (#tokens("Idle")))) & (((3) <= (#tokens("Eval1")))))))
+  end.
+Property DotAndBoxes-COL-2-CTLCardinality-15
+  "Automatically generated"
+  is:
+    ((! ((! ((((1) <= (#tokens("Idle")))) & (((#tokens("Score")) <= (#tokens("IsWinner")))))) | (! ! ((#tokens("End")) <= (#tokens("Chosed")))))) | (A G ((((#tokens("Score")) <= (#tokens("IsWinner")))) | (((((#tokens("Score")) <= (#tokens("Idle")))) | (((#tokens("Score")) <= (#tokens("FreePositions")))))))))
+  end.

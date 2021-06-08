@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p45</place>
+                <place>p46</place>
+                <place>p47</place>
+                <place>p48</place>
+                <place>p49</place>
+                <place>p50</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-01</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-02</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-03</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-04</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-05</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le></negation>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p54</place>
+                <place>p55</place>
+                <place>p56</place>
+                <place>p57</place>
+                <place>p58</place>
+                <place>p59</place>
+                <place>p60</place>
+                <place>p61</place>
+                <place>p62</place>
+                <place>p63</place>
+                <place>p64</place>
+                <place>p65</place>
+                <place>p66</place>
+                <place>p67</place>
+                <place>p68</place>
+                <place>p69</place>
+                <place>p70</place>
+                <place>p71</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p0</place>
+                <place>p1</place>
+                <place>p2</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p45</place>
+                <place>p46</place>
+                <place>p47</place>
+                <place>p48</place>
+                <place>p49</place>
+                <place>p50</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p0</place>
+                <place>p1</place>
+                <place>p2</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p21</place>
+                <place>p22</place>
+                <place>p23</place>
+                <place>p24</place>
+                <place>p25</place>
+                <place>p26</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+</integer-le>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+<integer-constant>3</integer-constant>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+<conjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p72</place>
+                <place>p73</place>
+                <place>p74</place>
+                <place>p75</place>
+                <place>p76</place>
+                <place>p77</place>
+                <place>p78</place>
+                <place>p79</place>
+                <place>p80</place>
+                <place>p81</place>
+                <place>p82</place>
+                <place>p83</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-08</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p21</place>
+                <place>p22</place>
+                <place>p23</place>
+                <place>p24</place>
+                <place>p25</place>
+                <place>p26</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-09</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p0</place>
+                <place>p1</place>
+                <place>p2</place>
+              </tokens-count>
+</integer-le>
+<negation><integer-le>
+              <tokens-count>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+</integer-le></negation>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-10</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<negation><integer-le>
+              <tokens-count>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p54</place>
+                <place>p55</place>
+                <place>p56</place>
+                <place>p57</place>
+                <place>p58</place>
+                <place>p59</place>
+                <place>p60</place>
+                <place>p61</place>
+                <place>p62</place>
+                <place>p63</place>
+                <place>p64</place>
+                <place>p65</place>
+                <place>p66</place>
+                <place>p67</place>
+                <place>p68</place>
+                <place>p69</place>
+                <place>p70</place>
+                <place>p71</place>
+              </tokens-count>
+</integer-le></negation>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<negation><integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+                <place>p33</place>
+                <place>p34</place>
+                <place>p35</place>
+                <place>p36</place>
+                <place>p37</place>
+                <place>p38</place>
+                <place>p39</place>
+                <place>p40</place>
+                <place>p41</place>
+                <place>p42</place>
+                <place>p43</place>
+                <place>p44</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p45</place>
+                <place>p46</place>
+                <place>p47</place>
+                <place>p48</place>
+                <place>p49</place>
+                <place>p50</place>
+              </tokens-count>
+</integer-le></negation>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-12</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-13</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-14</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p72</place>
+                <place>p73</place>
+                <place>p74</place>
+                <place>p75</place>
+                <place>p76</place>
+                <place>p77</place>
+                <place>p78</place>
+                <place>p79</place>
+                <place>p80</place>
+                <place>p81</place>
+                <place>p82</place>
+                <place>p83</place>
+              </tokens-count>
+<integer-constant>2</integer-constant>
+</integer-le>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p54</place>
+                <place>p55</place>
+                <place>p56</place>
+                <place>p57</place>
+                <place>p58</place>
+                <place>p59</place>
+                <place>p60</place>
+                <place>p61</place>
+                <place>p62</place>
+                <place>p63</place>
+                <place>p64</place>
+                <place>p65</place>
+                <place>p66</place>
+                <place>p67</place>
+                <place>p68</place>
+                <place>p69</place>
+                <place>p70</place>
+                <place>p71</place>
+              </tokens-count>
+</integer-le></negation>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>Peterson-COL-2-ReachabilityCardinality-15</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+</property-set>
+

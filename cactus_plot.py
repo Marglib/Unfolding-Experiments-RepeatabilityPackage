@@ -105,7 +105,10 @@ if __name__ == "__main__":
         for df in time_df_list[1:]:
             time_frame = time_frame.join(df, how='outer')
         time_frame.fillna(1000, inplace=True)
-        make_plot(time_frame, options.numCases, options.worstCases, labels, 'Time(s)', options.timeOut, options.show, ['c', 'b', 'r', 'k', 'g','m', 'lime'],['-', '--', ':', '-.', '-', ':', '--', '-.'])
+        if len(time_frame) < options.numCases:
+            make_plot(time_frame, len(time_frame), options.worstCases, labels, 'Time(s)', options.timeOut, options.show, ['c', 'b', 'r', 'k', 'g','m', 'lime'],['-', '--', ':', '-.', '-', ':', '--', '-.'])
+        else:
+            make_plot(time_frame, options.numCases, options.worstCases, labels, 'Time(s)', options.timeOut, options.show, ['c', 'b', 'r', 'k', 'g','m', 'lime'],['-', '--', ':', '-.', '-', ':', '--', '-.'])
     
 
     if options.doSize:
@@ -113,7 +116,7 @@ if __name__ == "__main__":
         for df in size_df_list[1:]:
             size_frame = size_frame.join(df, how='outer')
 
-        size_frame.to_csv('test.csv')
+        #size_frame.to_csv('test.csv')
         #size_frame[size_frame['itssize'] < size_frame['partitioningsize']].to_csv("itssizebetter.csv")
         size_df = pd.DataFrame()
         #Rules: Number/NaN = inf, NaN/Number = 0, NaN/NaN = NaN

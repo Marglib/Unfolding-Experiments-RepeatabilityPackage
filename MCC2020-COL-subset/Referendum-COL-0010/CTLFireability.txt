@@ -1,0 +1,80 @@
+Property Referendum-COL-0010-CTLFireability-00
+  "Automatically generated"
+  is:
+    ((! E G (("start"?) | ("start"?))) | (! E X E F "start"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-01
+  "Automatically generated"
+  is:
+    E G A (((("start"?) | ("no"?))) U ("start"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-02
+  "Automatically generated"
+  is:
+    A (((((((("start"?) & ("no"?))) | ("start"?))) | (! (("yes"?) & ("start"?))))) U (E F (("yes"?) & ("start"?))))
+  end.
+Property Referendum-COL-0010-CTLFireability-03
+  "Automatically generated"
+  is:
+    A G A F E F "start"?
+  end.
+Property Referendum-COL-0010-CTLFireability-04
+  "Automatically generated"
+  is:
+    A F E G (((("no"?) | ("yes"?))) | ("start"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-05
+  "Automatically generated"
+  is:
+    ((A X A F (("start"?) & ("start"?))) | (((! ! (("no"?) & ("no"?))) | (! A G (("start"?) | ("start"?))))))
+  end.
+Property Referendum-COL-0010-CTLFireability-06
+  "Automatically generated"
+  is:
+    ((E G E F (("yes"?) & ("yes"?))) | ("no"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-07
+  "Automatically generated"
+  is:
+    A F A G ((! "start"?) | ("no"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-08
+  "Automatically generated"
+  is:
+    A F A G ! "yes"?
+  end.
+Property Referendum-COL-0010-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F ! ! A X "start"?
+  end.
+Property Referendum-COL-0010-CTLFireability-10
+  "Automatically generated"
+  is:
+    E ((A X "yes"?) U (((A X "no"?) & (E G "no"?))))
+  end.
+Property Referendum-COL-0010-CTLFireability-11
+  "Automatically generated"
+  is:
+    A G E (("no"?) U (! "yes"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-12
+  "Automatically generated"
+  is:
+    E F A X A G "no"?
+  end.
+Property Referendum-COL-0010-CTLFireability-13
+  "Automatically generated"
+  is:
+    A F ((A G ! "yes"?) & (E F (("start"?) & ("yes"?))))
+  end.
+Property Referendum-COL-0010-CTLFireability-14
+  "Automatically generated"
+  is:
+    E X E (("no"?) U ("start"?))
+  end.
+Property Referendum-COL-0010-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((A X ((! (("no"?) | ("yes"?))) | ("start"?))) | (! A F ((! "start"?) & ((("no"?) & ("start"?))))))
+  end.

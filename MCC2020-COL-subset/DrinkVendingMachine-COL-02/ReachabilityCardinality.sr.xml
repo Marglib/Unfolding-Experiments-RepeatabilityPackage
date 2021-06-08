@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p0</place>
+                <place>p1</place>
+                <place>p2</place>
+                <place>p3</place>
+                <place>p4</place>
+                <place>p5</place>
+                <place>p6</place>
+                <place>p7</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p8</place>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-01</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-02</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<negation><integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p0</place>
+                <place>p1</place>
+                <place>p2</place>
+                <place>p3</place>
+                <place>p4</place>
+                <place>p5</place>
+                <place>p6</place>
+                <place>p7</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p22</place>
+                <place>p23</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-03</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-04</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-05</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-08</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<disjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+</integer-le>
+<conjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p16</place>
+                <place>p17</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p8</place>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</conjunction>
+</disjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-09</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p8</place>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p16</place>
+                <place>p17</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p22</place>
+                <place>p23</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-10</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-12</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>1</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-13</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-14</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<conjunction>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p16</place>
+                <place>p17</place>
+              </tokens-count>
+</integer-le></negation>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p22</place>
+                <place>p23</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p8</place>
+                <place>p9</place>
+                <place>p10</place>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</conjunction>
+<conjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p18</place>
+                <place>p19</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p16</place>
+                <place>p17</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>DrinkVendingMachine-COL-02-ReachabilityCardinality-15</id>
+    <description>Automatically generated</description>
+    <formula>
+<integer-le><integer-constant>0</integer-constant><integer-constant>0</integer-constant></integer-le>
+    </formula>
+  </property>
+</property-set>
+

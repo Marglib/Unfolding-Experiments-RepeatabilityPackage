@@ -1,0 +1,1572 @@
+<?xml version="1.0" encoding="utf-8"?>
+<property-set xmlns="http://mcc.lip6.fr/">
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-00</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p1421</place>
+                <place>p1422</place>
+                <place>p1423</place>
+                <place>p1424</place>
+                <place>p1425</place>
+                <place>p1426</place>
+                <place>p1427</place>
+                <place>p1428</place>
+                <place>p1429</place>
+                <place>p1430</place>
+                <place>p1431</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-01</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p903</place>
+                <place>p904</place>
+                <place>p905</place>
+                <place>p906</place>
+                <place>p907</place>
+                <place>p908</place>
+                <place>p909</place>
+                <place>p910</place>
+                <place>p911</place>
+                <place>p912</place>
+                <place>p913</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p376</place>
+                <place>p377</place>
+                <place>p378</place>
+                <place>p379</place>
+                <place>p380</place>
+                <place>p381</place>
+                <place>p382</place>
+                <place>p383</place>
+                <place>p384</place>
+                <place>p385</place>
+                <place>p386</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p354</place>
+                <place>p355</place>
+                <place>p356</place>
+                <place>p357</place>
+                <place>p358</place>
+                <place>p359</place>
+                <place>p360</place>
+                <place>p361</place>
+                <place>p362</place>
+                <place>p363</place>
+                <place>p364</place>
+                <place>p365</place>
+                <place>p366</place>
+                <place>p367</place>
+                <place>p368</place>
+                <place>p369</place>
+                <place>p370</place>
+                <place>p371</place>
+                <place>p372</place>
+                <place>p373</place>
+                <place>p374</place>
+                <place>p375</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p1259</place>
+                <place>p1260</place>
+                <place>p1261</place>
+                <place>p1262</place>
+                <place>p1263</place>
+                <place>p1264</place>
+                <place>p1265</place>
+                <place>p1266</place>
+                <place>p1267</place>
+                <place>p1268</place>
+                <place>p1269</place>
+                <place>p1270</place>
+                <place>p1271</place>
+                <place>p1272</place>
+                <place>p1273</place>
+                <place>p1274</place>
+                <place>p1275</place>
+                <place>p1276</place>
+                <place>p1277</place>
+                <place>p1278</place>
+                <place>p1279</place>
+                <place>p1280</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1388</place>
+                <place>p1389</place>
+                <place>p1390</place>
+                <place>p1391</place>
+                <place>p1392</place>
+                <place>p1393</place>
+                <place>p1394</place>
+                <place>p1395</place>
+                <place>p1396</place>
+                <place>p1397</place>
+                <place>p1398</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p1059</place>
+                <place>p1060</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p881</place>
+                <place>p882</place>
+                <place>p883</place>
+                <place>p884</place>
+                <place>p885</place>
+                <place>p886</place>
+                <place>p887</place>
+                <place>p888</place>
+                <place>p889</place>
+                <place>p890</place>
+                <place>p891</place>
+                <place>p892</place>
+                <place>p893</place>
+                <place>p894</place>
+                <place>p895</place>
+                <place>p896</place>
+                <place>p897</place>
+                <place>p898</place>
+                <place>p899</place>
+                <place>p900</place>
+                <place>p901</place>
+                <place>p902</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p1421</place>
+                <place>p1422</place>
+                <place>p1423</place>
+                <place>p1424</place>
+                <place>p1425</place>
+                <place>p1426</place>
+                <place>p1427</place>
+                <place>p1428</place>
+                <place>p1429</place>
+                <place>p1430</place>
+                <place>p1431</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p589</place>
+                <place>p590</place>
+                <place>p591</place>
+                <place>p592</place>
+                <place>p593</place>
+                <place>p594</place>
+                <place>p595</place>
+                <place>p596</place>
+                <place>p597</place>
+                <place>p598</place>
+                <place>p599</place>
+                <place>p600</place>
+                <place>p601</place>
+                <place>p602</place>
+                <place>p603</place>
+                <place>p604</place>
+                <place>p605</place>
+                <place>p606</place>
+                <place>p607</place>
+                <place>p608</place>
+                <place>p609</place>
+                <place>p610</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+                <place>p16</place>
+                <place>p17</place>
+                <place>p18</place>
+                <place>p19</place>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-02</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+                <place>p16</place>
+                <place>p17</place>
+                <place>p18</place>
+                <place>p19</place>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+<integer-constant>2</integer-constant>
+</integer-le></negation>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1309</place>
+                <place>p1310</place>
+                <place>p1311</place>
+                <place>p1312</place>
+                <place>p1313</place>
+                <place>p1314</place>
+                <place>p1315</place>
+                <place>p1316</place>
+                <place>p1317</place>
+                <place>p1318</place>
+                <place>p1319</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1281</place>
+                <place>p1282</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1366</place>
+                <place>p1367</place>
+                <place>p1368</place>
+                <place>p1369</place>
+                <place>p1370</place>
+                <place>p1371</place>
+                <place>p1372</place>
+                <place>p1373</place>
+                <place>p1374</place>
+                <place>p1375</place>
+                <place>p1376</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p778</place>
+                <place>p779</place>
+                <place>p780</place>
+                <place>p781</place>
+                <place>p782</place>
+                <place>p783</place>
+                <place>p784</place>
+                <place>p785</place>
+                <place>p786</place>
+                <place>p787</place>
+                <place>p788</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+              <tokens-count>
+                <place>p1320</place>
+                <place>p1321</place>
+                <place>p1322</place>
+                <place>p1323</place>
+                <place>p1324</place>
+                <place>p1325</place>
+                <place>p1326</place>
+                <place>p1327</place>
+                <place>p1328</place>
+                <place>p1329</place>
+                <place>p1330</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+                <place>p104</place>
+                <place>p105</place>
+                <place>p106</place>
+                <place>p107</place>
+                <place>p108</place>
+                <place>p109</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-03</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p1307</place>
+                <place>p1308</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-04</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<negation><integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p993</place>
+                <place>p994</place>
+                <place>p995</place>
+                <place>p996</place>
+                <place>p997</place>
+                <place>p998</place>
+                <place>p999</place>
+                <place>p1000</place>
+                <place>p1001</place>
+                <place>p1002</place>
+                <place>p1003</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1281</place>
+                <place>p1282</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1320</place>
+                <place>p1321</place>
+                <place>p1322</place>
+                <place>p1323</place>
+                <place>p1324</place>
+                <place>p1325</place>
+                <place>p1326</place>
+                <place>p1327</place>
+                <place>p1328</place>
+                <place>p1329</place>
+                <place>p1330</place>
+              </tokens-count>
+</integer-le></negation>
+<disjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p859</place>
+                <place>p860</place>
+                <place>p861</place>
+                <place>p862</place>
+                <place>p863</place>
+                <place>p864</place>
+                <place>p865</place>
+                <place>p866</place>
+                <place>p867</place>
+                <place>p868</place>
+                <place>p869</place>
+                <place>p870</place>
+                <place>p871</place>
+                <place>p872</place>
+                <place>p873</place>
+                <place>p874</place>
+                <place>p875</place>
+                <place>p876</place>
+                <place>p877</place>
+                <place>p878</place>
+                <place>p879</place>
+                <place>p880</place>
+              </tokens-count>
+<integer-constant>2</integer-constant>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p253</place>
+                <place>p254</place>
+                <place>p255</place>
+                <place>p256</place>
+                <place>p257</place>
+                <place>p258</place>
+                <place>p259</place>
+                <place>p260</place>
+                <place>p261</place>
+                <place>p262</place>
+                <place>p263</place>
+                <place>p264</place>
+                <place>p265</place>
+                <place>p266</place>
+                <place>p267</place>
+                <place>p268</place>
+                <place>p269</place>
+                <place>p270</place>
+                <place>p271</place>
+                <place>p272</place>
+                <place>p273</place>
+                <place>p274</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p1215</place>
+                <place>p1216</place>
+                <place>p1217</place>
+                <place>p1218</place>
+                <place>p1219</place>
+                <place>p1220</place>
+                <place>p1221</place>
+                <place>p1222</place>
+                <place>p1223</place>
+                <place>p1224</place>
+                <place>p1225</place>
+                <place>p1226</place>
+                <place>p1227</place>
+                <place>p1228</place>
+                <place>p1229</place>
+                <place>p1230</place>
+                <place>p1231</place>
+                <place>p1232</place>
+                <place>p1233</place>
+                <place>p1234</place>
+                <place>p1235</place>
+                <place>p1236</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+                <place>p104</place>
+                <place>p105</place>
+                <place>p106</place>
+                <place>p107</place>
+                <place>p108</place>
+                <place>p109</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p299</place>
+                <place>p300</place>
+                <place>p301</place>
+                <place>p302</place>
+                <place>p303</place>
+                <place>p304</place>
+                <place>p305</place>
+                <place>p306</place>
+                <place>p307</place>
+                <place>p308</place>
+                <place>p309</place>
+                <place>p310</place>
+                <place>p311</place>
+                <place>p312</place>
+                <place>p313</place>
+                <place>p314</place>
+                <place>p315</place>
+                <place>p316</place>
+                <place>p317</place>
+                <place>p318</place>
+                <place>p319</place>
+                <place>p320</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1237</place>
+                <place>p1238</place>
+                <place>p1239</place>
+                <place>p1240</place>
+                <place>p1241</place>
+                <place>p1242</place>
+                <place>p1243</place>
+                <place>p1244</place>
+                <place>p1245</place>
+                <place>p1246</place>
+                <place>p1247</place>
+                <place>p1248</place>
+                <place>p1249</place>
+                <place>p1250</place>
+                <place>p1251</place>
+                <place>p1252</place>
+                <place>p1253</place>
+                <place>p1254</place>
+                <place>p1255</place>
+                <place>p1256</place>
+                <place>p1257</place>
+                <place>p1258</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-05</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p701</place>
+                <place>p702</place>
+                <place>p703</place>
+                <place>p704</place>
+                <place>p705</place>
+                <place>p706</place>
+                <place>p707</place>
+                <place>p708</place>
+                <place>p709</place>
+                <place>p710</place>
+                <place>p711</place>
+                <place>p712</place>
+                <place>p713</place>
+                <place>p714</place>
+                <place>p715</place>
+                <place>p716</place>
+                <place>p717</place>
+                <place>p718</place>
+                <place>p719</place>
+                <place>p720</place>
+                <place>p721</place>
+                <place>p722</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p778</place>
+                <place>p779</place>
+                <place>p780</place>
+                <place>p781</place>
+                <place>p782</place>
+                <place>p783</place>
+                <place>p784</place>
+                <place>p785</place>
+                <place>p786</place>
+                <place>p787</place>
+                <place>p788</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p187</place>
+                <place>p188</place>
+                <place>p189</place>
+                <place>p190</place>
+                <place>p191</place>
+                <place>p192</place>
+                <place>p193</place>
+                <place>p194</place>
+                <place>p195</place>
+                <place>p196</place>
+                <place>p197</place>
+                <place>p198</place>
+                <place>p199</place>
+                <place>p200</place>
+                <place>p201</place>
+                <place>p202</place>
+                <place>p203</place>
+                <place>p204</place>
+                <place>p205</place>
+                <place>p206</place>
+                <place>p207</place>
+                <place>p208</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p22</place>
+                <place>p23</place>
+                <place>p24</place>
+                <place>p25</place>
+                <place>p26</place>
+                <place>p27</place>
+                <place>p28</place>
+                <place>p29</place>
+                <place>p30</place>
+                <place>p31</place>
+                <place>p32</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-06</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p354</place>
+                <place>p355</place>
+                <place>p356</place>
+                <place>p357</place>
+                <place>p358</place>
+                <place>p359</place>
+                <place>p360</place>
+                <place>p361</place>
+                <place>p362</place>
+                <place>p363</place>
+                <place>p364</place>
+                <place>p365</place>
+                <place>p366</place>
+                <place>p367</place>
+                <place>p368</place>
+                <place>p369</place>
+                <place>p370</place>
+                <place>p371</place>
+                <place>p372</place>
+                <place>p373</place>
+                <place>p374</place>
+                <place>p375</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p44</place>
+                <place>p45</place>
+                <place>p46</place>
+                <place>p47</place>
+                <place>p48</place>
+                <place>p49</place>
+                <place>p50</place>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+                <place>p54</place>
+                <place>p55</place>
+                <place>p56</place>
+                <place>p57</place>
+                <place>p58</place>
+                <place>p59</place>
+                <place>p60</place>
+                <place>p61</place>
+                <place>p62</place>
+                <place>p63</place>
+                <place>p64</place>
+                <place>p65</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p1193</place>
+                <place>p1194</place>
+                <place>p1195</place>
+                <place>p1196</place>
+                <place>p1197</place>
+                <place>p1198</place>
+                <place>p1199</place>
+                <place>p1200</place>
+                <place>p1201</place>
+                <place>p1202</place>
+                <place>p1203</place>
+                <place>p1204</place>
+                <place>p1205</place>
+                <place>p1206</place>
+                <place>p1207</place>
+                <place>p1208</place>
+                <place>p1209</place>
+                <place>p1210</place>
+                <place>p1211</place>
+                <place>p1212</place>
+                <place>p1213</place>
+                <place>p1214</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+                <place>p104</place>
+                <place>p105</place>
+                <place>p106</place>
+                <place>p107</place>
+                <place>p108</place>
+                <place>p109</place>
+              </tokens-count>
+</integer-le>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p121</place>
+                <place>p122</place>
+                <place>p123</place>
+                <place>p124</place>
+                <place>p125</place>
+                <place>p126</place>
+                <place>p127</place>
+                <place>p128</place>
+                <place>p129</place>
+                <place>p130</place>
+                <place>p131</place>
+                <place>p132</place>
+                <place>p133</place>
+                <place>p134</place>
+                <place>p135</place>
+                <place>p136</place>
+                <place>p137</place>
+                <place>p138</place>
+                <place>p139</place>
+                <place>p140</place>
+                <place>p141</place>
+                <place>p142</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1061</place>
+                <place>p1062</place>
+                <place>p1063</place>
+                <place>p1064</place>
+                <place>p1065</place>
+                <place>p1066</place>
+                <place>p1067</place>
+                <place>p1068</place>
+                <place>p1069</place>
+                <place>p1070</place>
+                <place>p1071</place>
+                <place>p1072</place>
+                <place>p1073</place>
+                <place>p1074</place>
+                <place>p1075</place>
+                <place>p1076</place>
+                <place>p1077</place>
+                <place>p1078</place>
+                <place>p1079</place>
+                <place>p1080</place>
+                <place>p1081</place>
+                <place>p1082</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p1454</place>
+                <place>p1455</place>
+                <place>p1456</place>
+                <place>p1457</place>
+                <place>p1458</place>
+                <place>p1459</place>
+                <place>p1460</place>
+                <place>p1461</place>
+                <place>p1462</place>
+                <place>p1463</place>
+                <place>p1464</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1149</place>
+                <place>p1150</place>
+                <place>p1151</place>
+                <place>p1152</place>
+                <place>p1153</place>
+                <place>p1154</place>
+                <place>p1155</place>
+                <place>p1156</place>
+                <place>p1157</place>
+                <place>p1158</place>
+                <place>p1159</place>
+                <place>p1160</place>
+                <place>p1161</place>
+                <place>p1162</place>
+                <place>p1163</place>
+                <place>p1164</place>
+                <place>p1165</place>
+                <place>p1166</place>
+                <place>p1167</place>
+                <place>p1168</place>
+                <place>p1169</place>
+                <place>p1170</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</conjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-07</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1388</place>
+                <place>p1389</place>
+                <place>p1390</place>
+                <place>p1391</place>
+                <place>p1392</place>
+                <place>p1393</place>
+                <place>p1394</place>
+                <place>p1395</place>
+                <place>p1396</place>
+                <place>p1397</place>
+                <place>p1398</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p275</place>
+                <place>p276</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+              <tokens-count>
+                <place>p165</place>
+                <place>p166</place>
+                <place>p167</place>
+                <place>p168</place>
+                <place>p169</place>
+                <place>p170</place>
+                <place>p171</place>
+                <place>p172</place>
+                <place>p173</place>
+                <place>p174</place>
+                <place>p175</place>
+                <place>p176</place>
+                <place>p177</place>
+                <place>p178</place>
+                <place>p179</place>
+                <place>p180</place>
+                <place>p181</place>
+                <place>p182</place>
+                <place>p183</place>
+                <place>p184</place>
+                <place>p185</place>
+                <place>p186</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p110</place>
+                <place>p111</place>
+                <place>p112</place>
+                <place>p113</place>
+                <place>p114</place>
+                <place>p115</place>
+                <place>p116</place>
+                <place>p117</place>
+                <place>p118</place>
+                <place>p119</place>
+                <place>p120</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<negation><integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p1171</place>
+                <place>p1172</place>
+                <place>p1173</place>
+                <place>p1174</place>
+                <place>p1175</place>
+                <place>p1176</place>
+                <place>p1177</place>
+                <place>p1178</place>
+                <place>p1179</place>
+                <place>p1180</place>
+                <place>p1181</place>
+                <place>p1182</place>
+                <place>p1183</place>
+                <place>p1184</place>
+                <place>p1185</place>
+                <place>p1186</place>
+                <place>p1187</place>
+                <place>p1188</place>
+                <place>p1189</place>
+                <place>p1190</place>
+                <place>p1191</place>
+                <place>p1192</place>
+              </tokens-count>
+</integer-le></negation>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p1421</place>
+                <place>p1422</place>
+                <place>p1423</place>
+                <place>p1424</place>
+                <place>p1425</place>
+                <place>p1426</place>
+                <place>p1427</place>
+                <place>p1428</place>
+                <place>p1429</place>
+                <place>p1430</place>
+                <place>p1431</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-08</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p1309</place>
+                <place>p1310</place>
+                <place>p1311</place>
+                <place>p1312</place>
+                <place>p1313</place>
+                <place>p1314</place>
+                <place>p1315</place>
+                <place>p1316</place>
+                <place>p1317</place>
+                <place>p1318</place>
+                <place>p1319</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p611</place>
+                <place>p612</place>
+                <place>p613</place>
+                <place>p614</place>
+                <place>p615</place>
+                <place>p616</place>
+                <place>p617</place>
+                <place>p618</place>
+                <place>p619</place>
+                <place>p620</place>
+                <place>p621</place>
+                <place>p622</place>
+                <place>p623</place>
+                <place>p624</place>
+                <place>p625</place>
+                <place>p626</place>
+                <place>p627</place>
+                <place>p628</place>
+                <place>p629</place>
+                <place>p630</place>
+                <place>p631</place>
+                <place>p632</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-09</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p321</place>
+                <place>p322</place>
+                <place>p323</place>
+                <place>p324</place>
+                <place>p325</place>
+                <place>p326</place>
+                <place>p327</place>
+                <place>p328</place>
+                <place>p329</place>
+                <place>p330</place>
+                <place>p331</place>
+                <place>p332</place>
+                <place>p333</place>
+                <place>p334</place>
+                <place>p335</place>
+                <place>p336</place>
+                <place>p337</place>
+                <place>p338</place>
+                <place>p339</place>
+                <place>p340</place>
+                <place>p341</place>
+                <place>p342</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p187</place>
+                <place>p188</place>
+                <place>p189</place>
+                <place>p190</place>
+                <place>p191</place>
+                <place>p192</place>
+                <place>p193</place>
+                <place>p194</place>
+                <place>p195</place>
+                <place>p196</place>
+                <place>p197</place>
+                <place>p198</place>
+                <place>p199</place>
+                <place>p200</place>
+                <place>p201</place>
+                <place>p202</place>
+                <place>p203</place>
+                <place>p204</place>
+                <place>p205</place>
+                <place>p206</place>
+                <place>p207</place>
+                <place>p208</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-10</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p376</place>
+                <place>p377</place>
+                <place>p378</place>
+                <place>p379</place>
+                <place>p380</place>
+                <place>p381</place>
+                <place>p382</place>
+                <place>p383</place>
+                <place>p384</place>
+                <place>p385</place>
+                <place>p386</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1259</place>
+                <place>p1260</place>
+                <place>p1261</place>
+                <place>p1262</place>
+                <place>p1263</place>
+                <place>p1264</place>
+                <place>p1265</place>
+                <place>p1266</place>
+                <place>p1267</place>
+                <place>p1268</place>
+                <place>p1269</place>
+                <place>p1270</place>
+                <place>p1271</place>
+                <place>p1272</place>
+                <place>p1273</place>
+                <place>p1274</place>
+                <place>p1275</place>
+                <place>p1276</place>
+                <place>p1277</place>
+                <place>p1278</place>
+                <place>p1279</place>
+                <place>p1280</place>
+              </tokens-count>
+</integer-le></negation>
+<negation><integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p1320</place>
+                <place>p1321</place>
+                <place>p1322</place>
+                <place>p1323</place>
+                <place>p1324</place>
+                <place>p1325</place>
+                <place>p1326</place>
+                <place>p1327</place>
+                <place>p1328</place>
+                <place>p1329</place>
+                <place>p1330</place>
+              </tokens-count>
+</integer-le></negation>
+<conjunction>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p1366</place>
+                <place>p1367</place>
+                <place>p1368</place>
+                <place>p1369</place>
+                <place>p1370</place>
+                <place>p1371</place>
+                <place>p1372</place>
+                <place>p1373</place>
+                <place>p1374</place>
+                <place>p1375</place>
+                <place>p1376</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>3</integer-constant>
+              <tokens-count>
+                <place>p354</place>
+                <place>p355</place>
+                <place>p356</place>
+                <place>p357</place>
+                <place>p358</place>
+                <place>p359</place>
+                <place>p360</place>
+                <place>p361</place>
+                <place>p362</place>
+                <place>p363</place>
+                <place>p364</place>
+                <place>p365</place>
+                <place>p366</place>
+                <place>p367</place>
+                <place>p368</place>
+                <place>p369</place>
+                <place>p370</place>
+                <place>p371</place>
+                <place>p372</place>
+                <place>p373</place>
+                <place>p374</place>
+                <place>p375</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-11</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p1083</place>
+                <place>p1084</place>
+                <place>p1085</place>
+                <place>p1086</place>
+                <place>p1087</place>
+                <place>p1088</place>
+                <place>p1089</place>
+                <place>p1090</place>
+                <place>p1091</place>
+                <place>p1092</place>
+                <place>p1093</place>
+              </tokens-count>
+</integer-le>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-12</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p486</place>
+                <place>p487</place>
+                <place>p488</place>
+                <place>p489</place>
+                <place>p490</place>
+                <place>p491</place>
+                <place>p492</place>
+                <place>p493</place>
+                <place>p494</place>
+                <place>p495</place>
+                <place>p496</place>
+                <place>p497</place>
+                <place>p498</place>
+                <place>p499</place>
+                <place>p500</place>
+                <place>p501</place>
+                <place>p502</place>
+                <place>p503</place>
+                <place>p504</place>
+                <place>p505</place>
+                <place>p506</place>
+                <place>p507</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p980</place>
+                <place>p981</place>
+                <place>p982</place>
+                <place>p983</place>
+                <place>p984</place>
+                <place>p985</place>
+                <place>p986</place>
+                <place>p987</place>
+                <place>p988</place>
+                <place>p989</place>
+                <place>p990</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p44</place>
+                <place>p45</place>
+                <place>p46</place>
+                <place>p47</place>
+                <place>p48</place>
+                <place>p49</place>
+                <place>p50</place>
+                <place>p51</place>
+                <place>p52</place>
+                <place>p53</place>
+                <place>p54</place>
+                <place>p55</place>
+                <place>p56</place>
+                <place>p57</place>
+                <place>p58</place>
+                <place>p59</place>
+                <place>p60</place>
+                <place>p61</place>
+                <place>p62</place>
+                <place>p63</place>
+                <place>p64</place>
+                <place>p65</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p699</place>
+                <place>p700</place>
+              </tokens-count>
+</integer-le>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1094</place>
+                <place>p1095</place>
+                <place>p1096</place>
+                <place>p1097</place>
+                <place>p1098</place>
+                <place>p1099</place>
+                <place>p1100</place>
+                <place>p1101</place>
+                <place>p1102</place>
+                <place>p1103</place>
+                <place>p1104</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p88</place>
+                <place>p89</place>
+                <place>p90</place>
+                <place>p91</place>
+                <place>p92</place>
+                <place>p93</place>
+                <place>p94</place>
+                <place>p95</place>
+                <place>p96</place>
+                <place>p97</place>
+                <place>p98</place>
+                <place>p99</place>
+                <place>p100</place>
+                <place>p101</place>
+                <place>p102</place>
+                <place>p103</place>
+                <place>p104</place>
+                <place>p105</place>
+                <place>p106</place>
+                <place>p107</place>
+                <place>p108</place>
+                <place>p109</place>
+              </tokens-count>
+</integer-le></negation>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-13</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<integer-le>
+              <tokens-count>
+                <place>p387</place>
+                <place>p388</place>
+                <place>p389</place>
+                <place>p390</place>
+                <place>p391</place>
+                <place>p392</place>
+                <place>p393</place>
+                <place>p394</place>
+                <place>p395</place>
+                <place>p396</place>
+                <place>p397</place>
+                <place>p398</place>
+                <place>p399</place>
+                <place>p400</place>
+                <place>p401</place>
+                <place>p402</place>
+                <place>p403</place>
+                <place>p404</place>
+                <place>p405</place>
+                <place>p406</place>
+                <place>p407</place>
+                <place>p408</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p77</place>
+                <place>p78</place>
+                <place>p79</place>
+                <place>p80</place>
+                <place>p81</place>
+                <place>p82</place>
+                <place>p83</place>
+                <place>p84</place>
+                <place>p85</place>
+                <place>p86</place>
+                <place>p87</place>
+              </tokens-count>
+</integer-le>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-14</id>
+    <description>Automatically generated</description>
+    <formula>
+<all-paths><globally>
+<disjunction>
+<integer-le>
+              <tokens-count>
+                <place>p699</place>
+                <place>p700</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p1237</place>
+                <place>p1238</place>
+                <place>p1239</place>
+                <place>p1240</place>
+                <place>p1241</place>
+                <place>p1242</place>
+                <place>p1243</place>
+                <place>p1244</place>
+                <place>p1245</place>
+                <place>p1246</place>
+                <place>p1247</place>
+                <place>p1248</place>
+                <place>p1249</place>
+                <place>p1250</place>
+                <place>p1251</place>
+                <place>p1252</place>
+                <place>p1253</place>
+                <place>p1254</place>
+                <place>p1255</place>
+                <place>p1256</place>
+                <place>p1257</place>
+                <place>p1258</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+              <tokens-count>
+                <place>p655</place>
+                <place>p656</place>
+                <place>p657</place>
+                <place>p658</place>
+                <place>p659</place>
+                <place>p660</place>
+                <place>p661</place>
+                <place>p662</place>
+                <place>p663</place>
+                <place>p664</place>
+                <place>p665</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p231</place>
+                <place>p232</place>
+                <place>p233</place>
+                <place>p234</place>
+                <place>p235</place>
+                <place>p236</place>
+                <place>p237</place>
+                <place>p238</place>
+                <place>p239</place>
+                <place>p240</place>
+                <place>p241</place>
+              </tokens-count>
+</integer-le>
+</disjunction>
+</globally></all-paths>
+    </formula>
+  </property>
+  <property>
+    <id>FamilyReunion-COL-L00010M0001C001P001G001-ReachabilityCardinality-15</id>
+    <description>Automatically generated</description>
+    <formula>
+<exists-path><finally>
+<conjunction>
+<integer-le>
+<integer-constant>2</integer-constant>
+              <tokens-count>
+                <place>p409</place>
+                <place>p410</place>
+                <place>p411</place>
+                <place>p412</place>
+                <place>p413</place>
+                <place>p414</place>
+                <place>p415</place>
+                <place>p416</place>
+                <place>p417</place>
+                <place>p418</place>
+                <place>p419</place>
+                <place>p420</place>
+                <place>p421</place>
+                <place>p422</place>
+                <place>p423</place>
+                <place>p424</place>
+                <place>p425</place>
+                <place>p426</place>
+                <place>p427</place>
+                <place>p428</place>
+                <place>p429</place>
+                <place>p430</place>
+              </tokens-count>
+</integer-le>
+<disjunction>
+<negation><integer-le>
+              <tokens-count>
+                <place>p1281</place>
+                <place>p1282</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p121</place>
+                <place>p122</place>
+                <place>p123</place>
+                <place>p124</place>
+                <place>p125</place>
+                <place>p126</place>
+                <place>p127</place>
+                <place>p128</place>
+                <place>p129</place>
+                <place>p130</place>
+                <place>p131</place>
+                <place>p132</place>
+                <place>p133</place>
+                <place>p134</place>
+                <place>p135</place>
+                <place>p136</place>
+                <place>p137</place>
+                <place>p138</place>
+                <place>p139</place>
+                <place>p140</place>
+                <place>p141</place>
+                <place>p142</place>
+              </tokens-count>
+</integer-le></negation>
+<conjunction>
+<integer-le>
+              <tokens-count>
+                <place>p11</place>
+                <place>p12</place>
+                <place>p13</place>
+                <place>p14</place>
+                <place>p15</place>
+                <place>p16</place>
+                <place>p17</place>
+                <place>p18</place>
+                <place>p19</place>
+                <place>p20</place>
+                <place>p21</place>
+              </tokens-count>
+              <tokens-count>
+                <place>p165</place>
+                <place>p166</place>
+                <place>p167</place>
+                <place>p168</place>
+                <place>p169</place>
+                <place>p170</place>
+                <place>p171</place>
+                <place>p172</place>
+                <place>p173</place>
+                <place>p174</place>
+                <place>p175</place>
+                <place>p176</place>
+                <place>p177</place>
+                <place>p178</place>
+                <place>p179</place>
+                <place>p180</place>
+                <place>p181</place>
+                <place>p182</place>
+                <place>p183</place>
+                <place>p184</place>
+                <place>p185</place>
+                <place>p186</place>
+              </tokens-count>
+</integer-le>
+<integer-le>
+<integer-constant>1</integer-constant>
+              <tokens-count>
+                <place>p387</place>
+                <place>p388</place>
+                <place>p389</place>
+                <place>p390</place>
+                <place>p391</place>
+                <place>p392</place>
+                <place>p393</place>
+                <place>p394</place>
+                <place>p395</place>
+                <place>p396</place>
+                <place>p397</place>
+                <place>p398</place>
+                <place>p399</place>
+                <place>p400</place>
+                <place>p401</place>
+                <place>p402</place>
+                <place>p403</place>
+                <place>p404</place>
+                <place>p405</place>
+                <place>p406</place>
+                <place>p407</place>
+                <place>p408</place>
+              </tokens-count>
+</integer-le>
+</conjunction>
+</disjunction>
+</conjunction>
+</finally></exists-path>
+    </formula>
+  </property>
+</property-set>
+
