@@ -17,8 +17,8 @@ MCC: https://github.com/dalzilio/mcc
 ### Cactus Plots
 To produce the cactus plots yourself run the following commands:
 
-py cactus_plot.py -f <folder> -s -n 200 -o output/sizegraph.png -d
+py cactus_plot.py -f \<folder\> -s -n 200 -o output/sizegraph.png -d
 
-py cactus_plot.py -f <folder> -t -w -p output/timegraph.png -d
+py cactus_plot.py -f \<folder\> -t -w -p output/timegraph.png -d
   
-where folder contains the .csv files you would like to show. In our case we use the results folder.
+where \<folder\> contains the .csv files you would like to show. In our case we use the results folder.
