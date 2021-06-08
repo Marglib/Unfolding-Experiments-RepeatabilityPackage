@@ -77,7 +77,7 @@ def get_options():
 # this is the main entry point of this script
 if __name__ == "__main__":
     options = get_options() 
-    all_files = glob.glob(options.folder + "/*.csv")
+    all_files = [options.folder + '/A+B-unfolding-results.csv', options.folder + '/ITS-unfolding-results.csv',options.folder + '/MCC-unfolding-results.csv',options.folder + '/Spike-unfolding-results.csv']
     time_df_list = []
     size_df_list = []
     labels = []
