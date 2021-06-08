@@ -3,14 +3,15 @@ import os
 import numpy as np
 
 def read_mcc_df():
-    filelist_mcc = os.listdir("output/mcc-linux")
+    cwd = os.getcwd()
+    filelist_mcc = os.listdir(cwd + "/output/mcc-linux")
 
     mcc_df = pd.DataFrame(columns=['name','places','transitions','arcs','unfoldingtime'])
 
     unfoldable = []
 
     for file_name in filelist_mcc:
-        f = open("mcc-linux/" + file_name, "r")
+        f = open(cwd + "/output/mcc-linux/" + file_name, "r")
         line = f.readline()
         if line.startswith('runtime: out of memory') or line == "":
             unfoldable.append(file_name)
@@ -30,7 +31,7 @@ def read_mcc_df():
     mcc_df[['places','transitions','arcs','unfoldingtime']] = mcc_df[['places','transitions','arcs','unfoldingtime']].apply(pd.to_numeric)
 
     mcc_df = mcc_df.groupby('name').mean()
-    mcc_df.to_csv("mcc-unfolding-results.csv")
+    mcc_df.to_csv("../results/MCC-unfolding-results.csv")
     return mcc_df
 
 read_mcc_df()
