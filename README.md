@@ -20,7 +20,7 @@ If you instead wish to run a small instance we provide a smaller subset of the f
 
 `./run_unfolding_experiments MCC2020-COL-subset`
 
-After running the experiment the results folder will be populated with a csv file with unfolding results for each tool. Moreover, the cactus plots from the paper will be produced in the output direcotry. Note that if the experiments were run with MCC2020-COL-subset then there will be many instances of each model missing from the plots and results.
+After running the experiment the results folder will be populated with a csv file with unfolding results for each tool. Moreover, the cactus plots from the paper will be produced in the results directory. Note that if the experiments were run with MCC2020-COL-subset then there will be many instances of each model missing from the plots and results.
 
 # Verification Experiments
 To repreduce the verification results from the paper please navigate to the QueryExperiments directory and run the following command (WARNING: these experiments were performed on a compute cluster and may take many days to compute locally - even more so compared to the unfolding experiments):

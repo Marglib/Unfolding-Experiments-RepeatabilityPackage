@@ -2,7 +2,6 @@ import pandas as pd
 import os
 import optparse
 import sys
-import ntpath
 
 def path_leaf(path):
     split = path.split('/')
