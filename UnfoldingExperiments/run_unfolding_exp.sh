@@ -10,7 +10,7 @@ rm -rf "output"
 
 N=1
 F=$(basename ${1})
-TO=1
+TO=5
 let "M=$N*15" ;
 let "m=$M*1024*1024"
 ulimit -v $m
@@ -33,7 +33,7 @@ mkdir -p $ODIR
 mkdir -p $BINDIR
 
 for i in $(ls ../$F ) ; do
-    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-268 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats output/A+B-unfolding-stats  --noverify &> $ODIR/$i
+    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats output/A+B-unfolding-stats  --noverify &> $ODIR/$i
 done 
 
 python3 read_partitioning_results.py --binary output/A+B-unfolding-stats
@@ -45,7 +45,7 @@ echo "Running MCC on $F with a timeout of $TO minutes for each net"
 BINDIR="output/mcc-linux"
 mkdir -p $BINDIR
 for i in $(ls ../$F ) ; do
-    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/mcc-linux hlnet -i ../$F/$i/model.pnml --stats &> $BINDIR/$i 
+    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/mcc hlnet -i ../$F/$i/model.pnml --stats &> $BINDIR/$i 
 done
 
 python3 read_mcc_results.py
@@ -88,7 +88,7 @@ mkdir -p $ODIR
 mkdir -p $BINDIR
 
 for i in $(ls ../$F ) ; do
-    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-268 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-cfp &> $ODIR/$i 
+    timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-cfp &> $ODIR/$i 
 done 
 
 python3 read_partitioning_results.py --binary output/A-unfolding-stats --output A-unfolding-results
@@ -104,7 +104,7 @@ mkdir -p $ODIR
 mkdir -p $BINDIR
 
 for i in $(ls ../$F ) ; do
-    timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/optimize-unfolding-268 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-partitioning &> $ODIR/$i 
+    timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-partitioning &> $ODIR/$i 
 done 
 
 python3 read_partitioning_results.py --binary output/B-unfolding-stats --output B-unfolding-results
