@@ -25,11 +25,11 @@ After running the experiment the results folder will be populated with a csv fil
 # Verification Experiments
 To repreduce the verification results from the paper please navigate to the QueryExperiments directory and run the following command (WARNING: these experiments were performed on a compute cluster and may take many days to compute locally - even more so compared to the unfolding experiments):
 
-'./run_query_exp.sh MCC2020-COL'
+`./run_query_exp.sh MCC2020-COL`
 
 If you instead wish to run a small instance you can again use the MCC2020-COL-subset folder instead and run the following command:
 
-'./run_query_exp.sh MCC2020-COL-subset'
+`./run_query_exp.sh MCC2020-COL-subset`
 
 Note that running the small instance for the verification experiments may result in all tools answering every query, since the nets are the smallest instances.
 
