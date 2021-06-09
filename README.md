@@ -14,11 +14,11 @@ Note that you may need to give executable rights to all bash scripts and binarie
 # Unfolding experiments
 We provide all the results from our experiments which are located in the precomputed-results directory. If you wish to produce the results yourself please navigate the the UnfoldingExperiments directory and run the following command (WARNING: these experiments were performed on a compute cluster and may take days to compute locally):
 
-`./run_unfolding_experiments MCC2020-COL`
+`./run_unfolding_exp.sh MCC2020-COL`
 
 If you instead wish to run a small instance we provide a smaller subset of the full MCC2020-COL folder called MCC2020-COL-subset (which includes the smallest instance of each model from the competition). Then run the following command:
 
-`./run_unfolding_experiments MCC2020-COL-subset`
+`./run_unfolding_exp.sh MCC2020-COL-subset`
 
 After running the experiment the results folder will be populated with a csv file with unfolding results for each tool. Moreover, the cactus plots from the paper will be produced in the results directory. Note that if the experiments were run with MCC2020-COL-subset then there will be many instances of each model missing from the plots and results.
 
