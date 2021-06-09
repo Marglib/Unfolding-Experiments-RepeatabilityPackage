@@ -41,7 +41,7 @@ We provide binaries for all tools located in the binaries directory. If you want
 A+B: https://code.launchpad.net/~verifypn-cpn/verifypn/optimize-unfolding  
 verifypn: https://code.launchpad.net/verifypn  
 ITS-Tools: https://yanntm.github.io/ITS-commandline/  
-Spike: https://www-dssz.informatik.tu-cottbus.de/DSSZ/Software/Spike#downloads  
+Spike: https://www-dssz.informatik.tu-cottbus.de/DSSZ/Software/Spike#downloads - Note that if you download ITS-Tools you may have to remove your tmp .ecplise folder by running the command `rm -rf /tmp/.eclipse`
 MCC: https://github.com/dalzilio/mcc  
 
 If you wish to use the binaries instead replace the given binary in the binaries directory. Note that the binary has to be named the same as the one you replace.
