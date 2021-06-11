@@ -6,7 +6,7 @@ This repository is a full repeatability package for producing all the results us
 # Requirements
 Running the experiments requires the following:
 - Python 3 (and the pandas, numpy and motplotlib packages installed)
-- JAVA 8 (or newer) 
+- Java 8 (or newer) 
 - A linux operating system
 
 Note that you may need to give executable rights to all bash scripts and binaries.
@@ -20,7 +20,11 @@ If you instead wish to run a small instance we provide a smaller subset of the f
 
 `./run_unfolding_exp.sh MCC2020-COL-subset`
 
-After running the experiment the results folder will be populated with a csv file with unfolding results for each tool. Moreover, the cactus plots from the paper will be produced in the results directory. Note that if the experiments were run with MCC2020-COL-subset then there will be many instances of each model missing from the plots and results.
+After running the experiment the results folder will be populated with a csv file with unfolding results for each tool. Moreover, the cactus plots from the paper will be produced in the results directory. Note that if the experiments were run with MCC2020-COL-subset then there will be many instances of each model missing from the plots and results. 
+
+We also include another subset folder of models from the competition we deem "interesting". These are models where the A+B method produces very small nets compared to the competition. To run this use the following command:
+
+`./run_unfolding_exp.sh MCC2020-COL-interesting`
 
 # Verification Experiments
 To repreduce the verification results from the paper please navigate to the QueryExperiments directory and run the following command (WARNING: these experiments were performed on a compute cluster and may take many days to compute locally - even more so compared to the unfolding experiments):
@@ -32,6 +36,10 @@ If you instead wish to run a small instance you can again use the MCC2020-COL-su
 `./run_query_exp.sh MCC2020-COL-subset`
 
 Note that running the small instance for the verification experiments may result in all tools answering every query, since the nets are the smallest instances.
+
+Again, to run it with the interesting subset of models then run:
+
+`./run_query_exp.sh MCC2020-COL-interesting`
 
 To see exactly the query answers for each tool navigate to QueryExperiments/answers where each tool has a file of answered queries.
 
@@ -84,8 +92,10 @@ To produce the cactus plots yourself run the following commands:
   
 where `<folder>` contains the .csv files you would like to show. In our case we use the results (or precomputed-results) folder. Note that for the plots to be created every tool needs to have results csv file in the given folder. 
 
-### Table 4 and 5
+### Table 3b, 4 and 5
 To produce table 4 and 5 from the paper run the following scripts: 
+
+`python3 table3b_script.py -f <folder> -o results/table3b.csv`
 
 `python3 table4_script.py -f <folder> -o results/table4.csv`
 
