@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((#tokens("Processes")) <= (#tokens("pr_released")))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("Resources")) <= (#tokens("pr_released")))) & (((3) <= (#tokens("in_critical_s")))))) & (((3) <= (#tokens("Resources")))))) & (((((2) <= (#tokens("pr_released")))) & (((((#tokens("Processes")) <= (#tokens("pr_released")))) & (((#tokens("Processes")) <= (#tokens("pr_in")))))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("Processes")))) | (((#tokens("Resources")) <= (#tokens("pr_released")))))) | (((#tokens("pr_in")) <= (#tokens("Processes")))))) & (((#tokens("Resources")) <= (#tokens("Resources")))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    E F ((((((((2) <= (#tokens("pr_released")))) | (((2) <= (#tokens("in_critical_s")))))) | (! ((#tokens("Processes")) <= (#tokens("Processes")))))) & (! ((((#tokens("pr_in")) <= (#tokens("pr_released")))) | (((#tokens("pr_in")) <= (#tokens("pr_released")))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((((2) <= (#tokens("Resources")))) | (((2) <= (#tokens("in_critical_s")))))) | (((#tokens("in_critical_s")) <= (#tokens("Processes")))))) & (((#tokens("Resources")) <= (#tokens("Resources")))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((#tokens("pr_released")) <= (#tokens("Processes")))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    E F ((! ((1) <= (#tokens("Resources")))) & (((((((2) <= (#tokens("pr_released")))) & (((#tokens("pr_in")) <= (#tokens("pr_released")))))) & (! ((#tokens("Processes")) <= (#tokens("Resources")))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    A G ((1) <= (#tokens("Processes")))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ! ! ! ((#tokens("pr_in")) <= (#tokens("pr_in")))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((((#tokens("in_critical_s")) <= (#tokens("pr_in")))) & (((#tokens("Processes")) <= (#tokens("pr_released")))))) | (((((1) <= (#tokens("in_critical_s")))) | (((#tokens("in_critical_s")) <= (#tokens("Processes")))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((((((1) <= (#tokens("pr_in")))) & (((#tokens("pr_in")) <= (#tokens("Resources")))))) | (((#tokens("Resources")) <= (#tokens("pr_in")))))) | (((! ((1) <= (#tokens("in_critical_s")))) | (((((1) <= (#tokens("Resources")))) | (((2) <= (#tokens("Resources")))))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("pr_in")) <= (#tokens("pr_in")))) | (((2) <= (#tokens("pr_in")))))) | (((((3) <= (#tokens("Resources")))) | (((((3) <= (#tokens("Resources")))) & (((3) <= (#tokens("Processes")))))))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("pr_released")) <= (#tokens("Resources")))) & (((#tokens("in_critical_s")) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("Processes")) <= (#tokens("Processes")))) | (((#tokens("pr_in")) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((! ((#tokens("Processes")) <= (#tokens("Processes")))) | (((((3) <= (#tokens("in_critical_s")))) | (((2) <= (#tokens("Processes")))))))) | (((#tokens("pr_released")) <= (#tokens("pr_in")))))
+  end.
+Property GlobalResAllocation-COL-05-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((((((#tokens("pr_released")) <= (#tokens("pr_released")))) | (! ((#tokens("in_critical_s")) <= (#tokens("pr_released")))))) | (((#tokens("Processes")) <= (#tokens("in_critical_s")))))
+  end.

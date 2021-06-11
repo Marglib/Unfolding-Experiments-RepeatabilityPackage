@@ -1,0 +1,80 @@
+Property BART-COL-030-00
+  "Automatically generated"
+  is:
+    A !(((#tokens("TrainState")) <= (#tokens("StopTable"))) U (((#tokens("TrainState")) <= (#tokens("StopTable"))) | F X ((#tokens("NewDistTable")) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-030-01
+  "Automatically generated"
+  is:
+    A G (((#tokens("DistStation")) <= (#tokens("StopTable"))) & G ((#tokens("DistStation")) <= (#tokens("NewDistTable"))))
+  end.
+Property BART-COL-030-02
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("TrainState"))) | ((3) <= (#tokens("TrainState"))) | F !((2) <= (#tokens("TrainState"))) | F (((2) <= (#tokens("DistStation"))) | X ((2) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-030-03
+  "Automatically generated"
+  is:
+    A (!(((#tokens("DistStation")) <= (#tokens("StopTable"))) | F G F (((1) <= (#tokens("DistStation"))) | G ((1) <= (#tokens("TrainState"))))) U G (((#tokens("StopTable")) <= (#tokens("TrainState"))) | ((1) <= (#tokens("TrainState")))))
+  end.
+Property BART-COL-030-04
+  "Automatically generated"
+  is:
+    A F ((!((2) <= (#tokens("TrainState"))) & G ((2) <= (#tokens("TrainState")))) | G X !X ((2) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-030-05
+  "Automatically generated"
+  is:
+    A (((#tokens("DistStation")) <= (#tokens("StopTable"))) | X F !(((#tokens("StopTable")) <= (#tokens("NewDistTable"))) | G !F X ((#tokens("StopTable")) <= (#tokens("NewDistTable")))) | G ((#tokens("StopTable")) <= (#tokens("NewDistTable"))))
+  end.
+Property BART-COL-030-06
+  "Automatically generated"
+  is:
+    A F X !(((#tokens("TrainState")) <= (#tokens("DistStation"))) | !((#tokens("TrainState")) <= (#tokens("StopTable"))) | ((#tokens("DistStation")) <= (#tokens("TrainState"))) | G ((#tokens("TrainState")) <= (#tokens("StopTable"))) | X ((2) <= (#tokens("NewDistTable"))))
+  end.
+Property BART-COL-030-07
+  "Automatically generated"
+  is:
+    A (G (((2) <= (#tokens("TrainState"))) | ((#tokens("StopTable")) <= (#tokens("DistStation")))) U !G X G !((2) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-030-08
+  "Automatically generated"
+  is:
+    A !F G (!G !((#tokens("StopTable")) <= (#tokens("NewDistTable"))) & !F ((1) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-030-09
+  "Automatically generated"
+  is:
+    A !X X G (((((2) <= (#tokens("TrainState"))) | ((#tokens("DistStation")) <= (#tokens("TrainState")))) U ((2) <= (#tokens("TrainState")))) U X F ((2) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-030-10
+  "Automatically generated"
+  is:
+    A F G (((3) <= (#tokens("DistStation"))) & !X X (((#tokens("DistStation")) <= (#tokens("TrainState"))) & ((2) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-030-11
+  "Automatically generated"
+  is:
+    A X ((((0) <= (#tokens("StopTable"))) | !((0) <= (#tokens("StopTable")))) & (G (((0) <= (#tokens("StopTable"))) | !X !((0) <= (#tokens("StopTable")))) U ((3) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-030-12
+  "Automatically generated"
+  is:
+    A X (X G ((3) <= (#tokens("NewDistTable"))) | (((#tokens("DistStation")) <= (#tokens("NewDistTable"))) & (((#tokens("TrainState")) <= (#tokens("NewDistTable"))) U (((#tokens("NewDistTable")) <= (#tokens("DistStation"))) | ((#tokens("StopTable")) <= (#tokens("TrainState")))))))
+  end.
+Property BART-COL-030-13
+  "Automatically generated"
+  is:
+    A X X G F !((((#tokens("NewDistTable")) <= (#tokens("DistStation"))) | X ((#tokens("NewDistTable")) <= (#tokens("DistStation"))) | G ((#tokens("NewDistTable")) <= (#tokens("DistStation")))) & X ((#tokens("TrainState")) <= (#tokens("StopTable"))))
+  end.
+Property BART-COL-030-14
+  "Automatically generated"
+  is:
+    A X (G X X ((3) <= (#tokens("StopTable"))) & !(X ((3) <= (#tokens("StopTable"))) | X ((#tokens("TrainState")) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-030-15
+  "Automatically generated"
+  is:
+    A X !F (G (((1) <= (#tokens("NewDistTable"))) | X ((#tokens("TrainState")) <= (#tokens("NewDistTable")))) & !X F ((#tokens("DistStation")) <= (#tokens("NewDistTable"))))
+  end.

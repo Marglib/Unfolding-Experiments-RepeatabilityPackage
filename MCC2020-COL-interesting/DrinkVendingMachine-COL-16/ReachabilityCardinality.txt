@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((#tokens("optionSlots")) <= (#tokens("theOptions")))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    E F ((((((3) <= (#tokens("wait")))) | (((1) <= (#tokens("ready")))))) | (((((((#tokens("theOptions")) <= (#tokens("theProducts")))) | (((#tokens("optionSlots")) <= (#tokens("wait")))))) | (! ((1) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((#tokens("ready")) <= (#tokens("theProducts")))) & (! ((#tokens("theOptions")) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("theProducts")) <= (#tokens("theOptions")))) & (! ((3) <= (#tokens("theOptions")))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    A G ((((((3) <= (#tokens("theProducts")))) | (((((1) <= (#tokens("theOptions")))) & (((3) <= (#tokens("theOptions")))))))) | (! ! ((2) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((#tokens("theOptions")) <= (#tokens("optionSlots")))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((((#tokens("optionSlots")) <= (#tokens("productSlots")))) | (! ((((3) <= (#tokens("wait")))) & (((#tokens("theProducts")) <= (#tokens("theProducts")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((3) <= (#tokens("ready")))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    E F ((((1) <= (#tokens("theProducts")))) & (! ((#tokens("optionSlots")) <= (#tokens("theProducts")))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    E F ! ((((((2) <= (#tokens("theProducts")))) | (((2) <= (#tokens("wait")))))) & (((((3) <= (#tokens("optionSlots")))) | (((1) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((((((((3) <= (#tokens("optionSlots")))) & (((3) <= (#tokens("productSlots")))))) | (((2) <= (#tokens("optionSlots")))))) & (((((((3) <= (#tokens("ready")))) | (((#tokens("wait")) <= (#tokens("optionSlots")))))) & (((1) <= (#tokens("productSlots")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((((1) <= (#tokens("optionSlots")))) | (((3) <= (#tokens("wait")))))) | (((((3) <= (#tokens("wait")))) & (! ((2) <= (#tokens("wait")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    A G ! ((! ((#tokens("wait")) <= (#tokens("theProducts")))) & (! ((3) <= (#tokens("wait")))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("ready")) <= (#tokens("theOptions")))) & (((3) <= (#tokens("productSlots")))))) & (((((#tokens("productSlots")) <= (#tokens("theProducts")))) | (((#tokens("productSlots")) <= (#tokens("theOptions")))))))) & (((((((3) <= (#tokens("wait")))) & (((3) <= (#tokens("wait")))))) | (! ((#tokens("optionSlots")) <= (#tokens("wait")))))))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    E F ((#tokens("theOptions")) <= (#tokens("theProducts")))
+  end.
+Property DrinkVendingMachine-COL-16-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    A G ((#tokens("theOptions")) <= (#tokens("productSlots")))
+  end.

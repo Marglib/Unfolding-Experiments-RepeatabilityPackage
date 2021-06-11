@@ -3,12 +3,12 @@ import optparse
 import ntpath
 import math
 import re
+
 def path_leaf(path):
     head, tail = ntpath.split(path)
     return tail or ntpath.basename(head)
 
 def string_until_digit(test_str):
-    temp = 0
     res = re.findall('([a-zA-Z -]*)\d*.*', test_str)
   
     return str(res[0])

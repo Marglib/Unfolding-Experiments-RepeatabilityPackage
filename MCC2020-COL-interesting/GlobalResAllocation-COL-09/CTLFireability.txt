@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-09-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F ((E X "enter3"?) & (A (("enter3"?) U ("enter1"?))))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-01
+  "Automatically generated"
+  is:
+    "release1"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-02
+  "Automatically generated"
+  is:
+    ((! (("enter1"?) & (((! (("enter3"?) | ("enter2"?))) | (A G "enter2"?))))) | ("enter3"?))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-03
+  "Automatically generated"
+  is:
+    E ((! "enter1"?) U ("enter1"?))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-04
+  "Automatically generated"
+  is:
+    "release2"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-05
+  "Automatically generated"
+  is:
+    E ((((E X "exit"?) | ("release1"?))) U (((! ! "exit"?) | (A F "exit"?))))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-06
+  "Automatically generated"
+  is:
+    A X (("release1"?) & (A (("release1"?) U ("release1"?))))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-07
+  "Automatically generated"
+  is:
+    ! E F "enter4"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-08
+  "Automatically generated"
+  is:
+    "release2"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-09
+  "Automatically generated"
+  is:
+    A F A G E F "enter1"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-10
+  "Automatically generated"
+  is:
+    ! ! (("release2"?) | (((E F "release1"?) & (! "enter4"?))))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-11
+  "Automatically generated"
+  is:
+    "enter4"?
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-12
+  "Automatically generated"
+  is:
+    ((A (((((("enter1"?) & ("enter1"?))) | ("release2"?))) U (A G "enter4"?))) & (A F "enter2"?))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-13
+  "Automatically generated"
+  is:
+    (("release1"?) | (((((((! ! "enter2"?) | ("release1"?))) & ("exit"?))) | (E X ! "release1"?))))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-14
+  "Automatically generated"
+  is:
+    ((! E X A X "enter3"?) | ("enter2"?))
+  end.
+Property GlobalResAllocation-COL-09-CTLFireability-15
+  "Automatically generated"
+  is:
+    ((E F E G (("enter2"?) | ("exit"?))) | (E G "exit"?))
+  end.

@@ -1,0 +1,80 @@
+Property BART-COL-005-00
+  "Automatically generated"
+  is:
+    A X ((F G "TrainDecc"? U G ("AtStation"? & F !X "TrainStop"?)) U "AtStation"?)
+  end.
+Property BART-COL-005-01
+  "Automatically generated"
+  is:
+    A F !(!G "TrainStop"? & G (!F ("TrainStable"? & "TrainStable"?) U "TrainAcc"?))
+  end.
+Property BART-COL-005-02
+  "Automatically generated"
+  is:
+    A G !G !G X G X G ("TrainStable"? U "TrainStable"?)
+  end.
+Property BART-COL-005-03
+  "Automatically generated"
+  is:
+    A ("TrainAcc"? U !G F G ("TrainStop"? U G "TrainAcc"?))
+  end.
+Property BART-COL-005-04
+  "Automatically generated"
+  is:
+    A (!(G X "TrainStable"? | X F !("TrainStable"? | "TrainDecc"?)) U "TrainDecc"?)
+  end.
+Property BART-COL-005-05
+  "Automatically generated"
+  is:
+    A ((!X !("TrainAcc"? U X "TrainStop"?) | F "TrainAcc"?) & G "TrainStop"?)
+  end.
+Property BART-COL-005-06
+  "Automatically generated"
+  is:
+    A G "AtStation"?
+  end.
+Property BART-COL-005-07
+  "Automatically generated"
+  is:
+    A G (!"TrainStop"? & X "TrainAcc"?)
+  end.
+Property BART-COL-005-08
+  "Automatically generated"
+  is:
+    A !F X G F ("TrainAcc"? | ("TrainStop"? U G X F "TrainStop"?))
+  end.
+Property BART-COL-005-09
+  "Automatically generated"
+  is:
+    A G X !F X !F X ("AtStation"? | "TrainAcc"?)
+  end.
+Property BART-COL-005-10
+  "Automatically generated"
+  is:
+    A F (!"TrainDecc"? & "AtStation"?)
+  end.
+Property BART-COL-005-11
+  "Automatically generated"
+  is:
+    A ("TrainStable"? & G "TrainStable"?)
+  end.
+Property BART-COL-005-12
+  "Automatically generated"
+  is:
+    A (F "AtStation"? U X X F X X ("TrainDecc"? | "AtStation"?))
+  end.
+Property BART-COL-005-13
+  "Automatically generated"
+  is:
+    A F (("TrainStop"? & !"TrainAcc"?) | ("TrainAcc"? & F "TrainStable"? & F !"TrainAcc"?))
+  end.
+Property BART-COL-005-14
+  "Automatically generated"
+  is:
+    A F !G (F "TrainAcc"? & X (F "TrainAcc"? U !"TrainDecc"?))
+  end.
+Property BART-COL-005-15
+  "Automatically generated"
+  is:
+    A (G "TrainDecc"? & (!"TrainAcc"? U ("TrainStable"? & F "TrainDecc"? & F "TrainAcc"?)))
+  end.

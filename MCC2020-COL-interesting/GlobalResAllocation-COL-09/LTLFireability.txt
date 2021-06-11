@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-09-00
+  "Automatically generated"
+  is:
+    A ("enter4"? & G "exit"? & !F "release1"?)
+  end.
+Property GlobalResAllocation-COL-09-01
+  "Automatically generated"
+  is:
+    A G (X "enter3"? U G !("enter2"? | "enter3"? | !F X G "release2"?))
+  end.
+Property GlobalResAllocation-COL-09-02
+  "Automatically generated"
+  is:
+    A (X G X ("release2"? & X "enter3"?) | (("enter4"? | "release2"?) & F !"exit"?))
+  end.
+Property GlobalResAllocation-COL-09-03
+  "Automatically generated"
+  is:
+    A ("enter1"? U G "release2"?)
+  end.
+Property GlobalResAllocation-COL-09-04
+  "Automatically generated"
+  is:
+    A F X F ((F !"release1"? U "enter1"?) U G X F "enter1"?)
+  end.
+Property GlobalResAllocation-COL-09-05
+  "Automatically generated"
+  is:
+    A (X "enter3"? U (G ("release2"? | "enter3"? | F "release2"?) U F "enter1"?))
+  end.
+Property GlobalResAllocation-COL-09-06
+  "Automatically generated"
+  is:
+    A F ((!"release2"? | "release1"?) & ("release1"? | "enter4"?) & ("release1"? U "enter4"?))
+  end.
+Property GlobalResAllocation-COL-09-07
+  "Automatically generated"
+  is:
+    A (F "release2"? | G X (G ("enter2"? | X "release2"?) U !X "enter2"?))
+  end.
+Property GlobalResAllocation-COL-09-08
+  "Automatically generated"
+  is:
+    A G (G (G (G "release2"? | F "enter2"?) U "release2"?) U X F "enter1"?)
+  end.
+Property GlobalResAllocation-COL-09-09
+  "Automatically generated"
+  is:
+    A (F ("release2"? & "enter4"?) U ("release2"? & F (!"release2"? & X "release2"?)))
+  end.
+Property GlobalResAllocation-COL-09-10
+  "Automatically generated"
+  is:
+    A F G X !(F !"release2"? U !G "exit"?)
+  end.
+Property GlobalResAllocation-COL-09-11
+  "Automatically generated"
+  is:
+    A (X G "enter3"? & G "enter2"? & F !G "enter3"?)
+  end.
+Property GlobalResAllocation-COL-09-12
+  "Automatically generated"
+  is:
+    A !("release2"? | !"enter4"? | ("enter4"? & G "release2"? & (!"enter2"? U "enter1"?)))
+  end.
+Property GlobalResAllocation-COL-09-13
+  "Automatically generated"
+  is:
+    A (!F "enter1"? & (G "enter3"? | G "enter4"?))
+  end.
+Property GlobalResAllocation-COL-09-14
+  "Automatically generated"
+  is:
+    A X F X G (F !"enter2"? | (X "enter3"? & X X F "enter4"?))
+  end.
+Property GlobalResAllocation-COL-09-15
+  "Automatically generated"
+  is:
+    A F G !F ("release2"? & F X !("enter2"? U "enter2"?))
+  end.

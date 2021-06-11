@@ -36,7 +36,7 @@ for i in $(ls ../$F ) ; do
     timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats output/A+B-unfolding-stats  --noverify &> $ODIR/$i
 done 
 
-python3 read_partitioning_results.py --binary output/A+B-unfolding-stats
+python3 read_AB_results.py --binary output/A+B-unfolding-stats --output A+B-unfolding-results
 
 #----------------------------------------------
 
@@ -58,10 +58,9 @@ BINDIR="output/its-tools"
 mkdir -p $BINDIR
 for i in $(ls ../$F ) ; do 
     timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/ITS-Tools/its-tools -pnfolder ../$F/$i -examination ReachabilityCardinality --unfold &> $BINDIR/$i 
+    rm "../$F/$i/model.sr.pnml"
+    rm "../$F/$i/ReachabilityCardinality.sr.xml"
 done
-
-rm "../$F/$i/model.sr.pnml"
-rm "../$F/$i/ReachabilityCardinality.sr.xml"
 
 ./get_its_stats.sh its-tools
 python3 read_its_results.py
@@ -77,7 +76,7 @@ for i in $(ls ../$F ) ; do
 done
 
 ./get_spike_stats.sh spike
-python3 read_spike_results.py
+python3 read_spike_trunk_results.py --binary output/spike-stats --output spike-unfolding-results
 
 rm -rf "logs"
 
@@ -94,7 +93,7 @@ for i in $(ls ../$F ) ; do
     timeout ${TO}m /usr/bin/time -f "@@@%e,%M@@@" ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-cfp &> $ODIR/$i 
 done 
 
-python3 read_partitioning_results.py --binary output/A-unfolding-stats --output A-unfolding-results
+python3 read_AB_results.py --binary output/A-unfolding-stats --output A-unfolding-results
 
 
 #----------------------------------------------
@@ -110,7 +109,21 @@ for i in $(ls ../$F ) ; do
     timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/optimize-unfolding-272 -n -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml --output-stats $BINDIR --noverify --disable-partitioning &> $ODIR/$i 
 done 
 
-python3 read_partitioning_results.py --binary output/B-unfolding-stats --output B-unfolding-results
+python3 read_AB_results.py --binary output/B-unfolding-stats --output B-unfolding-results
+
+#----------------------------------------------
+
+echo "Running trunk-226 on $F with a timeout of $TO minutes for each net"
+
+ODIR="output/trunk-226"
+mkdir -p $ODIR
+
+for i in $(ls ../$F ) ; do
+    timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/trunk-226 -x 1 ../$F/$i/model.pnml ../$F/$i/ReachabilityCardinality.xml &> $ODIR/$i 
+done 
+
+./get_trunk_stats.sh trunk-226
+python3 read_spike_trunk_results.py --binary output/trunk-226-stats --output Spike-unfolding-results
 
 #----------------------------------------------
 

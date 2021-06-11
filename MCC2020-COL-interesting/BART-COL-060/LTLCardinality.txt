@@ -1,0 +1,80 @@
+Property BART-COL-060-00
+  "Automatically generated"
+  is:
+    A !X X (((#tokens("StopTable")) <= (#tokens("DistStation"))) & (((#tokens("TrainState")) <= (#tokens("StopTable"))) U (((1) <= (#tokens("TrainState"))) & F (((1) <= (#tokens("TrainState"))) U ((1) <= (#tokens("TrainState")))))))
+  end.
+Property BART-COL-060-01
+  "Automatically generated"
+  is:
+    A X !F X X X ((#tokens("DistStation")) <= (#tokens("StopTable")))
+  end.
+Property BART-COL-060-02
+  "Automatically generated"
+  is:
+    A (F (((2) <= (#tokens("DistStation"))) | F ((2) <= (#tokens("TrainState")))) & ((F ((2) <= (#tokens("TrainState"))) & X !X ((2) <= (#tokens("TrainState")))) U ((2) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-060-03
+  "Automatically generated"
+  is:
+    A F G !(X F ((#tokens("DistStation")) <= (#tokens("StopTable"))) & !(((#tokens("DistStation")) <= (#tokens("StopTable"))) U !G ((#tokens("StopTable")) <= (#tokens("TrainState")))))
+  end.
+Property BART-COL-060-04
+  "Automatically generated"
+  is:
+    A !G X X F X F G F (((#tokens("DistStation")) <= (#tokens("StopTable"))) & ((0) <= (#tokens("NewDistTable"))))
+  end.
+Property BART-COL-060-05
+  "Automatically generated"
+  is:
+    A (!((3) <= (#tokens("TrainState"))) & G !((#tokens("DistStation")) <= (#tokens("StopTable"))) & (((#tokens("NewDistTable")) <= (#tokens("TrainState"))) | F ((0) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-060-06
+  "Automatically generated"
+  is:
+    A F ((#tokens("NewDistTable")) <= (#tokens("StopTable")))
+  end.
+Property BART-COL-060-07
+  "Automatically generated"
+  is:
+    A (!((#tokens("TrainState")) <= (#tokens("DistStation"))) U X ((1) <= (#tokens("NewDistTable"))))
+  end.
+Property BART-COL-060-08
+  "Automatically generated"
+  is:
+    A !(G (((#tokens("StopTable")) <= (#tokens("NewDistTable"))) U !((((#tokens("StopTable")) <= (#tokens("NewDistTable"))) U !((#tokens("StopTable")) <= (#tokens("NewDistTable")))) U !((1) <= (#tokens("TrainState"))))) U ((1) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-060-09
+  "Automatically generated"
+  is:
+    A X !G X (((#tokens("StopTable")) <= (#tokens("DistStation"))) U (((2) <= (#tokens("TrainState"))) U X ((#tokens("DistStation")) <= (#tokens("TrainState")))))
+  end.
+Property BART-COL-060-10
+  "Automatically generated"
+  is:
+    A !G ((((3) <= (#tokens("DistStation"))) & G ((#tokens("DistStation")) <= (#tokens("TrainState")))) | ((F ((3) <= (#tokens("DistStation"))) & X ((#tokens("TrainState")) <= (#tokens("NewDistTable")))) U ((#tokens("NewDistTable")) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-060-11
+  "Automatically generated"
+  is:
+    A (F !((0) <= (#tokens("StopTable"))) | !F X F ((#tokens("StopTable")) <= (#tokens("TrainState"))))
+  end.
+Property BART-COL-060-12
+  "Automatically generated"
+  is:
+    A (((#tokens("DistStation")) <= (#tokens("NewDistTable"))) & X F ((#tokens("NewDistTable")) <= (#tokens("DistStation"))) & G (((#tokens("TrainState")) <= (#tokens("NewDistTable"))) | X X (((#tokens("NewDistTable")) <= (#tokens("DistStation"))) | ((#tokens("StopTable")) <= (#tokens("TrainState"))))))
+  end.
+Property BART-COL-060-13
+  "Automatically generated"
+  is:
+    A !(!G F ((#tokens("NewDistTable")) <= (#tokens("DistStation"))) U X X ((#tokens("NewDistTable")) <= (#tokens("DistStation"))))
+  end.
+Property BART-COL-060-14
+  "Automatically generated"
+  is:
+    A G X G !X ((#tokens("NewDistTable")) <= (#tokens("TrainState")))
+  end.
+Property BART-COL-060-15
+  "Automatically generated"
+  is:
+    A (G F X !((#tokens("DistStation")) <= (#tokens("NewDistTable"))) U (((#tokens("TrainState")) <= (#tokens("NewDistTable"))) U X G F ((2) <= (#tokens("StopTable")))))
+  end.

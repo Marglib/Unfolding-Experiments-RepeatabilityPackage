@@ -1,0 +1,80 @@
+Property BART-COL-002-ReachabilityCardinality-00
+  "Automatically generated"
+  is:
+    E F ((#tokens("NewDistTable")) <= (#tokens("DistStation")))
+  end.
+Property BART-COL-002-ReachabilityCardinality-01
+  "Automatically generated"
+  is:
+    A G ((! ! ((#tokens("DistStation")) <= (#tokens("DistStation")))) | (! ((((#tokens("StopTable")) <= (#tokens("StopTable")))) | (((#tokens("StopTable")) <= (#tokens("DistStation")))))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-02
+  "Automatically generated"
+  is:
+    A G ((((#tokens("StopTable")) <= (#tokens("NewDistTable")))) | (! ! ((#tokens("NewDistTable")) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-03
+  "Automatically generated"
+  is:
+    A G ((((#tokens("TrainState")) <= (#tokens("NewDistTable")))) & (((! ((3) <= (#tokens("TrainState")))) & (((2) <= (#tokens("StopTable")))))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-04
+  "Automatically generated"
+  is:
+    E F ! ((#tokens("TrainState")) <= (#tokens("DistStation")))
+  end.
+Property BART-COL-002-ReachabilityCardinality-05
+  "Automatically generated"
+  is:
+    A G ((! ! ((1) <= (#tokens("StopTable")))) | (((3) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-06
+  "Automatically generated"
+  is:
+    A G ((! ((#tokens("StopTable")) <= (#tokens("TrainState")))) | (! ((((2) <= (#tokens("TrainState")))) & (((#tokens("TrainState")) <= (#tokens("StopTable")))))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-07
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("StopTable")) <= (#tokens("TrainState")))) & (((2) <= (#tokens("StopTable")))))) & (((#tokens("NewDistTable")) <= (#tokens("TrainState")))))) | (((! ((1) <= (#tokens("TrainState")))) & (((((#tokens("NewDistTable")) <= (#tokens("TrainState")))) & (((#tokens("TrainState")) <= (#tokens("StopTable")))))))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-08
+  "Automatically generated"
+  is:
+    A G ! ((! ((2) <= (#tokens("NewDistTable")))) & (((#tokens("StopTable")) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-09
+  "Automatically generated"
+  is:
+    A G ((! ((((1) <= (#tokens("DistStation")))) | (((2) <= (#tokens("DistStation")))))) | (((2) <= (#tokens("DistStation")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-10
+  "Automatically generated"
+  is:
+    A G ((#tokens("TrainState")) <= (#tokens("DistStation")))
+  end.
+Property BART-COL-002-ReachabilityCardinality-11
+  "Automatically generated"
+  is:
+    E F ((((! ((2) <= (#tokens("StopTable")))) & (((#tokens("NewDistTable")) <= (#tokens("StopTable")))))) & (((#tokens("StopTable")) <= (#tokens("NewDistTable")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-12
+  "Automatically generated"
+  is:
+    E F ((#tokens("NewDistTable")) <= (#tokens("DistStation")))
+  end.
+Property BART-COL-002-ReachabilityCardinality-13
+  "Automatically generated"
+  is:
+    E F ((! ((((1) <= (#tokens("NewDistTable")))) & (((#tokens("NewDistTable")) <= (#tokens("NewDistTable")))))) | (! ((((#tokens("StopTable")) <= (#tokens("DistStation")))) & (((#tokens("TrainState")) <= (#tokens("NewDistTable")))))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-14
+  "Automatically generated"
+  is:
+    A G ((((#tokens("TrainState")) <= (#tokens("StopTable")))) & (((3) <= (#tokens("StopTable")))))
+  end.
+Property BART-COL-002-ReachabilityCardinality-15
+  "Automatically generated"
+  is:
+    E F ((((((((#tokens("StopTable")) <= (#tokens("DistStation")))) | (((1) <= (#tokens("TrainState")))))) & (((((3) <= (#tokens("DistStation")))) & (((2) <= (#tokens("NewDistTable")))))))) & (((! ((#tokens("DistStation")) <= (#tokens("NewDistTable")))) & (! ((3) <= (#tokens("StopTable")))))))
+  end.

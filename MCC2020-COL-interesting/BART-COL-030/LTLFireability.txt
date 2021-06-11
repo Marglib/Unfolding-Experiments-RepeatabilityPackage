@@ -1,0 +1,80 @@
+Property BART-COL-030-00
+  "Automatically generated"
+  is:
+    A F (X "TrainStop"? & F "TrainAcc"? & (!"TrainAcc"? U ("TrainAcc"? | X X "TrainAcc"?)))
+  end.
+Property BART-COL-030-01
+  "Automatically generated"
+  is:
+    A X (F "TrainAcc"? & X !"TrainStable"? & F X "TrainAcc"?)
+  end.
+Property BART-COL-030-02
+  "Automatically generated"
+  is:
+    A X (F ("AtStation"? & G ("AtStation"? & "TrainAcc"?)) | F G ("AtStation"? & F "TrainAcc"?))
+  end.
+Property BART-COL-030-03
+  "Automatically generated"
+  is:
+    A !(!"TrainStop"? & G "TrainStable"? & X "TrainStop"? & ("TrainStop"? U "TrainStop"?))
+  end.
+Property BART-COL-030-04
+  "Automatically generated"
+  is:
+    A (X X G "AtStation"? | F "AtStation"?)
+  end.
+Property BART-COL-030-05
+  "Automatically generated"
+  is:
+    A !X ("TrainStop"? U G !G "TrainStop"?)
+  end.
+Property BART-COL-030-06
+  "Automatically generated"
+  is:
+    A X (G !X F (!"TrainAcc"? U G "AtStation"?) & G F !"TrainAcc"?)
+  end.
+Property BART-COL-030-07
+  "Automatically generated"
+  is:
+    A X G X (G "TrainAcc"? | !F X "TrainDecc"?)
+  end.
+Property BART-COL-030-08
+  "Automatically generated"
+  is:
+    A G ("TrainStop"? | "TrainDecc"?)
+  end.
+Property BART-COL-030-09
+  "Automatically generated"
+  is:
+    A (G X "TrainAcc"? | (G !"TrainAcc"? U "TrainStable"?))
+  end.
+Property BART-COL-030-10
+  "Automatically generated"
+  is:
+    A (F X G "AtStation"? & ("AtStation"? | G ("TrainDecc"? & F X X G "TrainStable"?)))
+  end.
+Property BART-COL-030-11
+  "Automatically generated"
+  is:
+    A (F "TrainStable"? | G ("TrainStable"? U "TrainAcc"?))
+  end.
+Property BART-COL-030-12
+  "Automatically generated"
+  is:
+    A X F ("TrainStable"? | !(!"TrainStable"? U !X "TrainAcc"?))
+  end.
+Property BART-COL-030-13
+  "Automatically generated"
+  is:
+    A (G "TrainStable"? | X (("AtStation"? & ("TrainStable"? | "TrainDecc"?)) U "AtStation"?))
+  end.
+Property BART-COL-030-14
+  "Automatically generated"
+  is:
+    A !("TrainAcc"? | G X X !G (F "TrainAcc"? & X !X "TrainAcc"?))
+  end.
+Property BART-COL-030-15
+  "Automatically generated"
+  is:
+    A F (F ("TrainDecc"? & "TrainAcc"? & F ("AtStation"? | "TrainAcc"?)) U !"AtStation"?)
+  end.

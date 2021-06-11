@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-03-CTLCardinality-00
+  "Automatically generated"
+  is:
+    ((((#tokens("Resources")) <= (#tokens("in_critical_s")))) | (E G ((2) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-01
+  "Automatically generated"
+  is:
+    A F A G ! ((#tokens("pr_in")) <= (#tokens("pr_in")))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-02
+  "Automatically generated"
+  is:
+    ! A ((((((2) <= (#tokens("Processes")))) | (((1) <= (#tokens("pr_in")))))) U (((((#tokens("Processes")) <= (#tokens("pr_released")))) & (((1) <= (#tokens("Resources")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-03
+  "Automatically generated"
+  is:
+    A F ! ((((((3) <= (#tokens("pr_released")))) & (((#tokens("Processes")) <= (#tokens("Resources")))))) | (((#tokens("pr_released")) <= (#tokens("pr_released")))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-04
+  "Automatically generated"
+  is:
+    ((E X ((((2) <= (#tokens("pr_in")))) | (((((3) <= (#tokens("Processes")))) & (((3) <= (#tokens("Resources")))))))) & (A G ((((((#tokens("pr_in")) <= (#tokens("Resources")))) & (((#tokens("in_critical_s")) <= (#tokens("pr_in")))))) | (((#tokens("Resources")) <= (#tokens("in_critical_s")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-05
+  "Automatically generated"
+  is:
+    A F A G ((((3) <= (#tokens("Resources")))) & (((1) <= (#tokens("pr_released")))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-06
+  "Automatically generated"
+  is:
+    ((((((! ((((#tokens("pr_in")) <= (#tokens("Resources")))) & (((#tokens("Processes")) <= (#tokens("Processes")))))) | (! ((((1) <= (#tokens("in_critical_s")))) & (((1) <= (#tokens("pr_released")))))))) & (A F ((((3) <= (#tokens("pr_in")))) & (((1) <= (#tokens("in_critical_s")))))))) | (! ((((#tokens("Resources")) <= (#tokens("Resources")))) | (E F ((#tokens("Processes")) <= (#tokens("pr_in")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-07
+  "Automatically generated"
+  is:
+    E G E X ! ((#tokens("Resources")) <= (#tokens("pr_released")))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-08
+  "Automatically generated"
+  is:
+    ! A F ! ! ((#tokens("Resources")) <= (#tokens("Processes")))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-09
+  "Automatically generated"
+  is:
+    E G A ((((#tokens("pr_released")) <= (#tokens("Resources")))) U (((1) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-10
+  "Automatically generated"
+  is:
+    ! A F ((((((2) <= (#tokens("pr_in")))) & (((#tokens("Processes")) <= (#tokens("pr_in")))))) & (((((#tokens("Processes")) <= (#tokens("Resources")))) & (((#tokens("in_critical_s")) <= (#tokens("in_critical_s")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-11
+  "Automatically generated"
+  is:
+    E G ((((((((2) <= (#tokens("pr_released")))) | (((#tokens("Processes")) <= (#tokens("Resources")))))) | (((((#tokens("in_critical_s")) <= (#tokens("Resources")))) & (((1) <= (#tokens("Resources")))))))) | (((((((1) <= (#tokens("pr_released")))) | (((#tokens("in_critical_s")) <= (#tokens("Processes")))))) | (! ((2) <= (#tokens("Resources")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-12
+  "Automatically generated"
+  is:
+    ((E ((((((1) <= (#tokens("Resources")))) | (((3) <= (#tokens("pr_in")))))) U (! ((#tokens("in_critical_s")) <= (#tokens("pr_in")))))) | (((#tokens("Resources")) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-13
+  "Automatically generated"
+  is:
+    E G ! ((((((#tokens("Resources")) <= (#tokens("Resources")))) & (((#tokens("pr_released")) <= (#tokens("in_critical_s")))))) & (((((3) <= (#tokens("pr_released")))) & (((#tokens("pr_released")) <= (#tokens("Resources")))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-14
+  "Automatically generated"
+  is:
+    ((! E F ! ((#tokens("pr_in")) <= (#tokens("pr_in")))) & (((((E F ((#tokens("Resources")) <= (#tokens("pr_in")))) & (A X ((2) <= (#tokens("Resources")))))) | (((A X ((#tokens("pr_in")) <= (#tokens("Resources")))) & (A F ((#tokens("Processes")) <= (#tokens("Processes")))))))))
+  end.
+Property GlobalResAllocation-COL-03-CTLCardinality-15
+  "Automatically generated"
+  is:
+    E F ! E F ((#tokens("pr_in")) <= (#tokens("pr_released")))
+  end.

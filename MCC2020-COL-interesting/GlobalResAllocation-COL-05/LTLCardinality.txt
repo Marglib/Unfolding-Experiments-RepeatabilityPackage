@@ -1,0 +1,80 @@
+Property GlobalResAllocation-COL-05-00
+  "Automatically generated"
+  is:
+    A G F (G ((0) <= (#tokens("Resources"))) | F ((#tokens("pr_released")) <= (#tokens("in_critical_s"))))
+  end.
+Property GlobalResAllocation-COL-05-01
+  "Automatically generated"
+  is:
+    A X G (((0) <= (#tokens("pr_released"))) & F (((3) <= (#tokens("pr_in"))) & F ((2) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-05-02
+  "Automatically generated"
+  is:
+    A F G ((#tokens("Processes")) <= (#tokens("pr_in")))
+  end.
+Property GlobalResAllocation-COL-05-03
+  "Automatically generated"
+  is:
+    A (X F X ((0) <= (#tokens("Processes"))) | (G ((#tokens("pr_in")) <= (#tokens("Resources"))) & X (((#tokens("pr_in")) <= (#tokens("in_critical_s"))) & G ((#tokens("pr_in")) <= (#tokens("Resources"))))))
+  end.
+Property GlobalResAllocation-COL-05-04
+  "Automatically generated"
+  is:
+    A G !F X F !(((3) <= (#tokens("pr_in"))) & G (((#tokens("Processes")) <= (#tokens("pr_released"))) | X ((0) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-05-05
+  "Automatically generated"
+  is:
+    A (((2) <= (#tokens("pr_in"))) U X X (((3) <= (#tokens("in_critical_s"))) & G X F X X G ((#tokens("Resources")) <= (#tokens("Processes")))))
+  end.
+Property GlobalResAllocation-COL-05-06
+  "Automatically generated"
+  is:
+    A (X X G (((#tokens("Resources")) <= (#tokens("in_critical_s"))) | (((0) <= (#tokens("Processes"))) U ((#tokens("pr_in")) <= (#tokens("in_critical_s"))))) U F X !G ((#tokens("pr_in")) <= (#tokens("in_critical_s"))))
+  end.
+Property GlobalResAllocation-COL-05-07
+  "Automatically generated"
+  is:
+    A (F G X G !((2) <= (#tokens("pr_released"))) & G (((1) <= (#tokens("pr_in"))) | F ((#tokens("Processes")) <= (#tokens("in_critical_s")))))
+  end.
+Property GlobalResAllocation-COL-05-08
+  "Automatically generated"
+  is:
+    A !(F (((0) <= (#tokens("in_critical_s"))) & ((#tokens("pr_in")) <= (#tokens("pr_released")))) | X X !F ((#tokens("pr_in")) <= (#tokens("pr_released"))))
+  end.
+Property GlobalResAllocation-COL-05-09
+  "Automatically generated"
+  is:
+    A (X G (((#tokens("Processes")) <= (#tokens("Resources"))) & (((#tokens("Processes")) <= (#tokens("Resources"))) | G ((#tokens("pr_released")) <= (#tokens("Processes"))))) U (X ((#tokens("pr_released")) <= (#tokens("Processes"))) U ((#tokens("in_critical_s")) <= (#tokens("Resources")))))
+  end.
+Property GlobalResAllocation-COL-05-10
+  "Automatically generated"
+  is:
+    A (((#tokens("pr_in")) <= (#tokens("Resources"))) | F ((2) <= (#tokens("Processes"))))
+  end.
+Property GlobalResAllocation-COL-05-11
+  "Automatically generated"
+  is:
+    A G (!((0) <= (#tokens("pr_released"))) | (X F G F ((0) <= (#tokens("pr_released"))) U ((#tokens("pr_in")) <= (#tokens("in_critical_s")))))
+  end.
+Property GlobalResAllocation-COL-05-12
+  "Automatically generated"
+  is:
+    A F ((((2) <= (#tokens("Processes"))) U ((1) <= (#tokens("Processes")))) U F ((2) <= (#tokens("Resources"))))
+  end.
+Property GlobalResAllocation-COL-05-13
+  "Automatically generated"
+  is:
+    A X X G (((1) <= (#tokens("pr_in"))) | ((#tokens("Resources")) <= (#tokens("pr_in"))))
+  end.
+Property GlobalResAllocation-COL-05-14
+  "Automatically generated"
+  is:
+    A (((0) <= (#tokens("pr_released"))) & (!((#tokens("pr_released")) <= (#tokens("pr_in"))) | (((#tokens("pr_released")) <= (#tokens("pr_in"))) & G ((#tokens("pr_released")) <= (#tokens("pr_in"))))) & F G ((#tokens("pr_released")) <= (#tokens("pr_in"))))
+  end.
+Property GlobalResAllocation-COL-05-15
+  "Automatically generated"
+  is:
+    A G X (G ((0) <= (#tokens("pr_in"))) & (((2) <= (#tokens("in_critical_s"))) | G !(((2) <= (#tokens("in_critical_s"))) & ((2) <= (#tokens("pr_released"))))))
+  end.

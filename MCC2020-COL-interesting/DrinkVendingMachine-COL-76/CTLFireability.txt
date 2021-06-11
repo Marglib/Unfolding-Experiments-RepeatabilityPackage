@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-76-CTLFireability-00
+  "Automatically generated"
+  is:
+    A F A F "serve"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-01
+  "Automatically generated"
+  is:
+    ((((E (((("elaborate2"?) | ("elaborate3"?))) U ("elaborate1"?))) & (A X ((! "addProduct"?) & ((("addOption"?) | ("elaborate3"?))))))) & (! ((A G "addProduct"?) & ((((((("addOption"?) & ("elaborate1"?))) & ((("elaborate0"?) & ("elaborate0"?))))) | ("serve"?))))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-02
+  "Automatically generated"
+  is:
+    E F A F A X "serve"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-03
+  "Automatically generated"
+  is:
+    A ((! "elaborate2"?) U (A G (("addProduct"?) & ("elaborate3"?))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-04
+  "Automatically generated"
+  is:
+    ((A X E X (("elaborate1"?) | ("addOption"?))) & (((! A F "addOption"?) | ("elaborate1"?))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-05
+  "Automatically generated"
+  is:
+    E X ((((E X "elaborate2"?) | (A X "elaborate0"?))) | ("elaborate2"?))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-06
+  "Automatically generated"
+  is:
+    E X ((E X ! "elaborate3"?) & (! (((("addOption"?) | ("elaborate2"?))) | (! "elaborate1"?))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-07
+  "Automatically generated"
+  is:
+    "serve"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-08
+  "Automatically generated"
+  is:
+    ! A G "elaborate1"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-09
+  "Automatically generated"
+  is:
+    ! ! E ((! "serve"?) U ((("addProduct"?) & ("serve"?))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-10
+  "Automatically generated"
+  is:
+    A F ! A (("elaborate1"?) U ("elaborate1"?))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-11
+  "Automatically generated"
+  is:
+    E X A (("addProduct"?) U ("addOption"?))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-12
+  "Automatically generated"
+  is:
+    "addOption"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-13
+  "Automatically generated"
+  is:
+    "serve"?
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-14
+  "Automatically generated"
+  is:
+    (((("addProduct"?) | (A G E F "elaborate3"?))) | (E F (((((("elaborate2"?) | ("addProduct"?))) | ("addOption"?))) | (A F "elaborate3"?))))
+  end.
+Property DrinkVendingMachine-COL-76-CTLFireability-15
+  "Automatically generated"
+  is:
+    E X "elaborate3"?
+  end.

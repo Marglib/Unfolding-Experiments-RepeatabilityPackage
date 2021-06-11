@@ -1,0 +1,80 @@
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    E F ((((! ! "elaborate3"?) | ("elaborate3"?))) & ((((("elaborate3"?) & (! "addOption"?))) | ("elaborate0"?))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ((! "elaborate2"?) & (! "addProduct"?))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    E F ! ! "elaborate3"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F "elaborate2"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    A G "elaborate1"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F (((((("elaborate3"?) & ((("elaborate3"?) | ("elaborate3"?))))) | ((("elaborate0"?) | (! "serve"?))))) | ("addOption"?))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    A G "serve"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G (((((((("elaborate3"?) & ("addOption"?))) | ((("addOption"?) & ("serve"?))))) | ((("elaborate1"?) | (! "addOption"?))))) | (! ! ! "elaborate3"?))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    A G ! "elaborate1"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G "elaborate1"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G "elaborate0"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    A G "elaborate3"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ((((! (("elaborate3"?) & ("elaborate1"?))) | (! (("serve"?) & ("elaborate3"?))))) & ((("addProduct"?) | (! "elaborate2"?))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    E F (("addProduct"?) | ((((((("elaborate2"?) & ("serve"?))) | ((("elaborate1"?) & ("addOption"?))))) | ("serve"?))))
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    E F "addProduct"?
+  end.
+Property DrinkVendingMachine-COL-24-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    E F "addOption"?
+  end.

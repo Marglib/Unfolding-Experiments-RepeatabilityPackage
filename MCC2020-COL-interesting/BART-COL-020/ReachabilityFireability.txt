@@ -1,0 +1,80 @@
+Property BART-COL-020-ReachabilityFireability-00
+  "Automatically generated"
+  is:
+    A G "AtStation"?
+  end.
+Property BART-COL-020-ReachabilityFireability-01
+  "Automatically generated"
+  is:
+    A G ((! (("MissStation"?) & (! "TrainStop"?))) | (((! (("MissStation"?) | ("TrainDecc"?))) | ((("TooEarly"?) & (! "AtStation"?))))))
+  end.
+Property BART-COL-020-ReachabilityFireability-02
+  "Automatically generated"
+  is:
+    A G (((((("TrainStop"?) | ((("TrainStop"?) | ("TrainAcc"?))))) & (! ! "TrainDecc"?))) | ((((("AtStation"?) & (! "TrainStop"?))) | ((((("TooEarly"?) & ("TrainDecc"?))) & (! "TrainAcc"?))))))
+  end.
+Property BART-COL-020-ReachabilityFireability-03
+  "Automatically generated"
+  is:
+    E F ! "AtStation"?
+  end.
+Property BART-COL-020-ReachabilityFireability-04
+  "Automatically generated"
+  is:
+    E F "TooEarly"?
+  end.
+Property BART-COL-020-ReachabilityFireability-05
+  "Automatically generated"
+  is:
+    E F ! ! (("TrainDecc"?) & ((("TrainAcc"?) & ("TooEarly"?))))
+  end.
+Property BART-COL-020-ReachabilityFireability-06
+  "Automatically generated"
+  is:
+    E F ((((! (("TrainStable"?) & ("TrainDecc"?))) | ((((("AtStation"?) & ("AtStation"?))) | ((("TrainStop"?) | ("TooEarly"?))))))) & ((((((("TrainStop"?) & ("TooEarly"?))) | ((("TrainDecc"?) | ("TrainStop"?))))) | (! (("TrainAcc"?) | ("TrainAcc"?))))))
+  end.
+Property BART-COL-020-ReachabilityFireability-07
+  "Automatically generated"
+  is:
+    A G ((((((! "TrainStable"?) & ((("MissStation"?) | ("TrainStable"?))))) | ((((("TrainDecc"?) | ("TrainAcc"?))) & ((("AtStation"?) & ("TrainDecc"?))))))) | (((! ! "TrainStop"?) | ((((("TooEarly"?) | ("AtStation"?))) & (! "TrainDecc"?))))))
+  end.
+Property BART-COL-020-ReachabilityFireability-08
+  "Automatically generated"
+  is:
+    E F (((((("MissStation"?) & ((("TrainAcc"?) & ("TooEarly"?))))) | ((((("TrainDecc"?) & ("TrainStable"?))) | (! "TrainAcc"?))))) & ((("TrainAcc"?) & (! ! "TrainAcc"?))))
+  end.
+Property BART-COL-020-ReachabilityFireability-09
+  "Automatically generated"
+  is:
+    A G ! ((! (("AtStation"?) | ("MissStation"?))) | ("TrainStop"?))
+  end.
+Property BART-COL-020-ReachabilityFireability-10
+  "Automatically generated"
+  is:
+    A G ! "MissStation"?
+  end.
+Property BART-COL-020-ReachabilityFireability-11
+  "Automatically generated"
+  is:
+    E F (((((((("TrainStable"?) | ("AtStation"?))) | (! "TrainAcc"?))) & (! ! "TrainStable"?))) & (((! ! "AtStation"?) & ("TrainDecc"?))))
+  end.
+Property BART-COL-020-ReachabilityFireability-12
+  "Automatically generated"
+  is:
+    E F ! ! (((("MissStation"?) & ("MissStation"?))) & ((("MissStation"?) | ("TrainAcc"?))))
+  end.
+Property BART-COL-020-ReachabilityFireability-13
+  "Automatically generated"
+  is:
+    A G (("TrainDecc"?) | (((! ! "TrainStable"?) | ((("TrainAcc"?) | (! "TrainAcc"?))))))
+  end.
+Property BART-COL-020-ReachabilityFireability-14
+  "Automatically generated"
+  is:
+    A G ! ! (("AtStation"?) & (! "TrainDecc"?))
+  end.
+Property BART-COL-020-ReachabilityFireability-15
+  "Automatically generated"
+  is:
+    A G ! (("TrainDecc"?) & ("TooEarly"?))
+  end.
