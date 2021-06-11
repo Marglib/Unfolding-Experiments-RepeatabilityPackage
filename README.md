@@ -33,7 +33,7 @@ where `\<folder\>` is a net folder from the Model Checking Contest containing a 
 Unfolding: `mcc pnml -i <model-file.pnml> -o <unfolded-net.pnml> > <Place/Transition-dictionary.dict>`
 
 The queries can then be unfolded with the query unfolder as follows:
-`python3 QueryUnfolder.py -u <Place/Transition-dictionary.dict> -q <colored-query.xml> -o <unfolded-query.xml>`
+`python3 query_unfolder.py -u <Place/Transition-dictionary.dict> -q <colored-query.xml> -o <unfolded-query.xml>`
 
 #### Spike 
 Unfolding: `spike load -f=<model-file.pnml> unfold save -f=<unfolded-net.pnml>`

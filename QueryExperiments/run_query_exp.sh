@@ -68,7 +68,7 @@ for i in $(ls ../$F ) ; do
 	
 	for t in ${properties[@]} ; do
 		unfoldedquery=../$F/$i/${t}-mcc-unfolded.xml
-		timeout ${TO}m python3 QueryUnfolder.py -u ../$F/$i/$i-dict -q ../$F/$i/${t}.xml -o $unfoldedquery
+		timeout ${TO}m python3 query_unfolder.py -u ../$F/$i/$i-dict -q ../$F/$i/${t}.xml -o $unfoldedquery
 
 		./run_queries.sh $unfoldednet.pnml $unfoldedquery $i $t $BINDIR
 
