@@ -1,10 +1,7 @@
-import sys
-import os
 import pandas as pd
 import optparse
 import matplotlib.pyplot as plt
 import numpy as np
-import glob
 import ntpath
 def path_leaf(path):
     head, tail = ntpath.split(path)

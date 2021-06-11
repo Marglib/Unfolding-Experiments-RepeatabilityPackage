@@ -60,6 +60,9 @@ for i in $(ls ../$F ) ; do
     timeout ${TO}m /usr/bin/time -f @@@%e,%M@@@ ../binaries/ITS-Tools/its-tools -pnfolder ../$F/$i -examination ReachabilityCardinality --unfold &> $BINDIR/$i 
 done
 
+rm "../$F/$i/model.sr.pnml"
+rm "../$F/$i/ReachabilityCardinality.sr.xml"
+
 ./get_its_stats.sh its-tools
 python3 read_its_results.py
 
@@ -113,6 +116,6 @@ python3 read_partitioning_results.py --binary output/B-unfolding-stats --output 
 
 echo "Creating cactus plots from results"
 
-python3 ../cactus_plot.py -f ../results -d -s -n 200 -o ../output/sizegraph.png
-python3 ../cactus_plot.py -f ../results -d -t -w -p ../output/timegraph.png
+python3 ../cactus_plot.py -f ../results -d -s -n 200 -o ../results/sizegraph.png
+python3 ../cactus_plot.py -f ../results -d -t -w -p ../results/timegraph.png
 
