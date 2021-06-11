@@ -92,3 +92,10 @@ To produce table 4 and 5 from the paper run the following scripts:
 `python3 table5_script.py -f <folder> -o results/table5.csv`
 
 where `<folder>` is the folder to read results for. In our case we use the results (or precomputed-results) folder. Note again that for the tables to be computed every tool needs to have the results csv file in the given folder. Note that if only the small instance was run table 5 will be empty as we cannot detect constant scaling on only a single instance of each model.
+
+### Additional Scripts
+We add two additional scripts `time_tably.py` and `size_table.py` that produces .csv files containing the unfolding time and unfolding size respectively for all tools and nets. This should make it easy to perform your own analysis if needed. The scripts can be run as follows:
+
+`python3 size_table.py -f <folder> -o <output>.csv`
+
+`python3 time_table.py -f <folder> -o <output>.csv`
