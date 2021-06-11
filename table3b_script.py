@@ -20,12 +20,12 @@ def create_table(options):
     
     df = pd.DataFrame(tools_results)
 
-    df.to_csv("results/" + output + ".csv", index=False)        
+    df.to_csv(output, index=False)        
 
 def get_options():
     optParser = optparse.OptionParser()
     optParser.add_option("--folder", type="string", dest="folder", default="")
-    optParser.add_option("--output", type="string", dest="output", default="table3b")
+    optParser.add_option("--output", type="string", dest="output", default="results/table3b.csv")
 
     options, _ = optParser.parse_args()
     return options
