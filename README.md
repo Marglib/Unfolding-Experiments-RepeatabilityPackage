@@ -78,8 +78,17 @@ Unfolding: `spike load -f=<model-file.pnml> unfold save -f=<unfolded-net.pnml>`
 ### Cactus Plots
 To produce the cactus plots yourself run the following commands:
 
-`py cactus_plot.py -f <folder> -s -n 200 -o output/sizegraph.png -d`
+`python3 cactus_plot.py -f <folder> -s -n 200 -o results/sizegraph.png -d`
 
-`py cactus_plot.py -f <folder> -t -w -p output/timegraph.png -d`
+`python3 cactus_plot.py -f <folder> -t -w -p results/timegraph.png -d`
   
-where `<folder>` contains the .csv files you would like to show. In our case we use the results (or precomputed-results) folder.
+where `<folder>` contains the .csv files you would like to show. In our case we use the results (or precomputed-results) folder. Note that for the plots to be created every tool needs to have results csv file in the given folder. 
+
+### Table 4 and 5
+To produce table 4 and 5 from the paper run the following scripts: 
+
+`python3 table4_script.py -f <folder> -o results/table4.csv`
+
+`python3 table5_script.py -f <folder> -o results/table5.csv`
+
+where `<folder>` is the folder to read results for. In our case we use the results (or precomputed-results) folder. Note again that for the tables to be computed every tool needs to have the results csv file in the given folder. Note that if only the small instance was run table 5 will be empty as we cannot detect constant scaling on only a single instance of each model.
