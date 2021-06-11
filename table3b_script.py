@@ -24,8 +24,8 @@ def create_table(options):
 
 def get_options():
     optParser = optparse.OptionParser()
-    optParser.add_option("--folder", type="string", dest="folder", default="")
-    optParser.add_option("--output", type="string", dest="output", default="results/table3b.csv")
+    optParser.add_option('-f','--folder', type="string", dest="folder", default="")
+    optParser.add_option('-o','--output', type="string", dest="output", default="results/table3b.csv")
 
     options, _ = optParser.parse_args()
     return options
