@@ -109,3 +109,6 @@ We add two additional scripts `time_tably.py` and `size_table.py` that produces 
 `python3 size_table.py -f <folder> -o <output>.csv`
 
 `python3 time_table.py -f <folder> -o <output>.csv`
+
+# Extra
+To find the scripts used to run the experiments on the cluster navigate to the ClusterScripts folder.
